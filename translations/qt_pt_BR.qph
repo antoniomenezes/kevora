@@ -1,0 +1,5955 @@
+<!DOCTYPE QPH>
+<QPH language="pt_BR">
+<phrase>
+    <source>&lt;html&gt;The audio playback device &lt;b&gt;%1&lt;/b&gt; does not work.&lt;br/&gt;Falling back to &lt;b&gt;%2&lt;/b&gt;.&lt;/html&gt;</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>&lt;html&gt;Switching to the audio playback device &lt;b&gt;%1&lt;/b&gt;&lt;br/&gt;which just became available and has higher preference.&lt;/html&gt;</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Revert back to device &apos;%1&apos;</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Close Tab</source>
+    <target>Fechar Aba</target>
+</phrase>
+<phrase>
+    <source>Name</source>
+    <target>Nome</target>
+</phrase>
+<phrase>
+    <source>Value</source>
+    <target>Valor</target>
+</phrase>
+<phrase>
+    <source>Notifications</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Music</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Video</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Communication</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Games</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Accessibility</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Warning: You do not seem to have the package gstreamer0.10-plugins-good installed.
+          Some video features have been disabled.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Warning: You do not seem to have the base GStreamer plugins installed.
+          All audio and video support has been disabled</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Cannot start playback. 
+
+Check your Gstreamer installation and make sure you 
+have libgstreamer-plugins-base installed.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>A required codec is missing. You need to install the following codec(s) to play this content: %0</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Could not open media source.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Invalid source type.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Could not locate media source.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Could not open audio device. The device is already in use.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Could not decode media source.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Volume: %1%</source>
+    <target>Volume</target>
+</phrase>
+<phrase>
+    <source>Use this slider to adjust the volume. The leftmost position is 0%, the rightmost is %1%</source>
+    <target>Use o slider para ajustar o volume. A posição mais à esquerda é 0%, a mais à direita é %1%</target>
+</phrase>
+<phrase>
+    <source>%1, %2 not defined</source>
+    <target>%1, %2 indefinido</target>
+</phrase>
+<phrase>
+    <source>Ambiguous %1 not handled</source>
+    <target>%1 ambíguo não tratado</target>
+</phrase>
+<phrase>
+    <source>True</source>
+    <target>Verdadeiro</target>
+</phrase>
+<phrase>
+    <source>False</source>
+    <target>Falso</target>
+</phrase>
+<phrase>
+    <source>Insert</source>
+    <target>Inserir</target>
+</phrase>
+<phrase>
+    <source>Update</source>
+    <target>Atualizar</target>
+</phrase>
+<phrase>
+    <source>Delete</source>
+    <target>Remover</target>
+</phrase>
+<phrase>
+    <source>Copy or Move a File</source>
+    <target>Copiar ou Mover um Arquivo</target>
+</phrase>
+<phrase>
+    <source>Read: %1</source>
+    <target>Ler: %1</target>
+</phrase>
+<phrase>
+    <source>Write: %1</source>
+    <target>Escrever: %1</target>
+</phrase>
+<phrase>
+    <source>Cancel</source>
+    <target>Cancelar</target>
+</phrase>
+<phrase>
+    <source>All Files (*)</source>
+    <target>Todos os Arquivos (*)</target>
+</phrase>
+<phrase>
+    <source>Name</source>
+    <target>Nome</target>
+</phrase>
+<phrase>
+    <source>Size</source>
+    <target>Tamanho</target>
+</phrase>
+<phrase>
+    <source>Type</source>
+    <target>Tipo</target>
+</phrase>
+<phrase>
+    <source>Date</source>
+    <target>Data</target>
+</phrase>
+<phrase>
+    <source>Attributes</source>
+    <target>Atributos</target>
+</phrase>
+<phrase>
+    <source>&amp;OK</source>
+    <target>&amp;OK</target>
+</phrase>
+<phrase>
+    <source>Look &amp;in:</source>
+    <target>Ver &amp;em:</target>
+</phrase>
+<phrase>
+    <source>File &amp;name:</source>
+    <target>&amp;Nome do Arquivo:</target>
+</phrase>
+<phrase>
+    <source>File &amp;type:</source>
+    <target>&amp;Tipo de Arquivo:</target>
+</phrase>
+<phrase>
+    <source>Back</source>
+    <target>Voltar</target>
+</phrase>
+<phrase>
+    <source>One directory up</source>
+    <target>Um diretório acima</target>
+</phrase>
+<phrase>
+    <source>Create New Folder</source>
+    <target>Criar Nova Pasta</target>
+</phrase>
+<phrase>
+    <source>List View</source>
+    <target>Visão em Lista</target>
+</phrase>
+<phrase>
+    <source>Detail View</source>
+    <target>Visão Detalhada</target>
+</phrase>
+<phrase>
+    <source>Preview File Info</source>
+    <target>Visualizar Informação do Arquivo</target>
+</phrase>
+<phrase>
+    <source>Preview File Contents</source>
+    <target>Visualizarr Conteúdo do Arquivo</target>
+</phrase>
+<phrase>
+    <source>Read-write</source>
+    <target>Leitura e escrita</target>
+</phrase>
+<phrase>
+    <source>Read-only</source>
+    <target>Apenas Leitura</target>
+</phrase>
+<phrase>
+    <source>Write-only</source>
+    <target>Apenas Escrita</target>
+</phrase>
+<phrase>
+    <source>Inaccessible</source>
+    <target>Inacessível</target>
+</phrase>
+<phrase>
+    <source>Symlink to File</source>
+    <target>Ligação para Arquivo</target>
+</phrase>
+<phrase>
+    <source>Symlink to Directory</source>
+    <target>Ligação para Diretório</target>
+</phrase>
+<phrase>
+    <source>Symlink to Special</source>
+    <target>Ligação para Especial</target>
+</phrase>
+<phrase>
+    <source>File</source>
+    <target>Arquivo</target>
+</phrase>
+<phrase>
+    <source>Dir</source>
+    <target>Diretório</target>
+</phrase>
+<phrase>
+    <source>Special</source>
+    <target>Especial</target>
+</phrase>
+<phrase>
+    <source>Open</source>
+    <target>Abrir</target>
+</phrase>
+<phrase>
+    <source>Save As</source>
+    <target>Salvar Como</target>
+</phrase>
+<phrase>
+    <source>&amp;Open</source>
+    <target>&amp;Abrir</target>
+</phrase>
+<phrase>
+    <source>&amp;Save</source>
+    <target>&amp;Salvar</target>
+</phrase>
+<phrase>
+    <source>&amp;Rename</source>
+    <target>&amp;Renomear</target>
+</phrase>
+<phrase>
+    <source>&amp;Delete</source>
+    <target>&amp;Apagar</target>
+</phrase>
+<phrase>
+    <source>R&amp;eload</source>
+    <target>&amp;Recarregar</target>
+</phrase>
+<phrase>
+    <source>Sort by &amp;Name</source>
+    <target>Ordenar pelo &amp;Nome</target>
+</phrase>
+<phrase>
+    <source>Sort by &amp;Size</source>
+    <target>Ordenar pelo &amp;Tamanho</target>
+</phrase>
+<phrase>
+    <source>Sort by &amp;Date</source>
+    <target>Ordenar pela &amp;Data</target>
+</phrase>
+<phrase>
+    <source>&amp;Unsorted</source>
+    <target>Não &amp;Ordenado</target>
+</phrase>
+<phrase>
+    <source>Sort</source>
+    <target>Ordenar</target>
+</phrase>
+<phrase>
+    <source>Show &amp;hidden files</source>
+    <target>Mostrar arquivos &amp;escondidos</target>
+</phrase>
+<phrase>
+    <source>the file</source>
+    <target>o arquivo</target>
+</phrase>
+<phrase>
+    <source>the directory</source>
+    <target>o diretório</target>
+</phrase>
+<phrase>
+    <source>the symlink</source>
+    <target>a ligação</target>
+</phrase>
+<phrase>
+    <source>Delete %1</source>
+    <target>Apagar %1</target>
+</phrase>
+<phrase>
+    <source>&lt;qt&gt;Are you sure you wish to delete %1 &quot;%2&quot;?&lt;/qt&gt;</source>
+    <target>&lt;qt&gt;Deseja mesmo apagar %1 &quot;%2&quot;?&lt;/qt&gt;</target>
+</phrase>
+<phrase>
+    <source>&amp;Yes</source>
+    <target>&amp;Sim</target>
+</phrase>
+<phrase>
+    <source>&amp;No</source>
+    <target>&amp;Não</target>
+</phrase>
+<phrase>
+    <source>New Folder 1</source>
+    <target>Nova Pasta 1</target>
+</phrase>
+<phrase>
+    <source>New Folder</source>
+    <target>Nova Pasta</target>
+</phrase>
+<phrase>
+    <source>New Folder %1</source>
+    <target>Nova Pasta %1</target>
+</phrase>
+<phrase>
+    <source>Find Directory</source>
+    <target>Procurar Diretório</target>
+</phrase>
+<phrase>
+    <source>Directories</source>
+    <target>Diretórios</target>
+</phrase>
+<phrase>
+    <source>Directory:</source>
+    <target>Diretório:</target>
+</phrase>
+<phrase>
+    <source>Error</source>
+    <target>Erro</target>
+</phrase>
+<phrase>
+    <source>%1
+File not found.
+Check path and filename.</source>
+    <target>%1
+Arquivo não encontrado.
+Verifique a localização e o nome.</target>
+</phrase>
+<phrase>
+    <source>All Files (*.*)</source>
+    <target>Todos os Arquivos (*.*)</target>
+</phrase>
+<phrase>
+    <source>Open </source>
+    <target>Abrir </target>
+</phrase>
+<phrase>
+    <source>Select a Directory</source>
+    <target>Selecione um Diretório</target>
+</phrase>
+<phrase>
+    <source>Could not read directory
+%1</source>
+    <target>Não foi possível ler o diretório
+%1</target>
+</phrase>
+<phrase>
+    <source>Could not create directory
+%1</source>
+    <target>Não foi possível criar o diretório
+%1</target>
+</phrase>
+<phrase>
+    <source>Could not remove file or directory
+%1</source>
+    <target>Não foi possível apagar o arquivo ou o diretório
+%1</target>
+</phrase>
+<phrase>
+    <source>Could not rename
+%1
+to
+%2</source>
+    <target>Não foi  possível mudar o nome
+%1
+para
+%2</target>
+</phrase>
+<phrase>
+    <source>Could not open
+%1</source>
+    <target>Não foi possível abrir
+%1</target>
+</phrase>
+<phrase>
+    <source>Could not write
+%1</source>
+    <target>Nao foi possível escrever
+%1</target>
+</phrase>
+<phrase>
+    <source>Line up</source>
+    <target>Alinhar</target>
+</phrase>
+<phrase>
+    <source>Customize...</source>
+    <target>Configurar...</target>
+</phrase>
+<phrase>
+    <source>Operation stopped by the user</source>
+    <target>Operação interrompida pelo usuário</target>
+</phrase>
+<phrase>
+    <source>Cancel</source>
+    <target>Cancelar</target>
+</phrase>
+<phrase>
+    <source>OK</source>
+    <target>OK</target>
+</phrase>
+<phrase>
+    <source>Apply</source>
+    <target>Aplicar</target>
+</phrase>
+<phrase>
+    <source>Help</source>
+    <target>Ajuda</target>
+</phrase>
+<phrase>
+    <source>Defaults</source>
+    <target>Padrões</target>
+</phrase>
+<phrase>
+    <source>Cancel</source>
+    <target>Cancelar</target>
+</phrase>
+<phrase>
+    <source>&amp;Undo</source>
+    <target>&amp;Desfazer</target>
+</phrase>
+<phrase>
+    <source>&amp;Redo</source>
+    <target>&amp;Refazer</target>
+</phrase>
+<phrase>
+    <source>Cu&amp;t</source>
+    <target>Cor&amp;tar</target>
+</phrase>
+<phrase>
+    <source>&amp;Copy</source>
+    <target>&amp;Copiar</target>
+</phrase>
+<phrase>
+    <source>&amp;Paste</source>
+    <target>Co&amp;lar</target>
+</phrase>
+<phrase>
+    <source>Clear</source>
+    <target>Limpar</target>
+</phrase>
+<phrase>
+    <source>Select All</source>
+    <target>Selecionar Tudo</target>
+</phrase>
+<phrase>
+    <source>System</source>
+    <target>Sistema</target>
+</phrase>
+<phrase>
+    <source>Restore up</source>
+    <target>Restaurar acima</target>
+</phrase>
+<phrase>
+    <source>Minimize</source>
+    <target>Minimizar</target>
+</phrase>
+<phrase>
+    <source>Restore down</source>
+    <target>Restaurar abaixo</target>
+</phrase>
+<phrase>
+    <source>Maximize</source>
+    <target>Maximizar</target>
+</phrase>
+<phrase>
+    <source>Close</source>
+    <target>Fechar</target>
+</phrase>
+<phrase>
+    <source>Contains commands to manipulate the window</source>
+    <target>Contém comandos para manipular a janela</target>
+</phrase>
+<phrase>
+    <source>Puts a minimized back to normal</source>
+    <target>Coloca uma janela minimizada no estado normal</target>
+</phrase>
+<phrase>
+    <source>Moves the window out of the way</source>
+    <target>Move a janela da frente</target>
+</phrase>
+<phrase>
+    <source>Puts a maximized window back to normal</source>
+    <target>Coloca uma janela maximizada no estado normal</target>
+</phrase>
+<phrase>
+    <source>Makes the window full screen</source>
+    <target>Coloca a janela em tela cheia</target>
+</phrase>
+<phrase>
+    <source>Closes the window</source>
+    <target>Fecha a janela</target>
+</phrase>
+<phrase>
+    <source>Displays the name of the window and contains controls to manipulate it</source>
+    <target>Mostra o nome da janela e contém controlos para a manipular</target>
+</phrase>
+<phrase>
+    <source>More...</source>
+    <target>Mais...</target>
+</phrase>
+<phrase>
+    <source>The protocol `%1&apos; is not supported</source>
+    <target>O protocolo &apos;%1&apos; não é suportado</target>
+</phrase>
+<phrase>
+    <source>The protocol `%1&apos; does not support listing directories</source>
+    <target>O protocolo &apos;%1&apos; não suporta listagem de pastas</target>
+</phrase>
+<phrase>
+    <source>The protocol `%1&apos; does not support creating new directories</source>
+    <target>O protocolo &apos;%1&apos; não suporta criação de novas pastas</target>
+</phrase>
+<phrase>
+    <source>The protocol `%1&apos; does not support removing files or directories</source>
+    <target>O protocolo &apos;%1&apos; não suporta eliminação de ficheiros ou pastas</target>
+</phrase>
+<phrase>
+    <source>The protocol `%1&apos; does not support renaming files or directories</source>
+    <target>O protocolo &apos;%1&apos; não suporta mudança de nome de ficheiros ou pastas</target>
+</phrase>
+<phrase>
+    <source>The protocol `%1&apos; does not support getting files</source>
+    <target>O protocolo &apos;%1&apos; não suporta obtenção de ficheiros</target>
+</phrase>
+<phrase>
+    <source>The protocol `%1&apos; does not support putting files</source>
+    <target>O protocolo &apos;%1&apos; não suporta colocação de ficheiros</target>
+</phrase>
+<phrase>
+    <source>The protocol `%1&apos; does not support copying or moving files or directories</source>
+    <target>O protocolo &apos;%1&apos; não suporta copiar ou mover ficheiros ou pastas</target>
+</phrase>
+<phrase>
+    <source>(unknown)</source>
+    <target>(desconhecido)</target>
+</phrase>
+<phrase>
+    <source>&amp;Cancel</source>
+    <target>&amp;Cancelar</target>
+</phrase>
+<phrase>
+    <source>&lt; &amp;Back</source>
+    <target>&lt; &amp;Voltar</target>
+</phrase>
+<phrase>
+    <source>&amp;Next &gt;</source>
+    <target>&amp;Próximo &gt;</target>
+</phrase>
+<phrase>
+    <source>&amp;Finish</source>
+    <target>&amp;Terminar</target>
+</phrase>
+<phrase>
+    <source>&amp;Help</source>
+    <target>&amp;Ajuda</target>
+</phrase>
+<phrase>
+    <source>Host not found</source>
+    <target>Máquina desconhecida</target>
+</phrase>
+<phrase>
+    <source>Connection refused</source>
+    <target>Ligação recusada</target>
+</phrase>
+<phrase>
+    <source>Connection timed out</source>
+    <target>Conexão expirada</target>
+</phrase>
+<phrase>
+    <source>Operation on socket is not supported</source>
+    <target>Operação em socket não suportada</target>
+</phrase>
+<phrase>
+    <source>Socket operation timed out</source>
+    <target>Operação de &apos;socket&apos; expirada</target>
+</phrase>
+<phrase>
+    <source>Socket is not connected</source>
+    <target>&apos;Socket&apos; desligado</target>
+</phrase>
+<phrase>
+    <source>Network unreachable</source>
+    <target>Rede inatingível</target>
+</phrase>
+<phrase>
+    <source>&amp;Step up</source>
+    <target>&amp;Passo acima</target>
+</phrase>
+<phrase>
+    <source>Step &amp;down</source>
+    <target>Passo &amp;abaixo</target>
+</phrase>
+<phrase>
+    <source>&amp;Select All</source>
+    <target>&amp;Selecione Tudo</target>
+</phrase>
+<phrase>
+    <source>Activate</source>
+    <target>Ativar</target>
+</phrase>
+<phrase>
+    <source>Executable &apos;%1&apos; requires Qt %2, found Qt %3.</source>
+    <target>O executável &apos;%1&apos; requer Qt %2, Qt %3 encontrado.</target>
+</phrase>
+<phrase>
+    <source>Incompatible Qt Library Error</source>
+    <target>Erro de Incompatibilidade da Biblioteca Qt</target>
+</phrase>
+<phrase>
+    <source>QT_LAYOUT_DIRECTION</source>
+    <target>LTR</target>
+    <definition>Translate this string to the string &apos;LTR&apos; in left-to-right languages or to &apos;RTL&apos; in right-to-left languages (such as Hebrew and Arabic) to get proper widget layout.</definition>
+</phrase>
+<phrase>
+    <source>Activates the program&apos;s main window</source>
+    <target>Ativa a janela principal do programa</target>
+</phrase>
+<phrase>
+    <source>Select ActiveX Control</source>
+    <target>Selecionar Controlo ActiveX</target>
+</phrase>
+<phrase>
+    <source>OK</source>
+    <target>OK</target>
+</phrase>
+<phrase>
+    <source>&amp;Cancel</source>
+    <target>&amp;Cancelar</target>
+</phrase>
+<phrase>
+    <source>COM &amp;Object:</source>
+    <target>&amp;Objeto COM:</target>
+</phrase>
+<phrase>
+    <source>Uncheck</source>
+    <target>Desativar</target>
+</phrase>
+<phrase>
+    <source>Check</source>
+    <target>Ativar</target>
+</phrase>
+<phrase>
+    <source>Toggle</source>
+    <target>Trocar</target>
+</phrase>
+<phrase>
+    <source>Hu&amp;e:</source>
+    <target>C&amp;or:</target>
+</phrase>
+<phrase>
+    <source>&amp;Sat:</source>
+    <target>&amp;Saturação:</target>
+</phrase>
+<phrase>
+    <source>&amp;Val:</source>
+    <target>&amp;Valor:</target>
+</phrase>
+<phrase>
+    <source>&amp;Red:</source>
+    <target>&amp;Vermelho:</target>
+</phrase>
+<phrase>
+    <source>&amp;Green:</source>
+    <target>V&amp;erde:</target>
+</phrase>
+<phrase>
+    <source>Bl&amp;ue:</source>
+    <target>&amp;Azul:</target>
+</phrase>
+<phrase>
+    <source>A&amp;lpha channel:</source>
+    <target>Canal &amp;transparência:</target>
+</phrase>
+<phrase>
+    <source>Select Color</source>
+    <target>Selecione Cor</target>
+</phrase>
+<phrase>
+    <source>&amp;Basic colors</source>
+    <target>Cores &amp;básicas</target>
+</phrase>
+<phrase>
+    <source>&amp;Custom colors</source>
+    <target>Cores c&amp;ustomizadas</target>
+</phrase>
+<phrase>
+    <source>&amp;Define Custom Colors &gt;&gt;</source>
+    <target>&amp;Definir Cores Customizadas &gt;&gt;</target>
+</phrase>
+<phrase>
+    <source>OK</source>
+    <target>OK</target>
+</phrase>
+<phrase>
+    <source>Cancel</source>
+    <target>Cancelar</target>
+</phrase>
+<phrase>
+    <source>&amp;Add to Custom Colors</source>
+    <target>&amp;Adicionar às Cores Customizadas</target>
+</phrase>
+<phrase>
+    <source>Select color</source>
+    <target>Seleccionar cor</target>
+</phrase>
+<phrase>
+    <source>Open</source>
+    <target>Abrir</target>
+</phrase>
+<phrase>
+    <source>False</source>
+    <target>Falso</target>
+</phrase>
+<phrase>
+    <source>True</source>
+    <target>Verdadeiro</target>
+</phrase>
+<phrase>
+    <source>Close</source>
+    <target>Fechar</target>
+</phrase>
+<phrase>
+    <source>%1: key is empty</source>
+    <target>%1: chave está vazia</target>
+    <definition>QSystemSemaphore</definition>
+</phrase>
+<phrase>
+    <source>%1: unable to make key</source>
+    <target>%1: incapaz de criar chave</target>
+    <definition>QSystemSemaphore</definition>
+</phrase>
+<phrase>
+    <source>%1: ftok failed</source>
+    <target>%1: ftok falhou</target>
+    <definition>QSystemSemaphore</definition>
+</phrase>
+<phrase>
+    <source>Unable to connect</source>
+    <target>Conexão não possível</target>
+</phrase>
+<phrase>
+    <source>Unable to commit transaction</source>
+    <target>Finalização de transação não possível</target>
+</phrase>
+<phrase>
+    <source>Unable to rollback transaction</source>
+    <target>Anulação de transação não possível</target>
+</phrase>
+<phrase>
+    <source>Unable to set autocommit</source>
+    <target>Finalização automática não possível</target>
+</phrase>
+<phrase>
+    <source>Unable to execute statement</source>
+    <target>Execução não possível</target>
+</phrase>
+<phrase>
+    <source>Unable to prepare statement</source>
+    <target>Preparação não possível</target>
+</phrase>
+<phrase>
+    <source>Unable to bind variable</source>
+    <target>Ligação de variável não possível</target>
+</phrase>
+<phrase>
+    <source>Unable to fetch record %1</source>
+    <target>Obtenção do registo %1 não possível</target>
+</phrase>
+<phrase>
+    <source>Unable to fetch next</source>
+    <target>Obtenção do seguinte não possível</target>
+</phrase>
+<phrase>
+    <source>Unable to fetch first</source>
+    <target>Obtenção do primeiro não possível</target>
+</phrase>
+<phrase>
+    <source>AM</source>
+    <target>AM</target>
+</phrase>
+<phrase>
+    <source>am</source>
+    <target>am</target>
+</phrase>
+<phrase>
+    <source>PM</source>
+    <target>PM</target>
+</phrase>
+<phrase>
+    <source>pm</source>
+    <target>pm</target>
+</phrase>
+<phrase>
+    <source>QDial</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>SpeedoMeter</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>SliderHandle</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>What&apos;s This?</source>
+    <target>O Que é Isto?</target>
+</phrase>
+<phrase>
+    <source>Done</source>
+    <target>Feito</target>
+</phrase>
+<phrase>
+    <source>OK</source>
+    <target>OK</target>
+</phrase>
+<phrase>
+    <source>Save</source>
+    <target>Salvar</target>
+</phrase>
+<phrase>
+    <source>&amp;Save</source>
+    <target>&amp;Salvar</target>
+</phrase>
+<phrase>
+    <source>Open</source>
+    <target>Abrir</target>
+</phrase>
+<phrase>
+    <source>Cancel</source>
+    <target>Cancelar</target>
+</phrase>
+<phrase>
+    <source>&amp;Cancel</source>
+    <target>&amp;Cancelar</target>
+</phrase>
+<phrase>
+    <source>Close</source>
+    <target>Fechar</target>
+</phrase>
+<phrase>
+    <source>&amp;Close</source>
+    <target>&amp;Fechar</target>
+</phrase>
+<phrase>
+    <source>Apply</source>
+    <target>Aplicar</target>
+</phrase>
+<phrase>
+    <source>Reset</source>
+    <target>Restaurar</target>
+</phrase>
+<phrase>
+    <source>Help</source>
+    <target>Ajuda</target>
+</phrase>
+<phrase>
+    <source>Don&apos;t Save</source>
+    <target>Não Salvar</target>
+</phrase>
+<phrase>
+    <source>Discard</source>
+    <target>Descartar</target>
+</phrase>
+<phrase>
+    <source>&amp;Yes</source>
+    <target>&amp;Sim</target>
+</phrase>
+<phrase>
+    <source>Yes to &amp;All</source>
+    <target>Sim para &amp;Todos</target>
+</phrase>
+<phrase>
+    <source>&amp;No</source>
+    <target>&amp;Não</target>
+</phrase>
+<phrase>
+    <source>N&amp;o to All</source>
+    <target>N&amp;ão para Todos</target>
+</phrase>
+<phrase>
+    <source>Save All</source>
+    <target>Salvar Todos</target>
+</phrase>
+<phrase>
+    <source>Abort</source>
+    <target>Abortar</target>
+</phrase>
+<phrase>
+    <source>Retry</source>
+    <target>Tentar Novamente</target>
+</phrase>
+<phrase>
+    <source>Ignore</source>
+    <target>Ignorar</target>
+</phrase>
+<phrase>
+    <source>Restore Defaults</source>
+    <target>Restaurar Padrões</target>
+</phrase>
+<phrase>
+    <source>Close without Saving</source>
+    <target>Fechar sem Salvar</target>
+</phrase>
+<phrase>
+    <source>&amp;OK</source>
+    <target>&amp;OK</target>
+</phrase>
+<phrase>
+    <source>Name</source>
+    <target>Nome</target>
+</phrase>
+<phrase>
+    <source>Size</source>
+    <target>Tamanho</target>
+</phrase>
+<phrase>
+    <source>Kind</source>
+    <target>Tipo</target>
+    <definition>Match OS X Finder</definition>
+</phrase>
+<phrase>
+    <source>Type</source>
+    <target>Tipo</target>
+    <definition>All other platforms</definition>
+</phrase>
+<phrase>
+    <source>Date Modified</source>
+    <target>Data de Modificação</target>
+</phrase>
+<phrase>
+    <source>Close</source>
+    <target>Fechar</target>
+</phrase>
+<phrase>
+    <source>Dock</source>
+    <target>Doca</target>
+</phrase>
+<phrase>
+    <source>Float</source>
+    <target>Flutuar</target>
+</phrase>
+<phrase>
+    <source>More</source>
+    <target>Mais</target>
+</phrase>
+<phrase>
+    <source>Less</source>
+    <target>Menos</target>
+</phrase>
+<phrase>
+    <source>Debug Message:</source>
+    <target>Mensagem Depuração:</target>
+</phrase>
+<phrase>
+    <source>Warning:</source>
+    <target>Aviso:</target>
+</phrase>
+<phrase>
+    <source>Fatal Error:</source>
+    <target>Erro Fatal:</target>
+</phrase>
+<phrase>
+    <source>&amp;Show this message again</source>
+    <target>&amp;Mostrar esta mensagem novamente</target>
+</phrase>
+<phrase>
+    <source>&amp;OK</source>
+    <target>&amp;OK</target>
+</phrase>
+<phrase>
+    <source>Destination file exists</source>
+    <target>Arquivo destino existe</target>
+</phrase>
+<phrase>
+    <source>Cannot remove source file</source>
+    <target>Não posso remover o arquivo de origem</target>
+</phrase>
+<phrase>
+    <source>Cannot open %1 for input</source>
+    <target>Não posso abrir %1 para entrada</target>
+</phrase>
+<phrase>
+    <source>Cannot open for output</source>
+    <target>Não posso abrir para saída</target>
+</phrase>
+<phrase>
+    <source>Failure to write block</source>
+    <target>Falha de escrita de bloco</target>
+</phrase>
+<phrase>
+    <source>Cannot create %1 for output</source>
+    <target>Não posso criar %1 para saída</target>
+</phrase>
+<phrase>
+    <source>All Files (*)</source>
+    <target>Todos os Ficheiros (*)</target>
+</phrase>
+<phrase>
+    <source>Directories</source>
+    <target>Pastas</target>
+</phrase>
+<phrase>
+    <source>&amp;Open</source>
+    <target>&amp;Abrir</target>
+</phrase>
+<phrase>
+    <source>&amp;Save</source>
+    <target>&amp;Gravar</target>
+</phrase>
+<phrase>
+    <source>Open</source>
+    <target>Abrir</target>
+</phrase>
+<phrase>
+    <source>%1 already exists.
+Do you want to replace it?</source>
+    <target>%1 já existe.
+Deseja substituir?</target>
+</phrase>
+<phrase>
+    <source>%1
+File not found.
+Please verify the correct file name was given.</source>
+    <target>%1
+Ficheiro não encontrado.
+Por favor verifique o nome do ficheiro.</target>
+</phrase>
+<phrase>
+    <source>My Computer</source>
+    <target>O Meu Computador</target>
+</phrase>
+<phrase>
+    <source>&amp;Rename</source>
+    <target>&amp;Mudar o Nome</target>
+</phrase>
+<phrase>
+    <source>&amp;Delete</source>
+    <target>&amp;Apagar</target>
+</phrase>
+<phrase>
+    <source>Show &amp;hidden files</source>
+    <target>Mostrar ficheiros &amp;escondidos</target>
+</phrase>
+<phrase>
+    <source>Back</source>
+    <target>Recuar</target>
+</phrase>
+<phrase>
+    <source>Parent Directory</source>
+    <target>Pasta Mãe</target>
+</phrase>
+<phrase>
+    <source>List View</source>
+    <target>Vista Abreviada</target>
+</phrase>
+<phrase>
+    <source>Detail View</source>
+    <target>Vista Detalhada</target>
+</phrase>
+<phrase>
+    <source>Files of type:</source>
+    <target>FIcheiros do tipo:</target>
+</phrase>
+<phrase>
+    <source>Directory:</source>
+    <target>Pasta:</target>
+</phrase>
+<phrase>
+    <source>
+File not found.
+Please verify the correct file name was given</source>
+    <target>
+Ficheiro não encontrado.
+Por favor verifique o nome do ficheiro</target>
+</phrase>
+<phrase>
+    <source>%1
+Directory not found.
+Please verify the correct directory name was given.</source>
+    <target>%1
+Pasta não encontrada.
+Por favor verifique o nome da pasta.</target>
+</phrase>
+<phrase>
+    <source>&apos;%1&apos; is write protected.
+Do you want to delete it anyway?</source>
+    <target>&apos;%1&apos; está protegido contra escrita.
+Deseja apagar de qualquer forma?</target>
+</phrase>
+<phrase>
+    <source>Are sure you want to delete &apos;%1&apos;?</source>
+    <target>Deseja mesmo apagar &apos;%1&apos;?</target>
+</phrase>
+<phrase>
+    <source>Could not delete directory.</source>
+    <target>Não foi possível apagar a pasta.</target>
+</phrase>
+<phrase>
+    <source>Recent Places</source>
+    <target>Lugares Recentes</target>
+</phrase>
+<phrase>
+    <source>All Files (*.*)</source>
+    <target>Todos os Ficheiros (*.*)</target>
+</phrase>
+<phrase>
+    <source>Save As</source>
+    <target>Gravar Como</target>
+</phrase>
+<phrase>
+    <source>Drive</source>
+    <target>Unidade</target>
+</phrase>
+<phrase>
+    <source>File</source>
+    <target>Ficheiro</target>
+</phrase>
+<phrase>
+    <source>Unknown</source>
+    <target>Desconhecido</target>
+</phrase>
+<phrase>
+    <source>Find Directory</source>
+    <target>Procurar Diretório</target>
+</phrase>
+<phrase>
+    <source>Show </source>
+    <target>Mostrar </target>
+</phrase>
+<phrase>
+    <source>Forward</source>
+    <target>Seguinte</target>
+</phrase>
+<phrase>
+    <source>New Folder</source>
+    <target>Nova Pasta</target>
+</phrase>
+<phrase>
+    <source>&amp;New Folder</source>
+    <target>&amp;Nova Pasta</target>
+</phrase>
+<phrase>
+    <source>&amp;Choose</source>
+    <target>&amp;Escolher</target>
+</phrase>
+<phrase>
+    <source>Remove</source>
+    <target>Remover</target>
+</phrase>
+<phrase>
+    <source>File &amp;name:</source>
+    <target>&amp;Nome do arquivo:</target>
+</phrase>
+<phrase>
+    <source>Look in:</source>
+    <target>Olhar em:</target>
+</phrase>
+<phrase>
+    <source>Create New Folder</source>
+    <target>Criar Nova Pasta</target>
+</phrase>
+<phrase>
+    <source>%1 TB</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>%1 GB</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>%1 MB</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>%1 KB</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>%1 bytes</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Invalid filename</source>
+    <target>Nome de arquivo inválido</target>
+</phrase>
+<phrase>
+    <source>&lt;b&gt;The name &quot;%1&quot; can not be used.&lt;/b&gt;&lt;p&gt;Try using another name, with fewer characters or no punctuations marks.</source>
+    <target>&lt;b&gt;O nome &quot;%1&quot; não pode ser usado.&lt;/b&gt;&lt;p&gt;Tente usar outro nome, com menos caracteres ou sem pontuações.</target>
+</phrase>
+<phrase>
+    <source>Name</source>
+    <target>Nome</target>
+</phrase>
+<phrase>
+    <source>Size</source>
+    <target>Tamanho</target>
+</phrase>
+<phrase>
+    <source>Kind</source>
+    <target>Tipo</target>
+    <definition>Match OS X Finder</definition>
+</phrase>
+<phrase>
+    <source>Type</source>
+    <target>Tipo</target>
+    <definition>All other platforms</definition>
+</phrase>
+<phrase>
+    <source>Date Modified</source>
+    <target>Data de Modificação</target>
+</phrase>
+<phrase>
+    <source>My Computer</source>
+    <target>Meu Computador</target>
+</phrase>
+<phrase>
+    <source>Computer</source>
+    <target>Computador</target>
+</phrase>
+<phrase>
+    <source>Normal</source>
+    <target>Normal</target>
+</phrase>
+<phrase>
+    <source>Bold</source>
+    <target>Negrito</target>
+</phrase>
+<phrase>
+    <source>Demi Bold</source>
+    <target>Semi Negrito</target>
+</phrase>
+<phrase>
+    <source>Black</source>
+    <target>Preto</target>
+</phrase>
+<phrase>
+    <source>Demi</source>
+    <target>Semi</target>
+</phrase>
+<phrase>
+    <source>Light</source>
+    <target>Claro</target>
+</phrase>
+<phrase>
+    <source>Italic</source>
+    <target>Itálico</target>
+</phrase>
+<phrase>
+    <source>Oblique</source>
+    <target>Oblíquo</target>
+</phrase>
+<phrase>
+    <source>Any</source>
+    <target>Qualquer</target>
+</phrase>
+<phrase>
+    <source>Latin</source>
+    <target>Latim</target>
+</phrase>
+<phrase>
+    <source>Greek</source>
+    <target>Grego</target>
+</phrase>
+<phrase>
+    <source>Cyrillic</source>
+    <target>Cirílico</target>
+</phrase>
+<phrase>
+    <source>Armenian</source>
+    <target>Armênio</target>
+</phrase>
+<phrase>
+    <source>Hebrew</source>
+    <target>Hebreu</target>
+</phrase>
+<phrase>
+    <source>Arabic</source>
+    <target>Arábico</target>
+</phrase>
+<phrase>
+    <source>Syriac</source>
+    <target>Siríaco</target>
+</phrase>
+<phrase>
+    <source>Thaana</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Devanagari</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Bengali</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Gurmukhi</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Gujarati</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Oriya</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Tamil</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Telugu</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Kannada</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Malayalam</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Sinhala</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Thai</source>
+    <target>Tailandês</target>
+</phrase>
+<phrase>
+    <source>Lao</source>
+    <target>Lao</target>
+</phrase>
+<phrase>
+    <source>Tibetan</source>
+    <target>Tibetano</target>
+</phrase>
+<phrase>
+    <source>Myanmar</source>
+    <target>Miamar</target>
+</phrase>
+<phrase>
+    <source>Georgian</source>
+    <target>Georgiano</target>
+</phrase>
+<phrase>
+    <source>Khmer</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Simplified Chinese</source>
+    <target>Chinês Simplificado</target>
+</phrase>
+<phrase>
+    <source>Traditional Chinese</source>
+    <target>Chinês Tradicional</target>
+</phrase>
+<phrase>
+    <source>Japanese</source>
+    <target>Japonês</target>
+</phrase>
+<phrase>
+    <source>Korean</source>
+    <target>Coreano</target>
+</phrase>
+<phrase>
+    <source>Vietnamese</source>
+    <target>Vietnamita</target>
+</phrase>
+<phrase>
+    <source>Symbol</source>
+    <target>Símbolo</target>
+</phrase>
+<phrase>
+    <source>Ogham</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Runic</source>
+    <target>Rúnico</target>
+</phrase>
+<phrase>
+    <source>&amp;Font</source>
+    <target>&amp;Tipo de Letra</target>
+</phrase>
+<phrase>
+    <source>Font st&amp;yle</source>
+    <target>&amp;Estilo de Letra</target>
+</phrase>
+<phrase>
+    <source>&amp;Size</source>
+    <target>&amp;Tamanho</target>
+</phrase>
+<phrase>
+    <source>Effects</source>
+    <target>Efeitos</target>
+</phrase>
+<phrase>
+    <source>Stri&amp;keout</source>
+    <target>&amp;Riscar</target>
+</phrase>
+<phrase>
+    <source>&amp;Underline</source>
+    <target>&amp;Sublinhar</target>
+</phrase>
+<phrase>
+    <source>Sample</source>
+    <target>Amostra</target>
+</phrase>
+<phrase>
+    <source>Wr&amp;iting System</source>
+    <target>&amp;Sistema de Escrita</target>
+</phrase>
+<phrase>
+    <source>Select Font</source>
+    <target>Seleccione Tipo de Letra</target>
+</phrase>
+<phrase>
+    <source>Not connected</source>
+    <target>Desligado</target>
+</phrase>
+<phrase>
+    <source>Host %1 not found</source>
+    <target>Servidor %1 não encontrado</target>
+</phrase>
+<phrase>
+    <source>Connection refused to host %1</source>
+    <target>Ligação ao servidor %1 recusada</target>
+</phrase>
+<phrase>
+    <source>Connection timed out to host %1</source>
+    <target>Conexão expirada para host %1</target>
+</phrase>
+<phrase>
+    <source>Connected to host %1</source>
+    <target>Ligado ao servidor %1</target>
+</phrase>
+<phrase>
+    <source>Connection refused for data connection</source>
+    <target>Ligação de dados recusada</target>
+</phrase>
+<phrase>
+    <source>Unknown error</source>
+    <target>Erro desconhecido</target>
+</phrase>
+<phrase>
+    <source>Connecting to host failed:
+%1</source>
+    <target>A ligação ao servidor falhou:
+%1</target>
+</phrase>
+<phrase>
+    <source>Login failed:
+%1</source>
+    <target>A autenticação falhou:
+%1</target>
+</phrase>
+<phrase>
+    <source>Listing directory failed:
+%1</source>
+    <target>A listagem da pasta falhou:
+%1</target>
+</phrase>
+<phrase>
+    <source>Changing directory failed:
+%1</source>
+    <target>A mudança de pasta falhou:
+%1</target>
+</phrase>
+<phrase>
+    <source>Downloading file failed:
+%1</source>
+    <target>A descarga do ficheiro falhou:
+%1</target>
+</phrase>
+<phrase>
+    <source>Uploading file failed:
+%1</source>
+    <target>O carregamento do ficheiro falhou:
+%1</target>
+</phrase>
+<phrase>
+    <source>Removing file failed:
+%1</source>
+    <target>A remoção do ficheiro falhou:
+%1</target>
+</phrase>
+<phrase>
+    <source>Creating directory failed:
+%1</source>
+    <target>A criação da pasta falhou:
+%1</target>
+</phrase>
+<phrase>
+    <source>Removing directory failed:
+%1</source>
+    <target>A remoção da pasta falhou:
+%1</target>
+</phrase>
+<phrase>
+    <source>Connection closed</source>
+    <target>Ligação fechada</target>
+</phrase>
+<phrase>
+    <source>Host %1 found</source>
+    <target>Servidor %1 encontrado</target>
+</phrase>
+<phrase>
+    <source>Connection to %1 closed</source>
+    <target>Ligação a %1 fechada</target>
+</phrase>
+<phrase>
+    <source>Host found</source>
+    <target>Servidor encontrado</target>
+</phrase>
+<phrase>
+    <source>Connected to host</source>
+    <target>Ligado ao servidor</target>
+</phrase>
+<phrase>
+    <source>Unknown error</source>
+    <target>Erro desconhecido</target>
+</phrase>
+<phrase>
+    <source>Host not found</source>
+    <target>Servidor Não encontrado</target>
+</phrase>
+<phrase>
+    <source>Unknown address type</source>
+    <target>Tipo de endereço desconhecido</target>
+</phrase>
+<phrase>
+    <source>Unknown error</source>
+    <target>Erro desconhecido</target>
+</phrase>
+<phrase>
+    <source>HTTPS connection requested but SSL support not compiled in</source>
+    <target>Conexão HTTPS requisitada mas suporte SSL não compilado</target>
+</phrase>
+<phrase>
+    <source>Unknown error</source>
+    <target>Erro desconhecido</target>
+</phrase>
+<phrase>
+    <source>Request aborted</source>
+    <target>Pedido abortado</target>
+</phrase>
+<phrase>
+    <source>No server set to connect to</source>
+    <target>Nenhum servidor para ligar</target>
+</phrase>
+<phrase>
+    <source>Wrong content length</source>
+    <target>Tamanho de conteúdo errado</target>
+</phrase>
+<phrase>
+    <source>Server closed connection unexpectedly</source>
+    <target>O servidor fechou a ligação inesperadamente</target>
+</phrase>
+<phrase>
+    <source>Unknown authentication method</source>
+    <target>Método de autenticação desconhecido</target>
+</phrase>
+<phrase>
+    <source>Error writing response to device</source>
+    <target>Erro ao escrever resposta ao dispositivo</target>
+</phrase>
+<phrase>
+    <source>Connection refused</source>
+    <target>Ligação recusada</target>
+</phrase>
+<phrase>
+    <source>Host %1 not found</source>
+    <target>Servidor %1 não encontrado</target>
+</phrase>
+<phrase>
+    <source>HTTP request failed</source>
+    <target>O pedido HTTP falhou</target>
+</phrase>
+<phrase>
+    <source>Invalid HTTP response header</source>
+    <target>Cabeçalho de resposta HTTP inválido</target>
+</phrase>
+<phrase>
+    <source>Invalid HTTP chunked body</source>
+    <target>Corpo parcial HTTP inválido</target>
+</phrase>
+<phrase>
+    <source>Host %1 found</source>
+    <target>Servidor %1 encontrado</target>
+</phrase>
+<phrase>
+    <source>Connected to host %1</source>
+    <target>Ligado ao servidor %1</target>
+</phrase>
+<phrase>
+    <source>Connection to %1 closed</source>
+    <target>Ligação a %1 fechada</target>
+</phrase>
+<phrase>
+    <source>Host found</source>
+    <target>Servidor encontrado</target>
+</phrase>
+<phrase>
+    <source>Connected to host</source>
+    <target>Ligado ao servidor</target>
+</phrase>
+<phrase>
+    <source>Connection closed</source>
+    <target>Ligação fechada</target>
+</phrase>
+<phrase>
+    <source>Proxy authentication required</source>
+    <target>Autenticação de proxy requisitada</target>
+</phrase>
+<phrase>
+    <source>Authentication required</source>
+    <target>Autenticação requisitada</target>
+</phrase>
+<phrase>
+    <source>Connection refused (or timed out)</source>
+    <target>Conexão recusada (ou expirada)</target>
+</phrase>
+<phrase>
+    <source>Proxy requires authentication</source>
+    <target>Proxy requisita autenticação</target>
+</phrase>
+<phrase>
+    <source>Host requires authentication</source>
+    <target>Host requisita autenticação</target>
+</phrase>
+<phrase>
+    <source>Data corrupted</source>
+    <target>Dados corrompidos</target>
+</phrase>
+<phrase>
+    <source>Unknown protocol specified</source>
+    <target>Protocolo desconhecido especificado</target>
+</phrase>
+<phrase>
+    <source>SSL handshake failed</source>
+    <target>SSL handshake falhou</target>
+</phrase>
+<phrase>
+    <source>Did not receive HTTP response from proxy</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Error parsing authentication request from proxy</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Authentication required</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Proxy denied connection</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Error communicating with HTTP proxy</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Proxy server not found</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Proxy connection refused</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Proxy server connection timed out</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Proxy connection closed prematurely</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Error opening database</source>
+    <target>Erro ao abrir a base de dados</target>
+</phrase>
+<phrase>
+    <source>Could not start transaction</source>
+    <target>Não foi possível iniciar a transacção</target>
+</phrase>
+<phrase>
+    <source>Unable to commit transaction</source>
+    <target>Não foi possível finalizar a transacção</target>
+</phrase>
+<phrase>
+    <source>Unable to rollback transaction</source>
+    <target>Não foi possível anular a transacção</target>
+</phrase>
+<phrase>
+    <source>Unable to create BLOB</source>
+    <target>Não foi possível criar o BLOB</target>
+</phrase>
+<phrase>
+    <source>Unable to write BLOB</source>
+    <target>Não foi possível escrever o BLOB</target>
+</phrase>
+<phrase>
+    <source>Unable to open BLOB</source>
+    <target>Não foi possível abrir o BLOB</target>
+</phrase>
+<phrase>
+    <source>Unable to read BLOB</source>
+    <target>Não foi possível ler o BLOB</target>
+</phrase>
+<phrase>
+    <source>Could not find array</source>
+    <target>Não foi possível encontrar o array</target>
+</phrase>
+<phrase>
+    <source>Could not get array data</source>
+    <target>Não foi possível obter os dados do array</target>
+</phrase>
+<phrase>
+    <source>Could not get query info</source>
+    <target>Não foi possível obter informação da query</target>
+</phrase>
+<phrase>
+    <source>Could not start transaction</source>
+    <target>Não foi possível iniciar a transacção</target>
+</phrase>
+<phrase>
+    <source>Unable to commit transaction</source>
+    <target>Não foi possível finalizar a transacção</target>
+</phrase>
+<phrase>
+    <source>Could not allocate statement</source>
+    <target>Não foi possível alocar a expressão</target>
+</phrase>
+<phrase>
+    <source>Could not prepare statement</source>
+    <target>Não foi possível preparar a expressão</target>
+</phrase>
+<phrase>
+    <source>Could not describe input statement</source>
+    <target>Não foi possível descrever a expressão de entrada</target>
+</phrase>
+<phrase>
+    <source>Could not describe statement</source>
+    <target>Não foi possível descrever a expressão</target>
+</phrase>
+<phrase>
+    <source>Unable to close statement</source>
+    <target>Não foi possível fechar a expressão</target>
+</phrase>
+<phrase>
+    <source>Unable to execute query</source>
+    <target>Não foi possível executar a query</target>
+</phrase>
+<phrase>
+    <source>Could not fetch next item</source>
+    <target>Não foi possível obter o elemento seguinte</target>
+</phrase>
+<phrase>
+    <source>Could not get statement info</source>
+    <target>Não foi possível obter informação da expressão</target>
+</phrase>
+<phrase>
+    <source>Permission denied</source>
+    <target>Permissão negada</target>
+</phrase>
+<phrase>
+    <source>Too many open files</source>
+    <target>Demasiados ficheiros abertos</target>
+</phrase>
+<phrase>
+    <source>No such file or directory</source>
+    <target>Ficheiro ou pasta inexistente</target>
+</phrase>
+<phrase>
+    <source>No space left on device</source>
+    <target>Dispositivo sem espaço livre</target>
+</phrase>
+<phrase>
+    <source>Unknown error</source>
+    <target>Erro desconhecido</target>
+</phrase>
+<phrase>
+    <source>XIM</source>
+    <target>XIM</target>
+</phrase>
+<phrase>
+    <source>XIM input method</source>
+    <target>Método de entrada XIM</target>
+</phrase>
+<phrase>
+    <source>Windows input method</source>
+    <target>Método de entrada Windows</target>
+</phrase>
+<phrase>
+    <source>Mac OS X input method</source>
+    <target>Método de entrada Max OS X</target>
+</phrase>
+<phrase>
+    <source>Enter a value:</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>QLibrary::load_sys: Cannot load %1 (%2)</source>
+    <target>QLibrary::load_sys: Não foi possível carregar %1 (%2)</target>
+</phrase>
+<phrase>
+    <source>QLibrary::unload_sys: Cannot unload %1 (%2)</source>
+    <target>QLibrary::unload_sys: Não foi possível descarregar %1 (%2)</target>
+</phrase>
+<phrase>
+    <source>QLibrary::resolve_sys: Symbol &quot;%1&quot; undefined in %2 (%3)</source>
+    <target>QLibrary::resolve_sys: Símbolo &quot;%1&quot; indefinido em %2 (%3)</target>
+</phrase>
+<phrase>
+    <source>Could not mmap &apos;%1&apos;: %2</source>
+    <target>Não foi possivel mapear &apos;%1&apos;: %2</target>
+</phrase>
+<phrase>
+    <source>Plugin verification data mismatch in &apos;%1&apos;</source>
+    <target>Dados de verificação do plugin incorrectos em &apos;%1&apos;</target>
+</phrase>
+<phrase>
+    <source>Could not unmap &apos;%1&apos;: %2</source>
+    <target>Não foi possível desmapear &apos;%1&apos;: %2</target>
+</phrase>
+<phrase>
+    <source>The plugin &apos;%1&apos; uses incompatible Qt library. (%2.%3.%4) [%5]</source>
+    <target>O plugin  &apos;%1&apos; usa uma biblioteca Qt incompatível. (%2.%3.%4) [%5]</target>
+</phrase>
+<phrase>
+    <source>The plugin &apos;%1&apos; uses incompatible Qt library. Expected build key &quot;%2&quot;, got &quot;%3&quot;</source>
+    <target>O plugin &apos;%1&apos; usa uma biblioteca Qt incompatível. A chave de compilação esperada &quot;%2&quot;, ficou  &quot;%3&quot;</target>
+</phrase>
+<phrase>
+    <source>Unknown error</source>
+    <target>Erro desconhecido</target>
+</phrase>
+<phrase>
+    <source>The shared library was not found.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>The file &apos;%1&apos; is not a valid Qt plugin.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>The plugin &apos;%1&apos; uses incompatible Qt library. (Cannot mix debug and release libraries.)</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Cannot load library %1: %2</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Cannot unload library %1: %2</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Cannot resolve symbol &quot;%1&quot; in %2: %3</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>&amp;Undo</source>
+    <target>&amp;Desfazer</target>
+</phrase>
+<phrase>
+    <source>&amp;Redo</source>
+    <target>&amp;Refazer</target>
+</phrase>
+<phrase>
+    <source>Cu&amp;t</source>
+    <target>Cor&amp;tar</target>
+</phrase>
+<phrase>
+    <source>&amp;Copy</source>
+    <target>&amp;Copiar</target>
+</phrase>
+<phrase>
+    <source>&amp;Paste</source>
+    <target>Co&amp;lar</target>
+</phrase>
+<phrase>
+    <source>Delete</source>
+    <target>Apagar</target>
+</phrase>
+<phrase>
+    <source>Select All</source>
+    <target>Seleccionar Tudo</target>
+</phrase>
+<phrase>
+    <source>%1: Name error</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>%1: Permission denied</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>%1: Address in use</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>%1: Unknown error %2</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>%1: Connection refused</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>%1: Remote closed</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>%1: Invalid name</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>%1: Socket access error</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>%1: Socket resource error</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>%1: Socket operation timed out</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>%1: Datagram too large</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>%1: Connection error</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>%1: The socket operation is not supported</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>%1: Unknown error</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>%1: Unknown error %2</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Unable to open database &apos;</source>
+    <target>Não foi possível abrir a base de dados &apos;</target>
+</phrase>
+<phrase>
+    <source>Unable to connect</source>
+    <target>Não foi possível estabelecer a ligação</target>
+</phrase>
+<phrase>
+    <source>Unable to begin transaction</source>
+    <target>Não foi possível iniciar a transacção</target>
+</phrase>
+<phrase>
+    <source>Unable to commit transaction</source>
+    <target>Não foi possível finalizar a transacção</target>
+</phrase>
+<phrase>
+    <source>Unable to rollback transaction</source>
+    <target>Não foi possível anular a transacção</target>
+</phrase>
+<phrase>
+    <source>Unable to fetch data</source>
+    <target>Não foi possível obter dados</target>
+</phrase>
+<phrase>
+    <source>Unable to execute query</source>
+    <target>Não foi possível executar a query</target>
+</phrase>
+<phrase>
+    <source>Unable to store result</source>
+    <target>Não foi possível guardar o resultado</target>
+</phrase>
+<phrase>
+    <source>Unable to prepare statement</source>
+    <target>Não foi possível preparar a expressão</target>
+</phrase>
+<phrase>
+    <source>Unable to reset statement</source>
+    <target>Não foi possível restaurar a expressão</target>
+</phrase>
+<phrase>
+    <source>Unable to bind value</source>
+    <target>Não foi possível fazer a ligação do valor</target>
+</phrase>
+<phrase>
+    <source>Unable to execute statement</source>
+    <target>Não foi possível executar a expressão</target>
+</phrase>
+<phrase>
+    <source>Unable to bind outvalues</source>
+    <target>Não foi possível fazer a ligação dos valores externos</target>
+</phrase>
+<phrase>
+    <source>Unable to store statement results</source>
+    <target>Não foi possível guardar os resultados da expressão</target>
+</phrase>
+<phrase>
+    <source>Unable to execute next query</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Unable to store next result</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>(Untitled)</source>
+    <target>(Sem título)</target>
+</phrase>
+<phrase>
+    <source>%1 - [%2]</source>
+    <target>%1 - [%2]</target>
+</phrase>
+<phrase>
+    <source>Close</source>
+    <target>Fechar</target>
+</phrase>
+<phrase>
+    <source>Minimize</source>
+    <target>Minimizar</target>
+</phrase>
+<phrase>
+    <source>Restore Down</source>
+    <target>Restaurar Baixo</target>
+</phrase>
+<phrase>
+    <source>&amp;Restore</source>
+    <target>&amp;Restaurar</target>
+</phrase>
+<phrase>
+    <source>&amp;Move</source>
+    <target>&amp;Mover</target>
+</phrase>
+<phrase>
+    <source>&amp;Size</source>
+    <target>&amp;Tamanho</target>
+</phrase>
+<phrase>
+    <source>Mi&amp;nimize</source>
+    <target>Mi&amp;nimizar</target>
+</phrase>
+<phrase>
+    <source>Ma&amp;ximize</source>
+    <target>Ma&amp;ximizar</target>
+</phrase>
+<phrase>
+    <source>Stay on &amp;Top</source>
+    <target>Permanecer no &amp;Topo</target>
+</phrase>
+<phrase>
+    <source>&amp;Close</source>
+    <target>&amp;Fechar</target>
+</phrase>
+<phrase>
+    <source>- [%1]</source>
+    <target>- [%1]</target>
+</phrase>
+<phrase>
+    <source>Maximize</source>
+    <target>Maximizar</target>
+</phrase>
+<phrase>
+    <source>Unshade</source>
+    <target>Retirar sombra</target>
+</phrase>
+<phrase>
+    <source>Shade</source>
+    <target>Sombrear</target>
+</phrase>
+<phrase>
+    <source>Restore</source>
+    <target>Restaurar</target>
+</phrase>
+<phrase>
+    <source>Help</source>
+    <target>Ajuda</target>
+</phrase>
+<phrase>
+    <source>Menu</source>
+    <target>Menu</target>
+</phrase>
+<phrase>
+    <source>Close</source>
+    <target>Fechar</target>
+</phrase>
+<phrase>
+    <source>Open</source>
+    <target>Abrir</target>
+</phrase>
+<phrase>
+    <source>Execute</source>
+    <target>Executar</target>
+</phrase>
+<phrase>
+    <source>About</source>
+    <target>Sobre</target>
+</phrase>
+<phrase>
+    <source>Config</source>
+    <target>Configurar</target>
+</phrase>
+<phrase>
+    <source>Preference</source>
+    <target>Preferências</target>
+</phrase>
+<phrase>
+    <source>Options</source>
+    <target>Opções</target>
+</phrase>
+<phrase>
+    <source>Setting</source>
+    <target>Alteração</target>
+</phrase>
+<phrase>
+    <source>Setup</source>
+    <target>Configuração</target>
+</phrase>
+<phrase>
+    <source>Quit</source>
+    <target>Sair</target>
+</phrase>
+<phrase>
+    <source>Exit</source>
+    <target>Sair</target>
+</phrase>
+<phrase>
+    <source>About %1</source>
+    <target>Sobre %1</target>
+</phrase>
+<phrase>
+    <source>About Qt</source>
+    <target>Acerca do Qt</target>
+</phrase>
+<phrase>
+    <source>Preferences</source>
+    <target>Preferências</target>
+</phrase>
+<phrase>
+    <source>Quit %1</source>
+    <target>Sair de %1</target>
+</phrase>
+<phrase>
+    <source>Help</source>
+    <target>Ajuda</target>
+</phrase>
+<phrase>
+    <source>OK</source>
+    <target>OK</target>
+</phrase>
+<phrase>
+    <source>About Qt</source>
+    <target>Acerca do Qt</target>
+</phrase>
+<phrase>
+    <source>&lt;p&gt;This program uses Qt version %1.&lt;/p&gt;</source>
+    <target>&lt;p&gt;Este programa usa Qt versão %1.&lt;/p&gt;</target>
+</phrase>
+<phrase>
+    <source>&lt;h3&gt;About Qt&lt;/h3&gt;%1&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across MS&amp;nbsp;Windows, Mac&amp;nbsp;OS&amp;nbsp;X, Linux, and all major commercial Unix variants. Qt is also available for embedded devices as Qtopia Core.&lt;/p&gt;&lt;p&gt;Qt is a Trolltech product. See &lt;a href=&quot;http://qt.nokia.com/qt/&quot;&gt;qt.nokia.com/qt/&lt;/a&gt; for more information.&lt;/p&gt;</source>
+    <target>&lt;h3&gt;Acerca do Qt&lt;/h3&gt;%1&lt;p&gt;Qt é um conjunto de ferramentas para desenvolvimento de aplicações multiplataforma.&lt;/p&gt;O Qt oferece portabilidade de código fonte único em MS&amp;nbsp;Windows, Mac&amp;nbsp;OS&amp;nbsp;X, Linux e todas as principais variantes comerciais de Unix. O Qt está igualmente disponível para dispositivos embebidos como Qtopia Core.&lt;/p&gt;&lt;p&gt;O Qt é um produto Trolltech. Veja &lt;a href=&quot;http://qt.nokia.com/qt/&quot;&gt;qt.nokia.com/qt/&lt;/a&gt; para mais informação.&lt;/p&gt;</target>
+</phrase>
+<phrase>
+    <source>Show Details...</source>
+    <target>Mostrar Detalhes...</target>
+</phrase>
+<phrase>
+    <source>Hide Details...</source>
+    <target>Não Mostrar Detalhes...</target>
+</phrase>
+<phrase>
+    <source>&lt;h3&gt;About Qt&lt;/h3&gt;&lt;p&gt;This program uses Qt version %1.&lt;/p&gt;&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across MS&amp;nbsp;Windows, Mac&amp;nbsp;OS&amp;nbsp;X, Linux, and all major commercial Unix variants. Qt is also available for embedded devices as Qt for Embedded Linux and Qt for Windows CE.&lt;/p&gt;&lt;p&gt;Qt is available under three different licensing options designed to accommodate the needs of our various users.&lt;/p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of the GNU LGPL version 2.1 or GNU GPL version 3.0.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 2.1 is appropriate for the development of Qt applications (proprietary or open source) provided you can comply with the terms and conditions of the GNU LGPL version 2.1.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU General Public License version 3.0 is appropriate for the development of Qt applications where you wish to use such applications in combination with software subject to the terms of the GNU GPL version 3.0 or where you are otherwise willing to comply with the terms of the GNU GPL version 3.0.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://qt.nokia.com/products/licensing&quot;&gt;qt.nokia.com/products/licensing&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) 2009 Nokia Corporation and/or its subsidiary(-ies).&lt;/p&gt;&lt;p&gt;Qt is a Nokia product. See &lt;a href=&quot;http://qt.nokia.com/&quot;&gt;qt.nokia.com&lt;/a&gt; for more information.&lt;/p&gt;</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>&lt;p&gt;This program uses Qt Open Source Edition version %1.&lt;/p&gt;&lt;p&gt;Qt Open Source Edition is intended for the development of Open Source applications. You need a commercial Qt license for development of proprietary (closed source) applications.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://qt.nokia.com/company/model/&quot;&gt;qt.nokia.com/company/model/&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;</source>
+    <target>&lt;p&gt;Este programa usa Qt Open Source Edition versão %1.&lt;/p&gt;&lt;p&gt;Qt Open Source Edition é indicado para o desenvolvimento de aplicações/programas open source. Se pretender desenvolver aplicações sem disponibilizar o codigo fonte, então precisará de obter uma licença comercial.&lt;/p&gt;&lt;p&gt;Por favor consulte &lt;a href=&quot;http://qt.nokia.com/company/model/&quot;&gt;qt.nokia.com/company/model/&lt;/a&gt;para obter mais informação acerca de licenças Qt.&lt;/p&gt;</target>
+</phrase>
+<phrase>
+    <source>Select IM</source>
+    <target>Selecione Método de Entrada</target>
+</phrase>
+<phrase>
+    <source>Multiple input method switcher</source>
+    <target>Seleccionador de método de entrada</target>
+</phrase>
+<phrase>
+    <source>Multiple input method switcher that uses the context menu of the text widgets</source>
+    <target>Seleccionador de método de entrada que utiliza o menu de contexto dos elementos de texto</target>
+</phrase>
+<phrase>
+    <source>The remote host closed the connection</source>
+    <target>A máquina remota fechou a ligação</target>
+</phrase>
+<phrase>
+    <source>Network operation timed out</source>
+    <target>Operação de rede expirada</target>
+</phrase>
+<phrase>
+    <source>Out of resources</source>
+    <target>Sem recursos</target>
+</phrase>
+<phrase>
+    <source>Unsupported socket operation</source>
+    <target>Operação de &apos;socket&apos; não suportada</target>
+</phrase>
+<phrase>
+    <source>Protocol type not supported</source>
+    <target>Tipo de protocolo não suportado</target>
+</phrase>
+<phrase>
+    <source>Invalid socket descriptor</source>
+    <target>Descritor de &apos;socket&apos; inválido</target>
+</phrase>
+<phrase>
+    <source>Network unreachable</source>
+    <target>Rede inalcançável</target>
+</phrase>
+<phrase>
+    <source>Permission denied</source>
+    <target>Permissão negada</target>
+</phrase>
+<phrase>
+    <source>Connection timed out</source>
+    <target>Ligação expirada</target>
+</phrase>
+<phrase>
+    <source>Connection refused</source>
+    <target>Ligação recusada</target>
+</phrase>
+<phrase>
+    <source>The bound address is already in use</source>
+    <target>O endereço de ligação já está em uso</target>
+</phrase>
+<phrase>
+    <source>The address is not available</source>
+    <target>O endereço não está disponível</target>
+</phrase>
+<phrase>
+    <source>The address is protected</source>
+    <target>O endereço está protegido</target>
+</phrase>
+<phrase>
+    <source>Unable to send a message</source>
+    <target>Não foi possível enviar uma mensagem</target>
+</phrase>
+<phrase>
+    <source>Unable to receive a message</source>
+    <target>Não foi possível receber uma mensagem</target>
+</phrase>
+<phrase>
+    <source>Unable to write</source>
+    <target>Não foi possível escrever</target>
+</phrase>
+<phrase>
+    <source>Network error</source>
+    <target>Erro de rede</target>
+</phrase>
+<phrase>
+    <source>Another socket is already listening on the same port</source>
+    <target>Outro &apos;socket&apos; já está à escuta no mesmo porto</target>
+</phrase>
+<phrase>
+    <source>Unable to initialize non-blocking socket</source>
+    <target>Não foi possível inicializar &apos;socket&apos; não bloqueante</target>
+</phrase>
+<phrase>
+    <source>Unable to initialize broadcast socket</source>
+    <target>Não foi possível inicializar &apos;socket&apos; de transmissão</target>
+</phrase>
+<phrase>
+    <source>Attempt to use IPv6 socket on a platform with no IPv6 support</source>
+    <target>Tentativa de utilização de &apos;socket&apos; IPv6 numa plataforma sem suporte IPv6</target>
+</phrase>
+<phrase>
+    <source>Host unreachable</source>
+    <target>Máquina inalcançável</target>
+</phrase>
+<phrase>
+    <source>Datagram was too large to send</source>
+    <target>Datagrama demasiado grande para enviar</target>
+</phrase>
+<phrase>
+    <source>Operation on non-socket</source>
+    <target>Operação em não &apos;socket&apos;</target>
+</phrase>
+<phrase>
+    <source>Unknown error</source>
+    <target>Erro desconhecido</target>
+</phrase>
+<phrase>
+    <source>The proxy type is invalid for this operation</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Error opening %1</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Request for opening non-local file %1</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Error opening %1: %2</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Write error writing to %1: %2</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Cannot open %1: Path is a directory</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Read error reading from %1: %2</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>No suitable proxy found</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Cannot open %1: is a directory</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Logging in to %1 failed: authentication required</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Error while downloading %1: %2</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Error while uploading %1: %2</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>No suitable proxy found</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Error downloading %1 - server replied: %2</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Protocol &quot;%1&quot; is unknown</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Operation canceled</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Unable to logon</source>
+    <target>Não foi possível autenticar</target>
+</phrase>
+<phrase>
+    <source>Unable to initialize</source>
+    <target>Não foi possível inicializar</target>
+    <definition>QOCIDriver</definition>
+</phrase>
+<phrase>
+    <source>Unable to begin transaction</source>
+    <target>Não foi possível iniciar a transacção</target>
+</phrase>
+<phrase>
+    <source>Unable to commit transaction</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Unable to rollback transaction</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Unable to bind column for batch execute</source>
+    <target>Não foi possível fazer a licação da coluna para execução &apos;batch&apos;</target>
+</phrase>
+<phrase>
+    <source>Unable to execute batch statement</source>
+    <target>Não foi possível executar a expressão de &apos;batch&apos;</target>
+</phrase>
+<phrase>
+    <source>Unable to goto next</source>
+    <target>Não foi possível passar ao seguinte</target>
+</phrase>
+<phrase>
+    <source>Unable to alloc statement</source>
+    <target>Não foi possível alocar a expressão</target>
+</phrase>
+<phrase>
+    <source>Unable to prepare statement</source>
+    <target>Não foi possível preparar a expressão</target>
+</phrase>
+<phrase>
+    <source>Unable to bind value</source>
+    <target>Não foi possível fazer o ligamento do valor</target>
+</phrase>
+<phrase>
+    <source>Unable to execute select statement</source>
+    <target>Não foi possível executar a expressão select</target>
+</phrase>
+<phrase>
+    <source>Unable to execute statement</source>
+    <target>Não foi possível executar a expressão</target>
+</phrase>
+<phrase>
+    <source>Unable to connect</source>
+    <target>Não foi possível ligar</target>
+</phrase>
+<phrase>
+    <source>Unable to connect - Driver doesn&apos;t support all needed functionality</source>
+    <target>Não foi possível ligar - O &apos;driver&apos; não suporta todas as funcionalidades necessárias</target>
+</phrase>
+<phrase>
+    <source>Unable to disable autocommit</source>
+    <target>Não foi possível  desactivar finalização automática</target>
+</phrase>
+<phrase>
+    <source>Unable to commit transaction</source>
+    <target>Não foi possível finalizar a transacção</target>
+</phrase>
+<phrase>
+    <source>Unable to rollback transaction</source>
+    <target>Não foi possível anular a transacção</target>
+</phrase>
+<phrase>
+    <source>Unable to enable autocommit</source>
+    <target>Não foi possível activar finalização automática</target>
+</phrase>
+<phrase>
+    <source>QODBCResult::reset: Unable to set &apos;SQL_CURSOR_STATIC&apos; as statement attribute. Please check your ODBC driver configuration</source>
+    <target>QODBCResult::reset: Não foi possível definir &apos;SQL_CURSOR_STATIC&apos; como atributo da expressão. Por favor verifique a configuração do seu &apos;driver&apos; ODBC</target>
+</phrase>
+<phrase>
+    <source>Unable to execute statement</source>
+    <target>Não foi possível executar a expressão</target>
+</phrase>
+<phrase>
+    <source>Unable to fetch next</source>
+    <target>Não foi possível obter o seguinte</target>
+</phrase>
+<phrase>
+    <source>Unable to prepare statement</source>
+    <target>Não foi possível preparar a expressão</target>
+</phrase>
+<phrase>
+    <source>Unable to bind variable</source>
+    <target>Não foi possível fazer o ligamento da variável</target>
+</phrase>
+<phrase>
+    <source>Unable to fetch last</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Unable to fetch</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Unable to fetch first</source>
+    <target>Obtenção do primeiro não possível</target>
+</phrase>
+<phrase>
+    <source>Unable to fetch previous</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Home</source>
+    <target>Início</target>
+</phrase>
+<phrase>
+    <source>Operation not supported on %1</source>
+    <target>Operação não suportada em %1</target>
+</phrase>
+<phrase>
+    <source>Invalid URI: %1</source>
+    <target>Inválida URI: %1</target>
+</phrase>
+<phrase>
+    <source>Write error writing to %1: %2</source>
+    <target>Erro de escrita ao escrever para %1: %2</target>
+</phrase>
+<phrase>
+    <source>Read error reading from %1: %2</source>
+    <target>Erro de leitura ao ler de %1: %2</target>
+</phrase>
+<phrase>
+    <source>Socket error on %1: %2</source>
+    <target>Erro de socket em %1: %2</target>
+</phrase>
+<phrase>
+    <source>Remote host closed the connection prematurely on %1</source>
+    <target>Host remoto fechou a conexão prematuramente em %1</target>
+</phrase>
+<phrase>
+    <source>Protocol error: packet of size 0 received</source>
+    <target>Erro de protocolo: pacote de tamanho 0 recebido</target>
+</phrase>
+<phrase>
+    <source>No host name given</source>
+    <target>Nenhum nome de host fornecido</target>
+</phrase>
+<phrase>
+    <source>Name</source>
+    <target>Nome</target>
+</phrase>
+<phrase>
+    <source>Value</source>
+    <target>Valor</target>
+</phrase>
+<phrase>
+    <source>Unable to connect</source>
+    <target>Não foi possível ligar</target>
+</phrase>
+<phrase>
+    <source>Could not begin transaction</source>
+    <target>Não foi possível iniciar a transacção</target>
+</phrase>
+<phrase>
+    <source>Could not commit transaction</source>
+    <target>Não foi possível finalizar a transacção</target>
+</phrase>
+<phrase>
+    <source>Could not rollback transaction</source>
+    <target>Não foi possível anular a transacção</target>
+</phrase>
+<phrase>
+    <source>Unable to subscribe</source>
+    <target>Incapaz de sobrescrever</target>
+</phrase>
+<phrase>
+    <source>Unable to unsubscribe</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Unable to create query</source>
+    <target>Não foi possível criar a &apos;query&apos;</target>
+</phrase>
+<phrase>
+    <source>Unable to prepare statement</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Centimeters (cm)</source>
+    <target>Centímetros (cm)</target>
+</phrase>
+<phrase>
+    <source>Millimeters (mm)</source>
+    <target>Milímetros (mm)</target>
+</phrase>
+<phrase>
+    <source>Inches (in)</source>
+    <target>Polegadas (in)</target>
+</phrase>
+<phrase>
+    <source>Points (pt)</source>
+    <target>Pontos (pt)</target>
+</phrase>
+<phrase>
+    <source>Form</source>
+    <target>Janela</target>
+</phrase>
+<phrase>
+    <source>Paper</source>
+    <target>Papel</target>
+</phrase>
+<phrase>
+    <source>Page size:</source>
+    <target>Tamanho da página:</target>
+</phrase>
+<phrase>
+    <source>Width:</source>
+    <target>Largura:</target>
+</phrase>
+<phrase>
+    <source>Height:</source>
+    <target>Altura:</target>
+</phrase>
+<phrase>
+    <source>Paper source:</source>
+    <target>Origem do papel:</target>
+</phrase>
+<phrase>
+    <source>Orientation</source>
+    <target>Orientação</target>
+</phrase>
+<phrase>
+    <source>Portrait</source>
+    <target>Retrato</target>
+</phrase>
+<phrase>
+    <source>Landscape</source>
+    <target>Paisagem</target>
+</phrase>
+<phrase>
+    <source>Reverse landscape</source>
+    <target>Inverter paisagem</target>
+</phrase>
+<phrase>
+    <source>Reverse portrait</source>
+    <target>Inverter retrato</target>
+</phrase>
+<phrase>
+    <source>Margins</source>
+    <target>Margens</target>
+</phrase>
+<phrase>
+    <source>top margin</source>
+    <target>margem superior</target>
+</phrase>
+<phrase>
+    <source>left margin</source>
+    <target>margem esquerda</target>
+</phrase>
+<phrase>
+    <source>right margin</source>
+    <target>margem direita</target>
+</phrase>
+<phrase>
+    <source>bottom margin</source>
+    <target>margem inferior</target>
+</phrase>
+<phrase>
+    <source>Unknown error</source>
+    <target>Erro desconhecido</target>
+</phrase>
+<phrase>
+    <source>The plugin was not loaded.</source>
+    <target>O plugin não foi carregado.</target>
+</phrase>
+<phrase>
+    <source>locally connected</source>
+    <target>ligado localmente</target>
+</phrase>
+<phrase>
+    <source>Aliases: %1</source>
+    <target>Nomes Alternativos: %1</target>
+</phrase>
+<phrase>
+    <source>unknown</source>
+    <target>desconhecido</target>
+</phrase>
+<phrase>
+    <source>Portrait</source>
+    <target>Retrato</target>
+</phrase>
+<phrase>
+    <source>Landscape</source>
+    <target>Paisagem</target>
+</phrase>
+<phrase>
+    <source>A0 (841 x 1189 mm)</source>
+    <target>A0 (841 x 1189 mm)</target>
+</phrase>
+<phrase>
+    <source>A1 (594 x 841 mm)</source>
+    <target>A1 (594 x 841 mm)</target>
+</phrase>
+<phrase>
+    <source>A2 (420 x 594 mm)</source>
+    <target>A2 (420 x 594 mm)</target>
+</phrase>
+<phrase>
+    <source>A3 (297 x 420 mm)</source>
+    <target>A3 (297 x 420 mm)</target>
+</phrase>
+<phrase>
+    <source>A4 (210 x 297 mm, 8.26 x 11.7 inches)</source>
+    <target>A4 (210 x 297 mm, 8.26 x 11.7 polegadas)</target>
+</phrase>
+<phrase>
+    <source>A5 (148 x 210 mm)</source>
+    <target>A5 (148 x 210 mm)</target>
+</phrase>
+<phrase>
+    <source>A6 (105 x 148 mm)</source>
+    <target>A6 (105 x 148 mm)</target>
+</phrase>
+<phrase>
+    <source>A7 (74 x 105 mm)</source>
+    <target>A7 (74 x 105 mm)</target>
+</phrase>
+<phrase>
+    <source>A8 (52 x 74 mm)</source>
+    <target>A8 (52 x 74 mm)</target>
+</phrase>
+<phrase>
+    <source>A9 (37 x 52 mm)</source>
+    <target>A9 (37 x 52 mm)</target>
+</phrase>
+<phrase>
+    <source>B0 (1000 x 1414 mm)</source>
+    <target>B0 (1000 x 1414 mm)</target>
+</phrase>
+<phrase>
+    <source>B1 (707 x 1000 mm)</source>
+    <target>B1 (707 x 1000 mm)</target>
+</phrase>
+<phrase>
+    <source>B2 (500 x 707 mm)</source>
+    <target>B2 (500 x 707 mm)</target>
+</phrase>
+<phrase>
+    <source>B3 (353 x 500 mm)</source>
+    <target>B3 (353 x 500 mm)</target>
+</phrase>
+<phrase>
+    <source>B4 (250 x 353 mm)</source>
+    <target>B4 (250 x 353 mm)</target>
+</phrase>
+<phrase>
+    <source>B5 (176 x 250 mm, 6.93 x 9.84 inches)</source>
+    <target>B5 (176 x 250 mm, 6.93 x 9.84 polegadas)</target>
+</phrase>
+<phrase>
+    <source>B6 (125 x 176 mm)</source>
+    <target>B6 (125 x 176 mm)</target>
+</phrase>
+<phrase>
+    <source>B7 (88 x 125 mm)</source>
+    <target>B7 (88 x 125 mm)</target>
+</phrase>
+<phrase>
+    <source>B8 (62 x 88 mm)</source>
+    <target>B8 (62 x 88 mm)</target>
+</phrase>
+<phrase>
+    <source>B9 (44 x 62 mm)</source>
+    <target>B9 (44 x 62 mm)</target>
+</phrase>
+<phrase>
+    <source>B10 (31 x 44 mm)</source>
+    <target>B10 (31 x 44 mm)</target>
+</phrase>
+<phrase>
+    <source>C5E (163 x 229 mm)</source>
+    <target>C5E (163 x 229 mm)</target>
+</phrase>
+<phrase>
+    <source>DLE (110 x 220 mm)</source>
+    <target>DLE (110 x 220 mm)</target>
+</phrase>
+<phrase>
+    <source>Executive (7.5 x 10 inches, 191 x 254 mm)</source>
+    <target>Executivo (7.5 x 10 polegadas, 191 x 254 mm)</target>
+</phrase>
+<phrase>
+    <source>Folio (210 x 330 mm)</source>
+    <target>Folio (210 x 330 mm)</target>
+</phrase>
+<phrase>
+    <source>Ledger (432 x 279 mm)</source>
+    <target>Ledger (432 x 279 mm)</target>
+</phrase>
+<phrase>
+    <source>Legal (8.5 x 14 inches, 216 x 356 mm)</source>
+    <target>Legal (8.5 x 14 polegadas, 216 x 356 mm)</target>
+</phrase>
+<phrase>
+    <source>Letter (8.5 x 11 inches, 216 x 279 mm)</source>
+    <target>Carta (8.5 x 11 polegadas, 216 x 279 mm)</target>
+</phrase>
+<phrase>
+    <source>Tabloid (279 x 432 mm)</source>
+    <target>Tablóide (279 x 432 mm)</target>
+</phrase>
+<phrase>
+    <source>US Common #10 Envelope (105 x 241 mm)</source>
+    <target>Envelope #10 Comum EUA (105 x 241 mm)</target>
+</phrase>
+<phrase>
+    <source>OK</source>
+    <target>OK</target>
+</phrase>
+<phrase>
+    <source>Cancel</source>
+    <target>Cancelar</target>
+</phrase>
+<phrase>
+    <source>Page size:</source>
+    <target>Tamanho página:</target>
+</phrase>
+<phrase>
+    <source>Orientation:</source>
+    <target>Orientação:</target>
+</phrase>
+<phrase>
+    <source>Paper source:</source>
+    <target>Fonte papel:</target>
+</phrase>
+<phrase>
+    <source>Print</source>
+    <target>Imprimir</target>
+</phrase>
+<phrase>
+    <source>File</source>
+    <target>Ficheiro</target>
+</phrase>
+<phrase>
+    <source>Printer</source>
+    <target>Impressora</target>
+</phrase>
+<phrase>
+    <source>Print To File ...</source>
+    <target>Imprimir Para Ficheiro ...</target>
+</phrase>
+<phrase>
+    <source>Print dialog</source>
+    <target>Diálogo de impressão</target>
+</phrase>
+<phrase>
+    <source>Paper format</source>
+    <target>Formato do papel</target>
+</phrase>
+<phrase>
+    <source>Size:</source>
+    <target>Tamanho:</target>
+</phrase>
+<phrase>
+    <source>Properties</source>
+    <target>Propriedades</target>
+</phrase>
+<phrase>
+    <source>Printer info:</source>
+    <target>Informação da impressora:</target>
+</phrase>
+<phrase>
+    <source>Browse</source>
+    <target>Navegar</target>
+</phrase>
+<phrase>
+    <source>Print to file</source>
+    <target>Imprimir para um ficheiro</target>
+</phrase>
+<phrase>
+    <source>Print range</source>
+    <target>Selecção de páginas</target>
+</phrase>
+<phrase>
+    <source>Print all</source>
+    <target>Imprimir todas</target>
+</phrase>
+<phrase>
+    <source>Pages from</source>
+    <target>Páginas de</target>
+</phrase>
+<phrase>
+    <source>to</source>
+    <target>a</target>
+</phrase>
+<phrase>
+    <source>Selection</source>
+    <target>Selecção</target>
+</phrase>
+<phrase>
+    <source>Copies</source>
+    <target>Cópias</target>
+</phrase>
+<phrase>
+    <source>Number of copies:</source>
+    <target>Número de cópias:</target>
+</phrase>
+<phrase>
+    <source>Collate</source>
+    <target>Juntar</target>
+</phrase>
+<phrase>
+    <source>Print last page first</source>
+    <target>Imprimir a última página primeiro</target>
+</phrase>
+<phrase>
+    <source>Other</source>
+    <target>Outro</target>
+</phrase>
+<phrase>
+    <source>Print in color if available</source>
+    <target>Imprimir a cores se disponível</target>
+</phrase>
+<phrase>
+    <source>Double side printing</source>
+    <target>Imprimir nos dois lados do papel</target>
+</phrase>
+<phrase>
+    <source>File %1 is not writable.
+Please choose a different file name.</source>
+    <target>Não é possível escrever no arquivo %1.
+Por favor escolha um nome diferente.</target>
+</phrase>
+<phrase>
+    <source>%1 already exists.
+Do you want to overwrite it?</source>
+    <target>%1 já existe.
+Deseja substituir?</target>
+</phrase>
+<phrase>
+    <source>File exists</source>
+    <target>O arquivo existe</target>
+</phrase>
+<phrase>
+    <source>&lt;qt&gt;Do you want to overwrite it?&lt;/qt&gt;</source>
+    <target>&lt;qt&gt;Deseja gravar por cima?&lt;/qt&gt;</target>
+</phrase>
+<phrase>
+    <source>Print selection</source>
+    <target>Selecção de Impressão</target>
+</phrase>
+<phrase>
+    <source>%1 is a directory.
+Please choose a different file name.</source>
+    <target>%1 é um diretório.
+Por favor escolha um nome de arquivo diferente.</target>
+</phrase>
+<phrase>
+    <source>A0</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>A1</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>A2</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>A3</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>A4</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>A5</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>A6</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>A7</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>A8</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>A9</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>B0</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>B1</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>B2</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>B3</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>B4</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>B5</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>B6</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>B7</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>B8</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>B9</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>B10</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>C5E</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>DLE</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Executive</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Folio</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Ledger</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Legal</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Letter</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Tabloid</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>US Common #10 Envelope</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Custom</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>&amp;Options &gt;&gt;</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>&amp;Print</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>&amp;Options &lt;&lt;</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Print to File (PDF)</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Print to File (Postscript)</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Local file</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Write %1 file</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>The &apos;From&apos; value cannot be greater than the &apos;To&apos; value.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Page Setup</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>%1%</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Print Preview</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Next page</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Previous page</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>First page</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Last page</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Fit width</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Fit page</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Zoom in</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Zoom out</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Portrait</source>
+    <target>Retrato</target>
+</phrase>
+<phrase>
+    <source>Landscape</source>
+    <target>Paisagem</target>
+</phrase>
+<phrase>
+    <source>Show single page</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Show facing pages</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Show overview of all pages</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Print</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Page setup</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Close</source>
+    <target>Fechar</target>
+</phrase>
+<phrase>
+    <source>Export to PDF</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Export to PostScript</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>PPD Properties</source>
+    <target>Propriedades PPD</target>
+</phrase>
+<phrase>
+    <source>Save</source>
+    <target>Gravar</target>
+</phrase>
+<phrase>
+    <source>OK</source>
+    <target>OK</target>
+</phrase>
+<phrase>
+    <source>Form</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Page</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Advanced</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Form</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Copies</source>
+    <target>Cópias</target>
+</phrase>
+<phrase>
+    <source>Print range</source>
+    <target>Selecção de páginas</target>
+</phrase>
+<phrase>
+    <source>Print all</source>
+    <target>Imprimir todas</target>
+</phrase>
+<phrase>
+    <source>Pages from</source>
+    <target>Páginas de</target>
+</phrase>
+<phrase>
+    <source>to</source>
+    <target>a</target>
+</phrase>
+<phrase>
+    <source>Selection</source>
+    <target>Selecção</target>
+</phrase>
+<phrase>
+    <source>Output Settings</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Copies:</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Collate</source>
+    <target>Juntar</target>
+</phrase>
+<phrase>
+    <source>Reverse</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Options</source>
+    <target>Opções</target>
+</phrase>
+<phrase>
+    <source>Color Mode</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Color</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Grayscale</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Duplex Printing</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>None</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Long side</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Short side</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Form</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Printer</source>
+    <target>Impressora</target>
+</phrase>
+<phrase>
+    <source>&amp;Name:</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>P&amp;roperties</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Location:</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Preview</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Type:</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Output &amp;file:</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>...</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Could not open input redirection for reading</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Could not open output redirection for writing</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Resource error (fork failure): %1</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Process operation timed out</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Error reading from process</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Error writing to process</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Process crashed</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>No program defined</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Process failed to start</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Cancel</source>
+    <target>Cancelar</target>
+</phrase>
+<phrase>
+    <source>Open</source>
+    <target>Abrir</target>
+</phrase>
+<phrase>
+    <source>Check</source>
+    <target>Ativar</target>
+</phrase>
+<phrase>
+    <source>no error occurred</source>
+    <target>sem erros</target>
+</phrase>
+<phrase>
+    <source>disabled feature used</source>
+    <target>funcionalidade desactivada está a ser utilizada</target>
+</phrase>
+<phrase>
+    <source>bad char class syntax</source>
+    <target>má sintaxe de classe de caracteres</target>
+</phrase>
+<phrase>
+    <source>bad lookahead syntax</source>
+    <target>má sintaxe de antecipação</target>
+</phrase>
+<phrase>
+    <source>bad repetition syntax</source>
+    <target>má sintaxe de repetição</target>
+</phrase>
+<phrase>
+    <source>invalid octal value</source>
+    <target>valor octal inválido</target>
+</phrase>
+<phrase>
+    <source>missing left delim</source>
+    <target>delimitador esquerdo em falta</target>
+</phrase>
+<phrase>
+    <source>unexpected end</source>
+    <target>fim inesperado</target>
+</phrase>
+<phrase>
+    <source>met internal limit</source>
+    <target>limite interno alcançado</target>
+</phrase>
+<phrase>
+    <source>Error to open database</source>
+    <target>Erro ao abrir base de dados</target>
+</phrase>
+<phrase>
+    <source>Unable to begin transaction</source>
+    <target>Não foi possível iniciar a transacção</target>
+</phrase>
+<phrase>
+    <source>Unable to commit transaction</source>
+    <target>Não foi possível finalizar a transacção</target>
+</phrase>
+<phrase>
+    <source>Unable to rollback Transaction</source>
+    <target>Não foi possível anular a transacção</target>
+</phrase>
+<phrase>
+    <source>Unable to fetch results</source>
+    <target>Não foi possível obter os resultados</target>
+</phrase>
+<phrase>
+    <source>Unable to execute statement</source>
+    <target>Não foi possível executar a expressão</target>
+</phrase>
+<phrase>
+    <source>Error opening database</source>
+    <target>Erro ao abrir a base de dados</target>
+</phrase>
+<phrase>
+    <source>Error closing database</source>
+    <target>Erro ao fechar a base de dados</target>
+</phrase>
+<phrase>
+    <source>Unable to begin transaction</source>
+    <target>Não foi possível iniciar a transacção</target>
+</phrase>
+<phrase>
+    <source>Unable to commit transaction</source>
+    <target>Não foi possível finalizar a transacção</target>
+</phrase>
+<phrase>
+    <source>Unable to roll back transaction</source>
+    <target>Não foi possível anular a transacção</target>
+</phrase>
+<phrase>
+    <source>Unable to rollback transaction</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Unable to fetch row</source>
+    <target>Não foi possível obter a linha</target>
+</phrase>
+<phrase>
+    <source>Unable to execute statement</source>
+    <target>Não foi possível executar a expressão</target>
+</phrase>
+<phrase>
+    <source>Unable to reset statement</source>
+    <target>Não foi possível restaurar a expressão</target>
+</phrase>
+<phrase>
+    <source>Unable to bind parameters</source>
+    <target>Não foi possível fazer a ligação dos parametros</target>
+</phrase>
+<phrase>
+    <source>Parameter count mismatch</source>
+    <target>Incorrespondência de contagem de parâmetros</target>
+</phrase>
+<phrase>
+    <source>No query</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Scroll here</source>
+    <target>Deslizar aqui</target>
+</phrase>
+<phrase>
+    <source>Left edge</source>
+    <target>Borda esquerda</target>
+</phrase>
+<phrase>
+    <source>Top</source>
+    <target>Topo</target>
+</phrase>
+<phrase>
+    <source>Right edge</source>
+    <target>Borda direita</target>
+</phrase>
+<phrase>
+    <source>Bottom</source>
+    <target>Fundo</target>
+</phrase>
+<phrase>
+    <source>Page left</source>
+    <target>Página para esquerda</target>
+</phrase>
+<phrase>
+    <source>Page up</source>
+    <target>Página para cima</target>
+</phrase>
+<phrase>
+    <source>Page right</source>
+    <target>Página para direita</target>
+</phrase>
+<phrase>
+    <source>Page down</source>
+    <target>Página para baixo</target>
+</phrase>
+<phrase>
+    <source>Scroll left</source>
+    <target>Deslizar para esquerda</target>
+</phrase>
+<phrase>
+    <source>Scroll up</source>
+    <target>Deslizar para cima</target>
+</phrase>
+<phrase>
+    <source>Scroll right</source>
+    <target>Deslizar para a direita</target>
+</phrase>
+<phrase>
+    <source>Scroll down</source>
+    <target>Deslizar para baixo</target>
+</phrase>
+<phrase>
+    <source>Line up</source>
+    <target>Linha acima</target>
+</phrase>
+<phrase>
+    <source>Position</source>
+    <target>Posição</target>
+</phrase>
+<phrase>
+    <source>Line down</source>
+    <target>Linha abaixo</target>
+</phrase>
+<phrase>
+    <source>%1: unable to set key on lock</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>%1: create size is less then 0</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>%1: unable to lock</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>%1: unable to unlock</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>%1: permission denied</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>%1: already exists</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>%1: doesn&apos;t exists</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>%1: out of resources</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>%1: unknown error %2</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>%1: key is empty</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>%1: unix key file doesn&apos;t exists</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>%1: ftok failed</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>%1: unable to make key</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>%1: system-imposed size restrictions</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>%1: not attached</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>%1: invalid size</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>%1: key error</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>%1: size query failed</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Space</source>
+    <target>Space</target>
+</phrase>
+<phrase>
+    <source>Esc</source>
+    <target>Esc</target>
+</phrase>
+<phrase>
+    <source>Tab</source>
+    <target>Tab</target>
+</phrase>
+<phrase>
+    <source>Backtab</source>
+    <target>Backtab</target>
+</phrase>
+<phrase>
+    <source>Backspace</source>
+    <target>Backspace</target>
+</phrase>
+<phrase>
+    <source>Return</source>
+    <target>Return</target>
+</phrase>
+<phrase>
+    <source>Enter</source>
+    <target>Enter</target>
+</phrase>
+<phrase>
+    <source>Ins</source>
+    <target>Insert</target>
+</phrase>
+<phrase>
+    <source>Del</source>
+    <target>Delete</target>
+</phrase>
+<phrase>
+    <source>Pause</source>
+    <target>Pause</target>
+</phrase>
+<phrase>
+    <source>Print</source>
+    <target>Print</target>
+</phrase>
+<phrase>
+    <source>SysReq</source>
+    <target>SysReq</target>
+</phrase>
+<phrase>
+    <source>Home</source>
+    <target>Home</target>
+</phrase>
+<phrase>
+    <source>End</source>
+    <target>End</target>
+</phrase>
+<phrase>
+    <source>Left</source>
+    <target>Esquerda</target>
+</phrase>
+<phrase>
+    <source>Up</source>
+    <target>Cima</target>
+</phrase>
+<phrase>
+    <source>Right</source>
+    <target>Direita</target>
+</phrase>
+<phrase>
+    <source>Down</source>
+    <target>Baixo</target>
+</phrase>
+<phrase>
+    <source>PgUp</source>
+    <target>PgUp</target>
+</phrase>
+<phrase>
+    <source>PgDown</source>
+    <target>PgDown</target>
+</phrase>
+<phrase>
+    <source>CapsLock</source>
+    <target>CapsLock</target>
+</phrase>
+<phrase>
+    <source>NumLock</source>
+    <target>Num Lock</target>
+</phrase>
+<phrase>
+    <source>ScrollLock</source>
+    <target>ScrollLock</target>
+</phrase>
+<phrase>
+    <source>Menu</source>
+    <target>Menu</target>
+</phrase>
+<phrase>
+    <source>Help</source>
+    <target>Ajuda</target>
+</phrase>
+<phrase>
+    <source>Back</source>
+    <target>Anterior</target>
+</phrase>
+<phrase>
+    <source>Forward</source>
+    <target>Seguinte</target>
+</phrase>
+<phrase>
+    <source>Stop</source>
+    <target>Parar</target>
+</phrase>
+<phrase>
+    <source>Refresh</source>
+    <target>Refrescar</target>
+</phrase>
+<phrase>
+    <source>Volume Down</source>
+    <target>Volume Cima</target>
+</phrase>
+<phrase>
+    <source>Volume Mute</source>
+    <target>Volume Mute</target>
+</phrase>
+<phrase>
+    <source>Volume Up</source>
+    <target>Volume Baixo</target>
+</phrase>
+<phrase>
+    <source>Bass Boost</source>
+    <target>Bass Boost</target>
+</phrase>
+<phrase>
+    <source>Bass Up</source>
+    <target>Bass Cima</target>
+</phrase>
+<phrase>
+    <source>Bass Down</source>
+    <target>Bass Baixo</target>
+</phrase>
+<phrase>
+    <source>Treble Up</source>
+    <target>Treble Cima</target>
+</phrase>
+<phrase>
+    <source>Treble Down</source>
+    <target>Treble Baixo</target>
+</phrase>
+<phrase>
+    <source>Media Play</source>
+    <target>Tocar Média</target>
+</phrase>
+<phrase>
+    <source>Media Stop</source>
+    <target>Parar Média</target>
+</phrase>
+<phrase>
+    <source>Media Previous</source>
+    <target>Média Anterior</target>
+</phrase>
+<phrase>
+    <source>Media Next</source>
+    <target>Média Seguinte</target>
+</phrase>
+<phrase>
+    <source>Media Record</source>
+    <target>Gravação Média</target>
+</phrase>
+<phrase>
+    <source>Favorites</source>
+    <target>Favoritos</target>
+</phrase>
+<phrase>
+    <source>Search</source>
+    <target>Procurar</target>
+</phrase>
+<phrase>
+    <source>Standby</source>
+    <target>Hibernação</target>
+</phrase>
+<phrase>
+    <source>Open URL</source>
+    <target>Abrir Endereço</target>
+</phrase>
+<phrase>
+    <source>Launch Mail</source>
+    <target>Correio Electrónico</target>
+</phrase>
+<phrase>
+    <source>Launch Media</source>
+    <target>Média</target>
+</phrase>
+<phrase>
+    <source>Launch (0)</source>
+    <target>Executar (0)</target>
+</phrase>
+<phrase>
+    <source>Launch (1)</source>
+    <target>Executar (1)</target>
+</phrase>
+<phrase>
+    <source>Launch (2)</source>
+    <target>Executar (2)</target>
+</phrase>
+<phrase>
+    <source>Launch (3)</source>
+    <target>Executar (3)</target>
+</phrase>
+<phrase>
+    <source>Launch (4)</source>
+    <target>Executar (4)</target>
+</phrase>
+<phrase>
+    <source>Launch (5)</source>
+    <target>Executar (5)</target>
+</phrase>
+<phrase>
+    <source>Launch (6)</source>
+    <target>Executar (6)</target>
+</phrase>
+<phrase>
+    <source>Launch (7)</source>
+    <target>Executar (7)</target>
+</phrase>
+<phrase>
+    <source>Launch (8)</source>
+    <target>Executar (8)</target>
+</phrase>
+<phrase>
+    <source>Launch (9)</source>
+    <target>Executar (9)</target>
+</phrase>
+<phrase>
+    <source>Launch (A)</source>
+    <target>Executar (A)</target>
+</phrase>
+<phrase>
+    <source>Launch (B)</source>
+    <target>Executar (B)</target>
+</phrase>
+<phrase>
+    <source>Launch (C)</source>
+    <target>Executar (C)</target>
+</phrase>
+<phrase>
+    <source>Launch (D)</source>
+    <target>Executar (D)</target>
+</phrase>
+<phrase>
+    <source>Launch (E)</source>
+    <target>Executar (E)</target>
+</phrase>
+<phrase>
+    <source>Launch (F)</source>
+    <target>Executar (F)</target>
+</phrase>
+<phrase>
+    <source>Print Screen</source>
+    <target>Print Screen</target>
+</phrase>
+<phrase>
+    <source>Page Up</source>
+    <target>Page Up</target>
+</phrase>
+<phrase>
+    <source>Page Down</source>
+    <target>Page Down</target>
+</phrase>
+<phrase>
+    <source>Caps Lock</source>
+    <target>Caps Lock</target>
+</phrase>
+<phrase>
+    <source>Num Lock</source>
+    <target>Num Lock</target>
+</phrase>
+<phrase>
+    <source>Number Lock</source>
+    <target>Number Lock</target>
+</phrase>
+<phrase>
+    <source>Scroll Lock</source>
+    <target>Scroll Lock</target>
+</phrase>
+<phrase>
+    <source>Insert</source>
+    <target>Insert</target>
+</phrase>
+<phrase>
+    <source>Delete</source>
+    <target>Delete</target>
+</phrase>
+<phrase>
+    <source>Escape</source>
+    <target>Escape</target>
+</phrase>
+<phrase>
+    <source>System Request</source>
+    <target>System Request</target>
+</phrase>
+<phrase>
+    <source>Select</source>
+    <target>Select</target>
+</phrase>
+<phrase>
+    <source>Yes</source>
+    <target>Sim</target>
+</phrase>
+<phrase>
+    <source>No</source>
+    <target>Não</target>
+</phrase>
+<phrase>
+    <source>Context1</source>
+    <target>Contexto1</target>
+</phrase>
+<phrase>
+    <source>Context2</source>
+    <target>Contexto2</target>
+</phrase>
+<phrase>
+    <source>Context3</source>
+    <target>Contexto3</target>
+</phrase>
+<phrase>
+    <source>Context4</source>
+    <target>Contexto4</target>
+</phrase>
+<phrase>
+    <source>Call</source>
+    <target>Chamar</target>
+</phrase>
+<phrase>
+    <source>Hangup</source>
+    <target>Desligar</target>
+</phrase>
+<phrase>
+    <source>Flip</source>
+    <target>Inverter</target>
+</phrase>
+<phrase>
+    <source>Ctrl</source>
+    <target>Ctrl</target>
+</phrase>
+<phrase>
+    <source>Shift</source>
+    <target>Shift</target>
+</phrase>
+<phrase>
+    <source>Alt</source>
+    <target>Alt</target>
+</phrase>
+<phrase>
+    <source>Meta</source>
+    <target>Meta</target>
+</phrase>
+<phrase>
+    <source>+</source>
+    <target>+</target>
+</phrase>
+<phrase>
+    <source>F%1</source>
+    <target>F%1</target>
+</phrase>
+<phrase>
+    <source>Home Page</source>
+    <target>Página Principal</target>
+</phrase>
+<phrase>
+    <source>Page left</source>
+    <target>Página para esquerda</target>
+</phrase>
+<phrase>
+    <source>Page up</source>
+    <target>Página para cima</target>
+</phrase>
+<phrase>
+    <source>Position</source>
+    <target>Posição</target>
+</phrase>
+<phrase>
+    <source>Page right</source>
+    <target>Página para direita</target>
+</phrase>
+<phrase>
+    <source>Page down</source>
+    <target>Página para baixo</target>
+</phrase>
+<phrase>
+    <source>Connection to proxy refused</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Connection to proxy closed prematurely</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Proxy host not found</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Connection to proxy timed out</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Proxy authentication failed</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Proxy authentication failed: %1</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>SOCKS version 5 protocol error</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>General SOCKSv5 server failure</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Connection not allowed by SOCKSv5 server</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>TTL expired</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>SOCKSv5 command not supported</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Address type not supported</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Unknown SOCKSv5 proxy error code 0x%1</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Socks5 timeout error connecting to socks server</source>
+    <target>Socks5 expirado ao ligar ao servidor socks</target>
+</phrase>
+<phrase>
+    <source>Network operation timed out</source>
+    <target>Operação de rede expirada</target>
+</phrase>
+<phrase>
+    <source>More</source>
+    <target>Mais</target>
+</phrase>
+<phrase>
+    <source>Less</source>
+    <target>Menos</target>
+</phrase>
+<phrase>
+    <source>Delete</source>
+    <target>Apagar</target>
+</phrase>
+<phrase>
+    <source>Delete this record?</source>
+    <target>Apagar este registro?</target>
+</phrase>
+<phrase>
+    <source>Yes</source>
+    <target>Sim</target>
+</phrase>
+<phrase>
+    <source>No</source>
+    <target>Não</target>
+</phrase>
+<phrase>
+    <source>Insert</source>
+    <target>Inserir</target>
+</phrase>
+<phrase>
+    <source>Update</source>
+    <target>Atualizar</target>
+</phrase>
+<phrase>
+    <source>Save edits?</source>
+    <target>Salvar as alterações?</target>
+</phrase>
+<phrase>
+    <source>Cancel</source>
+    <target>Cancelar</target>
+</phrase>
+<phrase>
+    <source>Confirm</source>
+    <target>Confirmar</target>
+</phrase>
+<phrase>
+    <source>Cancel your edits?</source>
+    <target>Cancelar as alterações?</target>
+</phrase>
+<phrase>
+    <source>Unable to write data: %1</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Error while reading: %1</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Error during SSL handshake: %1</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Error creating SSL context (%1)</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Invalid or empty cipher list (%1)</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Error creating SSL session, %1</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Error creating SSL session: %1</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Cannot provide a certificate with no key, %1</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Error loading local certificate, %1</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Error loading private key, %1</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Private key does not certificate public key, %1</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>%1: out of resources</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>%1: permission denied</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>%1: already exists</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>%1: does not exist</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>%1: unknown error %2</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Unable to open connection</source>
+    <target>Não foi possível estabelecer a ligação</target>
+</phrase>
+<phrase>
+    <source>Unable to use database</source>
+    <target>Não foi possível utilizar a base de dados</target>
+</phrase>
+<phrase>
+    <source>Scroll Left</source>
+    <target>Deslizar para Esquerda</target>
+</phrase>
+<phrase>
+    <source>Scroll Right</source>
+    <target>Deslizar para Direita</target>
+</phrase>
+<phrase>
+    <source>Socket operation unsupported</source>
+    <target>Operação de &apos;socket&apos; não suportada</target>
+</phrase>
+<phrase>
+    <source>Operation on socket is not supported</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>&amp;Undo</source>
+    <target>&amp;Desfazer</target>
+</phrase>
+<phrase>
+    <source>&amp;Redo</source>
+    <target>&amp;Refazer</target>
+</phrase>
+<phrase>
+    <source>Cu&amp;t</source>
+    <target>Cor&amp;tar</target>
+</phrase>
+<phrase>
+    <source>&amp;Copy</source>
+    <target>&amp;Copiar</target>
+</phrase>
+<phrase>
+    <source>Copy &amp;Link Location</source>
+    <target>Copiar &amp;Localização da Ligação</target>
+</phrase>
+<phrase>
+    <source>&amp;Paste</source>
+    <target>Co&amp;lar</target>
+</phrase>
+<phrase>
+    <source>Delete</source>
+    <target>Apagar</target>
+</phrase>
+<phrase>
+    <source>Select All</source>
+    <target>Seleccionar Tudo</target>
+</phrase>
+<phrase>
+    <source>Press</source>
+    <target>Pressionar</target>
+</phrase>
+<phrase>
+    <source>Open</source>
+    <target>Abrir</target>
+</phrase>
+<phrase>
+    <source>This platform does not support IPv6</source>
+    <target>Esta plataforma não suporta IPv6</target>
+</phrase>
+<phrase>
+    <source>Undo</source>
+    <target>Desfazer</target>
+</phrase>
+<phrase>
+    <source>Redo</source>
+    <target>Refazer</target>
+</phrase>
+<phrase>
+    <source>&lt;empty&gt;</source>
+    <target>&lt;vazio&gt;</target>
+</phrase>
+<phrase>
+    <source>Undo</source>
+    <target>Desfazer</target>
+</phrase>
+<phrase>
+    <source>Redo</source>
+    <target>Refazer</target>
+</phrase>
+<phrase>
+    <source>LRM Left-to-right mark</source>
+    <target>LRM Marca esquerda-para-direita</target>
+</phrase>
+<phrase>
+    <source>RLM Right-to-left mark</source>
+    <target>RLM Marca direita-para-esquerda</target>
+</phrase>
+<phrase>
+    <source>ZWJ Zero width joiner</source>
+    <target>ZWJ Ligador de comprimento zero</target>
+</phrase>
+<phrase>
+    <source>ZWNJ Zero width non-joiner</source>
+    <target>ZWNJ Não-ligador de comprimento zero</target>
+</phrase>
+<phrase>
+    <source>ZWSP Zero width space</source>
+    <target>ZWSP Espaço de comprimento zero</target>
+</phrase>
+<phrase>
+    <source>LRE Start of left-to-right embedding</source>
+    <target>LRE Início de encaixe esquerda-para-direita</target>
+</phrase>
+<phrase>
+    <source>RLE Start of right-to-left embedding</source>
+    <target>RLE Início de encaixe direita-para-esquerda</target>
+</phrase>
+<phrase>
+    <source>LRO Start of left-to-right override</source>
+    <target>LRO Início de sobreposição esquerda-para-direita</target>
+</phrase>
+<phrase>
+    <source>RLO Start of right-to-left override</source>
+    <target>RLO Início de sobreposição direita-para-esquerda</target>
+</phrase>
+<phrase>
+    <source>PDF Pop directional formatting</source>
+    <target>PDF Formatação pop direccional</target>
+</phrase>
+<phrase>
+    <source>Insert Unicode control character</source>
+    <target>Inserir carácter de controlo Unicode</target>
+</phrase>
+<phrase>
+    <source>Request cancelled</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Request blocked</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Cannot show URL</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Frame load interruped by policy change</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Cannot show mimetype</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>File does not exist</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Bad HTTP request</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Submit</source>
+    <target></target>
+    <definition>default label for Submit buttons in forms on web pages</definition>
+</phrase>
+<phrase>
+    <source>Submit</source>
+    <target></target>
+    <definition>Submit (input element) alt text for &lt;input&gt; elements with no alt, title, or value</definition>
+</phrase>
+<phrase>
+    <source>Reset</source>
+    <target>Restaurar</target>
+    <definition>default label for Reset buttons in forms on web pages</definition>
+</phrase>
+<phrase>
+    <source>This is a searchable index. Enter search keywords: </source>
+    <target></target>
+    <definition>text that appears at the start of nearly-obsolete web pages in the form of a &apos;searchable index&apos;</definition>
+</phrase>
+<phrase>
+    <source>Choose File</source>
+    <target></target>
+    <definition>title for file button used in HTML forms</definition>
+</phrase>
+<phrase>
+    <source>No file selected</source>
+    <target></target>
+    <definition>text to display in file button used in HTML forms when no file is selected</definition>
+</phrase>
+<phrase>
+    <source>Open in New Window</source>
+    <target></target>
+    <definition>Open in New Window context menu item</definition>
+</phrase>
+<phrase>
+    <source>Save Link...</source>
+    <target></target>
+    <definition>Download Linked File context menu item</definition>
+</phrase>
+<phrase>
+    <source>Copy Link</source>
+    <target></target>
+    <definition>Copy Link context menu item</definition>
+</phrase>
+<phrase>
+    <source>Open Image</source>
+    <target></target>
+    <definition>Open Image in New Window context menu item</definition>
+</phrase>
+<phrase>
+    <source>Save Image</source>
+    <target></target>
+    <definition>Download Image context menu item</definition>
+</phrase>
+<phrase>
+    <source>Copy Image</source>
+    <target></target>
+    <definition>Copy Link context menu item</definition>
+</phrase>
+<phrase>
+    <source>Open Frame</source>
+    <target></target>
+    <definition>Open Frame in New Window context menu item</definition>
+</phrase>
+<phrase>
+    <source>Copy</source>
+    <target></target>
+    <definition>Copy context menu item</definition>
+</phrase>
+<phrase>
+    <source>Go Back</source>
+    <target></target>
+    <definition>Back context menu item</definition>
+</phrase>
+<phrase>
+    <source>Go Forward</source>
+    <target></target>
+    <definition>Forward context menu item</definition>
+</phrase>
+<phrase>
+    <source>Stop</source>
+    <target>Parar</target>
+    <definition>Stop context menu item</definition>
+</phrase>
+<phrase>
+    <source>Reload</source>
+    <target>Recarregar</target>
+    <definition>Reload context menu item</definition>
+</phrase>
+<phrase>
+    <source>Cut</source>
+    <target></target>
+    <definition>Cut context menu item</definition>
+</phrase>
+<phrase>
+    <source>Paste</source>
+    <target></target>
+    <definition>Paste context menu item</definition>
+</phrase>
+<phrase>
+    <source>No Guesses Found</source>
+    <target></target>
+    <definition>No Guesses Found context menu item</definition>
+</phrase>
+<phrase>
+    <source>Ignore</source>
+    <target>Ignorar</target>
+    <definition>Ignore Spelling context menu item</definition>
+</phrase>
+<phrase>
+    <source>Add To Dictionary</source>
+    <target></target>
+    <definition>Learn Spelling context menu item</definition>
+</phrase>
+<phrase>
+    <source>Search The Web</source>
+    <target></target>
+    <definition>Search The Web context menu item</definition>
+</phrase>
+<phrase>
+    <source>Look Up In Dictionary</source>
+    <target></target>
+    <definition>Look Up in Dictionary context menu item</definition>
+</phrase>
+<phrase>
+    <source>Open Link</source>
+    <target></target>
+    <definition>Open Link context menu item</definition>
+</phrase>
+<phrase>
+    <source>Ignore</source>
+    <target>Ignorar</target>
+    <definition>Ignore Grammar context menu item</definition>
+</phrase>
+<phrase>
+    <source>Spelling</source>
+    <target></target>
+    <definition>Spelling and Grammar context sub-menu item</definition>
+</phrase>
+<phrase>
+    <source>Show Spelling and Grammar</source>
+    <target></target>
+    <definition>menu item title</definition>
+</phrase>
+<phrase>
+    <source>Hide Spelling and Grammar</source>
+    <target></target>
+    <definition>menu item title</definition>
+</phrase>
+<phrase>
+    <source>Check Spelling</source>
+    <target></target>
+    <definition>Check spelling context menu item</definition>
+</phrase>
+<phrase>
+    <source>Check Spelling While Typing</source>
+    <target></target>
+    <definition>Check spelling while typing context menu item</definition>
+</phrase>
+<phrase>
+    <source>Check Grammar With Spelling</source>
+    <target></target>
+    <definition>Check grammar with spelling context menu item</definition>
+</phrase>
+<phrase>
+    <source>Fonts</source>
+    <target></target>
+    <definition>Font context sub-menu item</definition>
+</phrase>
+<phrase>
+    <source>Bold</source>
+    <target></target>
+    <definition>Bold context menu item</definition>
+</phrase>
+<phrase>
+    <source>Italic</source>
+    <target></target>
+    <definition>Italic context menu item</definition>
+</phrase>
+<phrase>
+    <source>Underline</source>
+    <target></target>
+    <definition>Underline context menu item</definition>
+</phrase>
+<phrase>
+    <source>Outline</source>
+    <target></target>
+    <definition>Outline context menu item</definition>
+</phrase>
+<phrase>
+    <source>Direction</source>
+    <target></target>
+    <definition>Writing direction context sub-menu item</definition>
+</phrase>
+<phrase>
+    <source>Text Direction</source>
+    <target></target>
+    <definition>Text direction context sub-menu item</definition>
+</phrase>
+<phrase>
+    <source>Default</source>
+    <target></target>
+    <definition>Default writing direction context menu item</definition>
+</phrase>
+<phrase>
+    <source>LTR</source>
+    <target></target>
+    <definition>Left to Right context menu item</definition>
+</phrase>
+<phrase>
+    <source>RTL</source>
+    <target></target>
+    <definition>Right to Left context menu item</definition>
+</phrase>
+<phrase>
+    <source>Inspect</source>
+    <target></target>
+    <definition>Inspect Element context menu item</definition>
+</phrase>
+<phrase>
+    <source>No recent searches</source>
+    <target></target>
+    <definition>Label for only item in menu that appears when clicking on the search field image, when no searches have been performed</definition>
+</phrase>
+<phrase>
+    <source>Recent searches</source>
+    <target></target>
+    <definition>label for first item in the menu that appears when clicking on the search field image, used as embedded menu title</definition>
+</phrase>
+<phrase>
+    <source>Clear recent searches</source>
+    <target></target>
+    <definition>menu item in Recent Searches menu that empties menu&apos;s contents</definition>
+</phrase>
+<phrase>
+    <source>Unknown</source>
+    <target>Desconhecido</target>
+    <definition>Unknown filesize FTP directory listing item</definition>
+</phrase>
+<phrase>
+    <source>%1 (%2x%3 pixels)</source>
+    <target></target>
+    <definition>Title string for images</definition>
+</phrase>
+<phrase>
+    <source>Web Inspector - %2</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Scroll here</source>
+    <target>Deslizar aqui</target>
+</phrase>
+<phrase>
+    <source>Left edge</source>
+    <target>Borda esquerda</target>
+</phrase>
+<phrase>
+    <source>Top</source>
+    <target>Topo</target>
+</phrase>
+<phrase>
+    <source>Right edge</source>
+    <target>Borda direita</target>
+</phrase>
+<phrase>
+    <source>Bottom</source>
+    <target>Fundo</target>
+</phrase>
+<phrase>
+    <source>Page left</source>
+    <target>Página para esquerda</target>
+</phrase>
+<phrase>
+    <source>Page up</source>
+    <target>Página para cima</target>
+</phrase>
+<phrase>
+    <source>Page right</source>
+    <target>Página para direita</target>
+</phrase>
+<phrase>
+    <source>Page down</source>
+    <target>Página para baixo</target>
+</phrase>
+<phrase>
+    <source>Scroll left</source>
+    <target>Deslizar para esquerda</target>
+</phrase>
+<phrase>
+    <source>Scroll up</source>
+    <target>Deslizar para cima</target>
+</phrase>
+<phrase>
+    <source>Scroll right</source>
+    <target>Deslizar para a direita</target>
+</phrase>
+<phrase>
+    <source>Scroll down</source>
+    <target>Deslizar para baixo</target>
+</phrase>
+<phrase>
+    <source>%n file(s)</source>
+    <target>@</target>
+    <definition>number of chosen file</definition>
+</phrase>
+<phrase>
+    <source>JavaScript Alert - %1</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>JavaScript Confirm - %1</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>JavaScript Prompt - %1</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Move the cursor to the next character</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Move the cursor to the previous character</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Move the cursor to the next word</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Move the cursor to the previous word</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Move the cursor to the next line</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Move the cursor to the previous line</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Move the cursor to the start of the line</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Move the cursor to the end of the line</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Move the cursor to the start of the block</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Move the cursor to the end of the block</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Move the cursor to the start of the document</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Move the cursor to the end of the document</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Select all</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Select to the next character</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Select to the previous character</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Select to the next word</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Select to the previous word</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Select to the next line</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Select to the previous line</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Select to the start of the line</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Select to the end of the line</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Select to the start of the block</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Select to the end of the block</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Select to the start of the document</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Select to the end of the document</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Delete to the start of the word</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Delete to the end of the word</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Insert a new paragraph</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Insert a new line</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>What&apos;s This?</source>
+    <target>O Que é Isto?</target>
+</phrase>
+<phrase>
+    <source>*</source>
+    <target>*</target>
+</phrase>
+<phrase>
+    <source>Go Back</source>
+    <target>Voltar</target>
+</phrase>
+<phrase>
+    <source>Continue</source>
+    <target>Continuar</target>
+</phrase>
+<phrase>
+    <source>Commit</source>
+    <target>Finalizar</target>
+</phrase>
+<phrase>
+    <source>Done</source>
+    <target>Feito</target>
+</phrase>
+<phrase>
+    <source>Quit</source>
+    <target>Sair</target>
+</phrase>
+<phrase>
+    <source>Help</source>
+    <target>Ajuda</target>
+</phrase>
+<phrase>
+    <source>&lt; &amp;Back</source>
+    <target>&lt; &amp;Voltar</target>
+</phrase>
+<phrase>
+    <source>&amp;Finish</source>
+    <target>&amp;Terminar</target>
+</phrase>
+<phrase>
+    <source>Cancel</source>
+    <target>Cancelar</target>
+</phrase>
+<phrase>
+    <source>&amp;Help</source>
+    <target>&amp;Ajuda</target>
+</phrase>
+<phrase>
+    <source>&amp;Next</source>
+    <target>&amp;Próximo</target>
+</phrase>
+<phrase>
+    <source>&amp;Next &gt;</source>
+    <target>&amp;Próximo &gt;</target>
+</phrase>
+<phrase>
+    <source>&amp;Restore</source>
+    <target>&amp;Restaurar</target>
+</phrase>
+<phrase>
+    <source>&amp;Move</source>
+    <target>&amp;Mover</target>
+</phrase>
+<phrase>
+    <source>&amp;Size</source>
+    <target>&amp;Tamanho</target>
+</phrase>
+<phrase>
+    <source>Mi&amp;nimize</source>
+    <target>Mi&amp;nimizar</target>
+</phrase>
+<phrase>
+    <source>Ma&amp;ximize</source>
+    <target>Ma&amp;ximizar</target>
+</phrase>
+<phrase>
+    <source>&amp;Close</source>
+    <target>&amp;Fechar</target>
+</phrase>
+<phrase>
+    <source>Stay on &amp;Top</source>
+    <target>Permanecer no &amp;Topo</target>
+</phrase>
+<phrase>
+    <source>Sh&amp;ade</source>
+    <target>Sombr&amp;a</target>
+</phrase>
+<phrase>
+    <source>%1 - [%2]</source>
+    <target>%1 - [%2]</target>
+</phrase>
+<phrase>
+    <source>Minimize</source>
+    <target>Minimizar</target>
+</phrase>
+<phrase>
+    <source>Restore Down</source>
+    <target>Restaurar Baixo</target>
+</phrase>
+<phrase>
+    <source>Close</source>
+    <target>Fechar</target>
+</phrase>
+<phrase>
+    <source>&amp;Unshade</source>
+    <target>&amp;Sair Sombra</target>
+</phrase>
+<phrase>
+    <source>no error occurred</source>
+    <target>não ocorreu nenhum erro</target>
+</phrase>
+<phrase>
+    <source>error triggered by consumer</source>
+    <target>erro disparado pelo consumidor</target>
+</phrase>
+<phrase>
+    <source>unexpected end of file</source>
+    <target>fim de ficheiro inesperado</target>
+</phrase>
+<phrase>
+    <source>more than one document type definition</source>
+    <target>mais de uma definição de tipo de documento</target>
+</phrase>
+<phrase>
+    <source>error occurred while parsing element</source>
+    <target>erro ao analisar elemento</target>
+</phrase>
+<phrase>
+    <source>tag mismatch</source>
+    <target>má combinação de etiqueta</target>
+</phrase>
+<phrase>
+    <source>error occurred while parsing content</source>
+    <target>erro ao analisar o conteúdo</target>
+</phrase>
+<phrase>
+    <source>unexpected character</source>
+    <target>carácter inesperado</target>
+</phrase>
+<phrase>
+    <source>invalid name for processing instruction</source>
+    <target>nome inválido de instrução de processamento</target>
+</phrase>
+<phrase>
+    <source>version expected while reading the XML declaration</source>
+    <target>versão esperada ao ler a declaração XML</target>
+</phrase>
+<phrase>
+    <source>wrong value for standalone declaration</source>
+    <target>valor errado para declaração única</target>
+</phrase>
+<phrase>
+    <source>encoding declaration or standalone declaration expected while reading the XML declaration</source>
+    <target>declaração de codificação ou declaração única esperada ao ler a declaração XML</target>
+</phrase>
+<phrase>
+    <source>standalone declaration expected while reading the XML declaration</source>
+    <target>declaração única esperada ao ler a declaração XML</target>
+</phrase>
+<phrase>
+    <source>error occurred while parsing document type definition</source>
+    <target>erro ao analisar a definição de tipo de documento</target>
+</phrase>
+<phrase>
+    <source>letter is expected</source>
+    <target>uma letra é esperada</target>
+</phrase>
+<phrase>
+    <source>error occurred while parsing comment</source>
+    <target>erro ao analisar comentário</target>
+</phrase>
+<phrase>
+    <source>error occurred while parsing reference</source>
+    <target>erro ao analisar referência</target>
+</phrase>
+<phrase>
+    <source>internal general entity reference not allowed in DTD</source>
+    <target>referência de entidade geral interna não permitida na DTD</target>
+</phrase>
+<phrase>
+    <source>external parsed general entity reference not allowed in attribute value</source>
+    <target>referência de entidade geral analisada externa não permitida no valor do atributo</target>
+</phrase>
+<phrase>
+    <source>external parsed general entity reference not allowed in DTD</source>
+    <target>referência de entidade geral analisada externa não permitida na DTD</target>
+</phrase>
+<phrase>
+    <source>unparsed entity reference in wrong context</source>
+    <target>referência de entidade não analisada em contexto errado</target>
+</phrase>
+<phrase>
+    <source>recursive entities</source>
+    <target>entidades recursivas</target>
+</phrase>
+<phrase>
+    <source>error in the text declaration of an external entity</source>
+    <target>erro na declaração de uma entidade externa</target>
+</phrase>
+<phrase>
+    <source>Extra content at end of document.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Invalid entity value.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Invalid XML character.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Sequence &apos;]]&gt;&apos; not allowed in content.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Namespace prefix &apos;%1&apos; not declared</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Attribute redefined.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Unexpected character &apos;%1&apos; in public id literal.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Invalid XML version string.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Unsupported XML version.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>%1 is an invalid encoding name.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Encoding %1 is unsupported</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Standalone accepts only yes or no.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Invalid attribute in XML declaration.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Premature end of document.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Invalid document.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Expected </source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>, but got &apos;</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Unexpected &apos;</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Expected character data.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Recursive entity detected.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Start tag expected.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>XML declaration not at start of document.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>NDATA in parameter entity declaration.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>%1 is an invalid processing instruction name.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Invalid processing instruction name.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Illegal namespace declaration.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Invalid XML name.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Opening and ending tag mismatch.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Reference to unparsed entity &apos;%1&apos;.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Entity &apos;%1&apos; not declared.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Reference to external entity &apos;%1&apos; in attribute value.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Invalid character reference.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Encountered incorrectly encoded content.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>The standalone pseudo attribute must appear after the encoding.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>%1 is an invalid PUBLIC identifier.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>An %1-attribute with value %2 has already been declared.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>An %1-attribute must have a valid %2 as value, which %3 isn&apos;t.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Network timeout.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Element %1 can&apos;t be serialized because it appears outside the document element.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Attribute %1 can&apos;t be serialized because it appears at the top level.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Year %1 is invalid because it begins with %2.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Day %1 is outside the range %2..%3.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Month %1 is outside the range %2..%3.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Overflow: Can&apos;t represent date %1.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Day %1 is invalid for month %2.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Time 24:%1:%2.%3 is invalid. Hour is 24, but minutes, seconds, and milliseconds are not all 0; </source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Time %1:%2:%3.%4 is invalid.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Overflow: Date can&apos;t be represented.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>At least one component must be present.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>At least one time component must appear after the %1-delimiter.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>No operand in an integer division, %1, can be %2.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>The first operand in an integer division, %1, cannot be infinity (%2).</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>The second operand in a division, %1, cannot be zero (%2).</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>%1 is not a valid value of type %2.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>When casting to %1 from %2, the source value cannot be %3.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Integer division (%1) by zero (%2) is undefined.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Division (%1) by zero (%2) is undefined.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Modulus division (%1) by zero (%2) is undefined.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Dividing a value of type %1 by %2 (not-a-number) is not allowed.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Dividing a value of type %1 by %2 or %3 (plus or minus zero) is not allowed.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Multiplication of a value of type %1 by %2 or %3 (plus or minus infinity) is not allowed.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>A value of type %1 cannot have an Effective Boolean Value.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Effective Boolean Value cannot be calculated for a sequence containing two or more atomic values.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Value %1 of type %2 exceeds maximum (%3).</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Value %1 of type %2 is below minimum (%3).</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>A value of type %1 must contain an even number of digits. The value %2 does not.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>%1 is not valid as a value of type %2.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Operator %1 cannot be used on type %2.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Operator %1 cannot be used on atomic values of type %2 and %3.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>The namespace URI in the name for a computed attribute cannot be %1.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>The name for a computed attribute cannot have the namespace URI %1 with the local name %2.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Type error in cast, expected %1, received %2.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>When casting to %1 or types derived from it, the source value must be of the same type, or it must be a string literal. Type %2 is not allowed.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>No casting is possible with %1 as the target type.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>It is not possible to cast from %1 to %2.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Casting to %1 is not possible because it is an abstract type, and can therefore never be instantiated.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>It&apos;s not possible to cast the value %1 of type %2 to %3</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Failure when casting from %1 to %2: %3</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>A comment cannot contain %1</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>A comment cannot end with a %1.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>No comparisons can be done involving the type %1.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Operator %1 is not available between atomic values of type %2 and %3.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>An attribute node cannot be a child of a document node. Therefore, the attribute %1 is out of place.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>A library module cannot be evaluated directly. It must be imported from a main module.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>No template by name %1 exists.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>A value of type %1 cannot be a predicate. A predicate must have either a numeric type or an Effective Boolean Value type.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>A positional predicate must evaluate to a single numeric value.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>The target name in a processing instruction cannot be %1 in any combination of upper and lower case. Therefore, is %2 invalid.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>%1 is not a valid target name in a processing instruction. It must be a %2 value, e.g. %3.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>The last step in a path must contain either nodes or atomic values. It cannot be a mixture between the two.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>The data of a processing instruction cannot contain the string %1</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>No namespace binding exists for the prefix %1</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>No namespace binding exists for the prefix %1 in %2</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>%1 is an invalid %2</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>%1 takes at most %n argument(s). %2 is therefore invalid.</source>
+    <target>@</target>
+</phrase>
+<phrase>
+    <source>%1 requires at least %n argument(s). %2 is therefore invalid.</source>
+    <target>@</target>
+</phrase>
+<phrase>
+    <source>The first argument to %1 cannot be of type %2. It must be a numeric type, xs:yearMonthDuration or xs:dayTimeDuration.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>The first argument to %1 cannot be of type %2. It must be of type %3, %4, or %5.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>The second argument to %1 cannot be of type %2. It must be of type %3, %4, or %5.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>%1 is not a valid XML 1.0 character.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>The first argument to %1 cannot be of type %2.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>If both values have zone offsets, they must have the same zone offset. %1 and %2 are not the same.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>%1 was called.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>%1 must be followed by %2 or %3, not at the end of the replacement string.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>In the replacement string, %1 must be followed by at least one digit when not escaped.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>In the replacement string, %1 can only be used to escape itself or %2, not %3</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>%1 matches newline characters</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>%1 and %2 match the start and end of a line.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Matches are case insensitive</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Whitespace characters are removed, except when they appear in character classes</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>%1 is an invalid regular expression pattern: %2</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>%1 is an invalid flag for regular expressions. Valid flags are:</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>If the first argument is the empty sequence or a zero-length string (no namespace), a prefix cannot be specified. Prefix %1 was specified.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>It will not be possible to retrieve %1.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>The root node of the second argument to function %1 must be a document node. %2 is not a document node.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>The default collection is undefined</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>%1 cannot be retrieved</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>The normalization form %1 is unsupported. The supported forms are %2, %3, %4, and %5, and none, i.e. the empty string (no normalization).</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>A zone offset must be in the range %1..%2 inclusive. %3 is out of range.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>%1 is not a whole number of minutes.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Required cardinality is %1; got cardinality %2.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>The item %1 did not match the required type %2.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>%1 is an unknown schema type.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Only one %1 declaration can occur in the query prolog.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>The initialization of variable %1 depends on itself</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>No variable by name %1 exists</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>The variable %1 is unused</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Version %1 is not supported. The supported XQuery version is 1.0.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>The encoding %1 is invalid. It must contain Latin characters only, must not contain whitespace, and must match the regular expression %2.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>No function with signature %1 is available</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>A default namespace declaration must occur before function, variable, and option declarations.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Namespace declarations must occur before function, variable, and option declarations.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Module imports must occur before function, variable, and option declarations.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>It is not possible to redeclare prefix %1.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Prefix %1 is already declared in the prolog.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>The name of an option must have a prefix. There is no default namespace for options.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>The Schema Import feature is not supported, and therefore %1 declarations cannot occur.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>The target namespace of a %1 cannot be empty.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>The module import feature is not supported</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>No value is available for the external variable by name %1.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>A construct was encountered which only is allowed in XQuery.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>A template by name %1 has already been declared.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>The keyword %1 cannot occur with any other mode name.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>The value of attribute %1 must of type %2, which %3 isn&apos;t.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>The prefix %1 can not be bound. By default, it is already bound to the namespace %2.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>A variable by name %1 has already been declared.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>A stylesheet function must have a prefixed name.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>The namespace for a user defined function cannot be empty (try the predefined prefix %1 which exists for cases like this)</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>The namespace %1 is reserved; therefore user defined functions may not use it. Try the predefined prefix %2, which exists for these cases.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>The namespace of a user defined function in a library module must be equivalent to the module namespace. In other words, it should be %1 instead of %2</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>A function already exists with the signature %1.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>No external functions are supported. All supported functions can be used directly, without first declaring them as external</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>An argument by name %1 has already been declared. Every argument name must be unique.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>When function %1 is used for matching inside a pattern, the argument must be a variable reference or a string literal.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>In an XSL-T pattern, the first argument to function %1 must be a string literal, when used for matching.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>In an XSL-T pattern, the first argument to function %1 must be a literal or a variable reference, when used for matching.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>In an XSL-T pattern, function %1 cannot have a third argument.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>In an XSL-T pattern, only function %1 and %2, not %3, can be used for matching.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>In an XSL-T pattern, axis %1 cannot be used, only axis %2 or %3 can.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>%1 is an invalid template mode name.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>The name of a variable bound in a for-expression must be different from the positional variable. Hence, the two variables named %1 collide.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>The Schema Validation Feature is not supported. Hence, %1-expressions may not be used.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>None of the pragma expressions are supported. Therefore, a fallback expression must be present</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Each name of a template parameter must be unique; %1 is duplicated.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>The %1-axis is unsupported in XQuery</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>%1 is not a valid name for a processing-instruction.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>%1 is not a valid numeric literal.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>No function by name %1 is available.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>The namespace URI cannot be the empty string when binding to a prefix, %1.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>%1 is an invalid namespace URI.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>It is not possible to bind to the prefix %1</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Namespace %1 can only be bound to %2 (and it is, in either case, pre-declared).</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Prefix %1 can only be bound to %2 (and it is, in either case, pre-declared).</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Two namespace declaration attributes have the same name: %1.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>The namespace URI must be a constant and cannot use enclosed expressions.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>An attribute by name %1 has already appeared on this element.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>A direct element constructor is not well-formed. %1 is ended with %2.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>The name %1 does not refer to any schema type.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>%1 is an complex type. Casting to complex types is not possible. However, casting to atomic types such as %2 works.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>%1 is not an atomic type. Casting is only possible to atomic types.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>%1 is not in the in-scope attribute declarations. Note that the schema import feature is not supported.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>The name of an extension expression must be in a namespace.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>empty</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>zero or one</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>exactly one</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>one or more</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>zero or more</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Required type is %1, but %2 was found.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Promoting %1 to %2 may cause loss of precision.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>The focus is undefined.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>It&apos;s not possible to add attributes after any other kind of node.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>An attribute by name %1 has already been created.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Only the Unicode Codepoint Collation is supported(%1). %2 is unsupported.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>%1 is an unsupported encoding.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>%1 contains octets which are disallowed in the requested encoding %2.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>The codepoint %1, occurring in %2 using encoding %3, is an invalid XML character.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Ambiguous rule match.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>In a namespace constructor, the value for a namespace cannot be an empty string.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>The prefix must be a valid %1, which %2 is not.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>The prefix %1 cannot be bound.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Only the prefix %1 can be bound to %2 and vice versa.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Circularity detected</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>The parameter %1 is required, but no corresponding %2 is supplied.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>The parameter %1 is passed, but no corresponding %2 exists.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>The URI cannot have a fragment</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Element %1 is not allowed at this location.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Text nodes are not allowed at this location.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Parse error: %1</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>The value of the XSL-T version attribute must be a value of type %1, which %2 isn&apos;t.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Running an XSL-T 1.0 stylesheet with a 2.0 processor.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Unknown XSL-T attribute %1.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Attribute %1 and %2 are mutually exclusive.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>In a simplified stylesheet module, attribute %1 must be present.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>If element %1 has no attribute %2, it cannot have attribute %3 or %4.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Element %1 must have at least one of the attributes %2 or %3.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>At least one mode must be specified in the %1-attribute on element %2.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Attribute %1 cannot appear on the element %2. Only the standard attributes can appear.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Attribute %1 cannot appear on the element %2. Only %3 is allowed, and the standard attributes.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Attribute %1 cannot appear on the element %2. Allowed is %3, %4, and the standard attributes.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Attribute %1 cannot appear on the element %2. Allowed is %3, and the standard attributes.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>XSL-T attributes on XSL-T elements must be in the null namespace, not in the XSL-T namespace which %1 is.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>The attribute %1 must appear on element %2.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>The element with local name %1 does not exist in XSL-T.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Element %1 must come last.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>At least one %1-element must occur before %2.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Only one %1-element can appear.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>At least one %1-element must occur inside %2.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>When attribute %1 is present on %2, a sequence constructor cannot be used.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Element %1 must have either a %2-attribute or a sequence constructor.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>When a parameter is required, a default value cannot be supplied through a %1-attribute or a sequence constructor.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Element %1 cannot have children.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Element %1 cannot have a sequence constructor.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>The attribute %1 cannot appear on %2, when it is a child of %3.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>A parameter in a function cannot be declared to be a tunnel.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>This processor is not Schema-aware and therefore %1 cannot be used.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Top level stylesheet elements must be in a non-null namespace, which %1 isn&apos;t.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>The value for attribute %1 on element %2 must either be %3 or %4, not %5.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Attribute %1 cannot have the value %2.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>The attribute %1 can only appear on the first %2 element.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>At least one %1 element must appear as child of %2.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Muted</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Volume: %1%</source>
+    <target></target>
+</phrase>
+</QPH>
