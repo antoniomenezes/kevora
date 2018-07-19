@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kvxml>
+    <entry alias="localSqlite" type="Sqlite" host="localhost" port="" dbname="local_sqlite.db" driver="QSQLITE" comments="">
+        <connection user="user" passwd="73656e6861" stored="yes" autoopen="no"/>
+    </entry>
+</kvxml>

@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>KvSqlData</class>
+ <widget class="QWidget" name="KvSqlData">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>407</width>
+    <height>216</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <property name="margin">
+    <number>6</number>
+   </property>
+   <item row="0" column="0">
+    <widget class="QStackedWidget" name="stackedWidgetData">
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="pageData">
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <property name="margin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QWidget" name="widgetDataToolBar" native="true">
+         <layout class="QHBoxLayout" name="horizontalLayout_7">
+          <property name="margin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QToolButton" name="toolButtonGetNextRec">
+            <property name="enabled">
+             <bool>true</bool>
+            </property>
+            <property name="toolTip">
+             <string>Get next records...</string>
+            </property>
+            <property name="text">
+             <string>...</string>
+            </property>
+            <property name="icon">
+             <iconset resource="ui/kevora.qrc">
+              <normaloff>:/png/png_sqlwindow/resultset_next.png</normaloff>:/png/png_sqlwindow/resultset_next.png</iconset>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QToolButton" name="toolButtonGetAllRec">
+            <property name="enabled">
+             <bool>true</bool>
+            </property>
+            <property name="toolTip">
+             <string>Get all records</string>
+            </property>
+            <property name="text">
+             <string>...</string>
+            </property>
+            <property name="icon">
+             <iconset resource="ui/kevora.qrc">
+              <normaloff>:/png/png_sqlwindow/resultset_last.png</normaloff>:/png/png_sqlwindow/resultset_last.png</iconset>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QToolButton" name="toolButtonCancelAllRecords">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="toolTip">
+             <string>Cancel All Records Retrieval</string>
+            </property>
+            <property name="text">
+             <string>...</string>
+            </property>
+            <property name="icon">
+             <iconset resource="ui/kevora.qrc">
+              <normaloff>:/png/png_general/editdelete.png</normaloff>:/png/png_general/editdelete.png</iconset>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_6">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>537</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QToolButton" name="toolButtonRecView">
+            <property name="toolTip">
+             <string>Show Record View</string>
+            </property>
+            <property name="text">
+             <string>...</string>
+            </property>
+            <property name="icon">
+             <iconset resource="ui/kevora.qrc">
+              <normaloff>:/png/png_sqlwindow/application_side_list.png</normaloff>:/png/png_sqlwindow/application_side_list.png</iconset>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QToolButton" name="toolButtonResultZoomIn">
+            <property name="text">
+             <string>...</string>
+            </property>
+            <property name="icon">
+             <iconset resource="ui/kevora.qrc">
+              <normaloff>:/png/png_general/viewmag+.png</normaloff>:/png/png_general/viewmag+.png</iconset>
+            </property>
+            <property name="autoRepeat">
+             <bool>true</bool>
+            </property>
+            <property name="autoRepeatDelay">
+             <number>100</number>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QToolButton" name="toolButtonResultZoomOut">
+            <property name="text">
+             <string>...</string>
+            </property>
+            <property name="icon">
+             <iconset resource="ui/kevora.qrc">
+              <normaloff>:/png/png_general/viewmag-.png</normaloff>:/png/png_general/viewmag-.png</iconset>
+            </property>
+            <property name="shortcut">
+             <string notr="true"/>
+            </property>
+            <property name="autoRepeat">
+             <bool>true</bool>
+            </property>
+            <property name="autoRepeatDelay">
+             <number>100</number>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QTableWidget" name="tableWidgetResults">
+         <property name="contextMenuPolicy">
+          <enum>Qt::ActionsContextMenu</enum>
+         </property>
+         <property name="inputMethodHints">
+          <set>Qt::ImhPreferNumbers</set>
+         </property>
+         <property name="editTriggers">
+          <set>QAbstractItemView::NoEditTriggers</set>
+         </property>
+         <property name="alternatingRowColors">
+          <bool>true</bool>
+         </property>
+         <property name="sortingEnabled">
+          <bool>true</bool>
+         </property>
+         <property name="wordWrap">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="pageRecordData">
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <property name="margin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QWidget" name="widgetRecordToolBar" native="true">
+         <layout class="QHBoxLayout" name="horizontalLayout_8">
+          <property name="margin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QToolButton" name="toolButtonFirstRec">
+            <property name="toolTip">
+             <string>First Record</string>
+            </property>
+            <property name="text">
+             <string>...</string>
+            </property>
+            <property name="icon">
+             <iconset resource="ui/kevora.qrc">
+              <normaloff>:/png/png_record/tab_first.png</normaloff>:/png/png_record/tab_first.png</iconset>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QToolButton" name="toolButtonPrevRec">
+            <property name="toolTip">
+             <string>Previous Record</string>
+            </property>
+            <property name="text">
+             <string>...</string>
+            </property>
+            <property name="icon">
+             <iconset resource="ui/kevora.qrc">
+              <normaloff>:/png/png_record/tab_left.png</normaloff>:/png/png_record/tab_left.png</iconset>
+            </property>
+            <property name="autoRepeat">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QToolButton" name="toolButtonNextRec">
+            <property name="toolTip">
+             <string>Next Record</string>
+            </property>
+            <property name="text">
+             <string>...</string>
+            </property>
+            <property name="icon">
+             <iconset resource="ui/kevora.qrc">
+              <normaloff>:/png/png_record/tab_right.png</normaloff>:/png/png_record/tab_right.png</iconset>
+            </property>
+            <property name="autoRepeat">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QToolButton" name="toolButtonLastRec">
+            <property name="toolTip">
+             <string>Last Record</string>
+            </property>
+            <property name="text">
+             <string>...</string>
+            </property>
+            <property name="icon">
+             <iconset resource="ui/kevora.qrc">
+              <normaloff>:/png/png_record/tab_last.png</normaloff>:/png/png_record/tab_last.png</iconset>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_7">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>479</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QToolButton" name="toolButtonGridView">
+            <property name="toolTip">
+             <string>Show Results Grid</string>
+            </property>
+            <property name="text">
+             <string>...</string>
+            </property>
+            <property name="icon">
+             <iconset resource="ui/kevora.qrc">
+              <normaloff>:/png/png_sqlwindow/application_view_columns.png</normaloff>:/png/png_sqlwindow/application_view_columns.png</iconset>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QToolButton" name="toolButtonRecZoomIn">
+            <property name="text">
+             <string>...</string>
+            </property>
+            <property name="icon">
+             <iconset resource="ui/kevora.qrc">
+              <normaloff>:/png/png_general/viewmag+.png</normaloff>:/png/png_general/viewmag+.png</iconset>
+            </property>
+            <property name="shortcut">
+             <string notr="true"/>
+            </property>
+            <property name="autoRepeat">
+             <bool>true</bool>
+            </property>
+            <property name="autoRepeatDelay">
+             <number>100</number>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QToolButton" name="toolButtonRecZoomOut">
+            <property name="text">
+             <string>...</string>
+            </property>
+            <property name="icon">
+             <iconset resource="ui/kevora.qrc">
+              <normaloff>:/png/png_general/viewmag-.png</normaloff>:/png/png_general/viewmag-.png</iconset>
+            </property>
+            <property name="shortcut">
+             <string notr="true"/>
+            </property>
+            <property name="autoRepeat">
+             <bool>true</bool>
+            </property>
+            <property name="autoRepeatDelay">
+             <number>100</number>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QTableWidget" name="tableWidgetRecord">
+         <property name="contextMenuPolicy">
+          <enum>Qt::ActionsContextMenu</enum>
+         </property>
+         <property name="horizontalScrollBarPolicy">
+          <enum>Qt::ScrollBarAsNeeded</enum>
+         </property>
+         <property name="editTriggers">
+          <set>QAbstractItemView::NoEditTriggers</set>
+         </property>
+         <property name="alternatingRowColors">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="pagePlan">
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <property name="margin">
+        <number>0</number>
+       </property>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <spacer name="horizontalSpacer">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QToolButton" name="toolButtonPlanZoomIn">
+           <property name="text">
+            <string>...</string>
+           </property>
+           <property name="icon">
+            <iconset resource="ui/kevora.qrc">
+             <normaloff>:/png/png_general/viewmag+.png</normaloff>:/png/png_general/viewmag+.png</iconset>
+           </property>
+           <property name="shortcut">
+            <string notr="true"/>
+           </property>
+           <property name="autoRepeat">
+            <bool>true</bool>
+           </property>
+           <property name="autoRepeatDelay">
+            <number>100</number>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QToolButton" name="toolButtonPlanZoomOut">
+           <property name="text">
+            <string>...</string>
+           </property>
+           <property name="icon">
+            <iconset resource="ui/kevora.qrc">
+             <normaloff>:/png/png_general/viewmag-.png</normaloff>:/png/png_general/viewmag-.png</iconset>
+           </property>
+           <property name="shortcut">
+            <string notr="true"/>
+           </property>
+           <property name="autoRepeat">
+            <bool>true</bool>
+           </property>
+           <property name="autoRepeatDelay">
+            <number>100</number>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QTreeWidget" name="treeWidgetPlan">
+         <column>
+          <property name="text">
+           <string>Operation</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Cost</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string notr="true">ID</string>
+          </property>
+         </column>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+  <action name="actionCopy_to_Clipboard">
+   <property name="icon">
+    <iconset resource="ui/kevora.qrc">
+     <normaloff>:/png/png_general/editcopy.png</normaloff>:/png/png_general/editcopy.png</iconset>
+   </property>
+   <property name="text">
+    <string>Copy to Clipboard</string>
+   </property>
+  </action>
+  <action name="actionExport_as_Select_Statements_Clipboard">
+   <property name="icon">
+    <iconset resource="ui/kevora.qrc">
+     <normaloff>:/png/png_general/script.png</normaloff>:/png/png_general/script.png</iconset>
+   </property>
+   <property name="text">
+    <string>Export as Select Statements to Clipboard</string>
+   </property>
+   <property name="toolTip">
+    <string>Export as Select Statements to Clipboard</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="ui/kevora.qrc"/>
+ </resources>
+ <connections/>
+</ui>

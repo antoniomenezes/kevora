@@ -1,0 +1,1294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>KvMainWindow</class>
+ <widget class="QMainWindow" name="KvMainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>647</width>
+    <height>536</height>
+   </rect>
+  </property>
+  <property name="acceptDrops">
+   <bool>true</bool>
+  </property>
+  <property name="windowTitle">
+   <string>Kevora</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="ui/kevora.qrc">
+    <normaloff>:/png/png_general/kevora.png</normaloff>:/png/png_general/kevora.png</iconset>
+  </property>
+  <property name="whatsThis">
+   <string>The IDE of your dreams!</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <property name="margin">
+     <number>0</number>
+    </property>
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <item row="0" column="0">
+     <widget class="KvMdiArea" name="mdiArea" native="true">
+      <property name="acceptDrops">
+       <bool>true</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="documentMode" stdset="0">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>647</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuIDE">
+    <property name="title">
+     <string>&amp;IDE</string>
+    </property>
+    <addaction name="actionPreferences"/>
+    <addaction name="separator"/>
+    <addaction name="actionExit"/>
+   </widget>
+   <widget class="QMenu" name="menu_Connection">
+    <property name="title">
+     <string>&amp;Connections</string>
+    </property>
+    <addaction name="actionAdd_Database"/>
+    <addaction name="actionDelete_Database"/>
+    <addaction name="actionAdd_Connection"/>
+    <addaction name="actionDelete_Connection"/>
+    <addaction name="separator"/>
+    <addaction name="actionEdit"/>
+    <addaction name="actionConnect"/>
+    <addaction name="actionDisconnect"/>
+    <addaction name="actionDisconnectAll"/>
+    <addaction name="separator"/>
+   </widget>
+   <widget class="QMenu" name="menu_Files">
+    <property name="title">
+     <string>&amp;Files</string>
+    </property>
+    <addaction name="actionNew_Sql"/>
+    <addaction name="actionNew_Diagram"/>
+    <addaction name="actionOpen"/>
+    <addaction name="actionOpen_Recent"/>
+    <addaction name="actionSave"/>
+    <addaction name="actionSave_As"/>
+    <addaction name="actionSave_All"/>
+    <addaction name="separator"/>
+    <addaction name="actionClose"/>
+   </widget>
+   <widget class="QMenu" name="menu_Edit">
+    <property name="title">
+     <string>&amp;Edit</string>
+    </property>
+    <addaction name="actionCut"/>
+    <addaction name="actionCopy"/>
+    <addaction name="actionPaste"/>
+    <addaction name="actionDelete"/>
+    <addaction name="actionSelect_All"/>
+   </widget>
+   <widget class="QMenu" name="menu_Tools">
+    <property name="title">
+     <string>&amp;Tools</string>
+    </property>
+    <addaction name="actionExport_Database_Objects"/>
+    <addaction name="actionCompare_Database_objects"/>
+   </widget>
+   <widget class="QMenu" name="menu_Reports">
+    <property name="title">
+     <string>&amp;Reports</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menu_Help">
+    <property name="title">
+     <string>&amp;Help</string>
+    </property>
+    <addaction name="actionContents"/>
+    <addaction name="actionAbout_Kevora"/>
+    <addaction name="actionAbout_Qt"/>
+    <addaction name="separator"/>
+    <addaction name="actionKevora_Updates"/>
+   </widget>
+   <widget class="QMenu" name="menu_View">
+    <property name="title">
+     <string>&amp;View</string>
+    </property>
+    <addaction name="actionMain_Tool_Bar"/>
+    <addaction name="separator"/>
+    <addaction name="actionNavigator"/>
+    <addaction name="actionObjects"/>
+    <addaction name="actionWindow_List"/>
+    <addaction name="actionWork_Path"/>
+   </widget>
+   <addaction name="menuIDE"/>
+   <addaction name="menu_Connection"/>
+   <addaction name="menu_Files"/>
+   <addaction name="menu_Edit"/>
+   <addaction name="menu_View"/>
+   <addaction name="menu_Tools"/>
+   <addaction name="menu_Reports"/>
+   <addaction name="menu_Help"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <property name="windowTitle">
+    <string>Main Tool Bar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionExit"/>
+   <addaction name="separator"/>
+   <addaction name="actionNew_Sql"/>
+   <addaction name="actionOpen"/>
+   <addaction name="actionSave"/>
+   <addaction name="actionClose"/>
+   <addaction name="separator"/>
+   <addaction name="actionCascade_Windows"/>
+   <addaction name="actionTile_Windows"/>
+   <addaction name="actionClose_All_Windows"/>
+   <addaction name="separator"/>
+   <addaction name="actionExport_Database_Objects"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <widget class="QDockWidget" name="navigatorDockWidget">
+   <property name="windowTitle">
+    <string>Navigator</string>
+   </property>
+   <attribute name="dockWidgetArea">
+    <number>1</number>
+   </attribute>
+   <widget class="QWidget" name="dockWidgetContents">
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <property name="spacing">
+      <number>4</number>
+     </property>
+     <property name="leftMargin">
+      <number>6</number>
+     </property>
+     <property name="topMargin">
+      <number>4</number>
+     </property>
+     <property name="rightMargin">
+      <number>2</number>
+     </property>
+     <property name="bottomMargin">
+      <number>6</number>
+     </property>
+     <item>
+      <widget class="QTabWidget" name="tabWidget">
+       <property name="currentIndex">
+        <number>0</number>
+       </property>
+       <widget class="QWidget" name="tab">
+        <attribute name="title">
+         <string>Connection List</string>
+        </attribute>
+        <layout class="QVBoxLayout" name="verticalLayout_3">
+         <property name="spacing">
+          <number>4</number>
+         </property>
+         <property name="leftMargin">
+          <number>4</number>
+         </property>
+         <property name="topMargin">
+          <number>4</number>
+         </property>
+         <property name="rightMargin">
+          <number>4</number>
+         </property>
+         <property name="bottomMargin">
+          <number>6</number>
+         </property>
+         <item>
+          <widget class="QFrame" name="frame">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::NoFrame</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Plain</enum>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout">
+            <property name="spacing">
+             <number>2</number>
+            </property>
+            <property name="margin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QToolButton" name="toolButtonAddDb">
+              <property name="maximumSize">
+               <size>
+                <width>25</width>
+                <height>25</height>
+               </size>
+              </property>
+              <property name="toolTip">
+               <string>Add a database item</string>
+              </property>
+              <property name="text">
+               <string>...</string>
+              </property>
+              <property name="icon">
+               <iconset resource="ui/kevora.qrc">
+                <normaloff>:/png/png_general/db_add.png</normaloff>:/png/png_general/db_add.png</iconset>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QToolButton" name="toolButtonDelDb">
+              <property name="maximumSize">
+               <size>
+                <width>25</width>
+                <height>25</height>
+               </size>
+              </property>
+              <property name="toolTip">
+               <string>Remove a database item</string>
+              </property>
+              <property name="text">
+               <string>...</string>
+              </property>
+              <property name="icon">
+               <iconset resource="ui/kevora.qrc">
+                <normaloff>:/png/png_general/db_remove.png</normaloff>:/png/png_general/db_remove.png</iconset>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QToolButton" name="toolButtonEdit">
+              <property name="maximumSize">
+               <size>
+                <width>25</width>
+                <height>25</height>
+               </size>
+              </property>
+              <property name="toolTip">
+               <string>Edit a database or connection item</string>
+              </property>
+              <property name="text">
+               <string>...</string>
+              </property>
+              <property name="icon">
+               <iconset resource="ui/kevora.qrc">
+                <normaloff>:/png/png_general/database_edit.png</normaloff>:/png/png_general/database_edit.png</iconset>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QToolButton" name="toolButtonAddConn">
+              <property name="maximumSize">
+               <size>
+                <width>25</width>
+                <height>25</height>
+               </size>
+              </property>
+              <property name="toolTip">
+               <string>Add a connection</string>
+              </property>
+              <property name="text">
+               <string>...</string>
+              </property>
+              <property name="icon">
+               <iconset resource="ui/kevora.qrc">
+                <normaloff>:/png/png_general/connection_add.png</normaloff>:/png/png_general/connection_add.png</iconset>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QToolButton" name="toolButtonDelConn">
+              <property name="maximumSize">
+               <size>
+                <width>25</width>
+                <height>25</height>
+               </size>
+              </property>
+              <property name="toolTip">
+               <string>Remove a connection</string>
+              </property>
+              <property name="text">
+               <string>...</string>
+              </property>
+              <property name="icon">
+               <iconset resource="ui/kevora.qrc">
+                <normaloff>:/png/png_general/connection_remove.png</normaloff>:/png/png_general/connection_remove.png</iconset>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QToolButton" name="toolButtonOpenConn">
+              <property name="maximumSize">
+               <size>
+                <width>25</width>
+                <height>25</height>
+               </size>
+              </property>
+              <property name="toolTip">
+               <string>Open a connection</string>
+              </property>
+              <property name="text">
+               <string>...</string>
+              </property>
+              <property name="icon">
+               <iconset resource="ui/kevora.qrc">
+                <normaloff>:/png/png_general/connect.png</normaloff>:/png/png_general/connect.png</iconset>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QToolButton" name="toolButtonCloseConn">
+              <property name="maximumSize">
+               <size>
+                <width>25</width>
+                <height>25</height>
+               </size>
+              </property>
+              <property name="toolTip">
+               <string>Close a connection</string>
+              </property>
+              <property name="text">
+               <string>...</string>
+              </property>
+              <property name="icon">
+               <iconset resource="ui/kevora.qrc">
+                <normaloff>:/png/png_general/disconnect.png</normaloff>:/png/png_general/disconnect.png</iconset>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QToolButton" name="toolButtonCloseAllConn">
+              <property name="maximumSize">
+               <size>
+                <width>25</width>
+                <height>25</height>
+               </size>
+              </property>
+              <property name="toolTip">
+               <string>Close all connections</string>
+              </property>
+              <property name="text">
+               <string>...</string>
+              </property>
+              <property name="icon">
+               <iconset resource="ui/kevora.qrc">
+                <normaloff>:/png/png_general/disconnect_all.png</normaloff>:/png/png_general/disconnect_all.png</iconset>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="KvTreeWidget" name="dbTreeWidget">
+           <property name="selectionBehavior">
+            <enum>QAbstractItemView::SelectItems</enum>
+           </property>
+           <property name="indentation">
+            <number>10</number>
+           </property>
+           <property name="sortingEnabled">
+            <bool>true</bool>
+           </property>
+           <property name="animated">
+            <bool>false</bool>
+           </property>
+           <column>
+            <property name="text">
+             <string>Connection</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Type</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Host</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Port</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>DbName</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Driver</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Comments</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Status</string>
+            </property>
+           </column>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QDockWidget" name="objectsDockWidget">
+   <property name="windowTitle">
+    <string>Objects</string>
+   </property>
+   <attribute name="dockWidgetArea">
+    <number>1</number>
+   </attribute>
+   <widget class="QWidget" name="dockWidgetContents_2">
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <property name="spacing">
+      <number>4</number>
+     </property>
+     <property name="leftMargin">
+      <number>6</number>
+     </property>
+     <property name="topMargin">
+      <number>4</number>
+     </property>
+     <property name="rightMargin">
+      <number>2</number>
+     </property>
+     <property name="bottomMargin">
+      <number>0</number>
+     </property>
+     <item>
+      <widget class="QComboBox" name="activeConnObjComboBox">
+       <item>
+        <property name="text">
+         <string>Objects from All Active Connections</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QTabWidget" name="tabWidget_2">
+       <property name="currentIndex">
+        <number>0</number>
+       </property>
+       <widget class="QWidget" name="tab_3">
+        <attribute name="title">
+         <string>Tables</string>
+        </attribute>
+        <layout class="QGridLayout" name="gridLayout_2">
+         <property name="leftMargin">
+          <number>4</number>
+         </property>
+         <property name="topMargin">
+          <number>4</number>
+         </property>
+         <property name="rightMargin">
+          <number>4</number>
+         </property>
+         <property name="bottomMargin">
+          <number>6</number>
+         </property>
+         <item row="0" column="0">
+          <widget class="KvTreeWidget" name="tableTreeWidget">
+           <property name="sortingEnabled">
+            <bool>true</bool>
+           </property>
+           <attribute name="headerVisible">
+            <bool>false</bool>
+           </attribute>
+           <column>
+            <property name="text">
+             <string notr="true">1</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>2</string>
+            </property>
+           </column>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="tab_4">
+        <attribute name="title">
+         <string>Views</string>
+        </attribute>
+        <layout class="QGridLayout" name="gridLayout_3">
+         <property name="leftMargin">
+          <number>4</number>
+         </property>
+         <property name="topMargin">
+          <number>4</number>
+         </property>
+         <property name="rightMargin">
+          <number>4</number>
+         </property>
+         <property name="bottomMargin">
+          <number>6</number>
+         </property>
+         <item row="0" column="0">
+          <widget class="KvTreeWidget" name="viewTreeWidget">
+           <property name="sortingEnabled">
+            <bool>true</bool>
+           </property>
+           <attribute name="headerVisible">
+            <bool>false</bool>
+           </attribute>
+           <column>
+            <property name="text">
+             <string notr="true">1</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>2</string>
+            </property>
+           </column>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="tab_5">
+        <attribute name="title">
+         <string>Programs</string>
+        </attribute>
+        <layout class="QGridLayout" name="gridLayout_4">
+         <property name="leftMargin">
+          <number>4</number>
+         </property>
+         <property name="topMargin">
+          <number>4</number>
+         </property>
+         <property name="rightMargin">
+          <number>4</number>
+         </property>
+         <property name="bottomMargin">
+          <number>6</number>
+         </property>
+         <item row="0" column="0">
+          <widget class="KvTreeWidget" name="programTreeWidget">
+           <property name="sortingEnabled">
+            <bool>true</bool>
+           </property>
+           <attribute name="headerVisible">
+            <bool>false</bool>
+           </attribute>
+           <column>
+            <property name="text">
+             <string notr="true">1</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>2</string>
+            </property>
+           </column>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="tab_6">
+        <attribute name="title">
+         <string>Etc</string>
+        </attribute>
+        <layout class="QGridLayout" name="gridLayout_5">
+         <property name="leftMargin">
+          <number>4</number>
+         </property>
+         <property name="topMargin">
+          <number>4</number>
+         </property>
+         <property name="rightMargin">
+          <number>4</number>
+         </property>
+         <property name="bottomMargin">
+          <number>6</number>
+         </property>
+         <item row="0" column="0">
+          <widget class="KvTreeWidget" name="etcTreeWidget">
+           <property name="sortingEnabled">
+            <bool>true</bool>
+           </property>
+           <attribute name="headerVisible">
+            <bool>false</bool>
+           </attribute>
+           <column>
+            <property name="text">
+             <string notr="true">1</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>2</string>
+            </property>
+           </column>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QDockWidget" name="winListDockWidget">
+   <property name="windowTitle">
+    <string>Window List</string>
+   </property>
+   <attribute name="dockWidgetArea">
+    <number>2</number>
+   </attribute>
+   <widget class="QWidget" name="dockWidgetContents_3">
+    <layout class="QVBoxLayout" name="verticalLayout_5">
+     <property name="spacing">
+      <number>4</number>
+     </property>
+     <property name="leftMargin">
+      <number>6</number>
+     </property>
+     <property name="topMargin">
+      <number>4</number>
+     </property>
+     <property name="rightMargin">
+      <number>2</number>
+     </property>
+     <property name="bottomMargin">
+      <number>0</number>
+     </property>
+     <item>
+      <widget class="QListWidget" name="listWidgetWindows">
+       <property name="contextMenuPolicy">
+        <enum>Qt::ActionsContextMenu</enum>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QDockWidget" name="workingDirDockWidget">
+   <property name="windowTitle">
+    <string>Work Path</string>
+   </property>
+   <attribute name="dockWidgetArea">
+    <number>2</number>
+   </attribute>
+   <widget class="QWidget" name="dockWidgetContents_4">
+    <layout class="QVBoxLayout" name="verticalLayout_4">
+     <property name="spacing">
+      <number>4</number>
+     </property>
+     <property name="leftMargin">
+      <number>6</number>
+     </property>
+     <property name="topMargin">
+      <number>4</number>
+     </property>
+     <property name="rightMargin">
+      <number>2</number>
+     </property>
+     <property name="bottomMargin">
+      <number>0</number>
+     </property>
+     <item>
+      <widget class="QTreeView" name="fileTreeView">
+       <property name="dragEnabled">
+        <bool>true</bool>
+       </property>
+       <property name="dragDropMode">
+        <enum>QAbstractItemView::DragOnly</enum>
+       </property>
+       <property name="alternatingRowColors">
+        <bool>true</bool>
+       </property>
+       <property name="selectionMode">
+        <enum>QAbstractItemView::ExtendedSelection</enum>
+       </property>
+       <property name="sortingEnabled">
+        <bool>true</bool>
+       </property>
+       <attribute name="headerMinimumSectionSize">
+        <number>50</number>
+       </attribute>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <action name="actionPreferences">
+   <property name="icon">
+    <iconset resource="ui/kevora.qrc">
+     <normaloff>:/png/png_general/utilities.png</normaloff>:/png/png_general/utilities.png</iconset>
+   </property>
+   <property name="text">
+    <string>Settings</string>
+   </property>
+   <property name="toolTip">
+    <string>Settings</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="icon">
+    <iconset resource="ui/kevora.qrc">
+     <normaloff>:/png/png_general/exit.png</normaloff>:/png/png_general/exit.png</iconset>
+   </property>
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="actionAdd_Database">
+   <property name="icon">
+    <iconset resource="ui/kevora.qrc">
+     <normaloff>:/png/png_general/db_add.png</normaloff>:/png/png_general/db_add.png</iconset>
+   </property>
+   <property name="text">
+    <string>Add Database</string>
+   </property>
+  </action>
+  <action name="actionDelete_Database">
+   <property name="icon">
+    <iconset resource="ui/kevora.qrc">
+     <normaloff>:/png/png_general/db_remove.png</normaloff>:/png/png_general/db_remove.png</iconset>
+   </property>
+   <property name="text">
+    <string>Delete Database</string>
+   </property>
+  </action>
+  <action name="actionAdd_Connection">
+   <property name="icon">
+    <iconset resource="ui/kevora.qrc">
+     <normaloff>:/png/png_general/connection_add.png</normaloff>:/png/png_general/connection_add.png</iconset>
+   </property>
+   <property name="text">
+    <string>Add Connection</string>
+   </property>
+  </action>
+  <action name="actionDelete_Connection">
+   <property name="icon">
+    <iconset resource="ui/kevora.qrc">
+     <normaloff>:/png/png_general/connection_remove.png</normaloff>:/png/png_general/connection_remove.png</iconset>
+   </property>
+   <property name="text">
+    <string>Delete Connection</string>
+   </property>
+  </action>
+  <action name="actionEdit">
+   <property name="icon">
+    <iconset resource="ui/kevora.qrc">
+     <normaloff>:/png/png_general/database_edit.png</normaloff>:/png/png_general/database_edit.png</iconset>
+   </property>
+   <property name="text">
+    <string>Edit</string>
+   </property>
+  </action>
+  <action name="actionConnect">
+   <property name="icon">
+    <iconset resource="ui/kevora.qrc">
+     <normaloff>:/png/png_general/connect.png</normaloff>:/png/png_general/connect.png</iconset>
+   </property>
+   <property name="text">
+    <string>Connect</string>
+   </property>
+  </action>
+  <action name="actionDisconnect">
+   <property name="icon">
+    <iconset resource="ui/kevora.qrc">
+     <normaloff>:/png/png_general/disconnect.png</normaloff>:/png/png_general/disconnect.png</iconset>
+   </property>
+   <property name="text">
+    <string>Disconnect</string>
+   </property>
+  </action>
+  <action name="actionConnectivity_Assistant">
+   <property name="icon">
+    <iconset resource="ui/kevora.qrc">
+     <normaloff>:/png/png_assistant/wizard_small.png</normaloff>:/png/png_assistant/wizard_small.png</iconset>
+   </property>
+   <property name="text">
+    <string>Connectivity Assistant</string>
+   </property>
+  </action>
+  <action name="actionNew_Sql">
+   <property name="icon">
+    <iconset resource="ui/kevora.qrc">
+     <normaloff>:/png/png_general/project_new.png</normaloff>:/png/png_general/project_new.png</iconset>
+   </property>
+   <property name="text">
+    <string>New Sql Window</string>
+   </property>
+  </action>
+  <action name="actionNew_Diagram">
+   <property name="text">
+    <string>New Diagram Window</string>
+   </property>
+  </action>
+  <action name="actionOpen">
+   <property name="icon">
+    <iconset resource="ui/kevora.qrc">
+     <normaloff>:/png/png_general/fileopen.png</normaloff>:/png/png_general/fileopen.png</iconset>
+   </property>
+   <property name="text">
+    <string>Open File</string>
+   </property>
+  </action>
+  <action name="actionOpen_Recent">
+   <property name="text">
+    <string>Open Recent...</string>
+   </property>
+  </action>
+  <action name="actionSave">
+   <property name="icon">
+    <iconset resource="ui/kevora.qrc">
+     <normaloff>:/png/png_general/filesave.png</normaloff>:/png/png_general/filesave.png</iconset>
+   </property>
+   <property name="text">
+    <string>Save</string>
+   </property>
+  </action>
+  <action name="actionSave_As">
+   <property name="icon">
+    <iconset resource="ui/kevora.qrc">
+     <normaloff>:/png/png_general/filesaveas.png</normaloff>:/png/png_general/filesaveas.png</iconset>
+   </property>
+   <property name="text">
+    <string>Save As...</string>
+   </property>
+  </action>
+  <action name="actionSave_All">
+   <property name="icon">
+    <iconset resource="ui/kevora.qrc">
+     <normaloff>:/png/png_general/filesaveall.png</normaloff>:/png/png_general/filesaveall.png</iconset>
+   </property>
+   <property name="text">
+    <string>Save All</string>
+   </property>
+  </action>
+  <action name="actionClose">
+   <property name="icon">
+    <iconset resource="ui/kevora.qrc">
+     <normaloff>:/png/png_general/fileclose.png</normaloff>:/png/png_general/fileclose.png</iconset>
+   </property>
+   <property name="text">
+    <string>Close</string>
+   </property>
+  </action>
+  <action name="actionCut">
+   <property name="icon">
+    <iconset resource="ui/kevora.qrc">
+     <normaloff>:/png/png_general/editcut.png</normaloff>:/png/png_general/editcut.png</iconset>
+   </property>
+   <property name="text">
+    <string>Cut</string>
+   </property>
+  </action>
+  <action name="actionCopy">
+   <property name="icon">
+    <iconset resource="ui/kevora.qrc">
+     <normaloff>:/png/png_general/editcopy.png</normaloff>:/png/png_general/editcopy.png</iconset>
+   </property>
+   <property name="text">
+    <string>Copy</string>
+   </property>
+  </action>
+  <action name="actionPaste">
+   <property name="icon">
+    <iconset resource="ui/kevora.qrc">
+     <normaloff>:/png/png_general/editpaste.png</normaloff>:/png/png_general/editpaste.png</iconset>
+   </property>
+   <property name="text">
+    <string>Paste</string>
+   </property>
+  </action>
+  <action name="actionDelete">
+   <property name="icon">
+    <iconset resource="ui/kevora.qrc">
+     <normaloff>:/png/png_general/editdelete.png</normaloff>:/png/png_general/editdelete.png</iconset>
+   </property>
+   <property name="text">
+    <string>Delete</string>
+   </property>
+  </action>
+  <action name="actionSelect_All">
+   <property name="icon">
+    <iconset resource="ui/kevora.qrc">
+     <normaloff>:/png/png_general/select.png</normaloff>:/png/png_general/select.png</iconset>
+   </property>
+   <property name="text">
+    <string>Select All</string>
+   </property>
+  </action>
+  <action name="actionContents">
+   <property name="icon">
+    <iconset resource="ui/kevora.qrc">
+     <normaloff>:/png/png_general/help.png</normaloff>:/png/png_general/help.png</iconset>
+   </property>
+   <property name="text">
+    <string>Contents</string>
+   </property>
+  </action>
+  <action name="actionAbout_Kevora">
+   <property name="icon">
+    <iconset resource="ui/kevora.qrc">
+     <normaloff>:/png/png_general/info.png</normaloff>:/png/png_general/info.png</iconset>
+   </property>
+   <property name="text">
+    <string>About Kevora</string>
+   </property>
+  </action>
+  <action name="actionAbout_Qt">
+   <property name="icon">
+    <iconset resource="ui/kevora.qrc">
+     <normaloff>:/png/png_general/qt-logo.png</normaloff>:/png/png_general/qt-logo.png</iconset>
+   </property>
+   <property name="text">
+    <string>About Qt</string>
+   </property>
+  </action>
+  <action name="actionRefreshTableSchema">
+   <property name="icon">
+    <iconset resource="ui/kevora.qrc">
+     <normaloff>:/png/png_general/recur.png</normaloff>:/png/png_general/recur.png</iconset>
+   </property>
+   <property name="text">
+    <string>Refresh</string>
+   </property>
+  </action>
+  <action name="actionView_TableDefinition">
+   <property name="icon">
+    <iconset resource="ui/kevora.qrc">
+     <normaloff>:/png/png_general/database_edit.png</normaloff>:/png/png_general/database_edit.png</iconset>
+   </property>
+   <property name="text">
+    <string>View Definition</string>
+   </property>
+  </action>
+  <action name="actionView_TableData">
+   <property name="icon">
+    <iconset resource="ui/kevora.qrc">
+     <normaloff>:/png/png_general/table_lightning.png</normaloff>:/png/png_general/table_lightning.png</iconset>
+   </property>
+   <property name="text">
+    <string>View Data</string>
+   </property>
+  </action>
+  <action name="actionCascade_Windows">
+   <property name="icon">
+    <iconset resource="ui/kevora.qrc">
+     <normaloff>:/png/png_general/application_cascade.png</normaloff>:/png/png_general/application_cascade.png</iconset>
+   </property>
+   <property name="text">
+    <string>Cascade Windows</string>
+   </property>
+  </action>
+  <action name="actionTile_Windows">
+   <property name="icon">
+    <iconset resource="ui/kevora.qrc">
+     <normaloff>:/png/png_general/application_tile_horizontal.png</normaloff>:/png/png_general/application_tile_horizontal.png</iconset>
+   </property>
+   <property name="text">
+    <string>Tile Windows</string>
+   </property>
+  </action>
+  <action name="actionClose_All_Windows">
+   <property name="icon">
+    <iconset resource="ui/kevora.qrc">
+     <normaloff>:/png/png_general/close_all_windows.png</normaloff>:/png/png_general/close_all_windows.png</iconset>
+   </property>
+   <property name="text">
+    <string>Close All Windows</string>
+   </property>
+  </action>
+  <action name="actionNavigator">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Navigator</string>
+   </property>
+  </action>
+  <action name="actionObjects">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Objects</string>
+   </property>
+  </action>
+  <action name="actionWindow_List">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Window List</string>
+   </property>
+  </action>
+  <action name="actionWork_Path">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Work Path</string>
+   </property>
+  </action>
+  <action name="actionMain_Tool_Bar">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Main Tool Bar</string>
+   </property>
+  </action>
+  <action name="actionDisconnectAll">
+   <property name="icon">
+    <iconset resource="ui/kevora.qrc">
+     <normaloff>:/png/png_general/disconnect_all.png</normaloff>:/png/png_general/disconnect_all.png</iconset>
+   </property>
+   <property name="text">
+    <string>Disconnect All</string>
+   </property>
+   <property name="toolTip">
+    <string>Disconnect All</string>
+   </property>
+  </action>
+  <action name="actionView_ViewData">
+   <property name="icon">
+    <iconset resource="ui/kevora.qrc">
+     <normaloff>:/png/png_general/table_lightning.png</normaloff>:/png/png_general/table_lightning.png</iconset>
+   </property>
+   <property name="text">
+    <string>View Data</string>
+   </property>
+  </action>
+  <action name="actionView_ViewDefinition">
+   <property name="icon">
+    <iconset resource="ui/kevora.qrc">
+     <normaloff>:/png/png_general/database_edit.png</normaloff>:/png/png_general/database_edit.png</iconset>
+   </property>
+   <property name="text">
+    <string>View Definition</string>
+   </property>
+  </action>
+  <action name="actionRefreshViewSchema">
+   <property name="icon">
+    <iconset resource="ui/kevora.qrc">
+     <normaloff>:/png/png_general/recur.png</normaloff>:/png/png_general/recur.png</iconset>
+   </property>
+   <property name="text">
+    <string>Refresh</string>
+   </property>
+  </action>
+  <action name="actionRefreshProgramSchema">
+   <property name="icon">
+    <iconset resource="ui/kevora.qrc">
+     <normaloff>:/png/png_general/recur.png</normaloff>:/png/png_general/recur.png</iconset>
+   </property>
+   <property name="text">
+    <string>Refresh</string>
+   </property>
+  </action>
+  <action name="actionRefreshEtcSchema">
+   <property name="icon">
+    <iconset resource="ui/kevora.qrc">
+     <normaloff>:/png/png_general/recur.png</normaloff>:/png/png_general/recur.png</iconset>
+   </property>
+   <property name="text">
+    <string>Refresh</string>
+   </property>
+  </action>
+  <action name="actionView_DDL">
+   <property name="icon">
+    <iconset resource="ui/kevora.qrc">
+     <normaloff>:/png/png_general/database_edit.png</normaloff>:/png/png_general/database_edit.png</iconset>
+   </property>
+   <property name="text">
+    <string>View DDL</string>
+   </property>
+  </action>
+  <action name="actionExport_Data">
+   <property name="icon">
+    <iconset resource="ui/kevora.qrc">
+     <normaloff>:/png/png_general/table_go.png</normaloff>:/png/png_general/table_go.png</iconset>
+   </property>
+   <property name="text">
+    <string>Export Data</string>
+   </property>
+  </action>
+  <action name="actionExport_Database_Objects">
+   <property name="icon">
+    <iconset resource="ui/kevora.qrc">
+     <normaloff>:/png/png_general/cog_go.png</normaloff>:/png/png_general/cog_go.png</iconset>
+   </property>
+   <property name="text">
+    <string>Export Database Objects</string>
+   </property>
+  </action>
+  <action name="actionRefresh_Schemas">
+   <property name="icon">
+    <iconset resource="ui/kevora.qrc">
+     <normaloff>:/png/png_general/recur.png</normaloff>:/png/png_general/recur.png</iconset>
+   </property>
+   <property name="text">
+    <string>Refresh</string>
+   </property>
+  </action>
+  <action name="actionKevora_Updates">
+   <property name="icon">
+    <iconset resource="ui/kevora.qrc">
+     <normaloff>:/png/png_general/arrow_down.png</normaloff>:/png/png_general/arrow_down.png</iconset>
+   </property>
+   <property name="text">
+    <string>Kevora Updates</string>
+   </property>
+  </action>
+  <action name="actionCompare_Database_objects">
+   <property name="icon">
+    <iconset resource="ui/kevora.qrc">
+     <normaloff>:/png/png_general/table_relationship.png</normaloff>:/png/png_general/table_relationship.png</iconset>
+   </property>
+   <property name="text">
+    <string>Compare Database Objects</string>
+   </property>
+   <property name="toolTip">
+    <string>Compare Database Objects</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>KvTreeWidget</class>
+   <extends>QTreeWidget</extends>
+   <header location="global">kvtreewidget.h</header>
+  </customwidget>
+  <customwidget>
+   <class>KvMdiArea</class>
+   <extends>QWidget</extends>
+   <header>kvmdiarea.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="ui/kevora.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>navigatorDockWidget</sender>
+   <signal>visibilityChanged(bool)</signal>
+   <receiver>KvMainWindow</receiver>
+   <slot>updateViewMenu()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>112</x>
+     <y>63</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>9</x>
+     <y>291</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>objectsDockWidget</sender>
+   <signal>visibilityChanged(bool)</signal>
+   <receiver>KvMainWindow</receiver>
+   <slot>updateViewMenu()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>141</x>
+     <y>306</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>153</x>
+     <y>290</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>winListDockWidget</sender>
+   <signal>visibilityChanged(bool)</signal>
+   <receiver>KvMainWindow</receiver>
+   <slot>updateViewMenu()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>471</x>
+     <y>68</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>425</x>
+     <y>300</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>workingDirDockWidget</sender>
+   <signal>visibilityChanged(bool)</signal>
+   <receiver>KvMainWindow</receiver>
+   <slot>updateViewMenu()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>569</x>
+     <y>314</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>549</x>
+     <y>300</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>updateViewMenu()</slot>
+ </slots>
+</ui>
