@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'kvsqlsession.h'
 **
-** Created by: The Qt Meta Object Compiler version 67 (Qt 5.8.0)
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.12.0)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -12,7 +12,7 @@
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'kvsqlsession.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 67
-#error "This file was generated using the moc from 5.8.0. It"
+#error "This file was generated using the moc from 5.12.0. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -54,7 +54,7 @@ QT_MOC_LITERAL(10, 120, 19) // "rollbackTransaction"
 static const uint qt_meta_data_KvSqlSession[] = {
 
  // content:
-       7,       // revision
+       8,       // revision
        0,       // classname
        0,    0, // classinfo
        4,   14, // methods
@@ -97,10 +97,9 @@ void KvSqlSession::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
         int *result = reinterpret_cast<int *>(_a[0]);
-        void **func = reinterpret_cast<void **>(_a[1]);
         {
-            typedef void (KvSqlSession::*_t)(QTreeWidgetItem * , const QString & , QStringList );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvSqlSession::sendTablesOfSchema)) {
+            using _t = void (KvSqlSession::*)(QTreeWidgetItem * , const QString & , QStringList );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvSqlSession::sendTablesOfSchema)) {
                 *result = 0;
                 return;
             }
@@ -108,10 +107,14 @@ void KvSqlSession::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id
     }
 }
 
-const QMetaObject KvSqlSession::staticMetaObject = {
-    { &QObject::staticMetaObject, qt_meta_stringdata_KvSqlSession.data,
-      qt_meta_data_KvSqlSession,  qt_static_metacall, Q_NULLPTR, Q_NULLPTR}
-};
+QT_INIT_METAOBJECT const QMetaObject KvSqlSession::staticMetaObject = { {
+    &QObject::staticMetaObject,
+    qt_meta_stringdata_KvSqlSession.data,
+    qt_meta_data_KvSqlSession,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
 
 
 const QMetaObject *KvSqlSession::metaObject() const
@@ -121,9 +124,9 @@ const QMetaObject *KvSqlSession::metaObject() const
 
 void *KvSqlSession::qt_metacast(const char *_clname)
 {
-    if (!_clname) return Q_NULLPTR;
+    if (!_clname) return nullptr;
     if (!strcmp(_clname, qt_meta_stringdata_KvSqlSession.stringdata0))
-        return static_cast<void*>(const_cast< KvSqlSession*>(this));
+        return static_cast<void*>(this);
     return QObject::qt_metacast(_clname);
 }
 
@@ -147,7 +150,7 @@ int KvSqlSession::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 // SIGNAL 0
 void KvSqlSession::sendTablesOfSchema(QTreeWidgetItem * _t1, const QString & _t2, QStringList _t3)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
     QMetaObject::activate(this, &staticMetaObject, 0, _a);
 }
 QT_WARNING_POP

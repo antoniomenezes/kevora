@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'kvsqldata.ui'
 **
-** Created by: Qt User Interface Compiler version 5.8.0
+** Created by: Qt User Interface Compiler version 5.12.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -10,9 +10,9 @@
 #define UI_KVSQLDATA_H
 
 #include <QtCore/QVariant>
+#include <QtGui/QIcon>
 #include <QtWidgets/QAction>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QButtonGroup>
 #include <QtWidgets/QGridLayout>
 #include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QHeaderView>
@@ -69,56 +69,56 @@ public:
     void setupUi(QWidget *KvSqlData)
     {
         if (KvSqlData->objectName().isEmpty())
-            KvSqlData->setObjectName(QStringLiteral("KvSqlData"));
+            KvSqlData->setObjectName(QString::fromUtf8("KvSqlData"));
         KvSqlData->resize(407, 216);
         actionCopy_to_Clipboard = new QAction(KvSqlData);
-        actionCopy_to_Clipboard->setObjectName(QStringLiteral("actionCopy_to_Clipboard"));
+        actionCopy_to_Clipboard->setObjectName(QString::fromUtf8("actionCopy_to_Clipboard"));
         QIcon icon;
-        icon.addFile(QStringLiteral(":/png/png_general/editcopy.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon.addFile(QString::fromUtf8(":/png/png_general/editcopy.png"), QSize(), QIcon::Normal, QIcon::Off);
         actionCopy_to_Clipboard->setIcon(icon);
         actionExport_as_Select_Statements_Clipboard = new QAction(KvSqlData);
-        actionExport_as_Select_Statements_Clipboard->setObjectName(QStringLiteral("actionExport_as_Select_Statements_Clipboard"));
+        actionExport_as_Select_Statements_Clipboard->setObjectName(QString::fromUtf8("actionExport_as_Select_Statements_Clipboard"));
         QIcon icon1;
-        icon1.addFile(QStringLiteral(":/png/png_general/script.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon1.addFile(QString::fromUtf8(":/png/png_general/script.png"), QSize(), QIcon::Normal, QIcon::Off);
         actionExport_as_Select_Statements_Clipboard->setIcon(icon1);
         gridLayout = new QGridLayout(KvSqlData);
         gridLayout->setContentsMargins(6, 6, 6, 6);
-        gridLayout->setObjectName(QStringLiteral("gridLayout"));
+        gridLayout->setObjectName(QString::fromUtf8("gridLayout"));
         stackedWidgetData = new QStackedWidget(KvSqlData);
-        stackedWidgetData->setObjectName(QStringLiteral("stackedWidgetData"));
+        stackedWidgetData->setObjectName(QString::fromUtf8("stackedWidgetData"));
         pageData = new QWidget();
-        pageData->setObjectName(QStringLiteral("pageData"));
+        pageData->setObjectName(QString::fromUtf8("pageData"));
         verticalLayout = new QVBoxLayout(pageData);
         verticalLayout->setContentsMargins(0, 0, 0, 0);
-        verticalLayout->setObjectName(QStringLiteral("verticalLayout"));
+        verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
         widgetDataToolBar = new QWidget(pageData);
-        widgetDataToolBar->setObjectName(QStringLiteral("widgetDataToolBar"));
+        widgetDataToolBar->setObjectName(QString::fromUtf8("widgetDataToolBar"));
         horizontalLayout_7 = new QHBoxLayout(widgetDataToolBar);
         horizontalLayout_7->setContentsMargins(0, 0, 0, 0);
-        horizontalLayout_7->setObjectName(QStringLiteral("horizontalLayout_7"));
+        horizontalLayout_7->setObjectName(QString::fromUtf8("horizontalLayout_7"));
         toolButtonGetNextRec = new QToolButton(widgetDataToolBar);
-        toolButtonGetNextRec->setObjectName(QStringLiteral("toolButtonGetNextRec"));
+        toolButtonGetNextRec->setObjectName(QString::fromUtf8("toolButtonGetNextRec"));
         toolButtonGetNextRec->setEnabled(true);
         QIcon icon2;
-        icon2.addFile(QStringLiteral(":/png/png_sqlwindow/resultset_next.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon2.addFile(QString::fromUtf8(":/png/png_sqlwindow/resultset_next.png"), QSize(), QIcon::Normal, QIcon::Off);
         toolButtonGetNextRec->setIcon(icon2);
 
         horizontalLayout_7->addWidget(toolButtonGetNextRec);
 
         toolButtonGetAllRec = new QToolButton(widgetDataToolBar);
-        toolButtonGetAllRec->setObjectName(QStringLiteral("toolButtonGetAllRec"));
+        toolButtonGetAllRec->setObjectName(QString::fromUtf8("toolButtonGetAllRec"));
         toolButtonGetAllRec->setEnabled(true);
         QIcon icon3;
-        icon3.addFile(QStringLiteral(":/png/png_sqlwindow/resultset_last.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon3.addFile(QString::fromUtf8(":/png/png_sqlwindow/resultset_last.png"), QSize(), QIcon::Normal, QIcon::Off);
         toolButtonGetAllRec->setIcon(icon3);
 
         horizontalLayout_7->addWidget(toolButtonGetAllRec);
 
         toolButtonCancelAllRecords = new QToolButton(widgetDataToolBar);
-        toolButtonCancelAllRecords->setObjectName(QStringLiteral("toolButtonCancelAllRecords"));
+        toolButtonCancelAllRecords->setObjectName(QString::fromUtf8("toolButtonCancelAllRecords"));
         toolButtonCancelAllRecords->setEnabled(false);
         QIcon icon4;
-        icon4.addFile(QStringLiteral(":/png/png_general/editdelete.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon4.addFile(QString::fromUtf8(":/png/png_general/editdelete.png"), QSize(), QIcon::Normal, QIcon::Off);
         toolButtonCancelAllRecords->setIcon(icon4);
 
         horizontalLayout_7->addWidget(toolButtonCancelAllRecords);
@@ -128,17 +128,17 @@ public:
         horizontalLayout_7->addItem(horizontalSpacer_6);
 
         toolButtonRecView = new QToolButton(widgetDataToolBar);
-        toolButtonRecView->setObjectName(QStringLiteral("toolButtonRecView"));
+        toolButtonRecView->setObjectName(QString::fromUtf8("toolButtonRecView"));
         QIcon icon5;
-        icon5.addFile(QStringLiteral(":/png/png_sqlwindow/application_side_list.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon5.addFile(QString::fromUtf8(":/png/png_sqlwindow/application_side_list.png"), QSize(), QIcon::Normal, QIcon::Off);
         toolButtonRecView->setIcon(icon5);
 
         horizontalLayout_7->addWidget(toolButtonRecView);
 
         toolButtonResultZoomIn = new QToolButton(widgetDataToolBar);
-        toolButtonResultZoomIn->setObjectName(QStringLiteral("toolButtonResultZoomIn"));
+        toolButtonResultZoomIn->setObjectName(QString::fromUtf8("toolButtonResultZoomIn"));
         QIcon icon6;
-        icon6.addFile(QStringLiteral(":/png/png_general/viewmag+.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon6.addFile(QString::fromUtf8(":/png/png_general/viewmag+.png"), QSize(), QIcon::Normal, QIcon::Off);
         toolButtonResultZoomIn->setIcon(icon6);
         toolButtonResultZoomIn->setAutoRepeat(true);
         toolButtonResultZoomIn->setAutoRepeatDelay(100);
@@ -146,11 +146,13 @@ public:
         horizontalLayout_7->addWidget(toolButtonResultZoomIn);
 
         toolButtonResultZoomOut = new QToolButton(widgetDataToolBar);
-        toolButtonResultZoomOut->setObjectName(QStringLiteral("toolButtonResultZoomOut"));
+        toolButtonResultZoomOut->setObjectName(QString::fromUtf8("toolButtonResultZoomOut"));
         QIcon icon7;
-        icon7.addFile(QStringLiteral(":/png/png_general/viewmag-.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon7.addFile(QString::fromUtf8(":/png/png_general/viewmag-.png"), QSize(), QIcon::Normal, QIcon::Off);
         toolButtonResultZoomOut->setIcon(icon7);
-        toolButtonResultZoomOut->setShortcut(QStringLiteral(""));
+#ifndef QT_NO_SHORTCUT
+        toolButtonResultZoomOut->setShortcut(QString::fromUtf8(""));
+#endif // QT_NO_SHORTCUT
         toolButtonResultZoomOut->setAutoRepeat(true);
         toolButtonResultZoomOut->setAutoRepeatDelay(100);
 
@@ -160,7 +162,7 @@ public:
         verticalLayout->addWidget(widgetDataToolBar);
 
         tableWidgetResults = new QTableWidget(pageData);
-        tableWidgetResults->setObjectName(QStringLiteral("tableWidgetResults"));
+        tableWidgetResults->setObjectName(QString::fromUtf8("tableWidgetResults"));
         tableWidgetResults->setContextMenuPolicy(Qt::ActionsContextMenu);
         tableWidgetResults->setInputMethodHints(Qt::ImhPreferNumbers);
         tableWidgetResults->setEditTriggers(QAbstractItemView::NoEditTriggers);
@@ -172,45 +174,45 @@ public:
 
         stackedWidgetData->addWidget(pageData);
         pageRecordData = new QWidget();
-        pageRecordData->setObjectName(QStringLiteral("pageRecordData"));
+        pageRecordData->setObjectName(QString::fromUtf8("pageRecordData"));
         verticalLayout_2 = new QVBoxLayout(pageRecordData);
         verticalLayout_2->setContentsMargins(0, 0, 0, 0);
-        verticalLayout_2->setObjectName(QStringLiteral("verticalLayout_2"));
+        verticalLayout_2->setObjectName(QString::fromUtf8("verticalLayout_2"));
         widgetRecordToolBar = new QWidget(pageRecordData);
-        widgetRecordToolBar->setObjectName(QStringLiteral("widgetRecordToolBar"));
+        widgetRecordToolBar->setObjectName(QString::fromUtf8("widgetRecordToolBar"));
         horizontalLayout_8 = new QHBoxLayout(widgetRecordToolBar);
         horizontalLayout_8->setContentsMargins(0, 0, 0, 0);
-        horizontalLayout_8->setObjectName(QStringLiteral("horizontalLayout_8"));
+        horizontalLayout_8->setObjectName(QString::fromUtf8("horizontalLayout_8"));
         toolButtonFirstRec = new QToolButton(widgetRecordToolBar);
-        toolButtonFirstRec->setObjectName(QStringLiteral("toolButtonFirstRec"));
+        toolButtonFirstRec->setObjectName(QString::fromUtf8("toolButtonFirstRec"));
         QIcon icon8;
-        icon8.addFile(QStringLiteral(":/png/png_record/tab_first.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon8.addFile(QString::fromUtf8(":/png/png_record/tab_first.png"), QSize(), QIcon::Normal, QIcon::Off);
         toolButtonFirstRec->setIcon(icon8);
 
         horizontalLayout_8->addWidget(toolButtonFirstRec);
 
         toolButtonPrevRec = new QToolButton(widgetRecordToolBar);
-        toolButtonPrevRec->setObjectName(QStringLiteral("toolButtonPrevRec"));
+        toolButtonPrevRec->setObjectName(QString::fromUtf8("toolButtonPrevRec"));
         QIcon icon9;
-        icon9.addFile(QStringLiteral(":/png/png_record/tab_left.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon9.addFile(QString::fromUtf8(":/png/png_record/tab_left.png"), QSize(), QIcon::Normal, QIcon::Off);
         toolButtonPrevRec->setIcon(icon9);
         toolButtonPrevRec->setAutoRepeat(true);
 
         horizontalLayout_8->addWidget(toolButtonPrevRec);
 
         toolButtonNextRec = new QToolButton(widgetRecordToolBar);
-        toolButtonNextRec->setObjectName(QStringLiteral("toolButtonNextRec"));
+        toolButtonNextRec->setObjectName(QString::fromUtf8("toolButtonNextRec"));
         QIcon icon10;
-        icon10.addFile(QStringLiteral(":/png/png_record/tab_right.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon10.addFile(QString::fromUtf8(":/png/png_record/tab_right.png"), QSize(), QIcon::Normal, QIcon::Off);
         toolButtonNextRec->setIcon(icon10);
         toolButtonNextRec->setAutoRepeat(true);
 
         horizontalLayout_8->addWidget(toolButtonNextRec);
 
         toolButtonLastRec = new QToolButton(widgetRecordToolBar);
-        toolButtonLastRec->setObjectName(QStringLiteral("toolButtonLastRec"));
+        toolButtonLastRec->setObjectName(QString::fromUtf8("toolButtonLastRec"));
         QIcon icon11;
-        icon11.addFile(QStringLiteral(":/png/png_record/tab_last.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon11.addFile(QString::fromUtf8(":/png/png_record/tab_last.png"), QSize(), QIcon::Normal, QIcon::Off);
         toolButtonLastRec->setIcon(icon11);
 
         horizontalLayout_8->addWidget(toolButtonLastRec);
@@ -220,26 +222,30 @@ public:
         horizontalLayout_8->addItem(horizontalSpacer_7);
 
         toolButtonGridView = new QToolButton(widgetRecordToolBar);
-        toolButtonGridView->setObjectName(QStringLiteral("toolButtonGridView"));
+        toolButtonGridView->setObjectName(QString::fromUtf8("toolButtonGridView"));
         QIcon icon12;
-        icon12.addFile(QStringLiteral(":/png/png_sqlwindow/application_view_columns.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon12.addFile(QString::fromUtf8(":/png/png_sqlwindow/application_view_columns.png"), QSize(), QIcon::Normal, QIcon::Off);
         toolButtonGridView->setIcon(icon12);
 
         horizontalLayout_8->addWidget(toolButtonGridView);
 
         toolButtonRecZoomIn = new QToolButton(widgetRecordToolBar);
-        toolButtonRecZoomIn->setObjectName(QStringLiteral("toolButtonRecZoomIn"));
+        toolButtonRecZoomIn->setObjectName(QString::fromUtf8("toolButtonRecZoomIn"));
         toolButtonRecZoomIn->setIcon(icon6);
-        toolButtonRecZoomIn->setShortcut(QStringLiteral(""));
+#ifndef QT_NO_SHORTCUT
+        toolButtonRecZoomIn->setShortcut(QString::fromUtf8(""));
+#endif // QT_NO_SHORTCUT
         toolButtonRecZoomIn->setAutoRepeat(true);
         toolButtonRecZoomIn->setAutoRepeatDelay(100);
 
         horizontalLayout_8->addWidget(toolButtonRecZoomIn);
 
         toolButtonRecZoomOut = new QToolButton(widgetRecordToolBar);
-        toolButtonRecZoomOut->setObjectName(QStringLiteral("toolButtonRecZoomOut"));
+        toolButtonRecZoomOut->setObjectName(QString::fromUtf8("toolButtonRecZoomOut"));
         toolButtonRecZoomOut->setIcon(icon7);
-        toolButtonRecZoomOut->setShortcut(QStringLiteral(""));
+#ifndef QT_NO_SHORTCUT
+        toolButtonRecZoomOut->setShortcut(QString::fromUtf8(""));
+#endif // QT_NO_SHORTCUT
         toolButtonRecZoomOut->setAutoRepeat(true);
         toolButtonRecZoomOut->setAutoRepeatDelay(100);
 
@@ -249,7 +255,7 @@ public:
         verticalLayout_2->addWidget(widgetRecordToolBar);
 
         tableWidgetRecord = new QTableWidget(pageRecordData);
-        tableWidgetRecord->setObjectName(QStringLiteral("tableWidgetRecord"));
+        tableWidgetRecord->setObjectName(QString::fromUtf8("tableWidgetRecord"));
         tableWidgetRecord->setContextMenuPolicy(Qt::ActionsContextMenu);
         tableWidgetRecord->setHorizontalScrollBarPolicy(Qt::ScrollBarAsNeeded);
         tableWidgetRecord->setEditTriggers(QAbstractItemView::NoEditTriggers);
@@ -259,29 +265,33 @@ public:
 
         stackedWidgetData->addWidget(pageRecordData);
         pagePlan = new QWidget();
-        pagePlan->setObjectName(QStringLiteral("pagePlan"));
+        pagePlan->setObjectName(QString::fromUtf8("pagePlan"));
         verticalLayout_3 = new QVBoxLayout(pagePlan);
         verticalLayout_3->setContentsMargins(0, 0, 0, 0);
-        verticalLayout_3->setObjectName(QStringLiteral("verticalLayout_3"));
+        verticalLayout_3->setObjectName(QString::fromUtf8("verticalLayout_3"));
         horizontalLayout = new QHBoxLayout();
-        horizontalLayout->setObjectName(QStringLiteral("horizontalLayout"));
+        horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
         horizontalSpacer = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
 
         horizontalLayout->addItem(horizontalSpacer);
 
         toolButtonPlanZoomIn = new QToolButton(pagePlan);
-        toolButtonPlanZoomIn->setObjectName(QStringLiteral("toolButtonPlanZoomIn"));
+        toolButtonPlanZoomIn->setObjectName(QString::fromUtf8("toolButtonPlanZoomIn"));
         toolButtonPlanZoomIn->setIcon(icon6);
-        toolButtonPlanZoomIn->setShortcut(QStringLiteral(""));
+#ifndef QT_NO_SHORTCUT
+        toolButtonPlanZoomIn->setShortcut(QString::fromUtf8(""));
+#endif // QT_NO_SHORTCUT
         toolButtonPlanZoomIn->setAutoRepeat(true);
         toolButtonPlanZoomIn->setAutoRepeatDelay(100);
 
         horizontalLayout->addWidget(toolButtonPlanZoomIn);
 
         toolButtonPlanZoomOut = new QToolButton(pagePlan);
-        toolButtonPlanZoomOut->setObjectName(QStringLiteral("toolButtonPlanZoomOut"));
+        toolButtonPlanZoomOut->setObjectName(QString::fromUtf8("toolButtonPlanZoomOut"));
         toolButtonPlanZoomOut->setIcon(icon7);
-        toolButtonPlanZoomOut->setShortcut(QStringLiteral(""));
+#ifndef QT_NO_SHORTCUT
+        toolButtonPlanZoomOut->setShortcut(QString::fromUtf8(""));
+#endif // QT_NO_SHORTCUT
         toolButtonPlanZoomOut->setAutoRepeat(true);
         toolButtonPlanZoomOut->setAutoRepeatDelay(100);
 
@@ -292,9 +302,9 @@ public:
 
         treeWidgetPlan = new QTreeWidget(pagePlan);
         QTreeWidgetItem *__qtreewidgetitem = new QTreeWidgetItem();
-        __qtreewidgetitem->setText(2, QStringLiteral("ID"));
+        __qtreewidgetitem->setText(2, QString::fromUtf8("ID"));
         treeWidgetPlan->setHeaderItem(__qtreewidgetitem);
-        treeWidgetPlan->setObjectName(QStringLiteral("treeWidgetPlan"));
+        treeWidgetPlan->setObjectName(QString::fromUtf8("treeWidgetPlan"));
 
         verticalLayout_3->addWidget(treeWidgetPlan);
 
@@ -313,57 +323,57 @@ public:
 
     void retranslateUi(QWidget *KvSqlData)
     {
-        KvSqlData->setWindowTitle(QApplication::translate("KvSqlData", "Form", Q_NULLPTR));
-        actionCopy_to_Clipboard->setText(QApplication::translate("KvSqlData", "Copy to Clipboard", Q_NULLPTR));
-        actionExport_as_Select_Statements_Clipboard->setText(QApplication::translate("KvSqlData", "Export as Select Statements to Clipboard", Q_NULLPTR));
+        KvSqlData->setWindowTitle(QApplication::translate("KvSqlData", "Form", nullptr));
+        actionCopy_to_Clipboard->setText(QApplication::translate("KvSqlData", "Copy to Clipboard", nullptr));
+        actionExport_as_Select_Statements_Clipboard->setText(QApplication::translate("KvSqlData", "Export as Select Statements to Clipboard", nullptr));
 #ifndef QT_NO_TOOLTIP
-        actionExport_as_Select_Statements_Clipboard->setToolTip(QApplication::translate("KvSqlData", "Export as Select Statements to Clipboard", Q_NULLPTR));
+        actionExport_as_Select_Statements_Clipboard->setToolTip(QApplication::translate("KvSqlData", "Export as Select Statements to Clipboard", nullptr));
 #endif // QT_NO_TOOLTIP
 #ifndef QT_NO_TOOLTIP
-        toolButtonGetNextRec->setToolTip(QApplication::translate("KvSqlData", "Get next records...", Q_NULLPTR));
+        toolButtonGetNextRec->setToolTip(QApplication::translate("KvSqlData", "Get next records...", nullptr));
 #endif // QT_NO_TOOLTIP
-        toolButtonGetNextRec->setText(QApplication::translate("KvSqlData", "...", Q_NULLPTR));
+        toolButtonGetNextRec->setText(QApplication::translate("KvSqlData", "...", nullptr));
 #ifndef QT_NO_TOOLTIP
-        toolButtonGetAllRec->setToolTip(QApplication::translate("KvSqlData", "Get all records", Q_NULLPTR));
+        toolButtonGetAllRec->setToolTip(QApplication::translate("KvSqlData", "Get all records", nullptr));
 #endif // QT_NO_TOOLTIP
-        toolButtonGetAllRec->setText(QApplication::translate("KvSqlData", "...", Q_NULLPTR));
+        toolButtonGetAllRec->setText(QApplication::translate("KvSqlData", "...", nullptr));
 #ifndef QT_NO_TOOLTIP
-        toolButtonCancelAllRecords->setToolTip(QApplication::translate("KvSqlData", "Cancel All Records Retrieval", Q_NULLPTR));
+        toolButtonCancelAllRecords->setToolTip(QApplication::translate("KvSqlData", "Cancel All Records Retrieval", nullptr));
 #endif // QT_NO_TOOLTIP
-        toolButtonCancelAllRecords->setText(QApplication::translate("KvSqlData", "...", Q_NULLPTR));
+        toolButtonCancelAllRecords->setText(QApplication::translate("KvSqlData", "...", nullptr));
 #ifndef QT_NO_TOOLTIP
-        toolButtonRecView->setToolTip(QApplication::translate("KvSqlData", "Show Record View", Q_NULLPTR));
+        toolButtonRecView->setToolTip(QApplication::translate("KvSqlData", "Show Record View", nullptr));
 #endif // QT_NO_TOOLTIP
-        toolButtonRecView->setText(QApplication::translate("KvSqlData", "...", Q_NULLPTR));
-        toolButtonResultZoomIn->setText(QApplication::translate("KvSqlData", "...", Q_NULLPTR));
-        toolButtonResultZoomOut->setText(QApplication::translate("KvSqlData", "...", Q_NULLPTR));
+        toolButtonRecView->setText(QApplication::translate("KvSqlData", "...", nullptr));
+        toolButtonResultZoomIn->setText(QApplication::translate("KvSqlData", "...", nullptr));
+        toolButtonResultZoomOut->setText(QApplication::translate("KvSqlData", "...", nullptr));
 #ifndef QT_NO_TOOLTIP
-        toolButtonFirstRec->setToolTip(QApplication::translate("KvSqlData", "First Record", Q_NULLPTR));
+        toolButtonFirstRec->setToolTip(QApplication::translate("KvSqlData", "First Record", nullptr));
 #endif // QT_NO_TOOLTIP
-        toolButtonFirstRec->setText(QApplication::translate("KvSqlData", "...", Q_NULLPTR));
+        toolButtonFirstRec->setText(QApplication::translate("KvSqlData", "...", nullptr));
 #ifndef QT_NO_TOOLTIP
-        toolButtonPrevRec->setToolTip(QApplication::translate("KvSqlData", "Previous Record", Q_NULLPTR));
+        toolButtonPrevRec->setToolTip(QApplication::translate("KvSqlData", "Previous Record", nullptr));
 #endif // QT_NO_TOOLTIP
-        toolButtonPrevRec->setText(QApplication::translate("KvSqlData", "...", Q_NULLPTR));
+        toolButtonPrevRec->setText(QApplication::translate("KvSqlData", "...", nullptr));
 #ifndef QT_NO_TOOLTIP
-        toolButtonNextRec->setToolTip(QApplication::translate("KvSqlData", "Next Record", Q_NULLPTR));
+        toolButtonNextRec->setToolTip(QApplication::translate("KvSqlData", "Next Record", nullptr));
 #endif // QT_NO_TOOLTIP
-        toolButtonNextRec->setText(QApplication::translate("KvSqlData", "...", Q_NULLPTR));
+        toolButtonNextRec->setText(QApplication::translate("KvSqlData", "...", nullptr));
 #ifndef QT_NO_TOOLTIP
-        toolButtonLastRec->setToolTip(QApplication::translate("KvSqlData", "Last Record", Q_NULLPTR));
+        toolButtonLastRec->setToolTip(QApplication::translate("KvSqlData", "Last Record", nullptr));
 #endif // QT_NO_TOOLTIP
-        toolButtonLastRec->setText(QApplication::translate("KvSqlData", "...", Q_NULLPTR));
+        toolButtonLastRec->setText(QApplication::translate("KvSqlData", "...", nullptr));
 #ifndef QT_NO_TOOLTIP
-        toolButtonGridView->setToolTip(QApplication::translate("KvSqlData", "Show Results Grid", Q_NULLPTR));
+        toolButtonGridView->setToolTip(QApplication::translate("KvSqlData", "Show Results Grid", nullptr));
 #endif // QT_NO_TOOLTIP
-        toolButtonGridView->setText(QApplication::translate("KvSqlData", "...", Q_NULLPTR));
-        toolButtonRecZoomIn->setText(QApplication::translate("KvSqlData", "...", Q_NULLPTR));
-        toolButtonRecZoomOut->setText(QApplication::translate("KvSqlData", "...", Q_NULLPTR));
-        toolButtonPlanZoomIn->setText(QApplication::translate("KvSqlData", "...", Q_NULLPTR));
-        toolButtonPlanZoomOut->setText(QApplication::translate("KvSqlData", "...", Q_NULLPTR));
+        toolButtonGridView->setText(QApplication::translate("KvSqlData", "...", nullptr));
+        toolButtonRecZoomIn->setText(QApplication::translate("KvSqlData", "...", nullptr));
+        toolButtonRecZoomOut->setText(QApplication::translate("KvSqlData", "...", nullptr));
+        toolButtonPlanZoomIn->setText(QApplication::translate("KvSqlData", "...", nullptr));
+        toolButtonPlanZoomOut->setText(QApplication::translate("KvSqlData", "...", nullptr));
         QTreeWidgetItem *___qtreewidgetitem = treeWidgetPlan->headerItem();
-        ___qtreewidgetitem->setText(1, QApplication::translate("KvSqlData", "Cost", Q_NULLPTR));
-        ___qtreewidgetitem->setText(0, QApplication::translate("KvSqlData", "Operation", Q_NULLPTR));
+        ___qtreewidgetitem->setText(1, QApplication::translate("KvSqlData", "Cost", nullptr));
+        ___qtreewidgetitem->setText(0, QApplication::translate("KvSqlData", "Operation", nullptr));
     } // retranslateUi
 
 };

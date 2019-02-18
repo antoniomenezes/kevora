@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'kvtreewidget.h'
 **
-** Created by: The Qt Meta Object Compiler version 67 (Qt 5.8.0)
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.12.0)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -13,7 +13,7 @@
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'kvtreewidget.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 67
-#error "This file was generated using the moc from 5.8.0. It"
+#error "This file was generated using the moc from 5.12.0. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -78,7 +78,7 @@ QT_MOC_LITERAL(24, 385, 30) // "QList<QPair<QString,QString> >"
 static const uint qt_meta_data_KvTreeWidget[] = {
 
  // content:
-       7,       // revision
+       8,       // revision
        0,       // classname
        0,    0, // classinfo
       12,   14, // methods
@@ -145,38 +145,37 @@ void KvTreeWidget::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
         int *result = reinterpret_cast<int *>(_a[0]);
-        void **func = reinterpret_cast<void **>(_a[1]);
         {
-            typedef void (KvTreeWidget::*_t)(const QString & , const QString & );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvTreeWidget::databaseTreeConnectionOff)) {
+            using _t = void (KvTreeWidget::*)(const QString & , const QString & );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvTreeWidget::databaseTreeConnectionOff)) {
                 *result = 0;
                 return;
             }
         }
         {
-            typedef void (KvTreeWidget::*_t)(const QString & , const QString & );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvTreeWidget::objectTreeConnectionOff)) {
+            using _t = void (KvTreeWidget::*)(const QString & , const QString & );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvTreeWidget::objectTreeConnectionOff)) {
                 *result = 1;
                 return;
             }
         }
         {
-            typedef void (KvTreeWidget::*_t)(QTreeWidgetItem * , const QString & , const QString & );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvTreeWidget::getObjectsOfSchemaSignal)) {
+            using _t = void (KvTreeWidget::*)(QTreeWidgetItem * , const QString & , const QString & );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvTreeWidget::getObjectsOfSchemaSignal)) {
                 *result = 2;
                 return;
             }
         }
         {
-            typedef void (KvTreeWidget::*_t)(QTreeWidgetItem * , const QString & , const QString & );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvTreeWidget::getGroupsOfSchemaSignal)) {
+            using _t = void (KvTreeWidget::*)(QTreeWidgetItem * , const QString & , const QString & );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvTreeWidget::getGroupsOfSchemaSignal)) {
                 *result = 3;
                 return;
             }
         }
         {
-            typedef void (KvTreeWidget::*_t)(QTreeWidgetItem * , const QString & , const QString & , const QString & );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvTreeWidget::getGroupElementsOfSchemaSignal)) {
+            using _t = void (KvTreeWidget::*)(QTreeWidgetItem * , const QString & , const QString & , const QString & );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvTreeWidget::getGroupElementsOfSchemaSignal)) {
                 *result = 4;
                 return;
             }
@@ -184,10 +183,14 @@ void KvTreeWidget::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id
     }
 }
 
-const QMetaObject KvTreeWidget::staticMetaObject = {
-    { &QTreeWidget::staticMetaObject, qt_meta_stringdata_KvTreeWidget.data,
-      qt_meta_data_KvTreeWidget,  qt_static_metacall, Q_NULLPTR, Q_NULLPTR}
-};
+QT_INIT_METAOBJECT const QMetaObject KvTreeWidget::staticMetaObject = { {
+    &QTreeWidget::staticMetaObject,
+    qt_meta_stringdata_KvTreeWidget.data,
+    qt_meta_data_KvTreeWidget,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
 
 
 const QMetaObject *KvTreeWidget::metaObject() const
@@ -197,9 +200,9 @@ const QMetaObject *KvTreeWidget::metaObject() const
 
 void *KvTreeWidget::qt_metacast(const char *_clname)
 {
-    if (!_clname) return Q_NULLPTR;
+    if (!_clname) return nullptr;
     if (!strcmp(_clname, qt_meta_stringdata_KvTreeWidget.stringdata0))
-        return static_cast<void*>(const_cast< KvTreeWidget*>(this));
+        return static_cast<void*>(this);
     return QTreeWidget::qt_metacast(_clname);
 }
 
@@ -223,35 +226,35 @@ int KvTreeWidget::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 // SIGNAL 0
 void KvTreeWidget::databaseTreeConnectionOff(const QString & _t1, const QString & _t2)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
     QMetaObject::activate(this, &staticMetaObject, 0, _a);
 }
 
 // SIGNAL 1
 void KvTreeWidget::objectTreeConnectionOff(const QString & _t1, const QString & _t2)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
     QMetaObject::activate(this, &staticMetaObject, 1, _a);
 }
 
 // SIGNAL 2
 void KvTreeWidget::getObjectsOfSchemaSignal(QTreeWidgetItem * _t1, const QString & _t2, const QString & _t3)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
     QMetaObject::activate(this, &staticMetaObject, 2, _a);
 }
 
 // SIGNAL 3
 void KvTreeWidget::getGroupsOfSchemaSignal(QTreeWidgetItem * _t1, const QString & _t2, const QString & _t3)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
     QMetaObject::activate(this, &staticMetaObject, 3, _a);
 }
 
 // SIGNAL 4
 void KvTreeWidget::getGroupElementsOfSchemaSignal(QTreeWidgetItem * _t1, const QString & _t2, const QString & _t3, const QString & _t4)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)) };
     QMetaObject::activate(this, &staticMetaObject, 4, _a);
 }
 QT_WARNING_POP

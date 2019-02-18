@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'kvsqldata.h'
 **
-** Created by: The Qt Meta Object Compiler version 67 (Qt 5.8.0)
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.12.0)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -12,7 +12,7 @@
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'kvsqldata.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 67
-#error "This file was generated using the moc from 5.8.0. It"
+#error "This file was generated using the moc from 5.12.0. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -92,7 +92,7 @@ QT_MOC_LITERAL(30, 753, 18) // "exportResultsAsSql"
 static const uint qt_meta_data_KvSqlData[] = {
 
  // content:
-       7,       // revision
+       8,       // revision
        0,       // classname
        0,    0, // classinfo
       25,   14, // methods
@@ -190,44 +190,43 @@ void KvSqlData::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, v
         case 18: _t->on_toolButtonResultZoomOut_clicked(); break;
         case 19: _t->on_toolButtonResultZoomIn_clicked(); break;
         case 20: { QString _r = _t->exportResults((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< bool(*)>(_a[2])));
-            if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = _r; }  break;
+            if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = std::move(_r); }  break;
         case 21: { QString _r = _t->exportResults((*reinterpret_cast< const QString(*)>(_a[1])));
-            if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = _r; }  break;
+            if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = std::move(_r); }  break;
         case 22: { QString _r = _t->exportRecord((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< bool(*)>(_a[2])));
-            if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = _r; }  break;
+            if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = std::move(_r); }  break;
         case 23: { QString _r = _t->exportRecord((*reinterpret_cast< const QString(*)>(_a[1])));
-            if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = _r; }  break;
+            if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = std::move(_r); }  break;
         case 24: { QStringList _r = _t->exportResultsAsSql();
-            if (_a[0]) *reinterpret_cast< QStringList*>(_a[0]) = _r; }  break;
+            if (_a[0]) *reinterpret_cast< QStringList*>(_a[0]) = std::move(_r); }  break;
         default: ;
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
         int *result = reinterpret_cast<int *>(_a[0]);
-        void **func = reinterpret_cast<void **>(_a[1]);
         {
-            typedef void (KvSqlData::*_t)(QString );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvSqlData::getNextRecordsSignal)) {
+            using _t = void (KvSqlData::*)(QString );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvSqlData::getNextRecordsSignal)) {
                 *result = 0;
                 return;
             }
         }
         {
-            typedef void (KvSqlData::*_t)(QString );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvSqlData::getAllRecordsSignal)) {
+            using _t = void (KvSqlData::*)(QString );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvSqlData::getAllRecordsSignal)) {
                 *result = 1;
                 return;
             }
         }
         {
-            typedef void (KvSqlData::*_t)(QString );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvSqlData::cancelAllRecordsFetchSignal)) {
+            using _t = void (KvSqlData::*)(QString );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvSqlData::cancelAllRecordsFetchSignal)) {
                 *result = 2;
                 return;
             }
         }
         {
-            typedef void (KvSqlData::*_t)(int , QString );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvSqlData::currentRecordChangedSignal)) {
+            using _t = void (KvSqlData::*)(int , QString );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvSqlData::currentRecordChangedSignal)) {
                 *result = 3;
                 return;
             }
@@ -235,10 +234,14 @@ void KvSqlData::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, v
     }
 }
 
-const QMetaObject KvSqlData::staticMetaObject = {
-    { &QWidget::staticMetaObject, qt_meta_stringdata_KvSqlData.data,
-      qt_meta_data_KvSqlData,  qt_static_metacall, Q_NULLPTR, Q_NULLPTR}
-};
+QT_INIT_METAOBJECT const QMetaObject KvSqlData::staticMetaObject = { {
+    &QWidget::staticMetaObject,
+    qt_meta_stringdata_KvSqlData.data,
+    qt_meta_data_KvSqlData,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
 
 
 const QMetaObject *KvSqlData::metaObject() const
@@ -248,9 +251,9 @@ const QMetaObject *KvSqlData::metaObject() const
 
 void *KvSqlData::qt_metacast(const char *_clname)
 {
-    if (!_clname) return Q_NULLPTR;
+    if (!_clname) return nullptr;
     if (!strcmp(_clname, qt_meta_stringdata_KvSqlData.stringdata0))
-        return static_cast<void*>(const_cast< KvSqlData*>(this));
+        return static_cast<void*>(this);
     return QWidget::qt_metacast(_clname);
 }
 
@@ -274,28 +277,28 @@ int KvSqlData::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 // SIGNAL 0
 void KvSqlData::getNextRecordsSignal(QString _t1)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
     QMetaObject::activate(this, &staticMetaObject, 0, _a);
 }
 
 // SIGNAL 1
 void KvSqlData::getAllRecordsSignal(QString _t1)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
     QMetaObject::activate(this, &staticMetaObject, 1, _a);
 }
 
 // SIGNAL 2
 void KvSqlData::cancelAllRecordsFetchSignal(QString _t1)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
     QMetaObject::activate(this, &staticMetaObject, 2, _a);
 }
 
 // SIGNAL 3
 void KvSqlData::currentRecordChangedSignal(int _t1, QString _t2)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
     QMetaObject::activate(this, &staticMetaObject, 3, _a);
 }
 QT_WARNING_POP

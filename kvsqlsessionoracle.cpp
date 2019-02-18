@@ -1796,9 +1796,9 @@ QStringList KvSqlSessionOracle::getPrivileges(QString schemaName, QString object
             schemaName+"' AND TABLE_NAME = '"+objectName+"' ORDER BY GRANTEE, PRIVILEGE";
     QSqlQuery query(sqlStatement, sessionDatabase);
     while (query.next()) {
-        // Grantable (Admin Option)
+        // Grantable (Grant Option)
         if (query.value(2).toString().contains("Y")) {
-            result << "GRANT "+query.value(1).toString()+" ON "+schemaName+"."+objectName+" TO "+query.value(0).toString()+" WITH ADMIN OPTION;";
+            result << "GRANT "+query.value(1).toString()+" ON "+schemaName+"."+objectName+" TO "+query.value(0).toString()+" WITH GRANT OPTION;";
         }
         else {
             result << "GRANT "+query.value(1).toString()+" ON "+schemaName+"."+objectName+" TO "+query.value(0).toString()+";";

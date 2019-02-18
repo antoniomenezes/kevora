@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'kvsqlwindow.h'
 **
-** Created by: The Qt Meta Object Compiler version 67 (Qt 5.8.0)
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.12.0)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -13,7 +13,7 @@
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'kvsqlwindow.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 67
-#error "This file was generated using the moc from 5.8.0. It"
+#error "This file was generated using the moc from 5.12.0. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -215,7 +215,7 @@ QT_MOC_LITERAL(118, 1936, 46) // "on_actionExtract_Consistent_S..."
 static const uint qt_meta_data_KvSqlWindow[] = {
 
  // content:
-       7,       // revision
+       8,       // revision
        0,       // classname
        0,    0, // classinfo
       70,   14, // methods
@@ -397,7 +397,7 @@ void KvSqlWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id,
         case 12: _t->gotNextRecordsSlot((*reinterpret_cast< QString(*)>(_a[1])),(*reinterpret_cast< QList<QSqlRecord>(*)>(_a[2])),(*reinterpret_cast< int(*)>(_a[3])),(*reinterpret_cast< QSqlError(*)>(_a[4]))); break;
         case 13: _t->updateRecordCount((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2]))); break;
         case 14: { QString _r = _t->getPreparedSqlStatement();
-            if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = _r; }  break;
+            if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = std::move(_r); }  break;
         case 15: _t->updateRecordViewHeaders(); break;
         case 16: _t->updateRecordView(); break;
         case 17: _t->setCancelAllRecords((*reinterpret_cast< QString(*)>(_a[1])),(*reinterpret_cast< bool(*)>(_a[2]))); break;
@@ -437,23 +437,23 @@ void KvSqlWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id,
         case 51: _t->on_plainTextEditSql_updateRequest((*reinterpret_cast< QRect(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2]))); break;
         case 52: _t->on_currentSessionComboBox_activated((*reinterpret_cast< QString(*)>(_a[1]))); break;
         case 53: { QStringList _r = _t->getSqlParameters((*reinterpret_cast< QString(*)>(_a[1])));
-            if (_a[0]) *reinterpret_cast< QStringList*>(_a[0]) = _r; }  break;
+            if (_a[0]) *reinterpret_cast< QStringList*>(_a[0]) = std::move(_r); }  break;
         case 54: _t->updateActiveSessionsCombo(); break;
         case 55: { QString _r = _t->exportResults((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< bool(*)>(_a[2])));
-            if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = _r; }  break;
+            if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = std::move(_r); }  break;
         case 56: { QString _r = _t->exportResults((*reinterpret_cast< const QString(*)>(_a[1])));
-            if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = _r; }  break;
+            if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = std::move(_r); }  break;
         case 57: { QString _r = _t->exportRecord((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< bool(*)>(_a[2])));
-            if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = _r; }  break;
+            if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = std::move(_r); }  break;
         case 58: { QString _r = _t->exportRecord((*reinterpret_cast< const QString(*)>(_a[1])));
-            if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = _r; }  break;
+            if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = std::move(_r); }  break;
         case 59: _t->runSql((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2]))); break;
         case 60: _t->runSql((*reinterpret_cast< int(*)>(_a[1]))); break;
         case 61: _t->runSql(); break;
         case 62: { bool _r = _t->isSelectStatement((*reinterpret_cast< QString(*)>(_a[1])));
-            if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = _r; }  break;
+            if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = std::move(_r); }  break;
         case 63: { KvSqlData* _r = _t->newSqlData((*reinterpret_cast< QString(*)>(_a[1])),(*reinterpret_cast< QString(*)>(_a[2])),(*reinterpret_cast< QString(*)>(_a[3])));
-            if (_a[0]) *reinterpret_cast< KvSqlData**>(_a[0]) = _r; }  break;
+            if (_a[0]) *reinterpret_cast< KvSqlData**>(_a[0]) = std::move(_r); }  break;
         case 64: _t->getNextRecordsSlot((*reinterpret_cast< QString(*)>(_a[1]))); break;
         case 65: _t->getAllRecordsSlot((*reinterpret_cast< QString(*)>(_a[1]))); break;
         case 66: _t->cancelAllRecordsFetchSlot((*reinterpret_cast< QString(*)>(_a[1]))); break;
@@ -464,10 +464,9 @@ void KvSqlWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id,
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
         int *result = reinterpret_cast<int *>(_a[0]);
-        void **func = reinterpret_cast<void **>(_a[1]);
         {
-            typedef void (KvSqlWindow::*_t)(QString );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvSqlWindow::openFileSignal)) {
+            using _t = void (KvSqlWindow::*)(QString );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvSqlWindow::openFileSignal)) {
                 *result = 0;
                 return;
             }
@@ -475,10 +474,14 @@ void KvSqlWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id,
     }
 }
 
-const QMetaObject KvSqlWindow::staticMetaObject = {
-    { &KvSqlDialog::staticMetaObject, qt_meta_stringdata_KvSqlWindow.data,
-      qt_meta_data_KvSqlWindow,  qt_static_metacall, Q_NULLPTR, Q_NULLPTR}
-};
+QT_INIT_METAOBJECT const QMetaObject KvSqlWindow::staticMetaObject = { {
+    &KvSqlDialog::staticMetaObject,
+    qt_meta_stringdata_KvSqlWindow.data,
+    qt_meta_data_KvSqlWindow,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
 
 
 const QMetaObject *KvSqlWindow::metaObject() const
@@ -488,9 +491,9 @@ const QMetaObject *KvSqlWindow::metaObject() const
 
 void *KvSqlWindow::qt_metacast(const char *_clname)
 {
-    if (!_clname) return Q_NULLPTR;
+    if (!_clname) return nullptr;
     if (!strcmp(_clname, qt_meta_stringdata_KvSqlWindow.stringdata0))
-        return static_cast<void*>(const_cast< KvSqlWindow*>(this));
+        return static_cast<void*>(this);
     return KvSqlDialog::qt_metacast(_clname);
 }
 
@@ -514,7 +517,7 @@ int KvSqlWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 // SIGNAL 0
 void KvSqlWindow::openFileSignal(QString _t1)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
     QMetaObject::activate(this, &staticMetaObject, 0, _a);
 }
 QT_WARNING_POP

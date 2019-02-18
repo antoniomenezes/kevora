@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'kvsqldialog.ui'
 **
-** Created by: Qt User Interface Compiler version 5.8.0
+** Created by: Qt User Interface Compiler version 5.12.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -10,11 +10,8 @@
 #define UI_KVSQLDIALOG_H
 
 #include <QtCore/QVariant>
-#include <QtWidgets/QAction>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QButtonGroup>
 #include <QtWidgets/QDialog>
-#include <QtWidgets/QHeaderView>
 
 QT_BEGIN_NAMESPACE
 
@@ -25,7 +22,7 @@ public:
     void setupUi(QDialog *KvSqlDialog)
     {
         if (KvSqlDialog->objectName().isEmpty())
-            KvSqlDialog->setObjectName(QStringLiteral("KvSqlDialog"));
+            KvSqlDialog->setObjectName(QString::fromUtf8("KvSqlDialog"));
         KvSqlDialog->resize(640, 480);
 
         retranslateUi(KvSqlDialog);
@@ -35,7 +32,7 @@ public:
 
     void retranslateUi(QDialog *KvSqlDialog)
     {
-        KvSqlDialog->setWindowTitle(QApplication::translate("KvSqlDialog", "Dialog", Q_NULLPTR));
+        KvSqlDialog->setWindowTitle(QApplication::translate("KvSqlDialog", "Dialog", nullptr));
     } // retranslateUi
 
 };

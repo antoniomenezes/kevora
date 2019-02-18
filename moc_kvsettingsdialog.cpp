@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'kvsettingsdialog.h'
 **
-** Created by: The Qt Meta Object Compiler version 67 (Qt 5.8.0)
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.12.0)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -12,7 +12,7 @@
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'kvsettingsdialog.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 67
-#error "This file was generated using the moc from 5.8.0. It"
+#error "This file was generated using the moc from 5.12.0. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -21,8 +21,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_KvSettingsDialog_t {
-    QByteArrayData data[59];
-    char stringdata0[1519];
+    QByteArrayData data[60];
+    char stringdata0[1531];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -65,31 +65,32 @@ QT_MOC_LITERAL(30, 861, 11), // "setLanguage"
 QT_MOC_LITERAL(31, 873, 8), // "langCode"
 QT_MOC_LITERAL(32, 882, 21), // "setNeedToSaveSettings"
 QT_MOC_LITERAL(33, 904, 26), // "on_tableWidget_7_activated"
-QT_MOC_LITERAL(34, 931, 39), // "on_tableWidgetColorScheme_cel..."
-QT_MOC_LITERAL(35, 971, 3), // "row"
-QT_MOC_LITERAL(36, 975, 6), // "column"
-QT_MOC_LITERAL(37, 982, 44), // "on_tableWidgetColorScheme_cur..."
-QT_MOC_LITERAL(38, 1027, 10), // "currentRow"
-QT_MOC_LITERAL(39, 1038, 13), // "currentColumn"
-QT_MOC_LITERAL(40, 1052, 11), // "previousRow"
-QT_MOC_LITERAL(41, 1064, 14), // "previousColumn"
-QT_MOC_LITERAL(42, 1079, 28), // "on_toolButtonClearFg_clicked"
-QT_MOC_LITERAL(43, 1108, 28), // "on_toolButtonClearBg_clicked"
-QT_MOC_LITERAL(44, 1137, 23), // "on_checkBoxBold_toggled"
-QT_MOC_LITERAL(45, 1161, 7), // "checked"
-QT_MOC_LITERAL(46, 1169, 25), // "on_checkBoxItalic_toggled"
-QT_MOC_LITERAL(47, 1195, 31), // "on_pushButtonCopyScheme_clicked"
-QT_MOC_LITERAL(48, 1227, 42), // "on_comboBoxColorScheme_curren..."
-QT_MOC_LITERAL(49, 1270, 4), // "arg1"
-QT_MOC_LITERAL(50, 1275, 22), // "updateColorSchemeTable"
-QT_MOC_LITERAL(51, 1298, 15), // "colorSchemeName"
-QT_MOC_LITERAL(52, 1314, 28), // "on_toolButtonFgColor_clicked"
-QT_MOC_LITERAL(53, 1343, 28), // "on_toolButtonBgColor_clicked"
-QT_MOC_LITERAL(54, 1372, 33), // "on_pushButtonDeleteScheme_cli..."
-QT_MOC_LITERAL(55, 1406, 44), // "on_prefDrvCubridComboBox_curr..."
-QT_MOC_LITERAL(56, 1451, 30), // "on_cubridDrvInfoButton_clicked"
-QT_MOC_LITERAL(57, 1482, 29), // "enableConnectionsFileDirAlert"
-QT_MOC_LITERAL(58, 1512, 6) // "enable"
+QT_MOC_LITERAL(34, 931, 11), // "QModelIndex"
+QT_MOC_LITERAL(35, 943, 39), // "on_tableWidgetColorScheme_cel..."
+QT_MOC_LITERAL(36, 983, 3), // "row"
+QT_MOC_LITERAL(37, 987, 6), // "column"
+QT_MOC_LITERAL(38, 994, 44), // "on_tableWidgetColorScheme_cur..."
+QT_MOC_LITERAL(39, 1039, 10), // "currentRow"
+QT_MOC_LITERAL(40, 1050, 13), // "currentColumn"
+QT_MOC_LITERAL(41, 1064, 11), // "previousRow"
+QT_MOC_LITERAL(42, 1076, 14), // "previousColumn"
+QT_MOC_LITERAL(43, 1091, 28), // "on_toolButtonClearFg_clicked"
+QT_MOC_LITERAL(44, 1120, 28), // "on_toolButtonClearBg_clicked"
+QT_MOC_LITERAL(45, 1149, 23), // "on_checkBoxBold_toggled"
+QT_MOC_LITERAL(46, 1173, 7), // "checked"
+QT_MOC_LITERAL(47, 1181, 25), // "on_checkBoxItalic_toggled"
+QT_MOC_LITERAL(48, 1207, 31), // "on_pushButtonCopyScheme_clicked"
+QT_MOC_LITERAL(49, 1239, 42), // "on_comboBoxColorScheme_curren..."
+QT_MOC_LITERAL(50, 1282, 4), // "arg1"
+QT_MOC_LITERAL(51, 1287, 22), // "updateColorSchemeTable"
+QT_MOC_LITERAL(52, 1310, 15), // "colorSchemeName"
+QT_MOC_LITERAL(53, 1326, 28), // "on_toolButtonFgColor_clicked"
+QT_MOC_LITERAL(54, 1355, 28), // "on_toolButtonBgColor_clicked"
+QT_MOC_LITERAL(55, 1384, 33), // "on_pushButtonDeleteScheme_cli..."
+QT_MOC_LITERAL(56, 1418, 44), // "on_prefDrvCubridComboBox_curr..."
+QT_MOC_LITERAL(57, 1463, 30), // "on_cubridDrvInfoButton_clicked"
+QT_MOC_LITERAL(58, 1494, 29), // "enableConnectionsFileDirAlert"
+QT_MOC_LITERAL(59, 1524, 6) // "enable"
 
     },
     "KvSettingsDialog\0needsToSaveSettings\0"
@@ -116,7 +117,7 @@ QT_MOC_LITERAL(58, 1512, 6) // "enable"
     "on_prefDrvMySqlComboBox_currentIndexChanged\0"
     "on_prefDrvFirebirdComboBox_currentIndexChanged\0"
     "setLanguage\0langCode\0setNeedToSaveSettings\0"
-    "on_tableWidget_7_activated\0"
+    "on_tableWidget_7_activated\0QModelIndex\0"
     "on_tableWidgetColorScheme_cellActivated\0"
     "row\0column\0on_tableWidgetColorScheme_currentCellChanged\0"
     "currentRow\0currentColumn\0previousRow\0"
@@ -139,7 +140,7 @@ QT_MOC_LITERAL(58, 1512, 6) // "enable"
 static const uint qt_meta_data_KvSettingsDialog[] = {
 
  // content:
-       7,       // revision
+       8,       // revision
        0,       // classname
        0,    0, // classinfo
       44,   14, // methods
@@ -180,22 +181,22 @@ static const uint qt_meta_data_KvSettingsDialog[] = {
       30,    1,  281,    2, 0x08 /* Private */,
       32,    0,  284,    2, 0x08 /* Private */,
       33,    1,  285,    2, 0x08 /* Private */,
-      34,    2,  288,    2, 0x08 /* Private */,
-      37,    4,  293,    2, 0x08 /* Private */,
-      42,    0,  302,    2, 0x08 /* Private */,
-      43,    0,  303,    2, 0x08 /* Private */,
-      44,    1,  304,    2, 0x08 /* Private */,
-      46,    1,  307,    2, 0x08 /* Private */,
-      47,    0,  310,    2, 0x08 /* Private */,
-      48,    1,  311,    2, 0x08 /* Private */,
-      50,    1,  314,    2, 0x08 /* Private */,
-      52,    0,  317,    2, 0x08 /* Private */,
-      53,    0,  318,    2, 0x08 /* Private */,
-      54,    0,  319,    2, 0x08 /* Private */,
-      55,    1,  320,    2, 0x08 /* Private */,
-      56,    0,  323,    2, 0x08 /* Private */,
-      57,    1,  324,    2, 0x0a /* Public */,
-      57,    0,  327,    2, 0x2a /* Public | MethodCloned */,
+      35,    2,  288,    2, 0x08 /* Private */,
+      38,    4,  293,    2, 0x08 /* Private */,
+      43,    0,  302,    2, 0x08 /* Private */,
+      44,    0,  303,    2, 0x08 /* Private */,
+      45,    1,  304,    2, 0x08 /* Private */,
+      47,    1,  307,    2, 0x08 /* Private */,
+      48,    0,  310,    2, 0x08 /* Private */,
+      49,    1,  311,    2, 0x08 /* Private */,
+      51,    1,  314,    2, 0x08 /* Private */,
+      53,    0,  317,    2, 0x08 /* Private */,
+      54,    0,  318,    2, 0x08 /* Private */,
+      55,    0,  319,    2, 0x08 /* Private */,
+      56,    1,  320,    2, 0x08 /* Private */,
+      57,    0,  323,    2, 0x08 /* Private */,
+      58,    1,  324,    2, 0x0a /* Public */,
+      58,    0,  327,    2, 0x2a /* Public | MethodCloned */,
 
  // signals: parameters
     QMetaType::Void,
@@ -227,22 +228,22 @@ static const uint qt_meta_data_KvSettingsDialog[] = {
     QMetaType::Void, QMetaType::Int,   24,
     QMetaType::Void, QMetaType::QString,   31,
     QMetaType::Void,
-    QMetaType::Void, QMetaType::QModelIndex,   24,
-    QMetaType::Void, QMetaType::Int, QMetaType::Int,   35,   36,
-    QMetaType::Void, QMetaType::Int, QMetaType::Int, QMetaType::Int, QMetaType::Int,   38,   39,   40,   41,
+    QMetaType::Void, 0x80000000 | 34,   24,
+    QMetaType::Void, QMetaType::Int, QMetaType::Int,   36,   37,
+    QMetaType::Void, QMetaType::Int, QMetaType::Int, QMetaType::Int, QMetaType::Int,   39,   40,   41,   42,
     QMetaType::Void,
     QMetaType::Void,
-    QMetaType::Void, QMetaType::Bool,   45,
-    QMetaType::Void, QMetaType::Bool,   45,
+    QMetaType::Void, QMetaType::Bool,   46,
+    QMetaType::Void, QMetaType::Bool,   46,
     QMetaType::Void,
-    QMetaType::Void, QMetaType::QString,   49,
-    QMetaType::Void, QMetaType::QString,   51,
+    QMetaType::Void, QMetaType::QString,   50,
+    QMetaType::Void, QMetaType::QString,   52,
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void, QMetaType::Int,   24,
     QMetaType::Void,
-    QMetaType::Void, QMetaType::Bool,   58,
+    QMetaType::Void, QMetaType::Bool,   59,
     QMetaType::Void,
 
        0        // eod
@@ -302,24 +303,23 @@ void KvSettingsDialog::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
         int *result = reinterpret_cast<int *>(_a[0]);
-        void **func = reinterpret_cast<void **>(_a[1]);
         {
-            typedef void (KvSettingsDialog::*_t)();
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvSettingsDialog::needsToSaveSettings)) {
+            using _t = void (KvSettingsDialog::*)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvSettingsDialog::needsToSaveSettings)) {
                 *result = 0;
                 return;
             }
         }
         {
-            typedef void (KvSettingsDialog::*_t)();
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvSettingsDialog::changedConnectionsFileDir)) {
+            using _t = void (KvSettingsDialog::*)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvSettingsDialog::changedConnectionsFileDir)) {
                 *result = 1;
                 return;
             }
         }
         {
-            typedef void (KvSettingsDialog::*_t)();
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvSettingsDialog::saveConnectionsFile)) {
+            using _t = void (KvSettingsDialog::*)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvSettingsDialog::saveConnectionsFile)) {
                 *result = 2;
                 return;
             }
@@ -327,10 +327,14 @@ void KvSettingsDialog::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int
     }
 }
 
-const QMetaObject KvSettingsDialog::staticMetaObject = {
-    { &QDialog::staticMetaObject, qt_meta_stringdata_KvSettingsDialog.data,
-      qt_meta_data_KvSettingsDialog,  qt_static_metacall, Q_NULLPTR, Q_NULLPTR}
-};
+QT_INIT_METAOBJECT const QMetaObject KvSettingsDialog::staticMetaObject = { {
+    &QDialog::staticMetaObject,
+    qt_meta_stringdata_KvSettingsDialog.data,
+    qt_meta_data_KvSettingsDialog,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
 
 
 const QMetaObject *KvSettingsDialog::metaObject() const
@@ -340,9 +344,9 @@ const QMetaObject *KvSettingsDialog::metaObject() const
 
 void *KvSettingsDialog::qt_metacast(const char *_clname)
 {
-    if (!_clname) return Q_NULLPTR;
+    if (!_clname) return nullptr;
     if (!strcmp(_clname, qt_meta_stringdata_KvSettingsDialog.stringdata0))
-        return static_cast<void*>(const_cast< KvSettingsDialog*>(this));
+        return static_cast<void*>(this);
     return QDialog::qt_metacast(_clname);
 }
 
@@ -366,19 +370,19 @@ int KvSettingsDialog::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 // SIGNAL 0
 void KvSettingsDialog::needsToSaveSettings()
 {
-    QMetaObject::activate(this, &staticMetaObject, 0, Q_NULLPTR);
+    QMetaObject::activate(this, &staticMetaObject, 0, nullptr);
 }
 
 // SIGNAL 1
 void KvSettingsDialog::changedConnectionsFileDir()
 {
-    QMetaObject::activate(this, &staticMetaObject, 1, Q_NULLPTR);
+    QMetaObject::activate(this, &staticMetaObject, 1, nullptr);
 }
 
 // SIGNAL 2
 void KvSettingsDialog::saveConnectionsFile()
 {
-    QMetaObject::activate(this, &staticMetaObject, 2, Q_NULLPTR);
+    QMetaObject::activate(this, &staticMetaObject, 2, nullptr);
 }
 QT_WARNING_POP
 QT_END_MOC_NAMESPACE

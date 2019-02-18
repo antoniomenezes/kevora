@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'kvmainwindow.ui'
 **
-** Created by: Qt User Interface Compiler version 5.8.0
+** Created by: Qt User Interface Compiler version 5.12.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -10,9 +10,9 @@
 #define UI_KVMAINWINDOW_H
 
 #include <QtCore/QVariant>
+#include <QtGui/QIcon>
 #include <QtWidgets/QAction>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QButtonGroup>
 #include <QtWidgets/QComboBox>
 #include <QtWidgets/QDockWidget>
 #include <QtWidgets/QFrame>
@@ -149,287 +149,287 @@ public:
     void setupUi(QMainWindow *KvMainWindow)
     {
         if (KvMainWindow->objectName().isEmpty())
-            KvMainWindow->setObjectName(QStringLiteral("KvMainWindow"));
+            KvMainWindow->setObjectName(QString::fromUtf8("KvMainWindow"));
         KvMainWindow->resize(647, 536);
         KvMainWindow->setAcceptDrops(true);
         QIcon icon;
-        icon.addFile(QStringLiteral(":/png/png_general/kevora.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon.addFile(QString::fromUtf8(":/png/png_general/kevora.png"), QSize(), QIcon::Normal, QIcon::Off);
         KvMainWindow->setWindowIcon(icon);
         actionPreferences = new QAction(KvMainWindow);
-        actionPreferences->setObjectName(QStringLiteral("actionPreferences"));
+        actionPreferences->setObjectName(QString::fromUtf8("actionPreferences"));
         QIcon icon1;
-        icon1.addFile(QStringLiteral(":/png/png_general/utilities.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon1.addFile(QString::fromUtf8(":/png/png_general/utilities.png"), QSize(), QIcon::Normal, QIcon::Off);
         actionPreferences->setIcon(icon1);
         actionExit = new QAction(KvMainWindow);
-        actionExit->setObjectName(QStringLiteral("actionExit"));
+        actionExit->setObjectName(QString::fromUtf8("actionExit"));
         QIcon icon2;
-        icon2.addFile(QStringLiteral(":/png/png_general/exit.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon2.addFile(QString::fromUtf8(":/png/png_general/exit.png"), QSize(), QIcon::Normal, QIcon::Off);
         actionExit->setIcon(icon2);
         actionAdd_Database = new QAction(KvMainWindow);
-        actionAdd_Database->setObjectName(QStringLiteral("actionAdd_Database"));
+        actionAdd_Database->setObjectName(QString::fromUtf8("actionAdd_Database"));
         QIcon icon3;
-        icon3.addFile(QStringLiteral(":/png/png_general/db_add.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon3.addFile(QString::fromUtf8(":/png/png_general/db_add.png"), QSize(), QIcon::Normal, QIcon::Off);
         actionAdd_Database->setIcon(icon3);
         actionDelete_Database = new QAction(KvMainWindow);
-        actionDelete_Database->setObjectName(QStringLiteral("actionDelete_Database"));
+        actionDelete_Database->setObjectName(QString::fromUtf8("actionDelete_Database"));
         QIcon icon4;
-        icon4.addFile(QStringLiteral(":/png/png_general/db_remove.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon4.addFile(QString::fromUtf8(":/png/png_general/db_remove.png"), QSize(), QIcon::Normal, QIcon::Off);
         actionDelete_Database->setIcon(icon4);
         actionAdd_Connection = new QAction(KvMainWindow);
-        actionAdd_Connection->setObjectName(QStringLiteral("actionAdd_Connection"));
+        actionAdd_Connection->setObjectName(QString::fromUtf8("actionAdd_Connection"));
         QIcon icon5;
-        icon5.addFile(QStringLiteral(":/png/png_general/connection_add.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon5.addFile(QString::fromUtf8(":/png/png_general/connection_add.png"), QSize(), QIcon::Normal, QIcon::Off);
         actionAdd_Connection->setIcon(icon5);
         actionDelete_Connection = new QAction(KvMainWindow);
-        actionDelete_Connection->setObjectName(QStringLiteral("actionDelete_Connection"));
+        actionDelete_Connection->setObjectName(QString::fromUtf8("actionDelete_Connection"));
         QIcon icon6;
-        icon6.addFile(QStringLiteral(":/png/png_general/connection_remove.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon6.addFile(QString::fromUtf8(":/png/png_general/connection_remove.png"), QSize(), QIcon::Normal, QIcon::Off);
         actionDelete_Connection->setIcon(icon6);
         actionEdit = new QAction(KvMainWindow);
-        actionEdit->setObjectName(QStringLiteral("actionEdit"));
+        actionEdit->setObjectName(QString::fromUtf8("actionEdit"));
         QIcon icon7;
-        icon7.addFile(QStringLiteral(":/png/png_general/database_edit.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon7.addFile(QString::fromUtf8(":/png/png_general/database_edit.png"), QSize(), QIcon::Normal, QIcon::Off);
         actionEdit->setIcon(icon7);
         actionConnect = new QAction(KvMainWindow);
-        actionConnect->setObjectName(QStringLiteral("actionConnect"));
+        actionConnect->setObjectName(QString::fromUtf8("actionConnect"));
         QIcon icon8;
-        icon8.addFile(QStringLiteral(":/png/png_general/connect.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon8.addFile(QString::fromUtf8(":/png/png_general/connect.png"), QSize(), QIcon::Normal, QIcon::Off);
         actionConnect->setIcon(icon8);
         actionDisconnect = new QAction(KvMainWindow);
-        actionDisconnect->setObjectName(QStringLiteral("actionDisconnect"));
+        actionDisconnect->setObjectName(QString::fromUtf8("actionDisconnect"));
         QIcon icon9;
-        icon9.addFile(QStringLiteral(":/png/png_general/disconnect.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon9.addFile(QString::fromUtf8(":/png/png_general/disconnect.png"), QSize(), QIcon::Normal, QIcon::Off);
         actionDisconnect->setIcon(icon9);
         actionConnectivity_Assistant = new QAction(KvMainWindow);
-        actionConnectivity_Assistant->setObjectName(QStringLiteral("actionConnectivity_Assistant"));
+        actionConnectivity_Assistant->setObjectName(QString::fromUtf8("actionConnectivity_Assistant"));
         QIcon icon10;
-        icon10.addFile(QStringLiteral(":/png/png_assistant/wizard_small.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon10.addFile(QString::fromUtf8(":/png/png_assistant/wizard_small.png"), QSize(), QIcon::Normal, QIcon::Off);
         actionConnectivity_Assistant->setIcon(icon10);
         actionNew_Sql = new QAction(KvMainWindow);
-        actionNew_Sql->setObjectName(QStringLiteral("actionNew_Sql"));
+        actionNew_Sql->setObjectName(QString::fromUtf8("actionNew_Sql"));
         QIcon icon11;
-        icon11.addFile(QStringLiteral(":/png/png_general/project_new.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon11.addFile(QString::fromUtf8(":/png/png_general/project_new.png"), QSize(), QIcon::Normal, QIcon::Off);
         actionNew_Sql->setIcon(icon11);
         actionNew_Diagram = new QAction(KvMainWindow);
-        actionNew_Diagram->setObjectName(QStringLiteral("actionNew_Diagram"));
+        actionNew_Diagram->setObjectName(QString::fromUtf8("actionNew_Diagram"));
         actionOpen = new QAction(KvMainWindow);
-        actionOpen->setObjectName(QStringLiteral("actionOpen"));
+        actionOpen->setObjectName(QString::fromUtf8("actionOpen"));
         QIcon icon12;
-        icon12.addFile(QStringLiteral(":/png/png_general/fileopen.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon12.addFile(QString::fromUtf8(":/png/png_general/fileopen.png"), QSize(), QIcon::Normal, QIcon::Off);
         actionOpen->setIcon(icon12);
         actionOpen_Recent = new QAction(KvMainWindow);
-        actionOpen_Recent->setObjectName(QStringLiteral("actionOpen_Recent"));
+        actionOpen_Recent->setObjectName(QString::fromUtf8("actionOpen_Recent"));
         actionSave = new QAction(KvMainWindow);
-        actionSave->setObjectName(QStringLiteral("actionSave"));
+        actionSave->setObjectName(QString::fromUtf8("actionSave"));
         QIcon icon13;
-        icon13.addFile(QStringLiteral(":/png/png_general/filesave.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon13.addFile(QString::fromUtf8(":/png/png_general/filesave.png"), QSize(), QIcon::Normal, QIcon::Off);
         actionSave->setIcon(icon13);
         actionSave_As = new QAction(KvMainWindow);
-        actionSave_As->setObjectName(QStringLiteral("actionSave_As"));
+        actionSave_As->setObjectName(QString::fromUtf8("actionSave_As"));
         QIcon icon14;
-        icon14.addFile(QStringLiteral(":/png/png_general/filesaveas.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon14.addFile(QString::fromUtf8(":/png/png_general/filesaveas.png"), QSize(), QIcon::Normal, QIcon::Off);
         actionSave_As->setIcon(icon14);
         actionSave_All = new QAction(KvMainWindow);
-        actionSave_All->setObjectName(QStringLiteral("actionSave_All"));
+        actionSave_All->setObjectName(QString::fromUtf8("actionSave_All"));
         QIcon icon15;
-        icon15.addFile(QStringLiteral(":/png/png_general/filesaveall.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon15.addFile(QString::fromUtf8(":/png/png_general/filesaveall.png"), QSize(), QIcon::Normal, QIcon::Off);
         actionSave_All->setIcon(icon15);
         actionClose = new QAction(KvMainWindow);
-        actionClose->setObjectName(QStringLiteral("actionClose"));
+        actionClose->setObjectName(QString::fromUtf8("actionClose"));
         QIcon icon16;
-        icon16.addFile(QStringLiteral(":/png/png_general/fileclose.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon16.addFile(QString::fromUtf8(":/png/png_general/fileclose.png"), QSize(), QIcon::Normal, QIcon::Off);
         actionClose->setIcon(icon16);
         actionCut = new QAction(KvMainWindow);
-        actionCut->setObjectName(QStringLiteral("actionCut"));
+        actionCut->setObjectName(QString::fromUtf8("actionCut"));
         QIcon icon17;
-        icon17.addFile(QStringLiteral(":/png/png_general/editcut.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon17.addFile(QString::fromUtf8(":/png/png_general/editcut.png"), QSize(), QIcon::Normal, QIcon::Off);
         actionCut->setIcon(icon17);
         actionCopy = new QAction(KvMainWindow);
-        actionCopy->setObjectName(QStringLiteral("actionCopy"));
+        actionCopy->setObjectName(QString::fromUtf8("actionCopy"));
         QIcon icon18;
-        icon18.addFile(QStringLiteral(":/png/png_general/editcopy.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon18.addFile(QString::fromUtf8(":/png/png_general/editcopy.png"), QSize(), QIcon::Normal, QIcon::Off);
         actionCopy->setIcon(icon18);
         actionPaste = new QAction(KvMainWindow);
-        actionPaste->setObjectName(QStringLiteral("actionPaste"));
+        actionPaste->setObjectName(QString::fromUtf8("actionPaste"));
         QIcon icon19;
-        icon19.addFile(QStringLiteral(":/png/png_general/editpaste.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon19.addFile(QString::fromUtf8(":/png/png_general/editpaste.png"), QSize(), QIcon::Normal, QIcon::Off);
         actionPaste->setIcon(icon19);
         actionDelete = new QAction(KvMainWindow);
-        actionDelete->setObjectName(QStringLiteral("actionDelete"));
+        actionDelete->setObjectName(QString::fromUtf8("actionDelete"));
         QIcon icon20;
-        icon20.addFile(QStringLiteral(":/png/png_general/editdelete.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon20.addFile(QString::fromUtf8(":/png/png_general/editdelete.png"), QSize(), QIcon::Normal, QIcon::Off);
         actionDelete->setIcon(icon20);
         actionSelect_All = new QAction(KvMainWindow);
-        actionSelect_All->setObjectName(QStringLiteral("actionSelect_All"));
+        actionSelect_All->setObjectName(QString::fromUtf8("actionSelect_All"));
         QIcon icon21;
-        icon21.addFile(QStringLiteral(":/png/png_general/select.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon21.addFile(QString::fromUtf8(":/png/png_general/select.png"), QSize(), QIcon::Normal, QIcon::Off);
         actionSelect_All->setIcon(icon21);
         actionContents = new QAction(KvMainWindow);
-        actionContents->setObjectName(QStringLiteral("actionContents"));
+        actionContents->setObjectName(QString::fromUtf8("actionContents"));
         QIcon icon22;
-        icon22.addFile(QStringLiteral(":/png/png_general/help.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon22.addFile(QString::fromUtf8(":/png/png_general/help.png"), QSize(), QIcon::Normal, QIcon::Off);
         actionContents->setIcon(icon22);
         actionAbout_Kevora = new QAction(KvMainWindow);
-        actionAbout_Kevora->setObjectName(QStringLiteral("actionAbout_Kevora"));
+        actionAbout_Kevora->setObjectName(QString::fromUtf8("actionAbout_Kevora"));
         QIcon icon23;
-        icon23.addFile(QStringLiteral(":/png/png_general/info.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon23.addFile(QString::fromUtf8(":/png/png_general/info.png"), QSize(), QIcon::Normal, QIcon::Off);
         actionAbout_Kevora->setIcon(icon23);
         actionAbout_Qt = new QAction(KvMainWindow);
-        actionAbout_Qt->setObjectName(QStringLiteral("actionAbout_Qt"));
+        actionAbout_Qt->setObjectName(QString::fromUtf8("actionAbout_Qt"));
         QIcon icon24;
-        icon24.addFile(QStringLiteral(":/png/png_general/qt-logo.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon24.addFile(QString::fromUtf8(":/png/png_general/qt-logo.png"), QSize(), QIcon::Normal, QIcon::Off);
         actionAbout_Qt->setIcon(icon24);
         actionRefreshTableSchema = new QAction(KvMainWindow);
-        actionRefreshTableSchema->setObjectName(QStringLiteral("actionRefreshTableSchema"));
+        actionRefreshTableSchema->setObjectName(QString::fromUtf8("actionRefreshTableSchema"));
         QIcon icon25;
-        icon25.addFile(QStringLiteral(":/png/png_general/recur.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon25.addFile(QString::fromUtf8(":/png/png_general/recur.png"), QSize(), QIcon::Normal, QIcon::Off);
         actionRefreshTableSchema->setIcon(icon25);
         actionView_TableDefinition = new QAction(KvMainWindow);
-        actionView_TableDefinition->setObjectName(QStringLiteral("actionView_TableDefinition"));
+        actionView_TableDefinition->setObjectName(QString::fromUtf8("actionView_TableDefinition"));
         actionView_TableDefinition->setIcon(icon7);
         actionView_TableData = new QAction(KvMainWindow);
-        actionView_TableData->setObjectName(QStringLiteral("actionView_TableData"));
+        actionView_TableData->setObjectName(QString::fromUtf8("actionView_TableData"));
         QIcon icon26;
-        icon26.addFile(QStringLiteral(":/png/png_general/table_lightning.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon26.addFile(QString::fromUtf8(":/png/png_general/table_lightning.png"), QSize(), QIcon::Normal, QIcon::Off);
         actionView_TableData->setIcon(icon26);
         actionCascade_Windows = new QAction(KvMainWindow);
-        actionCascade_Windows->setObjectName(QStringLiteral("actionCascade_Windows"));
+        actionCascade_Windows->setObjectName(QString::fromUtf8("actionCascade_Windows"));
         QIcon icon27;
-        icon27.addFile(QStringLiteral(":/png/png_general/application_cascade.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon27.addFile(QString::fromUtf8(":/png/png_general/application_cascade.png"), QSize(), QIcon::Normal, QIcon::Off);
         actionCascade_Windows->setIcon(icon27);
         actionTile_Windows = new QAction(KvMainWindow);
-        actionTile_Windows->setObjectName(QStringLiteral("actionTile_Windows"));
+        actionTile_Windows->setObjectName(QString::fromUtf8("actionTile_Windows"));
         QIcon icon28;
-        icon28.addFile(QStringLiteral(":/png/png_general/application_tile_horizontal.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon28.addFile(QString::fromUtf8(":/png/png_general/application_tile_horizontal.png"), QSize(), QIcon::Normal, QIcon::Off);
         actionTile_Windows->setIcon(icon28);
         actionClose_All_Windows = new QAction(KvMainWindow);
-        actionClose_All_Windows->setObjectName(QStringLiteral("actionClose_All_Windows"));
+        actionClose_All_Windows->setObjectName(QString::fromUtf8("actionClose_All_Windows"));
         QIcon icon29;
-        icon29.addFile(QStringLiteral(":/png/png_general/close_all_windows.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon29.addFile(QString::fromUtf8(":/png/png_general/close_all_windows.png"), QSize(), QIcon::Normal, QIcon::Off);
         actionClose_All_Windows->setIcon(icon29);
         actionNavigator = new QAction(KvMainWindow);
-        actionNavigator->setObjectName(QStringLiteral("actionNavigator"));
+        actionNavigator->setObjectName(QString::fromUtf8("actionNavigator"));
         actionNavigator->setCheckable(true);
         actionObjects = new QAction(KvMainWindow);
-        actionObjects->setObjectName(QStringLiteral("actionObjects"));
+        actionObjects->setObjectName(QString::fromUtf8("actionObjects"));
         actionObjects->setCheckable(true);
         actionWindow_List = new QAction(KvMainWindow);
-        actionWindow_List->setObjectName(QStringLiteral("actionWindow_List"));
+        actionWindow_List->setObjectName(QString::fromUtf8("actionWindow_List"));
         actionWindow_List->setCheckable(true);
         actionWork_Path = new QAction(KvMainWindow);
-        actionWork_Path->setObjectName(QStringLiteral("actionWork_Path"));
+        actionWork_Path->setObjectName(QString::fromUtf8("actionWork_Path"));
         actionWork_Path->setCheckable(true);
         actionMain_Tool_Bar = new QAction(KvMainWindow);
-        actionMain_Tool_Bar->setObjectName(QStringLiteral("actionMain_Tool_Bar"));
+        actionMain_Tool_Bar->setObjectName(QString::fromUtf8("actionMain_Tool_Bar"));
         actionMain_Tool_Bar->setCheckable(true);
         actionMain_Tool_Bar->setChecked(false);
         actionDisconnectAll = new QAction(KvMainWindow);
-        actionDisconnectAll->setObjectName(QStringLiteral("actionDisconnectAll"));
+        actionDisconnectAll->setObjectName(QString::fromUtf8("actionDisconnectAll"));
         QIcon icon30;
-        icon30.addFile(QStringLiteral(":/png/png_general/disconnect_all.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon30.addFile(QString::fromUtf8(":/png/png_general/disconnect_all.png"), QSize(), QIcon::Normal, QIcon::Off);
         actionDisconnectAll->setIcon(icon30);
         actionView_ViewData = new QAction(KvMainWindow);
-        actionView_ViewData->setObjectName(QStringLiteral("actionView_ViewData"));
+        actionView_ViewData->setObjectName(QString::fromUtf8("actionView_ViewData"));
         actionView_ViewData->setIcon(icon26);
         actionView_ViewDefinition = new QAction(KvMainWindow);
-        actionView_ViewDefinition->setObjectName(QStringLiteral("actionView_ViewDefinition"));
+        actionView_ViewDefinition->setObjectName(QString::fromUtf8("actionView_ViewDefinition"));
         actionView_ViewDefinition->setIcon(icon7);
         actionRefreshViewSchema = new QAction(KvMainWindow);
-        actionRefreshViewSchema->setObjectName(QStringLiteral("actionRefreshViewSchema"));
+        actionRefreshViewSchema->setObjectName(QString::fromUtf8("actionRefreshViewSchema"));
         actionRefreshViewSchema->setIcon(icon25);
         actionRefreshProgramSchema = new QAction(KvMainWindow);
-        actionRefreshProgramSchema->setObjectName(QStringLiteral("actionRefreshProgramSchema"));
+        actionRefreshProgramSchema->setObjectName(QString::fromUtf8("actionRefreshProgramSchema"));
         actionRefreshProgramSchema->setIcon(icon25);
         actionRefreshEtcSchema = new QAction(KvMainWindow);
-        actionRefreshEtcSchema->setObjectName(QStringLiteral("actionRefreshEtcSchema"));
+        actionRefreshEtcSchema->setObjectName(QString::fromUtf8("actionRefreshEtcSchema"));
         actionRefreshEtcSchema->setIcon(icon25);
         actionView_DDL = new QAction(KvMainWindow);
-        actionView_DDL->setObjectName(QStringLiteral("actionView_DDL"));
+        actionView_DDL->setObjectName(QString::fromUtf8("actionView_DDL"));
         actionView_DDL->setIcon(icon7);
         actionExport_Data = new QAction(KvMainWindow);
-        actionExport_Data->setObjectName(QStringLiteral("actionExport_Data"));
+        actionExport_Data->setObjectName(QString::fromUtf8("actionExport_Data"));
         QIcon icon31;
-        icon31.addFile(QStringLiteral(":/png/png_general/table_go.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon31.addFile(QString::fromUtf8(":/png/png_general/table_go.png"), QSize(), QIcon::Normal, QIcon::Off);
         actionExport_Data->setIcon(icon31);
         actionExport_Database_Objects = new QAction(KvMainWindow);
-        actionExport_Database_Objects->setObjectName(QStringLiteral("actionExport_Database_Objects"));
+        actionExport_Database_Objects->setObjectName(QString::fromUtf8("actionExport_Database_Objects"));
         QIcon icon32;
-        icon32.addFile(QStringLiteral(":/png/png_general/cog_go.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon32.addFile(QString::fromUtf8(":/png/png_general/cog_go.png"), QSize(), QIcon::Normal, QIcon::Off);
         actionExport_Database_Objects->setIcon(icon32);
         actionRefresh_Schemas = new QAction(KvMainWindow);
-        actionRefresh_Schemas->setObjectName(QStringLiteral("actionRefresh_Schemas"));
+        actionRefresh_Schemas->setObjectName(QString::fromUtf8("actionRefresh_Schemas"));
         actionRefresh_Schemas->setIcon(icon25);
         actionKevora_Updates = new QAction(KvMainWindow);
-        actionKevora_Updates->setObjectName(QStringLiteral("actionKevora_Updates"));
+        actionKevora_Updates->setObjectName(QString::fromUtf8("actionKevora_Updates"));
         QIcon icon33;
-        icon33.addFile(QStringLiteral(":/png/png_general/arrow_down.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon33.addFile(QString::fromUtf8(":/png/png_general/arrow_down.png"), QSize(), QIcon::Normal, QIcon::Off);
         actionKevora_Updates->setIcon(icon33);
         actionCompare_Database_objects = new QAction(KvMainWindow);
-        actionCompare_Database_objects->setObjectName(QStringLiteral("actionCompare_Database_objects"));
+        actionCompare_Database_objects->setObjectName(QString::fromUtf8("actionCompare_Database_objects"));
         QIcon icon34;
-        icon34.addFile(QStringLiteral(":/png/png_general/table_relationship.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon34.addFile(QString::fromUtf8(":/png/png_general/table_relationship.png"), QSize(), QIcon::Normal, QIcon::Off);
         actionCompare_Database_objects->setIcon(icon34);
         centralWidget = new QWidget(KvMainWindow);
-        centralWidget->setObjectName(QStringLiteral("centralWidget"));
+        centralWidget->setObjectName(QString::fromUtf8("centralWidget"));
         gridLayout = new QGridLayout(centralWidget);
         gridLayout->setSpacing(0);
         gridLayout->setContentsMargins(0, 0, 0, 0);
-        gridLayout->setObjectName(QStringLiteral("gridLayout"));
+        gridLayout->setObjectName(QString::fromUtf8("gridLayout"));
         mdiArea = new KvMdiArea(centralWidget);
-        mdiArea->setObjectName(QStringLiteral("mdiArea"));
+        mdiArea->setObjectName(QString::fromUtf8("mdiArea"));
         mdiArea->setAcceptDrops(true);
-        mdiArea->setStyleSheet(QStringLiteral(""));
+        mdiArea->setStyleSheet(QString::fromUtf8(""));
         mdiArea->setProperty("documentMode", QVariant(true));
 
         gridLayout->addWidget(mdiArea, 0, 0, 1, 1);
 
         KvMainWindow->setCentralWidget(centralWidget);
         menuBar = new QMenuBar(KvMainWindow);
-        menuBar->setObjectName(QStringLiteral("menuBar"));
+        menuBar->setObjectName(QString::fromUtf8("menuBar"));
         menuBar->setGeometry(QRect(0, 0, 647, 22));
         menuIDE = new QMenu(menuBar);
-        menuIDE->setObjectName(QStringLiteral("menuIDE"));
+        menuIDE->setObjectName(QString::fromUtf8("menuIDE"));
         menu_Connection = new QMenu(menuBar);
-        menu_Connection->setObjectName(QStringLiteral("menu_Connection"));
+        menu_Connection->setObjectName(QString::fromUtf8("menu_Connection"));
         menu_Files = new QMenu(menuBar);
-        menu_Files->setObjectName(QStringLiteral("menu_Files"));
+        menu_Files->setObjectName(QString::fromUtf8("menu_Files"));
         menu_Edit = new QMenu(menuBar);
-        menu_Edit->setObjectName(QStringLiteral("menu_Edit"));
+        menu_Edit->setObjectName(QString::fromUtf8("menu_Edit"));
         menu_Tools = new QMenu(menuBar);
-        menu_Tools->setObjectName(QStringLiteral("menu_Tools"));
+        menu_Tools->setObjectName(QString::fromUtf8("menu_Tools"));
         menu_Reports = new QMenu(menuBar);
-        menu_Reports->setObjectName(QStringLiteral("menu_Reports"));
+        menu_Reports->setObjectName(QString::fromUtf8("menu_Reports"));
         menu_Help = new QMenu(menuBar);
-        menu_Help->setObjectName(QStringLiteral("menu_Help"));
+        menu_Help->setObjectName(QString::fromUtf8("menu_Help"));
         menu_View = new QMenu(menuBar);
-        menu_View->setObjectName(QStringLiteral("menu_View"));
+        menu_View->setObjectName(QString::fromUtf8("menu_View"));
         KvMainWindow->setMenuBar(menuBar);
         mainToolBar = new QToolBar(KvMainWindow);
-        mainToolBar->setObjectName(QStringLiteral("mainToolBar"));
+        mainToolBar->setObjectName(QString::fromUtf8("mainToolBar"));
         KvMainWindow->addToolBar(Qt::TopToolBarArea, mainToolBar);
         statusBar = new QStatusBar(KvMainWindow);
-        statusBar->setObjectName(QStringLiteral("statusBar"));
+        statusBar->setObjectName(QString::fromUtf8("statusBar"));
         KvMainWindow->setStatusBar(statusBar);
         navigatorDockWidget = new QDockWidget(KvMainWindow);
-        navigatorDockWidget->setObjectName(QStringLiteral("navigatorDockWidget"));
+        navigatorDockWidget->setObjectName(QString::fromUtf8("navigatorDockWidget"));
         dockWidgetContents = new QWidget();
-        dockWidgetContents->setObjectName(QStringLiteral("dockWidgetContents"));
+        dockWidgetContents->setObjectName(QString::fromUtf8("dockWidgetContents"));
         verticalLayout_2 = new QVBoxLayout(dockWidgetContents);
         verticalLayout_2->setSpacing(4);
         verticalLayout_2->setContentsMargins(11, 11, 11, 11);
-        verticalLayout_2->setObjectName(QStringLiteral("verticalLayout_2"));
+        verticalLayout_2->setObjectName(QString::fromUtf8("verticalLayout_2"));
         verticalLayout_2->setContentsMargins(6, 4, 2, 6);
         tabWidget = new QTabWidget(dockWidgetContents);
-        tabWidget->setObjectName(QStringLiteral("tabWidget"));
+        tabWidget->setObjectName(QString::fromUtf8("tabWidget"));
         tab = new QWidget();
-        tab->setObjectName(QStringLiteral("tab"));
+        tab->setObjectName(QString::fromUtf8("tab"));
         verticalLayout_3 = new QVBoxLayout(tab);
         verticalLayout_3->setSpacing(4);
         verticalLayout_3->setContentsMargins(11, 11, 11, 11);
-        verticalLayout_3->setObjectName(QStringLiteral("verticalLayout_3"));
+        verticalLayout_3->setObjectName(QString::fromUtf8("verticalLayout_3"));
         verticalLayout_3->setContentsMargins(4, 4, 4, 6);
         frame = new QFrame(tab);
-        frame->setObjectName(QStringLiteral("frame"));
+        frame->setObjectName(QString::fromUtf8("frame"));
         frame->setMinimumSize(QSize(0, 25));
         frame->setMaximumSize(QSize(16777215, 25));
         frame->setFrameShape(QFrame::NoFrame);
@@ -437,58 +437,58 @@ public:
         horizontalLayout = new QHBoxLayout(frame);
         horizontalLayout->setSpacing(2);
         horizontalLayout->setContentsMargins(0, 0, 0, 0);
-        horizontalLayout->setObjectName(QStringLiteral("horizontalLayout"));
+        horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
         toolButtonAddDb = new QToolButton(frame);
-        toolButtonAddDb->setObjectName(QStringLiteral("toolButtonAddDb"));
+        toolButtonAddDb->setObjectName(QString::fromUtf8("toolButtonAddDb"));
         toolButtonAddDb->setMaximumSize(QSize(25, 25));
         toolButtonAddDb->setIcon(icon3);
 
         horizontalLayout->addWidget(toolButtonAddDb);
 
         toolButtonDelDb = new QToolButton(frame);
-        toolButtonDelDb->setObjectName(QStringLiteral("toolButtonDelDb"));
+        toolButtonDelDb->setObjectName(QString::fromUtf8("toolButtonDelDb"));
         toolButtonDelDb->setMaximumSize(QSize(25, 25));
         toolButtonDelDb->setIcon(icon4);
 
         horizontalLayout->addWidget(toolButtonDelDb);
 
         toolButtonEdit = new QToolButton(frame);
-        toolButtonEdit->setObjectName(QStringLiteral("toolButtonEdit"));
+        toolButtonEdit->setObjectName(QString::fromUtf8("toolButtonEdit"));
         toolButtonEdit->setMaximumSize(QSize(25, 25));
         toolButtonEdit->setIcon(icon7);
 
         horizontalLayout->addWidget(toolButtonEdit);
 
         toolButtonAddConn = new QToolButton(frame);
-        toolButtonAddConn->setObjectName(QStringLiteral("toolButtonAddConn"));
+        toolButtonAddConn->setObjectName(QString::fromUtf8("toolButtonAddConn"));
         toolButtonAddConn->setMaximumSize(QSize(25, 25));
         toolButtonAddConn->setIcon(icon5);
 
         horizontalLayout->addWidget(toolButtonAddConn);
 
         toolButtonDelConn = new QToolButton(frame);
-        toolButtonDelConn->setObjectName(QStringLiteral("toolButtonDelConn"));
+        toolButtonDelConn->setObjectName(QString::fromUtf8("toolButtonDelConn"));
         toolButtonDelConn->setMaximumSize(QSize(25, 25));
         toolButtonDelConn->setIcon(icon6);
 
         horizontalLayout->addWidget(toolButtonDelConn);
 
         toolButtonOpenConn = new QToolButton(frame);
-        toolButtonOpenConn->setObjectName(QStringLiteral("toolButtonOpenConn"));
+        toolButtonOpenConn->setObjectName(QString::fromUtf8("toolButtonOpenConn"));
         toolButtonOpenConn->setMaximumSize(QSize(25, 25));
         toolButtonOpenConn->setIcon(icon8);
 
         horizontalLayout->addWidget(toolButtonOpenConn);
 
         toolButtonCloseConn = new QToolButton(frame);
-        toolButtonCloseConn->setObjectName(QStringLiteral("toolButtonCloseConn"));
+        toolButtonCloseConn->setObjectName(QString::fromUtf8("toolButtonCloseConn"));
         toolButtonCloseConn->setMaximumSize(QSize(25, 25));
         toolButtonCloseConn->setIcon(icon9);
 
         horizontalLayout->addWidget(toolButtonCloseConn);
 
         toolButtonCloseAllConn = new QToolButton(frame);
-        toolButtonCloseAllConn->setObjectName(QStringLiteral("toolButtonCloseAllConn"));
+        toolButtonCloseAllConn->setObjectName(QString::fromUtf8("toolButtonCloseAllConn"));
         toolButtonCloseAllConn->setMaximumSize(QSize(25, 25));
         toolButtonCloseAllConn->setIcon(icon30);
 
@@ -502,7 +502,7 @@ public:
         verticalLayout_3->addWidget(frame);
 
         dbTreeWidget = new KvTreeWidget(tab);
-        dbTreeWidget->setObjectName(QStringLiteral("dbTreeWidget"));
+        dbTreeWidget->setObjectName(QString::fromUtf8("dbTreeWidget"));
         dbTreeWidget->setSelectionBehavior(QAbstractItemView::SelectItems);
         dbTreeWidget->setIndentation(10);
         dbTreeWidget->setSortingEnabled(true);
@@ -517,33 +517,34 @@ public:
         navigatorDockWidget->setWidget(dockWidgetContents);
         KvMainWindow->addDockWidget(static_cast<Qt::DockWidgetArea>(1), navigatorDockWidget);
         objectsDockWidget = new QDockWidget(KvMainWindow);
-        objectsDockWidget->setObjectName(QStringLiteral("objectsDockWidget"));
+        objectsDockWidget->setObjectName(QString::fromUtf8("objectsDockWidget"));
         dockWidgetContents_2 = new QWidget();
-        dockWidgetContents_2->setObjectName(QStringLiteral("dockWidgetContents_2"));
+        dockWidgetContents_2->setObjectName(QString::fromUtf8("dockWidgetContents_2"));
         verticalLayout = new QVBoxLayout(dockWidgetContents_2);
         verticalLayout->setSpacing(4);
         verticalLayout->setContentsMargins(11, 11, 11, 11);
-        verticalLayout->setObjectName(QStringLiteral("verticalLayout"));
+        verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
         verticalLayout->setContentsMargins(6, 4, 2, 0);
         activeConnObjComboBox = new QComboBox(dockWidgetContents_2);
-        activeConnObjComboBox->setObjectName(QStringLiteral("activeConnObjComboBox"));
+        activeConnObjComboBox->addItem(QString());
+        activeConnObjComboBox->setObjectName(QString::fromUtf8("activeConnObjComboBox"));
 
         verticalLayout->addWidget(activeConnObjComboBox);
 
         tabWidget_2 = new QTabWidget(dockWidgetContents_2);
-        tabWidget_2->setObjectName(QStringLiteral("tabWidget_2"));
+        tabWidget_2->setObjectName(QString::fromUtf8("tabWidget_2"));
         tab_3 = new QWidget();
-        tab_3->setObjectName(QStringLiteral("tab_3"));
+        tab_3->setObjectName(QString::fromUtf8("tab_3"));
         gridLayout_2 = new QGridLayout(tab_3);
         gridLayout_2->setSpacing(6);
         gridLayout_2->setContentsMargins(11, 11, 11, 11);
-        gridLayout_2->setObjectName(QStringLiteral("gridLayout_2"));
+        gridLayout_2->setObjectName(QString::fromUtf8("gridLayout_2"));
         gridLayout_2->setContentsMargins(4, 4, 4, 6);
         tableTreeWidget = new KvTreeWidget(tab_3);
         QTreeWidgetItem *__qtreewidgetitem = new QTreeWidgetItem();
-        __qtreewidgetitem->setText(0, QStringLiteral("1"));
+        __qtreewidgetitem->setText(0, QString::fromUtf8("1"));
         tableTreeWidget->setHeaderItem(__qtreewidgetitem);
-        tableTreeWidget->setObjectName(QStringLiteral("tableTreeWidget"));
+        tableTreeWidget->setObjectName(QString::fromUtf8("tableTreeWidget"));
         tableTreeWidget->setSortingEnabled(true);
         tableTreeWidget->header()->setVisible(false);
 
@@ -551,17 +552,17 @@ public:
 
         tabWidget_2->addTab(tab_3, QString());
         tab_4 = new QWidget();
-        tab_4->setObjectName(QStringLiteral("tab_4"));
+        tab_4->setObjectName(QString::fromUtf8("tab_4"));
         gridLayout_3 = new QGridLayout(tab_4);
         gridLayout_3->setSpacing(6);
         gridLayout_3->setContentsMargins(11, 11, 11, 11);
-        gridLayout_3->setObjectName(QStringLiteral("gridLayout_3"));
+        gridLayout_3->setObjectName(QString::fromUtf8("gridLayout_3"));
         gridLayout_3->setContentsMargins(4, 4, 4, 6);
         viewTreeWidget = new KvTreeWidget(tab_4);
         QTreeWidgetItem *__qtreewidgetitem1 = new QTreeWidgetItem();
-        __qtreewidgetitem1->setText(0, QStringLiteral("1"));
+        __qtreewidgetitem1->setText(0, QString::fromUtf8("1"));
         viewTreeWidget->setHeaderItem(__qtreewidgetitem1);
-        viewTreeWidget->setObjectName(QStringLiteral("viewTreeWidget"));
+        viewTreeWidget->setObjectName(QString::fromUtf8("viewTreeWidget"));
         viewTreeWidget->setSortingEnabled(true);
         viewTreeWidget->header()->setVisible(false);
 
@@ -569,17 +570,17 @@ public:
 
         tabWidget_2->addTab(tab_4, QString());
         tab_5 = new QWidget();
-        tab_5->setObjectName(QStringLiteral("tab_5"));
+        tab_5->setObjectName(QString::fromUtf8("tab_5"));
         gridLayout_4 = new QGridLayout(tab_5);
         gridLayout_4->setSpacing(6);
         gridLayout_4->setContentsMargins(11, 11, 11, 11);
-        gridLayout_4->setObjectName(QStringLiteral("gridLayout_4"));
+        gridLayout_4->setObjectName(QString::fromUtf8("gridLayout_4"));
         gridLayout_4->setContentsMargins(4, 4, 4, 6);
         programTreeWidget = new KvTreeWidget(tab_5);
         QTreeWidgetItem *__qtreewidgetitem2 = new QTreeWidgetItem();
-        __qtreewidgetitem2->setText(0, QStringLiteral("1"));
+        __qtreewidgetitem2->setText(0, QString::fromUtf8("1"));
         programTreeWidget->setHeaderItem(__qtreewidgetitem2);
-        programTreeWidget->setObjectName(QStringLiteral("programTreeWidget"));
+        programTreeWidget->setObjectName(QString::fromUtf8("programTreeWidget"));
         programTreeWidget->setSortingEnabled(true);
         programTreeWidget->header()->setVisible(false);
 
@@ -587,17 +588,17 @@ public:
 
         tabWidget_2->addTab(tab_5, QString());
         tab_6 = new QWidget();
-        tab_6->setObjectName(QStringLiteral("tab_6"));
+        tab_6->setObjectName(QString::fromUtf8("tab_6"));
         gridLayout_5 = new QGridLayout(tab_6);
         gridLayout_5->setSpacing(6);
         gridLayout_5->setContentsMargins(11, 11, 11, 11);
-        gridLayout_5->setObjectName(QStringLiteral("gridLayout_5"));
+        gridLayout_5->setObjectName(QString::fromUtf8("gridLayout_5"));
         gridLayout_5->setContentsMargins(4, 4, 4, 6);
         etcTreeWidget = new KvTreeWidget(tab_6);
         QTreeWidgetItem *__qtreewidgetitem3 = new QTreeWidgetItem();
-        __qtreewidgetitem3->setText(0, QStringLiteral("1"));
+        __qtreewidgetitem3->setText(0, QString::fromUtf8("1"));
         etcTreeWidget->setHeaderItem(__qtreewidgetitem3);
-        etcTreeWidget->setObjectName(QStringLiteral("etcTreeWidget"));
+        etcTreeWidget->setObjectName(QString::fromUtf8("etcTreeWidget"));
         etcTreeWidget->setSortingEnabled(true);
         etcTreeWidget->header()->setVisible(false);
 
@@ -610,16 +611,16 @@ public:
         objectsDockWidget->setWidget(dockWidgetContents_2);
         KvMainWindow->addDockWidget(static_cast<Qt::DockWidgetArea>(1), objectsDockWidget);
         winListDockWidget = new QDockWidget(KvMainWindow);
-        winListDockWidget->setObjectName(QStringLiteral("winListDockWidget"));
+        winListDockWidget->setObjectName(QString::fromUtf8("winListDockWidget"));
         dockWidgetContents_3 = new QWidget();
-        dockWidgetContents_3->setObjectName(QStringLiteral("dockWidgetContents_3"));
+        dockWidgetContents_3->setObjectName(QString::fromUtf8("dockWidgetContents_3"));
         verticalLayout_5 = new QVBoxLayout(dockWidgetContents_3);
         verticalLayout_5->setSpacing(4);
         verticalLayout_5->setContentsMargins(11, 11, 11, 11);
-        verticalLayout_5->setObjectName(QStringLiteral("verticalLayout_5"));
+        verticalLayout_5->setObjectName(QString::fromUtf8("verticalLayout_5"));
         verticalLayout_5->setContentsMargins(6, 4, 2, 0);
         listWidgetWindows = new QListWidget(dockWidgetContents_3);
-        listWidgetWindows->setObjectName(QStringLiteral("listWidgetWindows"));
+        listWidgetWindows->setObjectName(QString::fromUtf8("listWidgetWindows"));
         listWidgetWindows->setContextMenuPolicy(Qt::ActionsContextMenu);
 
         verticalLayout_5->addWidget(listWidgetWindows);
@@ -627,16 +628,16 @@ public:
         winListDockWidget->setWidget(dockWidgetContents_3);
         KvMainWindow->addDockWidget(static_cast<Qt::DockWidgetArea>(2), winListDockWidget);
         workingDirDockWidget = new QDockWidget(KvMainWindow);
-        workingDirDockWidget->setObjectName(QStringLiteral("workingDirDockWidget"));
+        workingDirDockWidget->setObjectName(QString::fromUtf8("workingDirDockWidget"));
         dockWidgetContents_4 = new QWidget();
-        dockWidgetContents_4->setObjectName(QStringLiteral("dockWidgetContents_4"));
+        dockWidgetContents_4->setObjectName(QString::fromUtf8("dockWidgetContents_4"));
         verticalLayout_4 = new QVBoxLayout(dockWidgetContents_4);
         verticalLayout_4->setSpacing(4);
         verticalLayout_4->setContentsMargins(11, 11, 11, 11);
-        verticalLayout_4->setObjectName(QStringLiteral("verticalLayout_4"));
+        verticalLayout_4->setObjectName(QString::fromUtf8("verticalLayout_4"));
         verticalLayout_4->setContentsMargins(6, 4, 2, 0);
         fileTreeView = new QTreeView(dockWidgetContents_4);
-        fileTreeView->setObjectName(QStringLiteral("fileTreeView"));
+        fileTreeView->setObjectName(QString::fromUtf8("fileTreeView"));
         fileTreeView->setDragEnabled(true);
         fileTreeView->setDragDropMode(QAbstractItemView::DragOnly);
         fileTreeView->setAlternatingRowColors(true);
@@ -725,139 +726,137 @@ public:
 
     void retranslateUi(QMainWindow *KvMainWindow)
     {
-        KvMainWindow->setWindowTitle(QApplication::translate("KvMainWindow", "Kevora", Q_NULLPTR));
+        KvMainWindow->setWindowTitle(QApplication::translate("KvMainWindow", "Kevora", nullptr));
 #ifndef QT_NO_WHATSTHIS
-        KvMainWindow->setWhatsThis(QApplication::translate("KvMainWindow", "The IDE of your dreams!", Q_NULLPTR));
+        KvMainWindow->setWhatsThis(QApplication::translate("KvMainWindow", "The IDE of your dreams!", nullptr));
 #endif // QT_NO_WHATSTHIS
-        actionPreferences->setText(QApplication::translate("KvMainWindow", "Settings", Q_NULLPTR));
+        actionPreferences->setText(QApplication::translate("KvMainWindow", "Settings", nullptr));
 #ifndef QT_NO_TOOLTIP
-        actionPreferences->setToolTip(QApplication::translate("KvMainWindow", "Settings", Q_NULLPTR));
+        actionPreferences->setToolTip(QApplication::translate("KvMainWindow", "Settings", nullptr));
 #endif // QT_NO_TOOLTIP
-        actionExit->setText(QApplication::translate("KvMainWindow", "Exit", Q_NULLPTR));
-        actionAdd_Database->setText(QApplication::translate("KvMainWindow", "Add Database", Q_NULLPTR));
-        actionDelete_Database->setText(QApplication::translate("KvMainWindow", "Delete Database", Q_NULLPTR));
-        actionAdd_Connection->setText(QApplication::translate("KvMainWindow", "Add Connection", Q_NULLPTR));
-        actionDelete_Connection->setText(QApplication::translate("KvMainWindow", "Delete Connection", Q_NULLPTR));
-        actionEdit->setText(QApplication::translate("KvMainWindow", "Edit", Q_NULLPTR));
-        actionConnect->setText(QApplication::translate("KvMainWindow", "Connect", Q_NULLPTR));
-        actionDisconnect->setText(QApplication::translate("KvMainWindow", "Disconnect", Q_NULLPTR));
-        actionConnectivity_Assistant->setText(QApplication::translate("KvMainWindow", "Connectivity Assistant", Q_NULLPTR));
-        actionNew_Sql->setText(QApplication::translate("KvMainWindow", "New Sql Window", Q_NULLPTR));
-        actionNew_Diagram->setText(QApplication::translate("KvMainWindow", "New Diagram Window", Q_NULLPTR));
-        actionOpen->setText(QApplication::translate("KvMainWindow", "Open File", Q_NULLPTR));
-        actionOpen_Recent->setText(QApplication::translate("KvMainWindow", "Open Recent...", Q_NULLPTR));
-        actionSave->setText(QApplication::translate("KvMainWindow", "Save", Q_NULLPTR));
-        actionSave_As->setText(QApplication::translate("KvMainWindow", "Save As...", Q_NULLPTR));
-        actionSave_All->setText(QApplication::translate("KvMainWindow", "Save All", Q_NULLPTR));
-        actionClose->setText(QApplication::translate("KvMainWindow", "Close", Q_NULLPTR));
-        actionCut->setText(QApplication::translate("KvMainWindow", "Cut", Q_NULLPTR));
-        actionCopy->setText(QApplication::translate("KvMainWindow", "Copy", Q_NULLPTR));
-        actionPaste->setText(QApplication::translate("KvMainWindow", "Paste", Q_NULLPTR));
-        actionDelete->setText(QApplication::translate("KvMainWindow", "Delete", Q_NULLPTR));
-        actionSelect_All->setText(QApplication::translate("KvMainWindow", "Select All", Q_NULLPTR));
-        actionContents->setText(QApplication::translate("KvMainWindow", "Contents", Q_NULLPTR));
-        actionAbout_Kevora->setText(QApplication::translate("KvMainWindow", "About Kevora", Q_NULLPTR));
-        actionAbout_Qt->setText(QApplication::translate("KvMainWindow", "About Qt", Q_NULLPTR));
-        actionRefreshTableSchema->setText(QApplication::translate("KvMainWindow", "Refresh", Q_NULLPTR));
-        actionView_TableDefinition->setText(QApplication::translate("KvMainWindow", "View Definition", Q_NULLPTR));
-        actionView_TableData->setText(QApplication::translate("KvMainWindow", "View Data", Q_NULLPTR));
-        actionCascade_Windows->setText(QApplication::translate("KvMainWindow", "Cascade Windows", Q_NULLPTR));
-        actionTile_Windows->setText(QApplication::translate("KvMainWindow", "Tile Windows", Q_NULLPTR));
-        actionClose_All_Windows->setText(QApplication::translate("KvMainWindow", "Close All Windows", Q_NULLPTR));
-        actionNavigator->setText(QApplication::translate("KvMainWindow", "Navigator", Q_NULLPTR));
-        actionObjects->setText(QApplication::translate("KvMainWindow", "Objects", Q_NULLPTR));
-        actionWindow_List->setText(QApplication::translate("KvMainWindow", "Window List", Q_NULLPTR));
-        actionWork_Path->setText(QApplication::translate("KvMainWindow", "Work Path", Q_NULLPTR));
-        actionMain_Tool_Bar->setText(QApplication::translate("KvMainWindow", "Main Tool Bar", Q_NULLPTR));
-        actionDisconnectAll->setText(QApplication::translate("KvMainWindow", "Disconnect All", Q_NULLPTR));
+        actionExit->setText(QApplication::translate("KvMainWindow", "Exit", nullptr));
+        actionAdd_Database->setText(QApplication::translate("KvMainWindow", "Add Database", nullptr));
+        actionDelete_Database->setText(QApplication::translate("KvMainWindow", "Delete Database", nullptr));
+        actionAdd_Connection->setText(QApplication::translate("KvMainWindow", "Add Connection", nullptr));
+        actionDelete_Connection->setText(QApplication::translate("KvMainWindow", "Delete Connection", nullptr));
+        actionEdit->setText(QApplication::translate("KvMainWindow", "Edit", nullptr));
+        actionConnect->setText(QApplication::translate("KvMainWindow", "Connect", nullptr));
+        actionDisconnect->setText(QApplication::translate("KvMainWindow", "Disconnect", nullptr));
+        actionConnectivity_Assistant->setText(QApplication::translate("KvMainWindow", "Connectivity Assistant", nullptr));
+        actionNew_Sql->setText(QApplication::translate("KvMainWindow", "New Sql Window", nullptr));
+        actionNew_Diagram->setText(QApplication::translate("KvMainWindow", "New Diagram Window", nullptr));
+        actionOpen->setText(QApplication::translate("KvMainWindow", "Open File", nullptr));
+        actionOpen_Recent->setText(QApplication::translate("KvMainWindow", "Open Recent...", nullptr));
+        actionSave->setText(QApplication::translate("KvMainWindow", "Save", nullptr));
+        actionSave_As->setText(QApplication::translate("KvMainWindow", "Save As...", nullptr));
+        actionSave_All->setText(QApplication::translate("KvMainWindow", "Save All", nullptr));
+        actionClose->setText(QApplication::translate("KvMainWindow", "Close", nullptr));
+        actionCut->setText(QApplication::translate("KvMainWindow", "Cut", nullptr));
+        actionCopy->setText(QApplication::translate("KvMainWindow", "Copy", nullptr));
+        actionPaste->setText(QApplication::translate("KvMainWindow", "Paste", nullptr));
+        actionDelete->setText(QApplication::translate("KvMainWindow", "Delete", nullptr));
+        actionSelect_All->setText(QApplication::translate("KvMainWindow", "Select All", nullptr));
+        actionContents->setText(QApplication::translate("KvMainWindow", "Contents", nullptr));
+        actionAbout_Kevora->setText(QApplication::translate("KvMainWindow", "About Kevora", nullptr));
+        actionAbout_Qt->setText(QApplication::translate("KvMainWindow", "About Qt", nullptr));
+        actionRefreshTableSchema->setText(QApplication::translate("KvMainWindow", "Refresh", nullptr));
+        actionView_TableDefinition->setText(QApplication::translate("KvMainWindow", "View Definition", nullptr));
+        actionView_TableData->setText(QApplication::translate("KvMainWindow", "View Data", nullptr));
+        actionCascade_Windows->setText(QApplication::translate("KvMainWindow", "Cascade Windows", nullptr));
+        actionTile_Windows->setText(QApplication::translate("KvMainWindow", "Tile Windows", nullptr));
+        actionClose_All_Windows->setText(QApplication::translate("KvMainWindow", "Close All Windows", nullptr));
+        actionNavigator->setText(QApplication::translate("KvMainWindow", "Navigator", nullptr));
+        actionObjects->setText(QApplication::translate("KvMainWindow", "Objects", nullptr));
+        actionWindow_List->setText(QApplication::translate("KvMainWindow", "Window List", nullptr));
+        actionWork_Path->setText(QApplication::translate("KvMainWindow", "Work Path", nullptr));
+        actionMain_Tool_Bar->setText(QApplication::translate("KvMainWindow", "Main Tool Bar", nullptr));
+        actionDisconnectAll->setText(QApplication::translate("KvMainWindow", "Disconnect All", nullptr));
 #ifndef QT_NO_TOOLTIP
-        actionDisconnectAll->setToolTip(QApplication::translate("KvMainWindow", "Disconnect All", Q_NULLPTR));
+        actionDisconnectAll->setToolTip(QApplication::translate("KvMainWindow", "Disconnect All", nullptr));
 #endif // QT_NO_TOOLTIP
-        actionView_ViewData->setText(QApplication::translate("KvMainWindow", "View Data", Q_NULLPTR));
-        actionView_ViewDefinition->setText(QApplication::translate("KvMainWindow", "View Definition", Q_NULLPTR));
-        actionRefreshViewSchema->setText(QApplication::translate("KvMainWindow", "Refresh", Q_NULLPTR));
-        actionRefreshProgramSchema->setText(QApplication::translate("KvMainWindow", "Refresh", Q_NULLPTR));
-        actionRefreshEtcSchema->setText(QApplication::translate("KvMainWindow", "Refresh", Q_NULLPTR));
-        actionView_DDL->setText(QApplication::translate("KvMainWindow", "View DDL", Q_NULLPTR));
-        actionExport_Data->setText(QApplication::translate("KvMainWindow", "Export Data", Q_NULLPTR));
-        actionExport_Database_Objects->setText(QApplication::translate("KvMainWindow", "Export Database Objects", Q_NULLPTR));
-        actionRefresh_Schemas->setText(QApplication::translate("KvMainWindow", "Refresh", Q_NULLPTR));
-        actionKevora_Updates->setText(QApplication::translate("KvMainWindow", "Kevora Updates", Q_NULLPTR));
-        actionCompare_Database_objects->setText(QApplication::translate("KvMainWindow", "Compare Database Objects", Q_NULLPTR));
+        actionView_ViewData->setText(QApplication::translate("KvMainWindow", "View Data", nullptr));
+        actionView_ViewDefinition->setText(QApplication::translate("KvMainWindow", "View Definition", nullptr));
+        actionRefreshViewSchema->setText(QApplication::translate("KvMainWindow", "Refresh", nullptr));
+        actionRefreshProgramSchema->setText(QApplication::translate("KvMainWindow", "Refresh", nullptr));
+        actionRefreshEtcSchema->setText(QApplication::translate("KvMainWindow", "Refresh", nullptr));
+        actionView_DDL->setText(QApplication::translate("KvMainWindow", "View DDL", nullptr));
+        actionExport_Data->setText(QApplication::translate("KvMainWindow", "Export Data", nullptr));
+        actionExport_Database_Objects->setText(QApplication::translate("KvMainWindow", "Export Database Objects", nullptr));
+        actionRefresh_Schemas->setText(QApplication::translate("KvMainWindow", "Refresh", nullptr));
+        actionKevora_Updates->setText(QApplication::translate("KvMainWindow", "Kevora Updates", nullptr));
+        actionCompare_Database_objects->setText(QApplication::translate("KvMainWindow", "Compare Database Objects", nullptr));
 #ifndef QT_NO_TOOLTIP
-        actionCompare_Database_objects->setToolTip(QApplication::translate("KvMainWindow", "Compare Database Objects", Q_NULLPTR));
+        actionCompare_Database_objects->setToolTip(QApplication::translate("KvMainWindow", "Compare Database Objects", nullptr));
 #endif // QT_NO_TOOLTIP
-        menuIDE->setTitle(QApplication::translate("KvMainWindow", "&IDE", Q_NULLPTR));
-        menu_Connection->setTitle(QApplication::translate("KvMainWindow", "&Connections", Q_NULLPTR));
-        menu_Files->setTitle(QApplication::translate("KvMainWindow", "&Files", Q_NULLPTR));
-        menu_Edit->setTitle(QApplication::translate("KvMainWindow", "&Edit", Q_NULLPTR));
-        menu_Tools->setTitle(QApplication::translate("KvMainWindow", "&Tools", Q_NULLPTR));
-        menu_Reports->setTitle(QApplication::translate("KvMainWindow", "&Reports", Q_NULLPTR));
-        menu_Help->setTitle(QApplication::translate("KvMainWindow", "&Help", Q_NULLPTR));
-        menu_View->setTitle(QApplication::translate("KvMainWindow", "&View", Q_NULLPTR));
-        mainToolBar->setWindowTitle(QApplication::translate("KvMainWindow", "Main Tool Bar", Q_NULLPTR));
-        navigatorDockWidget->setWindowTitle(QApplication::translate("KvMainWindow", "Navigator", Q_NULLPTR));
+        menuIDE->setTitle(QApplication::translate("KvMainWindow", "&IDE", nullptr));
+        menu_Connection->setTitle(QApplication::translate("KvMainWindow", "&Connections", nullptr));
+        menu_Files->setTitle(QApplication::translate("KvMainWindow", "&Files", nullptr));
+        menu_Edit->setTitle(QApplication::translate("KvMainWindow", "&Edit", nullptr));
+        menu_Tools->setTitle(QApplication::translate("KvMainWindow", "&Tools", nullptr));
+        menu_Reports->setTitle(QApplication::translate("KvMainWindow", "&Reports", nullptr));
+        menu_Help->setTitle(QApplication::translate("KvMainWindow", "&Help", nullptr));
+        menu_View->setTitle(QApplication::translate("KvMainWindow", "&View", nullptr));
+        mainToolBar->setWindowTitle(QApplication::translate("KvMainWindow", "Main Tool Bar", nullptr));
+        navigatorDockWidget->setWindowTitle(QApplication::translate("KvMainWindow", "Navigator", nullptr));
 #ifndef QT_NO_TOOLTIP
-        toolButtonAddDb->setToolTip(QApplication::translate("KvMainWindow", "Add a database item", Q_NULLPTR));
+        toolButtonAddDb->setToolTip(QApplication::translate("KvMainWindow", "Add a database item", nullptr));
 #endif // QT_NO_TOOLTIP
-        toolButtonAddDb->setText(QApplication::translate("KvMainWindow", "...", Q_NULLPTR));
+        toolButtonAddDb->setText(QApplication::translate("KvMainWindow", "...", nullptr));
 #ifndef QT_NO_TOOLTIP
-        toolButtonDelDb->setToolTip(QApplication::translate("KvMainWindow", "Remove a database item", Q_NULLPTR));
+        toolButtonDelDb->setToolTip(QApplication::translate("KvMainWindow", "Remove a database item", nullptr));
 #endif // QT_NO_TOOLTIP
-        toolButtonDelDb->setText(QApplication::translate("KvMainWindow", "...", Q_NULLPTR));
+        toolButtonDelDb->setText(QApplication::translate("KvMainWindow", "...", nullptr));
 #ifndef QT_NO_TOOLTIP
-        toolButtonEdit->setToolTip(QApplication::translate("KvMainWindow", "Edit a database or connection item", Q_NULLPTR));
+        toolButtonEdit->setToolTip(QApplication::translate("KvMainWindow", "Edit a database or connection item", nullptr));
 #endif // QT_NO_TOOLTIP
-        toolButtonEdit->setText(QApplication::translate("KvMainWindow", "...", Q_NULLPTR));
+        toolButtonEdit->setText(QApplication::translate("KvMainWindow", "...", nullptr));
 #ifndef QT_NO_TOOLTIP
-        toolButtonAddConn->setToolTip(QApplication::translate("KvMainWindow", "Add a connection", Q_NULLPTR));
+        toolButtonAddConn->setToolTip(QApplication::translate("KvMainWindow", "Add a connection", nullptr));
 #endif // QT_NO_TOOLTIP
-        toolButtonAddConn->setText(QApplication::translate("KvMainWindow", "...", Q_NULLPTR));
+        toolButtonAddConn->setText(QApplication::translate("KvMainWindow", "...", nullptr));
 #ifndef QT_NO_TOOLTIP
-        toolButtonDelConn->setToolTip(QApplication::translate("KvMainWindow", "Remove a connection", Q_NULLPTR));
+        toolButtonDelConn->setToolTip(QApplication::translate("KvMainWindow", "Remove a connection", nullptr));
 #endif // QT_NO_TOOLTIP
-        toolButtonDelConn->setText(QApplication::translate("KvMainWindow", "...", Q_NULLPTR));
+        toolButtonDelConn->setText(QApplication::translate("KvMainWindow", "...", nullptr));
 #ifndef QT_NO_TOOLTIP
-        toolButtonOpenConn->setToolTip(QApplication::translate("KvMainWindow", "Open a connection", Q_NULLPTR));
+        toolButtonOpenConn->setToolTip(QApplication::translate("KvMainWindow", "Open a connection", nullptr));
 #endif // QT_NO_TOOLTIP
-        toolButtonOpenConn->setText(QApplication::translate("KvMainWindow", "...", Q_NULLPTR));
+        toolButtonOpenConn->setText(QApplication::translate("KvMainWindow", "...", nullptr));
 #ifndef QT_NO_TOOLTIP
-        toolButtonCloseConn->setToolTip(QApplication::translate("KvMainWindow", "Close a connection", Q_NULLPTR));
+        toolButtonCloseConn->setToolTip(QApplication::translate("KvMainWindow", "Close a connection", nullptr));
 #endif // QT_NO_TOOLTIP
-        toolButtonCloseConn->setText(QApplication::translate("KvMainWindow", "...", Q_NULLPTR));
+        toolButtonCloseConn->setText(QApplication::translate("KvMainWindow", "...", nullptr));
 #ifndef QT_NO_TOOLTIP
-        toolButtonCloseAllConn->setToolTip(QApplication::translate("KvMainWindow", "Close all connections", Q_NULLPTR));
+        toolButtonCloseAllConn->setToolTip(QApplication::translate("KvMainWindow", "Close all connections", nullptr));
 #endif // QT_NO_TOOLTIP
-        toolButtonCloseAllConn->setText(QApplication::translate("KvMainWindow", "...", Q_NULLPTR));
+        toolButtonCloseAllConn->setText(QApplication::translate("KvMainWindow", "...", nullptr));
         QTreeWidgetItem *___qtreewidgetitem = dbTreeWidget->headerItem();
-        ___qtreewidgetitem->setText(7, QApplication::translate("KvMainWindow", "Status", Q_NULLPTR));
-        ___qtreewidgetitem->setText(6, QApplication::translate("KvMainWindow", "Comments", Q_NULLPTR));
-        ___qtreewidgetitem->setText(5, QApplication::translate("KvMainWindow", "Driver", Q_NULLPTR));
-        ___qtreewidgetitem->setText(4, QApplication::translate("KvMainWindow", "DbName", Q_NULLPTR));
-        ___qtreewidgetitem->setText(3, QApplication::translate("KvMainWindow", "Port", Q_NULLPTR));
-        ___qtreewidgetitem->setText(2, QApplication::translate("KvMainWindow", "Host", Q_NULLPTR));
-        ___qtreewidgetitem->setText(1, QApplication::translate("KvMainWindow", "Type", Q_NULLPTR));
-        ___qtreewidgetitem->setText(0, QApplication::translate("KvMainWindow", "Connection", Q_NULLPTR));
-        tabWidget->setTabText(tabWidget->indexOf(tab), QApplication::translate("KvMainWindow", "Connection List", Q_NULLPTR));
-        objectsDockWidget->setWindowTitle(QApplication::translate("KvMainWindow", "Objects", Q_NULLPTR));
-        activeConnObjComboBox->clear();
-        activeConnObjComboBox->insertItems(0, QStringList()
-         << QApplication::translate("KvMainWindow", "Objects from All Active Connections", Q_NULLPTR)
-        );
+        ___qtreewidgetitem->setText(7, QApplication::translate("KvMainWindow", "Status", nullptr));
+        ___qtreewidgetitem->setText(6, QApplication::translate("KvMainWindow", "Comments", nullptr));
+        ___qtreewidgetitem->setText(5, QApplication::translate("KvMainWindow", "Driver", nullptr));
+        ___qtreewidgetitem->setText(4, QApplication::translate("KvMainWindow", "DbName", nullptr));
+        ___qtreewidgetitem->setText(3, QApplication::translate("KvMainWindow", "Port", nullptr));
+        ___qtreewidgetitem->setText(2, QApplication::translate("KvMainWindow", "Host", nullptr));
+        ___qtreewidgetitem->setText(1, QApplication::translate("KvMainWindow", "Type", nullptr));
+        ___qtreewidgetitem->setText(0, QApplication::translate("KvMainWindow", "Connection", nullptr));
+        tabWidget->setTabText(tabWidget->indexOf(tab), QApplication::translate("KvMainWindow", "Connection List", nullptr));
+        objectsDockWidget->setWindowTitle(QApplication::translate("KvMainWindow", "Objects", nullptr));
+        activeConnObjComboBox->setItemText(0, QApplication::translate("KvMainWindow", "Objects from All Active Connections", nullptr));
+
         QTreeWidgetItem *___qtreewidgetitem1 = tableTreeWidget->headerItem();
-        ___qtreewidgetitem1->setText(1, QApplication::translate("KvMainWindow", "2", Q_NULLPTR));
-        tabWidget_2->setTabText(tabWidget_2->indexOf(tab_3), QApplication::translate("KvMainWindow", "Tables", Q_NULLPTR));
+        ___qtreewidgetitem1->setText(1, QApplication::translate("KvMainWindow", "2", nullptr));
+        tabWidget_2->setTabText(tabWidget_2->indexOf(tab_3), QApplication::translate("KvMainWindow", "Tables", nullptr));
         QTreeWidgetItem *___qtreewidgetitem2 = viewTreeWidget->headerItem();
-        ___qtreewidgetitem2->setText(1, QApplication::translate("KvMainWindow", "2", Q_NULLPTR));
-        tabWidget_2->setTabText(tabWidget_2->indexOf(tab_4), QApplication::translate("KvMainWindow", "Views", Q_NULLPTR));
+        ___qtreewidgetitem2->setText(1, QApplication::translate("KvMainWindow", "2", nullptr));
+        tabWidget_2->setTabText(tabWidget_2->indexOf(tab_4), QApplication::translate("KvMainWindow", "Views", nullptr));
         QTreeWidgetItem *___qtreewidgetitem3 = programTreeWidget->headerItem();
-        ___qtreewidgetitem3->setText(1, QApplication::translate("KvMainWindow", "2", Q_NULLPTR));
-        tabWidget_2->setTabText(tabWidget_2->indexOf(tab_5), QApplication::translate("KvMainWindow", "Programs", Q_NULLPTR));
+        ___qtreewidgetitem3->setText(1, QApplication::translate("KvMainWindow", "2", nullptr));
+        tabWidget_2->setTabText(tabWidget_2->indexOf(tab_5), QApplication::translate("KvMainWindow", "Programs", nullptr));
         QTreeWidgetItem *___qtreewidgetitem4 = etcTreeWidget->headerItem();
-        ___qtreewidgetitem4->setText(1, QApplication::translate("KvMainWindow", "2", Q_NULLPTR));
-        tabWidget_2->setTabText(tabWidget_2->indexOf(tab_6), QApplication::translate("KvMainWindow", "Etc", Q_NULLPTR));
-        winListDockWidget->setWindowTitle(QApplication::translate("KvMainWindow", "Window List", Q_NULLPTR));
-        workingDirDockWidget->setWindowTitle(QApplication::translate("KvMainWindow", "Work Path", Q_NULLPTR));
+        ___qtreewidgetitem4->setText(1, QApplication::translate("KvMainWindow", "2", nullptr));
+        tabWidget_2->setTabText(tabWidget_2->indexOf(tab_6), QApplication::translate("KvMainWindow", "Etc", nullptr));
+        winListDockWidget->setWindowTitle(QApplication::translate("KvMainWindow", "Window List", nullptr));
+        workingDirDockWidget->setWindowTitle(QApplication::translate("KvMainWindow", "Work Path", nullptr));
     } // retranslateUi
 
 };

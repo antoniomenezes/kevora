@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'kvdbdefinitiondialog.ui'
 **
-** Created by: Qt User Interface Compiler version 5.8.0
+** Created by: Qt User Interface Compiler version 5.12.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -10,15 +10,13 @@
 #define UI_KVDBDEFINITIONDIALOG_H
 
 #include <QtCore/QVariant>
-#include <QtWidgets/QAction>
+#include <QtGui/QIcon>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QButtonGroup>
 #include <QtWidgets/QComboBox>
 #include <QtWidgets/QDialog>
 #include <QtWidgets/QDialogButtonBox>
 #include <QtWidgets/QDockWidget>
 #include <QtWidgets/QHBoxLayout>
-#include <QtWidgets/QHeaderView>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
 #include <QtWidgets/QPlainTextEdit>
@@ -135,7 +133,7 @@ public:
     void setupUi(QDialog *KvDbDefinitionDialog)
     {
         if (KvDbDefinitionDialog->objectName().isEmpty())
-            KvDbDefinitionDialog->setObjectName(QStringLiteral("KvDbDefinitionDialog"));
+            KvDbDefinitionDialog->setObjectName(QString::fromUtf8("KvDbDefinitionDialog"));
         KvDbDefinitionDialog->setWindowModality(Qt::ApplicationModal);
         KvDbDefinitionDialog->resize(466, 400);
         QSizePolicy sizePolicy(QSizePolicy::Fixed, QSizePolicy::Fixed);
@@ -146,21 +144,21 @@ public:
         KvDbDefinitionDialog->setMinimumSize(QSize(466, 400));
         KvDbDefinitionDialog->setMaximumSize(QSize(466, 400));
         QIcon icon;
-        icon.addFile(QStringLiteral(":/png/png_general/database.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon.addFile(QString::fromUtf8(":/png/png_general/database.png"), QSize(), QIcon::Normal, QIcon::Off);
         KvDbDefinitionDialog->setWindowIcon(icon);
         verticalLayout = new QVBoxLayout(KvDbDefinitionDialog);
-        verticalLayout->setObjectName(QStringLiteral("verticalLayout"));
+        verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
         verticalLayout->setSizeConstraint(QLayout::SetFixedSize);
         horizontalLayout = new QHBoxLayout();
-        horizontalLayout->setObjectName(QStringLiteral("horizontalLayout"));
+        horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
         labelAlias = new QLabel(KvDbDefinitionDialog);
-        labelAlias->setObjectName(QStringLiteral("labelAlias"));
+        labelAlias->setObjectName(QString::fromUtf8("labelAlias"));
         labelAlias->setMinimumSize(QSize(130, 0));
 
         horizontalLayout->addWidget(labelAlias);
 
         lineEditAlias = new QLineEdit(KvDbDefinitionDialog);
-        lineEditAlias->setObjectName(QStringLiteral("lineEditAlias"));
+        lineEditAlias->setObjectName(QString::fromUtf8("lineEditAlias"));
         lineEditAlias->setMinimumSize(QSize(200, 0));
 
         horizontalLayout->addWidget(lineEditAlias);
@@ -169,21 +167,21 @@ public:
         verticalLayout->addLayout(horizontalLayout);
 
         horizontalLayout_2 = new QHBoxLayout();
-        horizontalLayout_2->setObjectName(QStringLiteral("horizontalLayout_2"));
+        horizontalLayout_2->setObjectName(QString::fromUtf8("horizontalLayout_2"));
         labelDBMSType = new QLabel(KvDbDefinitionDialog);
-        labelDBMSType->setObjectName(QStringLiteral("labelDBMSType"));
+        labelDBMSType->setObjectName(QString::fromUtf8("labelDBMSType"));
         labelDBMSType->setMinimumSize(QSize(130, 0));
 
         horizontalLayout_2->addWidget(labelDBMSType);
 
         comboBoxDBMSType = new QComboBox(KvDbDefinitionDialog);
         comboBoxDBMSType->addItem(QString());
-        comboBoxDBMSType->addItem(QStringLiteral("Firebird / Interbase"));
-        comboBoxDBMSType->addItem(QStringLiteral("MySql"));
-        comboBoxDBMSType->addItem(QStringLiteral("Oracle"));
-        comboBoxDBMSType->addItem(QStringLiteral("PostgreSql"));
-        comboBoxDBMSType->addItem(QStringLiteral("Sqlite"));
-        comboBoxDBMSType->setObjectName(QStringLiteral("comboBoxDBMSType"));
+        comboBoxDBMSType->addItem(QString::fromUtf8("Firebird / Interbase"));
+        comboBoxDBMSType->addItem(QString::fromUtf8("MySql"));
+        comboBoxDBMSType->addItem(QString::fromUtf8("Oracle"));
+        comboBoxDBMSType->addItem(QString::fromUtf8("PostgreSql"));
+        comboBoxDBMSType->addItem(QString::fromUtf8("Sqlite"));
+        comboBoxDBMSType->setObjectName(QString::fromUtf8("comboBoxDBMSType"));
         comboBoxDBMSType->setMinimumSize(QSize(200, 0));
 
         horizontalLayout_2->addWidget(comboBoxDBMSType);
@@ -196,25 +194,25 @@ public:
         verticalLayout->addLayout(horizontalLayout_2);
 
         stackedWidget = new QStackedWidget(KvDbDefinitionDialog);
-        stackedWidget->setObjectName(QStringLiteral("stackedWidget"));
+        stackedWidget->setObjectName(QString::fromUtf8("stackedWidget"));
         stackedWidget->setMinimumSize(QSize(0, 130));
         stackedWidget->setMaximumSize(QSize(16777215, 130));
         pageCubrid = new QWidget();
-        pageCubrid->setObjectName(QStringLiteral("pageCubrid"));
+        pageCubrid->setObjectName(QString::fromUtf8("pageCubrid"));
         verticalLayout_10 = new QVBoxLayout(pageCubrid);
-        verticalLayout_10->setObjectName(QStringLiteral("verticalLayout_10"));
+        verticalLayout_10->setObjectName(QString::fromUtf8("verticalLayout_10"));
         verticalLayout_10->setContentsMargins(0, -1, 0, -1);
         horizontalLayout_24 = new QHBoxLayout();
         horizontalLayout_24->setSpacing(6);
-        horizontalLayout_24->setObjectName(QStringLiteral("horizontalLayout_24"));
+        horizontalLayout_24->setObjectName(QString::fromUtf8("horizontalLayout_24"));
         label_22 = new QLabel(pageCubrid);
-        label_22->setObjectName(QStringLiteral("label_22"));
+        label_22->setObjectName(QString::fromUtf8("label_22"));
         label_22->setMinimumSize(QSize(130, 0));
 
         horizontalLayout_24->addWidget(label_22);
 
         lineEditCubridHost = new QLineEdit(pageCubrid);
-        lineEditCubridHost->setObjectName(QStringLiteral("lineEditCubridHost"));
+        lineEditCubridHost->setObjectName(QString::fromUtf8("lineEditCubridHost"));
         lineEditCubridHost->setMinimumSize(QSize(200, 0));
 
         horizontalLayout_24->addWidget(lineEditCubridHost);
@@ -223,15 +221,15 @@ public:
         verticalLayout_10->addLayout(horizontalLayout_24);
 
         horizontalLayout_25 = new QHBoxLayout();
-        horizontalLayout_25->setObjectName(QStringLiteral("horizontalLayout_25"));
+        horizontalLayout_25->setObjectName(QString::fromUtf8("horizontalLayout_25"));
         label_23 = new QLabel(pageCubrid);
-        label_23->setObjectName(QStringLiteral("label_23"));
+        label_23->setObjectName(QString::fromUtf8("label_23"));
         label_23->setMinimumSize(QSize(130, 0));
 
         horizontalLayout_25->addWidget(label_23);
 
         lineEditCubridPort = new QLineEdit(pageCubrid);
-        lineEditCubridPort->setObjectName(QStringLiteral("lineEditCubridPort"));
+        lineEditCubridPort->setObjectName(QString::fromUtf8("lineEditCubridPort"));
         QSizePolicy sizePolicy1(QSizePolicy::Minimum, QSizePolicy::Fixed);
         sizePolicy1.setHorizontalStretch(0);
         sizePolicy1.setVerticalStretch(0);
@@ -239,7 +237,7 @@ public:
         lineEditCubridPort->setSizePolicy(sizePolicy1);
         lineEditCubridPort->setMinimumSize(QSize(40, 0));
         lineEditCubridPort->setInputMethodHints(Qt::ImhDigitsOnly);
-        lineEditCubridPort->setText(QStringLiteral("30000"));
+        lineEditCubridPort->setText(QString::fromUtf8("30000"));
 
         horizontalLayout_25->addWidget(lineEditCubridPort);
 
@@ -251,15 +249,15 @@ public:
         verticalLayout_10->addLayout(horizontalLayout_25);
 
         horizontalLayout_23 = new QHBoxLayout();
-        horizontalLayout_23->setObjectName(QStringLiteral("horizontalLayout_23"));
+        horizontalLayout_23->setObjectName(QString::fromUtf8("horizontalLayout_23"));
         label_21 = new QLabel(pageCubrid);
-        label_21->setObjectName(QStringLiteral("label_21"));
+        label_21->setObjectName(QString::fromUtf8("label_21"));
         label_21->setMinimumSize(QSize(130, 0));
 
         horizontalLayout_23->addWidget(label_21);
 
         lineEditCubridDBName = new QLineEdit(pageCubrid);
-        lineEditCubridDBName->setObjectName(QStringLiteral("lineEditCubridDBName"));
+        lineEditCubridDBName->setObjectName(QString::fromUtf8("lineEditCubridDBName"));
         lineEditCubridDBName->setMinimumSize(QSize(280, 0));
 
         horizontalLayout_23->addWidget(lineEditCubridDBName);
@@ -269,22 +267,22 @@ public:
 
         stackedWidget->addWidget(pageCubrid);
         pageFirebird = new QWidget();
-        pageFirebird->setObjectName(QStringLiteral("pageFirebird"));
+        pageFirebird->setObjectName(QString::fromUtf8("pageFirebird"));
         verticalLayout_2 = new QVBoxLayout(pageFirebird);
         verticalLayout_2->setSpacing(6);
-        verticalLayout_2->setObjectName(QStringLiteral("verticalLayout_2"));
+        verticalLayout_2->setObjectName(QString::fromUtf8("verticalLayout_2"));
         verticalLayout_2->setContentsMargins(0, -1, 0, -1);
         horizontalLayout_3 = new QHBoxLayout();
         horizontalLayout_3->setSpacing(6);
-        horizontalLayout_3->setObjectName(QStringLiteral("horizontalLayout_3"));
+        horizontalLayout_3->setObjectName(QString::fromUtf8("horizontalLayout_3"));
         labelHostName = new QLabel(pageFirebird);
-        labelHostName->setObjectName(QStringLiteral("labelHostName"));
+        labelHostName->setObjectName(QString::fromUtf8("labelHostName"));
         labelHostName->setMinimumSize(QSize(130, 0));
 
         horizontalLayout_3->addWidget(labelHostName);
 
         lineEditFirebirdHost = new QLineEdit(pageFirebird);
-        lineEditFirebirdHost->setObjectName(QStringLiteral("lineEditFirebirdHost"));
+        lineEditFirebirdHost->setObjectName(QString::fromUtf8("lineEditFirebirdHost"));
         lineEditFirebirdHost->setMinimumSize(QSize(200, 0));
 
         horizontalLayout_3->addWidget(lineEditFirebirdHost);
@@ -293,20 +291,20 @@ public:
         verticalLayout_2->addLayout(horizontalLayout_3);
 
         horizontalLayout_4 = new QHBoxLayout();
-        horizontalLayout_4->setObjectName(QStringLiteral("horizontalLayout_4"));
+        horizontalLayout_4->setObjectName(QString::fromUtf8("horizontalLayout_4"));
         labelPort = new QLabel(pageFirebird);
-        labelPort->setObjectName(QStringLiteral("labelPort"));
+        labelPort->setObjectName(QString::fromUtf8("labelPort"));
         labelPort->setMinimumSize(QSize(130, 0));
 
         horizontalLayout_4->addWidget(labelPort);
 
         lineEditFirebirdPort = new QLineEdit(pageFirebird);
-        lineEditFirebirdPort->setObjectName(QStringLiteral("lineEditFirebirdPort"));
+        lineEditFirebirdPort->setObjectName(QString::fromUtf8("lineEditFirebirdPort"));
         sizePolicy1.setHeightForWidth(lineEditFirebirdPort->sizePolicy().hasHeightForWidth());
         lineEditFirebirdPort->setSizePolicy(sizePolicy1);
         lineEditFirebirdPort->setMinimumSize(QSize(40, 0));
         lineEditFirebirdPort->setInputMethodHints(Qt::ImhDigitsOnly);
-        lineEditFirebirdPort->setText(QStringLiteral("3050"));
+        lineEditFirebirdPort->setText(QString::fromUtf8("3050"));
 
         horizontalLayout_4->addWidget(lineEditFirebirdPort);
 
@@ -318,22 +316,22 @@ public:
         verticalLayout_2->addLayout(horizontalLayout_4);
 
         horizontalLayout_5 = new QHBoxLayout();
-        horizontalLayout_5->setObjectName(QStringLiteral("horizontalLayout_5"));
+        horizontalLayout_5->setObjectName(QString::fromUtf8("horizontalLayout_5"));
         labelDBName = new QLabel(pageFirebird);
-        labelDBName->setObjectName(QStringLiteral("labelDBName"));
+        labelDBName->setObjectName(QString::fromUtf8("labelDBName"));
         labelDBName->setMinimumSize(QSize(130, 0));
 
         horizontalLayout_5->addWidget(labelDBName);
 
         lineEditFirebirdDBName = new QLineEdit(pageFirebird);
-        lineEditFirebirdDBName->setObjectName(QStringLiteral("lineEditFirebirdDBName"));
+        lineEditFirebirdDBName->setObjectName(QString::fromUtf8("lineEditFirebirdDBName"));
         lineEditFirebirdDBName->setMinimumSize(QSize(280, 0));
 
         horizontalLayout_5->addWidget(lineEditFirebirdDBName);
 
         toolButtonFirebirdSetFile = new QToolButton(pageFirebird);
-        toolButtonFirebirdSetFile->setObjectName(QStringLiteral("toolButtonFirebirdSetFile"));
-        toolButtonFirebirdSetFile->setText(QStringLiteral("..."));
+        toolButtonFirebirdSetFile->setObjectName(QString::fromUtf8("toolButtonFirebirdSetFile"));
+        toolButtonFirebirdSetFile->setText(QString::fromUtf8("..."));
 
         horizontalLayout_5->addWidget(toolButtonFirebirdSetFile);
 
@@ -342,21 +340,21 @@ public:
 
         stackedWidget->addWidget(pageFirebird);
         pageMySql = new QWidget();
-        pageMySql->setObjectName(QStringLiteral("pageMySql"));
+        pageMySql->setObjectName(QString::fromUtf8("pageMySql"));
         verticalLayout_3 = new QVBoxLayout(pageMySql);
-        verticalLayout_3->setObjectName(QStringLiteral("verticalLayout_3"));
+        verticalLayout_3->setObjectName(QString::fromUtf8("verticalLayout_3"));
         verticalLayout_3->setContentsMargins(0, -1, 0, -1);
         horizontalLayout_6 = new QHBoxLayout();
         horizontalLayout_6->setSpacing(6);
-        horizontalLayout_6->setObjectName(QStringLiteral("horizontalLayout_6"));
+        horizontalLayout_6->setObjectName(QString::fromUtf8("horizontalLayout_6"));
         label_6 = new QLabel(pageMySql);
-        label_6->setObjectName(QStringLiteral("label_6"));
+        label_6->setObjectName(QString::fromUtf8("label_6"));
         label_6->setMinimumSize(QSize(130, 0));
 
         horizontalLayout_6->addWidget(label_6);
 
         lineEditMySqlHost = new QLineEdit(pageMySql);
-        lineEditMySqlHost->setObjectName(QStringLiteral("lineEditMySqlHost"));
+        lineEditMySqlHost->setObjectName(QString::fromUtf8("lineEditMySqlHost"));
         lineEditMySqlHost->setMinimumSize(QSize(200, 0));
 
         horizontalLayout_6->addWidget(lineEditMySqlHost);
@@ -365,20 +363,20 @@ public:
         verticalLayout_3->addLayout(horizontalLayout_6);
 
         horizontalLayout_7 = new QHBoxLayout();
-        horizontalLayout_7->setObjectName(QStringLiteral("horizontalLayout_7"));
+        horizontalLayout_7->setObjectName(QString::fromUtf8("horizontalLayout_7"));
         label_7 = new QLabel(pageMySql);
-        label_7->setObjectName(QStringLiteral("label_7"));
+        label_7->setObjectName(QString::fromUtf8("label_7"));
         label_7->setMinimumSize(QSize(130, 0));
 
         horizontalLayout_7->addWidget(label_7);
 
         lineEditMySqlPort = new QLineEdit(pageMySql);
-        lineEditMySqlPort->setObjectName(QStringLiteral("lineEditMySqlPort"));
+        lineEditMySqlPort->setObjectName(QString::fromUtf8("lineEditMySqlPort"));
         sizePolicy1.setHeightForWidth(lineEditMySqlPort->sizePolicy().hasHeightForWidth());
         lineEditMySqlPort->setSizePolicy(sizePolicy1);
         lineEditMySqlPort->setMinimumSize(QSize(40, 0));
         lineEditMySqlPort->setInputMethodHints(Qt::ImhDigitsOnly);
-        lineEditMySqlPort->setText(QStringLiteral("3306"));
+        lineEditMySqlPort->setText(QString::fromUtf8("3306"));
 
         horizontalLayout_7->addWidget(lineEditMySqlPort);
 
@@ -390,15 +388,15 @@ public:
         verticalLayout_3->addLayout(horizontalLayout_7);
 
         horizontalLayout_8 = new QHBoxLayout();
-        horizontalLayout_8->setObjectName(QStringLiteral("horizontalLayout_8"));
+        horizontalLayout_8->setObjectName(QString::fromUtf8("horizontalLayout_8"));
         label_8 = new QLabel(pageMySql);
-        label_8->setObjectName(QStringLiteral("label_8"));
+        label_8->setObjectName(QString::fromUtf8("label_8"));
         label_8->setMinimumSize(QSize(130, 0));
 
         horizontalLayout_8->addWidget(label_8);
 
         lineEditMySqlDBName = new QLineEdit(pageMySql);
-        lineEditMySqlDBName->setObjectName(QStringLiteral("lineEditMySqlDBName"));
+        lineEditMySqlDBName->setObjectName(QString::fromUtf8("lineEditMySqlDBName"));
         lineEditMySqlDBName->setMinimumSize(QSize(280, 0));
 
         horizontalLayout_8->addWidget(lineEditMySqlDBName);
@@ -408,21 +406,21 @@ public:
 
         stackedWidget->addWidget(pageMySql);
         pageOracle = new QWidget();
-        pageOracle->setObjectName(QStringLiteral("pageOracle"));
+        pageOracle->setObjectName(QString::fromUtf8("pageOracle"));
         verticalLayout_4 = new QVBoxLayout(pageOracle);
-        verticalLayout_4->setObjectName(QStringLiteral("verticalLayout_4"));
+        verticalLayout_4->setObjectName(QString::fromUtf8("verticalLayout_4"));
         verticalLayout_4->setContentsMargins(0, -1, 0, -1);
         horizontalLayout_9 = new QHBoxLayout();
         horizontalLayout_9->setSpacing(6);
-        horizontalLayout_9->setObjectName(QStringLiteral("horizontalLayout_9"));
+        horizontalLayout_9->setObjectName(QString::fromUtf8("horizontalLayout_9"));
         label_9 = new QLabel(pageOracle);
-        label_9->setObjectName(QStringLiteral("label_9"));
+        label_9->setObjectName(QString::fromUtf8("label_9"));
         label_9->setMinimumSize(QSize(130, 0));
 
         horizontalLayout_9->addWidget(label_9);
 
         lineEditOracleHost = new QLineEdit(pageOracle);
-        lineEditOracleHost->setObjectName(QStringLiteral("lineEditOracleHost"));
+        lineEditOracleHost->setObjectName(QString::fromUtf8("lineEditOracleHost"));
         lineEditOracleHost->setMinimumSize(QSize(200, 0));
 
         horizontalLayout_9->addWidget(lineEditOracleHost);
@@ -431,20 +429,20 @@ public:
         verticalLayout_4->addLayout(horizontalLayout_9);
 
         horizontalLayout_10 = new QHBoxLayout();
-        horizontalLayout_10->setObjectName(QStringLiteral("horizontalLayout_10"));
+        horizontalLayout_10->setObjectName(QString::fromUtf8("horizontalLayout_10"));
         label_10 = new QLabel(pageOracle);
-        label_10->setObjectName(QStringLiteral("label_10"));
+        label_10->setObjectName(QString::fromUtf8("label_10"));
         label_10->setMinimumSize(QSize(130, 0));
 
         horizontalLayout_10->addWidget(label_10);
 
         lineEditOraclePort = new QLineEdit(pageOracle);
-        lineEditOraclePort->setObjectName(QStringLiteral("lineEditOraclePort"));
+        lineEditOraclePort->setObjectName(QString::fromUtf8("lineEditOraclePort"));
         sizePolicy1.setHeightForWidth(lineEditOraclePort->sizePolicy().hasHeightForWidth());
         lineEditOraclePort->setSizePolicy(sizePolicy1);
         lineEditOraclePort->setMinimumSize(QSize(40, 0));
         lineEditOraclePort->setInputMethodHints(Qt::ImhDigitsOnly);
-        lineEditOraclePort->setText(QStringLiteral("1521"));
+        lineEditOraclePort->setText(QString::fromUtf8("1521"));
 
         horizontalLayout_10->addWidget(lineEditOraclePort);
 
@@ -456,16 +454,16 @@ public:
         verticalLayout_4->addLayout(horizontalLayout_10);
 
         horizontalLayout_11 = new QHBoxLayout();
-        horizontalLayout_11->setObjectName(QStringLiteral("horizontalLayout_11"));
+        horizontalLayout_11->setObjectName(QString::fromUtf8("horizontalLayout_11"));
         label_11 = new QLabel(pageOracle);
-        label_11->setObjectName(QStringLiteral("label_11"));
+        label_11->setObjectName(QString::fromUtf8("label_11"));
         label_11->setMinimumSize(QSize(130, 0));
-        label_11->setText(QStringLiteral("SID"));
+        label_11->setText(QString::fromUtf8("SID"));
 
         horizontalLayout_11->addWidget(label_11);
 
         lineEditOracleSID = new QLineEdit(pageOracle);
-        lineEditOracleSID->setObjectName(QStringLiteral("lineEditOracleSID"));
+        lineEditOracleSID->setObjectName(QString::fromUtf8("lineEditOracleSID"));
         lineEditOracleSID->setMinimumSize(QSize(280, 0));
 
         horizontalLayout_11->addWidget(lineEditOracleSID);
@@ -475,21 +473,21 @@ public:
 
         stackedWidget->addWidget(pageOracle);
         pagePostgreSql = new QWidget();
-        pagePostgreSql->setObjectName(QStringLiteral("pagePostgreSql"));
+        pagePostgreSql->setObjectName(QString::fromUtf8("pagePostgreSql"));
         verticalLayout_5 = new QVBoxLayout(pagePostgreSql);
-        verticalLayout_5->setObjectName(QStringLiteral("verticalLayout_5"));
+        verticalLayout_5->setObjectName(QString::fromUtf8("verticalLayout_5"));
         verticalLayout_5->setContentsMargins(0, -1, 0, -1);
         horizontalLayout_12 = new QHBoxLayout();
         horizontalLayout_12->setSpacing(6);
-        horizontalLayout_12->setObjectName(QStringLiteral("horizontalLayout_12"));
+        horizontalLayout_12->setObjectName(QString::fromUtf8("horizontalLayout_12"));
         label_12 = new QLabel(pagePostgreSql);
-        label_12->setObjectName(QStringLiteral("label_12"));
+        label_12->setObjectName(QString::fromUtf8("label_12"));
         label_12->setMinimumSize(QSize(130, 0));
 
         horizontalLayout_12->addWidget(label_12);
 
         lineEditPostgHost = new QLineEdit(pagePostgreSql);
-        lineEditPostgHost->setObjectName(QStringLiteral("lineEditPostgHost"));
+        lineEditPostgHost->setObjectName(QString::fromUtf8("lineEditPostgHost"));
         lineEditPostgHost->setMinimumSize(QSize(200, 0));
 
         horizontalLayout_12->addWidget(lineEditPostgHost);
@@ -498,20 +496,20 @@ public:
         verticalLayout_5->addLayout(horizontalLayout_12);
 
         horizontalLayout_13 = new QHBoxLayout();
-        horizontalLayout_13->setObjectName(QStringLiteral("horizontalLayout_13"));
+        horizontalLayout_13->setObjectName(QString::fromUtf8("horizontalLayout_13"));
         label_13 = new QLabel(pagePostgreSql);
-        label_13->setObjectName(QStringLiteral("label_13"));
+        label_13->setObjectName(QString::fromUtf8("label_13"));
         label_13->setMinimumSize(QSize(130, 0));
 
         horizontalLayout_13->addWidget(label_13);
 
         lineEditPostgPort = new QLineEdit(pagePostgreSql);
-        lineEditPostgPort->setObjectName(QStringLiteral("lineEditPostgPort"));
+        lineEditPostgPort->setObjectName(QString::fromUtf8("lineEditPostgPort"));
         sizePolicy1.setHeightForWidth(lineEditPostgPort->sizePolicy().hasHeightForWidth());
         lineEditPostgPort->setSizePolicy(sizePolicy1);
         lineEditPostgPort->setMinimumSize(QSize(40, 0));
         lineEditPostgPort->setInputMethodHints(Qt::ImhDigitsOnly);
-        lineEditPostgPort->setText(QStringLiteral("5432"));
+        lineEditPostgPort->setText(QString::fromUtf8("5432"));
 
         horizontalLayout_13->addWidget(lineEditPostgPort);
 
@@ -523,15 +521,15 @@ public:
         verticalLayout_5->addLayout(horizontalLayout_13);
 
         horizontalLayout_14 = new QHBoxLayout();
-        horizontalLayout_14->setObjectName(QStringLiteral("horizontalLayout_14"));
+        horizontalLayout_14->setObjectName(QString::fromUtf8("horizontalLayout_14"));
         label_14 = new QLabel(pagePostgreSql);
-        label_14->setObjectName(QStringLiteral("label_14"));
+        label_14->setObjectName(QString::fromUtf8("label_14"));
         label_14->setMinimumSize(QSize(130, 0));
 
         horizontalLayout_14->addWidget(label_14);
 
         lineEditPostgDBName = new QLineEdit(pagePostgreSql);
-        lineEditPostgDBName->setObjectName(QStringLiteral("lineEditPostgDBName"));
+        lineEditPostgDBName->setObjectName(QString::fromUtf8("lineEditPostgDBName"));
         lineEditPostgDBName->setMinimumSize(QSize(280, 0));
 
         horizontalLayout_14->addWidget(lineEditPostgDBName);
@@ -541,21 +539,21 @@ public:
 
         stackedWidget->addWidget(pagePostgreSql);
         pageSqlite = new QWidget();
-        pageSqlite->setObjectName(QStringLiteral("pageSqlite"));
+        pageSqlite->setObjectName(QString::fromUtf8("pageSqlite"));
         verticalLayout_6 = new QVBoxLayout(pageSqlite);
-        verticalLayout_6->setObjectName(QStringLiteral("verticalLayout_6"));
+        verticalLayout_6->setObjectName(QString::fromUtf8("verticalLayout_6"));
         verticalLayout_6->setContentsMargins(0, -1, 0, -1);
         horizontalLayout_15 = new QHBoxLayout();
         horizontalLayout_15->setSpacing(6);
-        horizontalLayout_15->setObjectName(QStringLiteral("horizontalLayout_15"));
+        horizontalLayout_15->setObjectName(QString::fromUtf8("horizontalLayout_15"));
         label_15 = new QLabel(pageSqlite);
-        label_15->setObjectName(QStringLiteral("label_15"));
+        label_15->setObjectName(QString::fromUtf8("label_15"));
         label_15->setMinimumSize(QSize(130, 0));
 
         horizontalLayout_15->addWidget(label_15);
 
         lineEditSqliteHost = new QLineEdit(pageSqlite);
-        lineEditSqliteHost->setObjectName(QStringLiteral("lineEditSqliteHost"));
+        lineEditSqliteHost->setObjectName(QString::fromUtf8("lineEditSqliteHost"));
         lineEditSqliteHost->setMinimumSize(QSize(200, 0));
 
         horizontalLayout_15->addWidget(lineEditSqliteHost);
@@ -564,20 +562,20 @@ public:
         verticalLayout_6->addLayout(horizontalLayout_15);
 
         horizontalLayout_16 = new QHBoxLayout();
-        horizontalLayout_16->setObjectName(QStringLiteral("horizontalLayout_16"));
+        horizontalLayout_16->setObjectName(QString::fromUtf8("horizontalLayout_16"));
         label_16 = new QLabel(pageSqlite);
-        label_16->setObjectName(QStringLiteral("label_16"));
+        label_16->setObjectName(QString::fromUtf8("label_16"));
         label_16->setMinimumSize(QSize(130, 0));
 
         horizontalLayout_16->addWidget(label_16);
 
         lineEditSqlitePort = new QLineEdit(pageSqlite);
-        lineEditSqlitePort->setObjectName(QStringLiteral("lineEditSqlitePort"));
+        lineEditSqlitePort->setObjectName(QString::fromUtf8("lineEditSqlitePort"));
         lineEditSqlitePort->setEnabled(false);
         sizePolicy1.setHeightForWidth(lineEditSqlitePort->sizePolicy().hasHeightForWidth());
         lineEditSqlitePort->setSizePolicy(sizePolicy1);
         lineEditSqlitePort->setMinimumSize(QSize(40, 0));
-        lineEditSqlitePort->setText(QStringLiteral(""));
+        lineEditSqlitePort->setText(QString::fromUtf8(""));
 
         horizontalLayout_16->addWidget(lineEditSqlitePort);
 
@@ -589,22 +587,22 @@ public:
         verticalLayout_6->addLayout(horizontalLayout_16);
 
         horizontalLayout_17 = new QHBoxLayout();
-        horizontalLayout_17->setObjectName(QStringLiteral("horizontalLayout_17"));
+        horizontalLayout_17->setObjectName(QString::fromUtf8("horizontalLayout_17"));
         label_17 = new QLabel(pageSqlite);
-        label_17->setObjectName(QStringLiteral("label_17"));
+        label_17->setObjectName(QString::fromUtf8("label_17"));
         label_17->setMinimumSize(QSize(130, 0));
 
         horizontalLayout_17->addWidget(label_17);
 
         lineEditSqliteDBName = new QLineEdit(pageSqlite);
-        lineEditSqliteDBName->setObjectName(QStringLiteral("lineEditSqliteDBName"));
+        lineEditSqliteDBName->setObjectName(QString::fromUtf8("lineEditSqliteDBName"));
         lineEditSqliteDBName->setMinimumSize(QSize(280, 0));
 
         horizontalLayout_17->addWidget(lineEditSqliteDBName);
 
         toolButtonSqliteSetFile = new QToolButton(pageSqlite);
-        toolButtonSqliteSetFile->setObjectName(QStringLiteral("toolButtonSqliteSetFile"));
-        toolButtonSqliteSetFile->setText(QStringLiteral("..."));
+        toolButtonSqliteSetFile->setObjectName(QString::fromUtf8("toolButtonSqliteSetFile"));
+        toolButtonSqliteSetFile->setText(QString::fromUtf8("..."));
 
         horizontalLayout_17->addWidget(toolButtonSqliteSetFile);
 
@@ -616,19 +614,19 @@ public:
         verticalLayout->addWidget(stackedWidget);
 
         dockWidget = new QDockWidget(KvDbDefinitionDialog);
-        dockWidget->setObjectName(QStringLiteral("dockWidget"));
+        dockWidget->setObjectName(QString::fromUtf8("dockWidget"));
         dockWidget->setMaximumSize(QSize(448, 159));
         dockWidget->setFeatures(QDockWidget::DockWidgetClosable);
         dockWidgetContents = new QWidget();
-        dockWidgetContents->setObjectName(QStringLiteral("dockWidgetContents"));
+        dockWidgetContents->setObjectName(QString::fromUtf8("dockWidgetContents"));
         verticalLayout_7 = new QVBoxLayout(dockWidgetContents);
         verticalLayout_7->setSpacing(4);
-        verticalLayout_7->setObjectName(QStringLiteral("verticalLayout_7"));
+        verticalLayout_7->setObjectName(QString::fromUtf8("verticalLayout_7"));
         verticalLayout_7->setContentsMargins(0, 6, 0, 4);
         horizontalLayout_18 = new QHBoxLayout();
-        horizontalLayout_18->setObjectName(QStringLiteral("horizontalLayout_18"));
+        horizontalLayout_18->setObjectName(QString::fromUtf8("horizontalLayout_18"));
         labelDriver = new QLabel(dockWidgetContents);
-        labelDriver->setObjectName(QStringLiteral("labelDriver"));
+        labelDriver->setObjectName(QString::fromUtf8("labelDriver"));
         labelDriver->setMinimumSize(QSize(130, 0));
         labelDriver->setMaximumSize(QSize(16777215, 20));
 
@@ -636,13 +634,13 @@ public:
 
         comboBoxDriver = new QComboBox(dockWidgetContents);
         comboBoxDriver->addItem(QString());
-        comboBoxDriver->addItem(QStringLiteral("QIBASE"));
-        comboBoxDriver->addItem(QStringLiteral("QMYSQL"));
-        comboBoxDriver->addItem(QStringLiteral("QOCI"));
-        comboBoxDriver->addItem(QStringLiteral("QOpenOCCI"));
-        comboBoxDriver->addItem(QStringLiteral("QPSQL"));
-        comboBoxDriver->addItem(QStringLiteral("QSQLITE"));
-        comboBoxDriver->setObjectName(QStringLiteral("comboBoxDriver"));
+        comboBoxDriver->addItem(QString::fromUtf8("QIBASE"));
+        comboBoxDriver->addItem(QString::fromUtf8("QMYSQL"));
+        comboBoxDriver->addItem(QString::fromUtf8("QOCI"));
+        comboBoxDriver->addItem(QString::fromUtf8("QOpenOCCI"));
+        comboBoxDriver->addItem(QString::fromUtf8("QPSQL"));
+        comboBoxDriver->addItem(QString::fromUtf8("QSQLITE"));
+        comboBoxDriver->setObjectName(QString::fromUtf8("comboBoxDriver"));
         comboBoxDriver->setMinimumSize(QSize(200, 0));
         comboBoxDriver->setMaximumSize(QSize(16777215, 20));
 
@@ -657,14 +655,14 @@ public:
 
         verticalLayout_8 = new QVBoxLayout();
         verticalLayout_8->setSpacing(2);
-        verticalLayout_8->setObjectName(QStringLiteral("verticalLayout_8"));
+        verticalLayout_8->setObjectName(QString::fromUtf8("verticalLayout_8"));
         labelComments = new QLabel(dockWidgetContents);
-        labelComments->setObjectName(QStringLiteral("labelComments"));
+        labelComments->setObjectName(QString::fromUtf8("labelComments"));
 
         verticalLayout_8->addWidget(labelComments);
 
         plainTextEditComments = new QPlainTextEdit(dockWidgetContents);
-        plainTextEditComments->setObjectName(QStringLiteral("plainTextEditComments"));
+        plainTextEditComments->setObjectName(QString::fromUtf8("plainTextEditComments"));
 
         verticalLayout_8->addWidget(plainTextEditComments);
 
@@ -676,10 +674,10 @@ public:
         verticalLayout->addWidget(dockWidget);
 
         horizontalLayout_19 = new QHBoxLayout();
-        horizontalLayout_19->setObjectName(QStringLiteral("horizontalLayout_19"));
+        horizontalLayout_19->setObjectName(QString::fromUtf8("horizontalLayout_19"));
         horizontalLayout_19->setSizeConstraint(QLayout::SetDefaultConstraint);
         pushButtonShowMore = new QPushButton(KvDbDefinitionDialog);
-        pushButtonShowMore->setObjectName(QStringLiteral("pushButtonShowMore"));
+        pushButtonShowMore->setObjectName(QString::fromUtf8("pushButtonShowMore"));
 
         horizontalLayout_19->addWidget(pushButtonShowMore);
 
@@ -688,7 +686,7 @@ public:
         horizontalLayout_19->addItem(horizontalSpacer_7);
 
         buttonBox = new QDialogButtonBox(KvDbDefinitionDialog);
-        buttonBox->setObjectName(QStringLiteral("buttonBox"));
+        buttonBox->setObjectName(QString::fromUtf8("buttonBox"));
         buttonBox->setOrientation(Qt::Horizontal);
         buttonBox->setStandardButtons(QDialogButtonBox::Cancel|QDialogButtonBox::Ok);
         buttonBox->setCenterButtons(false);
@@ -736,52 +734,52 @@ public:
 
     void retranslateUi(QDialog *KvDbDefinitionDialog)
     {
-        KvDbDefinitionDialog->setWindowTitle(QApplication::translate("KvDbDefinitionDialog", "Database Definition", Q_NULLPTR));
+        KvDbDefinitionDialog->setWindowTitle(QApplication::translate("KvDbDefinitionDialog", "Database Definition", nullptr));
 #ifndef QT_NO_TOOLTIP
-        labelAlias->setToolTip(QApplication::translate("KvDbDefinitionDialog", "An user defined alias for the database server", Q_NULLPTR));
+        labelAlias->setToolTip(QApplication::translate("KvDbDefinitionDialog", "An user defined alias for the database server", nullptr));
 #endif // QT_NO_TOOLTIP
-        labelAlias->setText(QApplication::translate("KvDbDefinitionDialog", "Alias", Q_NULLPTR));
+        labelAlias->setText(QApplication::translate("KvDbDefinitionDialog", "Alias", nullptr));
 #ifndef QT_NO_TOOLTIP
-        labelDBMSType->setToolTip(QApplication::translate("KvDbDefinitionDialog", "The type of database server", Q_NULLPTR));
+        labelDBMSType->setToolTip(QApplication::translate("KvDbDefinitionDialog", "The type of database server", nullptr));
 #endif // QT_NO_TOOLTIP
-        labelDBMSType->setText(QApplication::translate("KvDbDefinitionDialog", "DBMS Type", Q_NULLPTR));
-        comboBoxDBMSType->setItemText(0, QApplication::translate("KvDbDefinitionDialog", "Cubrid", Q_NULLPTR));
+        labelDBMSType->setText(QApplication::translate("KvDbDefinitionDialog", "DBMS Type", nullptr));
+        comboBoxDBMSType->setItemText(0, QApplication::translate("KvDbDefinitionDialog", "Cubrid", nullptr));
 
-        label_22->setText(QApplication::translate("KvDbDefinitionDialog", "Host Name or IP", Q_NULLPTR));
-        label_23->setText(QApplication::translate("KvDbDefinitionDialog", "Port", Q_NULLPTR));
-        label_21->setText(QApplication::translate("KvDbDefinitionDialog", "Database Name", Q_NULLPTR));
+        label_22->setText(QApplication::translate("KvDbDefinitionDialog", "Host Name or IP", nullptr));
+        label_23->setText(QApplication::translate("KvDbDefinitionDialog", "Port", nullptr));
+        label_21->setText(QApplication::translate("KvDbDefinitionDialog", "Database Name", nullptr));
 #ifndef QT_NO_TOOLTIP
-        labelHostName->setToolTip(QApplication::translate("KvDbDefinitionDialog", "The server IP or host name", Q_NULLPTR));
+        labelHostName->setToolTip(QApplication::translate("KvDbDefinitionDialog", "The server IP or host name", nullptr));
 #endif // QT_NO_TOOLTIP
-        labelHostName->setText(QApplication::translate("KvDbDefinitionDialog", "Host Name or IP", Q_NULLPTR));
+        labelHostName->setText(QApplication::translate("KvDbDefinitionDialog", "Host Name or IP", nullptr));
 #ifndef QT_NO_TOOLTIP
-        labelPort->setToolTip(QApplication::translate("KvDbDefinitionDialog", "The port used to connect to this server", Q_NULLPTR));
+        labelPort->setToolTip(QApplication::translate("KvDbDefinitionDialog", "The port used to connect to this server", nullptr));
 #endif // QT_NO_TOOLTIP
-        labelPort->setText(QApplication::translate("KvDbDefinitionDialog", "Port", Q_NULLPTR));
+        labelPort->setText(QApplication::translate("KvDbDefinitionDialog", "Port", nullptr));
 #ifndef QT_NO_TOOLTIP
-        labelDBName->setToolTip(QApplication::translate("KvDbDefinitionDialog", "The database name or file name", Q_NULLPTR));
+        labelDBName->setToolTip(QApplication::translate("KvDbDefinitionDialog", "The database name or file name", nullptr));
 #endif // QT_NO_TOOLTIP
-        labelDBName->setText(QApplication::translate("KvDbDefinitionDialog", "Database Name", Q_NULLPTR));
-        label_6->setText(QApplication::translate("KvDbDefinitionDialog", "Host Name or IP", Q_NULLPTR));
-        label_7->setText(QApplication::translate("KvDbDefinitionDialog", "Port", Q_NULLPTR));
-        label_8->setText(QApplication::translate("KvDbDefinitionDialog", "Database Name", Q_NULLPTR));
-        label_9->setText(QApplication::translate("KvDbDefinitionDialog", "Host Name or IP", Q_NULLPTR));
-        label_10->setText(QApplication::translate("KvDbDefinitionDialog", "Port", Q_NULLPTR));
-        label_12->setText(QApplication::translate("KvDbDefinitionDialog", "Host Name or IP", Q_NULLPTR));
-        label_13->setText(QApplication::translate("KvDbDefinitionDialog", "Port", Q_NULLPTR));
-        label_14->setText(QApplication::translate("KvDbDefinitionDialog", "Database Name", Q_NULLPTR));
-        label_15->setText(QApplication::translate("KvDbDefinitionDialog", "Host Name or IP", Q_NULLPTR));
-        label_16->setText(QApplication::translate("KvDbDefinitionDialog", "Port", Q_NULLPTR));
-        label_17->setText(QApplication::translate("KvDbDefinitionDialog", "Database Name", Q_NULLPTR));
-        dockWidget->setWindowTitle(QApplication::translate("KvDbDefinitionDialog", "More Options", Q_NULLPTR));
+        labelDBName->setText(QApplication::translate("KvDbDefinitionDialog", "Database Name", nullptr));
+        label_6->setText(QApplication::translate("KvDbDefinitionDialog", "Host Name or IP", nullptr));
+        label_7->setText(QApplication::translate("KvDbDefinitionDialog", "Port", nullptr));
+        label_8->setText(QApplication::translate("KvDbDefinitionDialog", "Database Name", nullptr));
+        label_9->setText(QApplication::translate("KvDbDefinitionDialog", "Host Name or IP", nullptr));
+        label_10->setText(QApplication::translate("KvDbDefinitionDialog", "Port", nullptr));
+        label_12->setText(QApplication::translate("KvDbDefinitionDialog", "Host Name or IP", nullptr));
+        label_13->setText(QApplication::translate("KvDbDefinitionDialog", "Port", nullptr));
+        label_14->setText(QApplication::translate("KvDbDefinitionDialog", "Database Name", nullptr));
+        label_15->setText(QApplication::translate("KvDbDefinitionDialog", "Host Name or IP", nullptr));
+        label_16->setText(QApplication::translate("KvDbDefinitionDialog", "Port", nullptr));
+        label_17->setText(QApplication::translate("KvDbDefinitionDialog", "Database Name", nullptr));
+        dockWidget->setWindowTitle(QApplication::translate("KvDbDefinitionDialog", "More Options", nullptr));
 #ifndef QT_NO_TOOLTIP
-        labelDriver->setToolTip(QApplication::translate("KvDbDefinitionDialog", "The Qt Plugin used for this database", Q_NULLPTR));
+        labelDriver->setToolTip(QApplication::translate("KvDbDefinitionDialog", "The Qt Plugin used for this database", nullptr));
 #endif // QT_NO_TOOLTIP
-        labelDriver->setText(QApplication::translate("KvDbDefinitionDialog", "Driver", Q_NULLPTR));
-        comboBoxDriver->setItemText(0, QApplication::translate("KvDbDefinitionDialog", "QCUBRID", Q_NULLPTR));
+        labelDriver->setText(QApplication::translate("KvDbDefinitionDialog", "Driver", nullptr));
+        comboBoxDriver->setItemText(0, QApplication::translate("KvDbDefinitionDialog", "QCUBRID", nullptr));
 
-        labelComments->setText(QApplication::translate("KvDbDefinitionDialog", "Comments", Q_NULLPTR));
-        pushButtonShowMore->setText(QApplication::translate("KvDbDefinitionDialog", "Show More Options", Q_NULLPTR));
+        labelComments->setText(QApplication::translate("KvDbDefinitionDialog", "Comments", nullptr));
+        pushButtonShowMore->setText(QApplication::translate("KvDbDefinitionDialog", "Show More Options", nullptr));
     } // retranslateUi
 
 };

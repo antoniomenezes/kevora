@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'kvsettingsdialog.ui'
 **
-** Created by: Qt User Interface Compiler version 5.8.0
+** Created by: Qt User Interface Compiler version 5.12.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -10,9 +10,8 @@
 #define UI_KVSETTINGSDIALOG_H
 
 #include <QtCore/QVariant>
-#include <QtWidgets/QAction>
+#include <QtGui/QIcon>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QButtonGroup>
 #include <QtWidgets/QCheckBox>
 #include <QtWidgets/QComboBox>
 #include <QtWidgets/QDialog>
@@ -501,38 +500,38 @@ public:
     void setupUi(QDialog *KvSettingsDialog)
     {
         if (KvSettingsDialog->objectName().isEmpty())
-            KvSettingsDialog->setObjectName(QStringLiteral("KvSettingsDialog"));
+            KvSettingsDialog->setObjectName(QString::fromUtf8("KvSettingsDialog"));
         KvSettingsDialog->setWindowModality(Qt::ApplicationModal);
         KvSettingsDialog->resize(845, 562);
         QIcon icon;
-        icon.addFile(QStringLiteral(":/png/png_general/utilities.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon.addFile(QString::fromUtf8(":/png/png_general/utilities.png"), QSize(), QIcon::Normal, QIcon::Off);
         KvSettingsDialog->setWindowIcon(icon);
         KvSettingsDialog->setModal(true);
         verticalLayout = new QVBoxLayout(KvSettingsDialog);
-        verticalLayout->setObjectName(QStringLiteral("verticalLayout"));
+        verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
         verticalLayout->setContentsMargins(0, 0, 0, 10);
         settingsListWidget = new QListWidget(KvSettingsDialog);
         QIcon icon1;
-        icon1.addFile(QStringLiteral(":/png/png_preferences/settings.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon1.addFile(QString::fromUtf8(":/png/png_preferences/settings.png"), QSize(), QIcon::Normal, QIcon::Off);
         QListWidgetItem *__qlistwidgetitem = new QListWidgetItem(settingsListWidget);
         __qlistwidgetitem->setTextAlignment(Qt::AlignLeft|Qt::AlignVCenter);
         __qlistwidgetitem->setIcon(icon1);
         QIcon icon2;
-        icon2.addFile(QStringLiteral(":/png/png_preferences/database.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon2.addFile(QString::fromUtf8(":/png/png_preferences/database.png"), QSize(), QIcon::Normal, QIcon::Off);
         QListWidgetItem *__qlistwidgetitem1 = new QListWidgetItem(settingsListWidget);
         __qlistwidgetitem1->setTextAlignment(Qt::AlignLeft|Qt::AlignVCenter);
         __qlistwidgetitem1->setIcon(icon2);
         QIcon icon3;
-        icon3.addFile(QStringLiteral(":/png/png_preferences/editor.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon3.addFile(QString::fromUtf8(":/png/png_preferences/editor.png"), QSize(), QIcon::Normal, QIcon::Off);
         QListWidgetItem *__qlistwidgetitem2 = new QListWidgetItem(settingsListWidget);
         __qlistwidgetitem2->setTextAlignment(Qt::AlignLeft|Qt::AlignVCenter);
         __qlistwidgetitem2->setIcon(icon3);
         QIcon icon4;
-        icon4.addFile(QStringLiteral(":/png/png_preferences/appearance.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon4.addFile(QString::fromUtf8(":/png/png_preferences/appearance.png"), QSize(), QIcon::Normal, QIcon::Off);
         QListWidgetItem *__qlistwidgetitem3 = new QListWidgetItem(settingsListWidget);
         __qlistwidgetitem3->setTextAlignment(Qt::AlignLeft|Qt::AlignVCenter);
         __qlistwidgetitem3->setIcon(icon4);
-        settingsListWidget->setObjectName(QStringLiteral("settingsListWidget"));
+        settingsListWidget->setObjectName(QString::fromUtf8("settingsListWidget"));
         QSizePolicy sizePolicy(QSizePolicy::Expanding, QSizePolicy::Preferred);
         sizePolicy.setHorizontalStretch(0);
         sizePolicy.setVerticalStretch(0);
@@ -543,7 +542,7 @@ public:
         font.setBold(true);
         font.setWeight(75);
         settingsListWidget->setFont(font);
-        settingsListWidget->setStyleSheet(QLatin1String("QListWidget {\n"
+        settingsListWidget->setStyleSheet(QString::fromUtf8("QListWidget {\n"
 "show-decoration-selected: 1;\n"
 "background: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgba(75, 75, 75, 255), stop:1 rgba(100, 100, 100, 255));\n"
 "color: white;\n"
@@ -573,24 +572,36 @@ public:
         verticalLayout->addWidget(settingsListWidget);
 
         settingsStackedWidget = new QStackedWidget(KvSettingsDialog);
-        settingsStackedWidget->setObjectName(QStringLiteral("settingsStackedWidget"));
+        settingsStackedWidget->setObjectName(QString::fromUtf8("settingsStackedWidget"));
         generalPage = new QWidget();
-        generalPage->setObjectName(QStringLiteral("generalPage"));
+        generalPage->setObjectName(QString::fromUtf8("generalPage"));
         layoutWidget = new QWidget(generalPage);
-        layoutWidget->setObjectName(QStringLiteral("layoutWidget"));
+        layoutWidget->setObjectName(QString::fromUtf8("layoutWidget"));
         layoutWidget->setGeometry(QRect(20, 150, 541, 28));
         horizontalLayout_11 = new QHBoxLayout(layoutWidget);
-        horizontalLayout_11->setObjectName(QStringLiteral("horizontalLayout_11"));
+        horizontalLayout_11->setObjectName(QString::fromUtf8("horizontalLayout_11"));
         horizontalLayout_11->setContentsMargins(0, 0, 0, 0);
         label = new QLabel(layoutWidget);
-        label->setObjectName(QStringLiteral("label"));
+        label->setObjectName(QString::fromUtf8("label"));
         label->setMinimumSize(QSize(250, 0));
         label->setMaximumSize(QSize(250, 16777215));
 
         horizontalLayout_11->addWidget(label);
 
         langComboBox = new QComboBox(layoutWidget);
-        langComboBox->setObjectName(QStringLiteral("langComboBox"));
+        langComboBox->addItem(QString());
+        langComboBox->addItem(QString());
+        langComboBox->addItem(QString());
+        langComboBox->addItem(QString());
+        langComboBox->addItem(QString());
+        langComboBox->addItem(QString());
+        langComboBox->addItem(QString());
+        langComboBox->addItem(QString());
+        langComboBox->addItem(QString());
+        langComboBox->addItem(QString());
+        langComboBox->addItem(QString());
+        langComboBox->addItem(QString());
+        langComboBox->setObjectName(QString::fromUtf8("langComboBox"));
         langComboBox->setEnabled(false);
         langComboBox->setInsertPolicy(QComboBox::NoInsert);
         langComboBox->setSizeAdjustPolicy(QComboBox::AdjustToMinimumContentsLengthWithIcon);
@@ -598,34 +609,34 @@ public:
         horizontalLayout_11->addWidget(langComboBox);
 
         groupBox = new QGroupBox(generalPage);
-        groupBox->setObjectName(QStringLiteral("groupBox"));
+        groupBox->setObjectName(QString::fromUtf8("groupBox"));
         groupBox->setGeometry(QRect(10, 10, 821, 131));
         verticalLayout_2 = new QVBoxLayout(groupBox);
-        verticalLayout_2->setObjectName(QStringLiteral("verticalLayout_2"));
+        verticalLayout_2->setObjectName(QString::fromUtf8("verticalLayout_2"));
         horizontalLayout = new QHBoxLayout();
         horizontalLayout->setSpacing(5);
-        horizontalLayout->setObjectName(QStringLiteral("horizontalLayout"));
+        horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
         label_3 = new QLabel(groupBox);
-        label_3->setObjectName(QStringLiteral("label_3"));
+        label_3->setObjectName(QString::fromUtf8("label_3"));
         label_3->setMinimumSize(QSize(225, 0));
         label_3->setMaximumSize(QSize(225, 16777215));
 
         horizontalLayout->addWidget(label_3);
 
         widgetConnFileAlert = new QWidget(groupBox);
-        widgetConnFileAlert->setObjectName(QStringLiteral("widgetConnFileAlert"));
+        widgetConnFileAlert->setObjectName(QString::fromUtf8("widgetConnFileAlert"));
         widgetConnFileAlert->setMinimumSize(QSize(20, 20));
         widgetConnFileAlert->setMaximumSize(QSize(20, 20));
 
         horizontalLayout->addWidget(widgetConnFileAlert);
 
         lineEditConnectionsFilePath = new QLineEdit(groupBox);
-        lineEditConnectionsFilePath->setObjectName(QStringLiteral("lineEditConnectionsFilePath"));
+        lineEditConnectionsFilePath->setObjectName(QString::fromUtf8("lineEditConnectionsFilePath"));
 
         horizontalLayout->addWidget(lineEditConnectionsFilePath);
 
         connDirButton = new QToolButton(groupBox);
-        connDirButton->setObjectName(QStringLiteral("connDirButton"));
+        connDirButton->setObjectName(QString::fromUtf8("connDirButton"));
 
         horizontalLayout->addWidget(connDirButton);
 
@@ -634,21 +645,21 @@ public:
 
         horizontalLayout_9 = new QHBoxLayout();
         horizontalLayout_9->setSpacing(5);
-        horizontalLayout_9->setObjectName(QStringLiteral("horizontalLayout_9"));
+        horizontalLayout_9->setObjectName(QString::fromUtf8("horizontalLayout_9"));
         label_10 = new QLabel(groupBox);
-        label_10->setObjectName(QStringLiteral("label_10"));
+        label_10->setObjectName(QString::fromUtf8("label_10"));
         label_10->setMinimumSize(QSize(250, 0));
         label_10->setMaximumSize(QSize(250, 16777215));
 
         horizontalLayout_9->addWidget(label_10);
 
         lineEditWorkPath = new QLineEdit(groupBox);
-        lineEditWorkPath->setObjectName(QStringLiteral("lineEditWorkPath"));
+        lineEditWorkPath->setObjectName(QString::fromUtf8("lineEditWorkPath"));
 
         horizontalLayout_9->addWidget(lineEditWorkPath);
 
         workDirButton = new QToolButton(groupBox);
-        workDirButton->setObjectName(QStringLiteral("workDirButton"));
+        workDirButton->setObjectName(QString::fromUtf8("workDirButton"));
 
         horizontalLayout_9->addWidget(workDirButton);
 
@@ -657,21 +668,21 @@ public:
 
         horizontalLayout_8 = new QHBoxLayout();
         horizontalLayout_8->setSpacing(5);
-        horizontalLayout_8->setObjectName(QStringLiteral("horizontalLayout_8"));
+        horizontalLayout_8->setObjectName(QString::fromUtf8("horizontalLayout_8"));
         label_2 = new QLabel(groupBox);
-        label_2->setObjectName(QStringLiteral("label_2"));
+        label_2->setObjectName(QString::fromUtf8("label_2"));
         label_2->setMinimumSize(QSize(250, 0));
         label_2->setMaximumSize(QSize(250, 16777215));
 
         horizontalLayout_8->addWidget(label_2);
 
         lineEditLangPath = new QLineEdit(groupBox);
-        lineEditLangPath->setObjectName(QStringLiteral("lineEditLangPath"));
+        lineEditLangPath->setObjectName(QString::fromUtf8("lineEditLangPath"));
 
         horizontalLayout_8->addWidget(lineEditLangPath);
 
         langDirButton = new QToolButton(groupBox);
-        langDirButton->setObjectName(QStringLiteral("langDirButton"));
+        langDirButton->setObjectName(QString::fromUtf8("langDirButton"));
 
         horizontalLayout_8->addWidget(langDirButton);
 
@@ -680,19 +691,19 @@ public:
 
         settingsStackedWidget->addWidget(generalPage);
         databasesPage = new QWidget();
-        databasesPage->setObjectName(QStringLiteral("databasesPage"));
+        databasesPage->setObjectName(QString::fromUtf8("databasesPage"));
         verticalLayout_3 = new QVBoxLayout(databasesPage);
-        verticalLayout_3->setObjectName(QStringLiteral("verticalLayout_3"));
+        verticalLayout_3->setObjectName(QString::fromUtf8("verticalLayout_3"));
         tabWidget = new QTabWidget(databasesPage);
-        tabWidget->setObjectName(QStringLiteral("tabWidget"));
+        tabWidget->setObjectName(QString::fromUtf8("tabWidget"));
         tabCubrid = new QWidget();
-        tabCubrid->setObjectName(QStringLiteral("tabCubrid"));
+        tabCubrid->setObjectName(QString::fromUtf8("tabCubrid"));
         verticalLayout_61 = new QVBoxLayout(tabCubrid);
-        verticalLayout_61->setObjectName(QStringLiteral("verticalLayout_61"));
+        verticalLayout_61->setObjectName(QString::fromUtf8("verticalLayout_61"));
         verticalLayout_55 = new QVBoxLayout();
-        verticalLayout_55->setObjectName(QStringLiteral("verticalLayout_55"));
+        verticalLayout_55->setObjectName(QString::fromUtf8("verticalLayout_55"));
         label_24 = new QLabel(tabCubrid);
-        label_24->setObjectName(QStringLiteral("label_24"));
+        label_24->setObjectName(QString::fromUtf8("label_24"));
         QSizePolicy sizePolicy1(QSizePolicy::Preferred, QSizePolicy::Preferred);
         sizePolicy1.setHorizontalStretch(0);
         sizePolicy1.setVerticalStretch(0);
@@ -702,17 +713,17 @@ public:
         verticalLayout_55->addWidget(label_24);
 
         horizontalLayout_56 = new QHBoxLayout();
-        horizontalLayout_56->setObjectName(QStringLiteral("horizontalLayout_56"));
+        horizontalLayout_56->setObjectName(QString::fromUtf8("horizontalLayout_56"));
         prefDrvCubridComboBox = new QComboBox(tabCubrid);
-        prefDrvCubridComboBox->setObjectName(QStringLiteral("prefDrvCubridComboBox"));
+        prefDrvCubridComboBox->setObjectName(QString::fromUtf8("prefDrvCubridComboBox"));
         prefDrvCubridComboBox->setMinimumSize(QSize(200, 0));
 
         horizontalLayout_56->addWidget(prefDrvCubridComboBox);
 
         cubridDrvInfoButton = new QToolButton(tabCubrid);
-        cubridDrvInfoButton->setObjectName(QStringLiteral("cubridDrvInfoButton"));
+        cubridDrvInfoButton->setObjectName(QString::fromUtf8("cubridDrvInfoButton"));
         QIcon icon5;
-        icon5.addFile(QStringLiteral(":/png/png_general/information.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon5.addFile(QString::fromUtf8(":/png/png_general/information.png"), QSize(), QIcon::Normal, QIcon::Off);
         cubridDrvInfoButton->setIcon(icon5);
 
         horizontalLayout_56->addWidget(cubridDrvInfoButton);
@@ -728,39 +739,39 @@ public:
         verticalLayout_61->addLayout(verticalLayout_55);
 
         groupBox_10 = new QGroupBox(tabCubrid);
-        groupBox_10->setObjectName(QStringLiteral("groupBox_10"));
+        groupBox_10->setObjectName(QString::fromUtf8("groupBox_10"));
         QSizePolicy sizePolicy2(QSizePolicy::Preferred, QSizePolicy::Expanding);
         sizePolicy2.setHorizontalStretch(0);
         sizePolicy2.setVerticalStretch(0);
         sizePolicy2.setHeightForWidth(groupBox_10->sizePolicy().hasHeightForWidth());
         groupBox_10->setSizePolicy(sizePolicy2);
         horizontalLayout_57 = new QHBoxLayout(groupBox_10);
-        horizontalLayout_57->setObjectName(QStringLiteral("horizontalLayout_57"));
+        horizontalLayout_57->setObjectName(QString::fromUtf8("horizontalLayout_57"));
         verticalLayout_56 = new QVBoxLayout();
-        verticalLayout_56->setObjectName(QStringLiteral("verticalLayout_56"));
+        verticalLayout_56->setObjectName(QString::fromUtf8("verticalLayout_56"));
         verticalSpacer_8 = new QSpacerItem(20, 6, QSizePolicy::Minimum, QSizePolicy::Fixed);
 
         verticalLayout_56->addItem(verticalSpacer_8);
 
         label_25 = new QLabel(groupBox_10);
-        label_25->setObjectName(QStringLiteral("label_25"));
+        label_25->setObjectName(QString::fromUtf8("label_25"));
 
         verticalLayout_56->addWidget(label_25);
 
         horizontalLayout_58 = new QHBoxLayout();
-        horizontalLayout_58->setObjectName(QStringLiteral("horizontalLayout_58"));
+        horizontalLayout_58->setObjectName(QString::fromUtf8("horizontalLayout_58"));
         toolButtonAddWord_31 = new QToolButton(groupBox_10);
-        toolButtonAddWord_31->setObjectName(QStringLiteral("toolButtonAddWord_31"));
+        toolButtonAddWord_31->setObjectName(QString::fromUtf8("toolButtonAddWord_31"));
         QIcon icon6;
-        icon6.addFile(QStringLiteral(":/png/png_general/add.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon6.addFile(QString::fromUtf8(":/png/png_general/add.png"), QSize(), QIcon::Normal, QIcon::Off);
         toolButtonAddWord_31->setIcon(icon6);
 
         horizontalLayout_58->addWidget(toolButtonAddWord_31);
 
         toolButtonRemoveWord_31 = new QToolButton(groupBox_10);
-        toolButtonRemoveWord_31->setObjectName(QStringLiteral("toolButtonRemoveWord_31"));
+        toolButtonRemoveWord_31->setObjectName(QString::fromUtf8("toolButtonRemoveWord_31"));
         QIcon icon7;
-        icon7.addFile(QStringLiteral(":/png/png_general/minus.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon7.addFile(QString::fromUtf8(":/png/png_general/minus.png"), QSize(), QIcon::Normal, QIcon::Off);
         toolButtonRemoveWord_31->setIcon(icon7);
 
         horizontalLayout_58->addWidget(toolButtonRemoveWord_31);
@@ -770,17 +781,17 @@ public:
         horizontalLayout_58->addItem(horizontalSpacer_45);
 
         toolButtonMoveRight_7 = new QToolButton(groupBox_10);
-        toolButtonMoveRight_7->setObjectName(QStringLiteral("toolButtonMoveRight_7"));
+        toolButtonMoveRight_7->setObjectName(QString::fromUtf8("toolButtonMoveRight_7"));
         QIcon icon8;
-        icon8.addFile(QStringLiteral(":/png/png_record/tab_right.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon8.addFile(QString::fromUtf8(":/png/png_record/tab_right.png"), QSize(), QIcon::Normal, QIcon::Off);
         toolButtonMoveRight_7->setIcon(icon8);
 
         horizontalLayout_58->addWidget(toolButtonMoveRight_7);
 
         toolButtonMoveAllRight_7 = new QToolButton(groupBox_10);
-        toolButtonMoveAllRight_7->setObjectName(QStringLiteral("toolButtonMoveAllRight_7"));
+        toolButtonMoveAllRight_7->setObjectName(QString::fromUtf8("toolButtonMoveAllRight_7"));
         QIcon icon9;
-        icon9.addFile(QStringLiteral(":/png/png_record/tab_all_right.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon9.addFile(QString::fromUtf8(":/png/png_record/tab_all_right.png"), QSize(), QIcon::Normal, QIcon::Off);
         toolButtonMoveAllRight_7->setIcon(icon9);
 
         horizontalLayout_58->addWidget(toolButtonMoveAllRight_7);
@@ -789,7 +800,7 @@ public:
         verticalLayout_56->addLayout(horizontalLayout_58);
 
         listWidget_31 = new QListWidget(groupBox_10);
-        listWidget_31->setObjectName(QStringLiteral("listWidget_31"));
+        listWidget_31->setObjectName(QString::fromUtf8("listWidget_31"));
 
         verticalLayout_56->addWidget(listWidget_31);
 
@@ -797,25 +808,25 @@ public:
         horizontalLayout_57->addLayout(verticalLayout_56);
 
         tabWidgetHighlightedWords_7 = new QTabWidget(groupBox_10);
-        tabWidgetHighlightedWords_7->setObjectName(QStringLiteral("tabWidgetHighlightedWords_7"));
+        tabWidgetHighlightedWords_7->setObjectName(QString::fromUtf8("tabWidgetHighlightedWords_7"));
         tabKeywords_7 = new QWidget();
-        tabKeywords_7->setObjectName(QStringLiteral("tabKeywords_7"));
+        tabKeywords_7->setObjectName(QString::fromUtf8("tabKeywords_7"));
         verticalLayout_57 = new QVBoxLayout(tabKeywords_7);
-        verticalLayout_57->setObjectName(QStringLiteral("verticalLayout_57"));
+        verticalLayout_57->setObjectName(QString::fromUtf8("verticalLayout_57"));
         horizontalLayout_59 = new QHBoxLayout();
-        horizontalLayout_59->setObjectName(QStringLiteral("horizontalLayout_59"));
+        horizontalLayout_59->setObjectName(QString::fromUtf8("horizontalLayout_59"));
         toolButtonAddWord_32 = new QToolButton(tabKeywords_7);
-        toolButtonAddWord_32->setObjectName(QStringLiteral("toolButtonAddWord_32"));
+        toolButtonAddWord_32->setObjectName(QString::fromUtf8("toolButtonAddWord_32"));
         QIcon icon10;
-        icon10.addFile(QStringLiteral(":/png/png_record/tab_all_left.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon10.addFile(QString::fromUtf8(":/png/png_record/tab_all_left.png"), QSize(), QIcon::Normal, QIcon::Off);
         toolButtonAddWord_32->setIcon(icon10);
 
         horizontalLayout_59->addWidget(toolButtonAddWord_32);
 
         toolButtonRemoveWord_32 = new QToolButton(tabKeywords_7);
-        toolButtonRemoveWord_32->setObjectName(QStringLiteral("toolButtonRemoveWord_32"));
+        toolButtonRemoveWord_32->setObjectName(QString::fromUtf8("toolButtonRemoveWord_32"));
         QIcon icon11;
-        icon11.addFile(QStringLiteral(":/png/png_record/tab_left.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon11.addFile(QString::fromUtf8(":/png/png_record/tab_left.png"), QSize(), QIcon::Normal, QIcon::Off);
         toolButtonRemoveWord_32->setIcon(icon11);
 
         horizontalLayout_59->addWidget(toolButtonRemoveWord_32);
@@ -828,25 +839,25 @@ public:
         verticalLayout_57->addLayout(horizontalLayout_59);
 
         listWidget_32 = new QListWidget(tabKeywords_7);
-        listWidget_32->setObjectName(QStringLiteral("listWidget_32"));
+        listWidget_32->setObjectName(QString::fromUtf8("listWidget_32"));
 
         verticalLayout_57->addWidget(listWidget_32);
 
         tabWidgetHighlightedWords_7->addTab(tabKeywords_7, QString());
         tabReserved_7 = new QWidget();
-        tabReserved_7->setObjectName(QStringLiteral("tabReserved_7"));
+        tabReserved_7->setObjectName(QString::fromUtf8("tabReserved_7"));
         verticalLayout_58 = new QVBoxLayout(tabReserved_7);
-        verticalLayout_58->setObjectName(QStringLiteral("verticalLayout_58"));
+        verticalLayout_58->setObjectName(QString::fromUtf8("verticalLayout_58"));
         horizontalLayout_60 = new QHBoxLayout();
-        horizontalLayout_60->setObjectName(QStringLiteral("horizontalLayout_60"));
+        horizontalLayout_60->setObjectName(QString::fromUtf8("horizontalLayout_60"));
         toolButtonAddWord_33 = new QToolButton(tabReserved_7);
-        toolButtonAddWord_33->setObjectName(QStringLiteral("toolButtonAddWord_33"));
+        toolButtonAddWord_33->setObjectName(QString::fromUtf8("toolButtonAddWord_33"));
         toolButtonAddWord_33->setIcon(icon10);
 
         horizontalLayout_60->addWidget(toolButtonAddWord_33);
 
         toolButtonRemoveWord_33 = new QToolButton(tabReserved_7);
-        toolButtonRemoveWord_33->setObjectName(QStringLiteral("toolButtonRemoveWord_33"));
+        toolButtonRemoveWord_33->setObjectName(QString::fromUtf8("toolButtonRemoveWord_33"));
         toolButtonRemoveWord_33->setIcon(icon11);
 
         horizontalLayout_60->addWidget(toolButtonRemoveWord_33);
@@ -859,25 +870,25 @@ public:
         verticalLayout_58->addLayout(horizontalLayout_60);
 
         listWidget_33 = new QListWidget(tabReserved_7);
-        listWidget_33->setObjectName(QStringLiteral("listWidget_33"));
+        listWidget_33->setObjectName(QString::fromUtf8("listWidget_33"));
 
         verticalLayout_58->addWidget(listWidget_33);
 
         tabWidgetHighlightedWords_7->addTab(tabReserved_7, QString());
         tabTypes_7 = new QWidget();
-        tabTypes_7->setObjectName(QStringLiteral("tabTypes_7"));
+        tabTypes_7->setObjectName(QString::fromUtf8("tabTypes_7"));
         verticalLayout_59 = new QVBoxLayout(tabTypes_7);
-        verticalLayout_59->setObjectName(QStringLiteral("verticalLayout_59"));
+        verticalLayout_59->setObjectName(QString::fromUtf8("verticalLayout_59"));
         horizontalLayout_61 = new QHBoxLayout();
-        horizontalLayout_61->setObjectName(QStringLiteral("horizontalLayout_61"));
+        horizontalLayout_61->setObjectName(QString::fromUtf8("horizontalLayout_61"));
         toolButtonAddWord_34 = new QToolButton(tabTypes_7);
-        toolButtonAddWord_34->setObjectName(QStringLiteral("toolButtonAddWord_34"));
+        toolButtonAddWord_34->setObjectName(QString::fromUtf8("toolButtonAddWord_34"));
         toolButtonAddWord_34->setIcon(icon10);
 
         horizontalLayout_61->addWidget(toolButtonAddWord_34);
 
         toolButtonRemoveWord_34 = new QToolButton(tabTypes_7);
-        toolButtonRemoveWord_34->setObjectName(QStringLiteral("toolButtonRemoveWord_34"));
+        toolButtonRemoveWord_34->setObjectName(QString::fromUtf8("toolButtonRemoveWord_34"));
         toolButtonRemoveWord_34->setIcon(icon11);
 
         horizontalLayout_61->addWidget(toolButtonRemoveWord_34);
@@ -890,25 +901,25 @@ public:
         verticalLayout_59->addLayout(horizontalLayout_61);
 
         listWidget_34 = new QListWidget(tabTypes_7);
-        listWidget_34->setObjectName(QStringLiteral("listWidget_34"));
+        listWidget_34->setObjectName(QString::fromUtf8("listWidget_34"));
 
         verticalLayout_59->addWidget(listWidget_34);
 
         tabWidgetHighlightedWords_7->addTab(tabTypes_7, QString());
         tabFunctions_7 = new QWidget();
-        tabFunctions_7->setObjectName(QStringLiteral("tabFunctions_7"));
+        tabFunctions_7->setObjectName(QString::fromUtf8("tabFunctions_7"));
         verticalLayout_60 = new QVBoxLayout(tabFunctions_7);
-        verticalLayout_60->setObjectName(QStringLiteral("verticalLayout_60"));
+        verticalLayout_60->setObjectName(QString::fromUtf8("verticalLayout_60"));
         horizontalLayout_62 = new QHBoxLayout();
-        horizontalLayout_62->setObjectName(QStringLiteral("horizontalLayout_62"));
+        horizontalLayout_62->setObjectName(QString::fromUtf8("horizontalLayout_62"));
         toolButtonAddWord_35 = new QToolButton(tabFunctions_7);
-        toolButtonAddWord_35->setObjectName(QStringLiteral("toolButtonAddWord_35"));
+        toolButtonAddWord_35->setObjectName(QString::fromUtf8("toolButtonAddWord_35"));
         toolButtonAddWord_35->setIcon(icon10);
 
         horizontalLayout_62->addWidget(toolButtonAddWord_35);
 
         toolButtonRemoveWord_35 = new QToolButton(tabFunctions_7);
-        toolButtonRemoveWord_35->setObjectName(QStringLiteral("toolButtonRemoveWord_35"));
+        toolButtonRemoveWord_35->setObjectName(QString::fromUtf8("toolButtonRemoveWord_35"));
         toolButtonRemoveWord_35->setIcon(icon11);
 
         horizontalLayout_62->addWidget(toolButtonRemoveWord_35);
@@ -921,7 +932,7 @@ public:
         verticalLayout_60->addLayout(horizontalLayout_62);
 
         listWidget_35 = new QListWidget(tabFunctions_7);
-        listWidget_35->setObjectName(QStringLiteral("listWidget_35"));
+        listWidget_35->setObjectName(QString::fromUtf8("listWidget_35"));
 
         verticalLayout_60->addWidget(listWidget_35);
 
@@ -934,28 +945,28 @@ public:
 
         tabWidget->addTab(tabCubrid, QString());
         tabFirebird = new QWidget();
-        tabFirebird->setObjectName(QStringLiteral("tabFirebird"));
+        tabFirebird->setObjectName(QString::fromUtf8("tabFirebird"));
         verticalLayout_13 = new QVBoxLayout(tabFirebird);
-        verticalLayout_13->setObjectName(QStringLiteral("verticalLayout_13"));
+        verticalLayout_13->setObjectName(QString::fromUtf8("verticalLayout_13"));
         verticalLayout_5 = new QVBoxLayout();
-        verticalLayout_5->setObjectName(QStringLiteral("verticalLayout_5"));
+        verticalLayout_5->setObjectName(QString::fromUtf8("verticalLayout_5"));
         label_4 = new QLabel(tabFirebird);
-        label_4->setObjectName(QStringLiteral("label_4"));
+        label_4->setObjectName(QString::fromUtf8("label_4"));
         sizePolicy1.setHeightForWidth(label_4->sizePolicy().hasHeightForWidth());
         label_4->setSizePolicy(sizePolicy1);
 
         verticalLayout_5->addWidget(label_4);
 
         horizontalLayout_7 = new QHBoxLayout();
-        horizontalLayout_7->setObjectName(QStringLiteral("horizontalLayout_7"));
+        horizontalLayout_7->setObjectName(QString::fromUtf8("horizontalLayout_7"));
         prefDrvFirebirdComboBox = new QComboBox(tabFirebird);
-        prefDrvFirebirdComboBox->setObjectName(QStringLiteral("prefDrvFirebirdComboBox"));
+        prefDrvFirebirdComboBox->setObjectName(QString::fromUtf8("prefDrvFirebirdComboBox"));
         prefDrvFirebirdComboBox->setMinimumSize(QSize(200, 0));
 
         horizontalLayout_7->addWidget(prefDrvFirebirdComboBox);
 
         firebirdDrvInfoButton = new QToolButton(tabFirebird);
-        firebirdDrvInfoButton->setObjectName(QStringLiteral("firebirdDrvInfoButton"));
+        firebirdDrvInfoButton->setObjectName(QString::fromUtf8("firebirdDrvInfoButton"));
         firebirdDrvInfoButton->setIcon(icon5);
 
         horizontalLayout_7->addWidget(firebirdDrvInfoButton);
@@ -971,32 +982,32 @@ public:
         verticalLayout_13->addLayout(verticalLayout_5);
 
         groupBox_4 = new QGroupBox(tabFirebird);
-        groupBox_4->setObjectName(QStringLiteral("groupBox_4"));
+        groupBox_4->setObjectName(QString::fromUtf8("groupBox_4"));
         sizePolicy2.setHeightForWidth(groupBox_4->sizePolicy().hasHeightForWidth());
         groupBox_4->setSizePolicy(sizePolicy2);
         horizontalLayout_21 = new QHBoxLayout(groupBox_4);
-        horizontalLayout_21->setObjectName(QStringLiteral("horizontalLayout_21"));
+        horizontalLayout_21->setObjectName(QString::fromUtf8("horizontalLayout_21"));
         verticalLayout_25 = new QVBoxLayout();
-        verticalLayout_25->setObjectName(QStringLiteral("verticalLayout_25"));
+        verticalLayout_25->setObjectName(QString::fromUtf8("verticalLayout_25"));
         verticalSpacer_2 = new QSpacerItem(20, 6, QSizePolicy::Minimum, QSizePolicy::Fixed);
 
         verticalLayout_25->addItem(verticalSpacer_2);
 
         label_18 = new QLabel(groupBox_4);
-        label_18->setObjectName(QStringLiteral("label_18"));
+        label_18->setObjectName(QString::fromUtf8("label_18"));
 
         verticalLayout_25->addWidget(label_18);
 
         horizontalLayout_20 = new QHBoxLayout();
-        horizontalLayout_20->setObjectName(QStringLiteral("horizontalLayout_20"));
+        horizontalLayout_20->setObjectName(QString::fromUtf8("horizontalLayout_20"));
         toolButtonAddWord = new QToolButton(groupBox_4);
-        toolButtonAddWord->setObjectName(QStringLiteral("toolButtonAddWord"));
+        toolButtonAddWord->setObjectName(QString::fromUtf8("toolButtonAddWord"));
         toolButtonAddWord->setIcon(icon6);
 
         horizontalLayout_20->addWidget(toolButtonAddWord);
 
         toolButtonRemoveWord = new QToolButton(groupBox_4);
-        toolButtonRemoveWord->setObjectName(QStringLiteral("toolButtonRemoveWord"));
+        toolButtonRemoveWord->setObjectName(QString::fromUtf8("toolButtonRemoveWord"));
         toolButtonRemoveWord->setIcon(icon7);
 
         horizontalLayout_20->addWidget(toolButtonRemoveWord);
@@ -1006,13 +1017,13 @@ public:
         horizontalLayout_20->addItem(horizontalSpacer_14);
 
         toolButtonMoveRight = new QToolButton(groupBox_4);
-        toolButtonMoveRight->setObjectName(QStringLiteral("toolButtonMoveRight"));
+        toolButtonMoveRight->setObjectName(QString::fromUtf8("toolButtonMoveRight"));
         toolButtonMoveRight->setIcon(icon8);
 
         horizontalLayout_20->addWidget(toolButtonMoveRight);
 
         toolButtonMoveAllRight = new QToolButton(groupBox_4);
-        toolButtonMoveAllRight->setObjectName(QStringLiteral("toolButtonMoveAllRight"));
+        toolButtonMoveAllRight->setObjectName(QString::fromUtf8("toolButtonMoveAllRight"));
         toolButtonMoveAllRight->setIcon(icon9);
 
         horizontalLayout_20->addWidget(toolButtonMoveAllRight);
@@ -1021,7 +1032,7 @@ public:
         verticalLayout_25->addLayout(horizontalLayout_20);
 
         listWidget = new QListWidget(groupBox_4);
-        listWidget->setObjectName(QStringLiteral("listWidget"));
+        listWidget->setObjectName(QString::fromUtf8("listWidget"));
 
         verticalLayout_25->addWidget(listWidget);
 
@@ -1029,21 +1040,21 @@ public:
         horizontalLayout_21->addLayout(verticalLayout_25);
 
         tabWidgetHighlightedWords = new QTabWidget(groupBox_4);
-        tabWidgetHighlightedWords->setObjectName(QStringLiteral("tabWidgetHighlightedWords"));
+        tabWidgetHighlightedWords->setObjectName(QString::fromUtf8("tabWidgetHighlightedWords"));
         tabKeywords = new QWidget();
-        tabKeywords->setObjectName(QStringLiteral("tabKeywords"));
+        tabKeywords->setObjectName(QString::fromUtf8("tabKeywords"));
         verticalLayout_26 = new QVBoxLayout(tabKeywords);
-        verticalLayout_26->setObjectName(QStringLiteral("verticalLayout_26"));
+        verticalLayout_26->setObjectName(QString::fromUtf8("verticalLayout_26"));
         horizontalLayout_22 = new QHBoxLayout();
-        horizontalLayout_22->setObjectName(QStringLiteral("horizontalLayout_22"));
+        horizontalLayout_22->setObjectName(QString::fromUtf8("horizontalLayout_22"));
         toolButtonAddWord_2 = new QToolButton(tabKeywords);
-        toolButtonAddWord_2->setObjectName(QStringLiteral("toolButtonAddWord_2"));
+        toolButtonAddWord_2->setObjectName(QString::fromUtf8("toolButtonAddWord_2"));
         toolButtonAddWord_2->setIcon(icon10);
 
         horizontalLayout_22->addWidget(toolButtonAddWord_2);
 
         toolButtonRemoveWord_2 = new QToolButton(tabKeywords);
-        toolButtonRemoveWord_2->setObjectName(QStringLiteral("toolButtonRemoveWord_2"));
+        toolButtonRemoveWord_2->setObjectName(QString::fromUtf8("toolButtonRemoveWord_2"));
         toolButtonRemoveWord_2->setIcon(icon11);
 
         horizontalLayout_22->addWidget(toolButtonRemoveWord_2);
@@ -1056,25 +1067,25 @@ public:
         verticalLayout_26->addLayout(horizontalLayout_22);
 
         listWidget_2 = new QListWidget(tabKeywords);
-        listWidget_2->setObjectName(QStringLiteral("listWidget_2"));
+        listWidget_2->setObjectName(QString::fromUtf8("listWidget_2"));
 
         verticalLayout_26->addWidget(listWidget_2);
 
         tabWidgetHighlightedWords->addTab(tabKeywords, QString());
         tabReserved = new QWidget();
-        tabReserved->setObjectName(QStringLiteral("tabReserved"));
+        tabReserved->setObjectName(QString::fromUtf8("tabReserved"));
         verticalLayout_27 = new QVBoxLayout(tabReserved);
-        verticalLayout_27->setObjectName(QStringLiteral("verticalLayout_27"));
+        verticalLayout_27->setObjectName(QString::fromUtf8("verticalLayout_27"));
         horizontalLayout_23 = new QHBoxLayout();
-        horizontalLayout_23->setObjectName(QStringLiteral("horizontalLayout_23"));
+        horizontalLayout_23->setObjectName(QString::fromUtf8("horizontalLayout_23"));
         toolButtonAddWord_3 = new QToolButton(tabReserved);
-        toolButtonAddWord_3->setObjectName(QStringLiteral("toolButtonAddWord_3"));
+        toolButtonAddWord_3->setObjectName(QString::fromUtf8("toolButtonAddWord_3"));
         toolButtonAddWord_3->setIcon(icon10);
 
         horizontalLayout_23->addWidget(toolButtonAddWord_3);
 
         toolButtonRemoveWord_3 = new QToolButton(tabReserved);
-        toolButtonRemoveWord_3->setObjectName(QStringLiteral("toolButtonRemoveWord_3"));
+        toolButtonRemoveWord_3->setObjectName(QString::fromUtf8("toolButtonRemoveWord_3"));
         toolButtonRemoveWord_3->setIcon(icon11);
 
         horizontalLayout_23->addWidget(toolButtonRemoveWord_3);
@@ -1087,25 +1098,25 @@ public:
         verticalLayout_27->addLayout(horizontalLayout_23);
 
         listWidget_3 = new QListWidget(tabReserved);
-        listWidget_3->setObjectName(QStringLiteral("listWidget_3"));
+        listWidget_3->setObjectName(QString::fromUtf8("listWidget_3"));
 
         verticalLayout_27->addWidget(listWidget_3);
 
         tabWidgetHighlightedWords->addTab(tabReserved, QString());
         tabTypes = new QWidget();
-        tabTypes->setObjectName(QStringLiteral("tabTypes"));
+        tabTypes->setObjectName(QString::fromUtf8("tabTypes"));
         verticalLayout_28 = new QVBoxLayout(tabTypes);
-        verticalLayout_28->setObjectName(QStringLiteral("verticalLayout_28"));
+        verticalLayout_28->setObjectName(QString::fromUtf8("verticalLayout_28"));
         horizontalLayout_24 = new QHBoxLayout();
-        horizontalLayout_24->setObjectName(QStringLiteral("horizontalLayout_24"));
+        horizontalLayout_24->setObjectName(QString::fromUtf8("horizontalLayout_24"));
         toolButtonAddWord_4 = new QToolButton(tabTypes);
-        toolButtonAddWord_4->setObjectName(QStringLiteral("toolButtonAddWord_4"));
+        toolButtonAddWord_4->setObjectName(QString::fromUtf8("toolButtonAddWord_4"));
         toolButtonAddWord_4->setIcon(icon10);
 
         horizontalLayout_24->addWidget(toolButtonAddWord_4);
 
         toolButtonRemoveWord_4 = new QToolButton(tabTypes);
-        toolButtonRemoveWord_4->setObjectName(QStringLiteral("toolButtonRemoveWord_4"));
+        toolButtonRemoveWord_4->setObjectName(QString::fromUtf8("toolButtonRemoveWord_4"));
         toolButtonRemoveWord_4->setIcon(icon11);
 
         horizontalLayout_24->addWidget(toolButtonRemoveWord_4);
@@ -1118,25 +1129,25 @@ public:
         verticalLayout_28->addLayout(horizontalLayout_24);
 
         listWidget_4 = new QListWidget(tabTypes);
-        listWidget_4->setObjectName(QStringLiteral("listWidget_4"));
+        listWidget_4->setObjectName(QString::fromUtf8("listWidget_4"));
 
         verticalLayout_28->addWidget(listWidget_4);
 
         tabWidgetHighlightedWords->addTab(tabTypes, QString());
         tabFunctions = new QWidget();
-        tabFunctions->setObjectName(QStringLiteral("tabFunctions"));
+        tabFunctions->setObjectName(QString::fromUtf8("tabFunctions"));
         verticalLayout_29 = new QVBoxLayout(tabFunctions);
-        verticalLayout_29->setObjectName(QStringLiteral("verticalLayout_29"));
+        verticalLayout_29->setObjectName(QString::fromUtf8("verticalLayout_29"));
         horizontalLayout_25 = new QHBoxLayout();
-        horizontalLayout_25->setObjectName(QStringLiteral("horizontalLayout_25"));
+        horizontalLayout_25->setObjectName(QString::fromUtf8("horizontalLayout_25"));
         toolButtonAddWord_5 = new QToolButton(tabFunctions);
-        toolButtonAddWord_5->setObjectName(QStringLiteral("toolButtonAddWord_5"));
+        toolButtonAddWord_5->setObjectName(QString::fromUtf8("toolButtonAddWord_5"));
         toolButtonAddWord_5->setIcon(icon10);
 
         horizontalLayout_25->addWidget(toolButtonAddWord_5);
 
         toolButtonRemoveWord_5 = new QToolButton(tabFunctions);
-        toolButtonRemoveWord_5->setObjectName(QStringLiteral("toolButtonRemoveWord_5"));
+        toolButtonRemoveWord_5->setObjectName(QString::fromUtf8("toolButtonRemoveWord_5"));
         toolButtonRemoveWord_5->setIcon(icon11);
 
         horizontalLayout_25->addWidget(toolButtonRemoveWord_5);
@@ -1149,7 +1160,7 @@ public:
         verticalLayout_29->addLayout(horizontalLayout_25);
 
         listWidget_5 = new QListWidget(tabFunctions);
-        listWidget_5->setObjectName(QStringLiteral("listWidget_5"));
+        listWidget_5->setObjectName(QString::fromUtf8("listWidget_5"));
 
         verticalLayout_29->addWidget(listWidget_5);
 
@@ -1162,26 +1173,26 @@ public:
 
         tabWidget->addTab(tabFirebird, QString());
         tabMySql = new QWidget();
-        tabMySql->setObjectName(QStringLiteral("tabMySql"));
+        tabMySql->setObjectName(QString::fromUtf8("tabMySql"));
         verticalLayout_7 = new QVBoxLayout(tabMySql);
-        verticalLayout_7->setObjectName(QStringLiteral("verticalLayout_7"));
+        verticalLayout_7->setObjectName(QString::fromUtf8("verticalLayout_7"));
         verticalLayout_4 = new QVBoxLayout();
-        verticalLayout_4->setObjectName(QStringLiteral("verticalLayout_4"));
+        verticalLayout_4->setObjectName(QString::fromUtf8("verticalLayout_4"));
         label_5 = new QLabel(tabMySql);
-        label_5->setObjectName(QStringLiteral("label_5"));
+        label_5->setObjectName(QString::fromUtf8("label_5"));
 
         verticalLayout_4->addWidget(label_5);
 
         horizontalLayout_2 = new QHBoxLayout();
-        horizontalLayout_2->setObjectName(QStringLiteral("horizontalLayout_2"));
+        horizontalLayout_2->setObjectName(QString::fromUtf8("horizontalLayout_2"));
         prefDrvMySqlComboBox = new QComboBox(tabMySql);
-        prefDrvMySqlComboBox->setObjectName(QStringLiteral("prefDrvMySqlComboBox"));
+        prefDrvMySqlComboBox->setObjectName(QString::fromUtf8("prefDrvMySqlComboBox"));
         prefDrvMySqlComboBox->setMinimumSize(QSize(200, 0));
 
         horizontalLayout_2->addWidget(prefDrvMySqlComboBox);
 
         mysqlDrvInfoButton = new QToolButton(tabMySql);
-        mysqlDrvInfoButton->setObjectName(QStringLiteral("mysqlDrvInfoButton"));
+        mysqlDrvInfoButton->setObjectName(QString::fromUtf8("mysqlDrvInfoButton"));
         mysqlDrvInfoButton->setIcon(icon5);
 
         horizontalLayout_2->addWidget(mysqlDrvInfoButton);
@@ -1197,32 +1208,32 @@ public:
         verticalLayout_7->addLayout(verticalLayout_4);
 
         groupBox_5 = new QGroupBox(tabMySql);
-        groupBox_5->setObjectName(QStringLiteral("groupBox_5"));
+        groupBox_5->setObjectName(QString::fromUtf8("groupBox_5"));
         sizePolicy2.setHeightForWidth(groupBox_5->sizePolicy().hasHeightForWidth());
         groupBox_5->setSizePolicy(sizePolicy2);
         horizontalLayout_26 = new QHBoxLayout(groupBox_5);
-        horizontalLayout_26->setObjectName(QStringLiteral("horizontalLayout_26"));
+        horizontalLayout_26->setObjectName(QString::fromUtf8("horizontalLayout_26"));
         verticalLayout_30 = new QVBoxLayout();
-        verticalLayout_30->setObjectName(QStringLiteral("verticalLayout_30"));
+        verticalLayout_30->setObjectName(QString::fromUtf8("verticalLayout_30"));
         verticalSpacer_3 = new QSpacerItem(20, 6, QSizePolicy::Minimum, QSizePolicy::Fixed);
 
         verticalLayout_30->addItem(verticalSpacer_3);
 
         label_19 = new QLabel(groupBox_5);
-        label_19->setObjectName(QStringLiteral("label_19"));
+        label_19->setObjectName(QString::fromUtf8("label_19"));
 
         verticalLayout_30->addWidget(label_19);
 
         horizontalLayout_27 = new QHBoxLayout();
-        horizontalLayout_27->setObjectName(QStringLiteral("horizontalLayout_27"));
+        horizontalLayout_27->setObjectName(QString::fromUtf8("horizontalLayout_27"));
         toolButtonAddWord_6 = new QToolButton(groupBox_5);
-        toolButtonAddWord_6->setObjectName(QStringLiteral("toolButtonAddWord_6"));
+        toolButtonAddWord_6->setObjectName(QString::fromUtf8("toolButtonAddWord_6"));
         toolButtonAddWord_6->setIcon(icon6);
 
         horizontalLayout_27->addWidget(toolButtonAddWord_6);
 
         toolButtonRemoveWord_6 = new QToolButton(groupBox_5);
-        toolButtonRemoveWord_6->setObjectName(QStringLiteral("toolButtonRemoveWord_6"));
+        toolButtonRemoveWord_6->setObjectName(QString::fromUtf8("toolButtonRemoveWord_6"));
         toolButtonRemoveWord_6->setIcon(icon7);
 
         horizontalLayout_27->addWidget(toolButtonRemoveWord_6);
@@ -1232,13 +1243,13 @@ public:
         horizontalLayout_27->addItem(horizontalSpacer_19);
 
         toolButtonMoveRight_2 = new QToolButton(groupBox_5);
-        toolButtonMoveRight_2->setObjectName(QStringLiteral("toolButtonMoveRight_2"));
+        toolButtonMoveRight_2->setObjectName(QString::fromUtf8("toolButtonMoveRight_2"));
         toolButtonMoveRight_2->setIcon(icon8);
 
         horizontalLayout_27->addWidget(toolButtonMoveRight_2);
 
         toolButtonMoveAllRight_2 = new QToolButton(groupBox_5);
-        toolButtonMoveAllRight_2->setObjectName(QStringLiteral("toolButtonMoveAllRight_2"));
+        toolButtonMoveAllRight_2->setObjectName(QString::fromUtf8("toolButtonMoveAllRight_2"));
         toolButtonMoveAllRight_2->setIcon(icon9);
 
         horizontalLayout_27->addWidget(toolButtonMoveAllRight_2);
@@ -1247,7 +1258,7 @@ public:
         verticalLayout_30->addLayout(horizontalLayout_27);
 
         listWidget_6 = new QListWidget(groupBox_5);
-        listWidget_6->setObjectName(QStringLiteral("listWidget_6"));
+        listWidget_6->setObjectName(QString::fromUtf8("listWidget_6"));
 
         verticalLayout_30->addWidget(listWidget_6);
 
@@ -1255,21 +1266,21 @@ public:
         horizontalLayout_26->addLayout(verticalLayout_30);
 
         tabWidgetHighlightedWords_2 = new QTabWidget(groupBox_5);
-        tabWidgetHighlightedWords_2->setObjectName(QStringLiteral("tabWidgetHighlightedWords_2"));
+        tabWidgetHighlightedWords_2->setObjectName(QString::fromUtf8("tabWidgetHighlightedWords_2"));
         tabKeywords_2 = new QWidget();
-        tabKeywords_2->setObjectName(QStringLiteral("tabKeywords_2"));
+        tabKeywords_2->setObjectName(QString::fromUtf8("tabKeywords_2"));
         verticalLayout_31 = new QVBoxLayout(tabKeywords_2);
-        verticalLayout_31->setObjectName(QStringLiteral("verticalLayout_31"));
+        verticalLayout_31->setObjectName(QString::fromUtf8("verticalLayout_31"));
         horizontalLayout_28 = new QHBoxLayout();
-        horizontalLayout_28->setObjectName(QStringLiteral("horizontalLayout_28"));
+        horizontalLayout_28->setObjectName(QString::fromUtf8("horizontalLayout_28"));
         toolButtonAddWord_7 = new QToolButton(tabKeywords_2);
-        toolButtonAddWord_7->setObjectName(QStringLiteral("toolButtonAddWord_7"));
+        toolButtonAddWord_7->setObjectName(QString::fromUtf8("toolButtonAddWord_7"));
         toolButtonAddWord_7->setIcon(icon10);
 
         horizontalLayout_28->addWidget(toolButtonAddWord_7);
 
         toolButtonRemoveWord_7 = new QToolButton(tabKeywords_2);
-        toolButtonRemoveWord_7->setObjectName(QStringLiteral("toolButtonRemoveWord_7"));
+        toolButtonRemoveWord_7->setObjectName(QString::fromUtf8("toolButtonRemoveWord_7"));
         toolButtonRemoveWord_7->setIcon(icon11);
 
         horizontalLayout_28->addWidget(toolButtonRemoveWord_7);
@@ -1282,25 +1293,25 @@ public:
         verticalLayout_31->addLayout(horizontalLayout_28);
 
         listWidget_7 = new QListWidget(tabKeywords_2);
-        listWidget_7->setObjectName(QStringLiteral("listWidget_7"));
+        listWidget_7->setObjectName(QString::fromUtf8("listWidget_7"));
 
         verticalLayout_31->addWidget(listWidget_7);
 
         tabWidgetHighlightedWords_2->addTab(tabKeywords_2, QString());
         tabReserved_2 = new QWidget();
-        tabReserved_2->setObjectName(QStringLiteral("tabReserved_2"));
+        tabReserved_2->setObjectName(QString::fromUtf8("tabReserved_2"));
         verticalLayout_32 = new QVBoxLayout(tabReserved_2);
-        verticalLayout_32->setObjectName(QStringLiteral("verticalLayout_32"));
+        verticalLayout_32->setObjectName(QString::fromUtf8("verticalLayout_32"));
         horizontalLayout_29 = new QHBoxLayout();
-        horizontalLayout_29->setObjectName(QStringLiteral("horizontalLayout_29"));
+        horizontalLayout_29->setObjectName(QString::fromUtf8("horizontalLayout_29"));
         toolButtonAddWord_8 = new QToolButton(tabReserved_2);
-        toolButtonAddWord_8->setObjectName(QStringLiteral("toolButtonAddWord_8"));
+        toolButtonAddWord_8->setObjectName(QString::fromUtf8("toolButtonAddWord_8"));
         toolButtonAddWord_8->setIcon(icon10);
 
         horizontalLayout_29->addWidget(toolButtonAddWord_8);
 
         toolButtonRemoveWord_8 = new QToolButton(tabReserved_2);
-        toolButtonRemoveWord_8->setObjectName(QStringLiteral("toolButtonRemoveWord_8"));
+        toolButtonRemoveWord_8->setObjectName(QString::fromUtf8("toolButtonRemoveWord_8"));
         toolButtonRemoveWord_8->setIcon(icon11);
 
         horizontalLayout_29->addWidget(toolButtonRemoveWord_8);
@@ -1313,25 +1324,25 @@ public:
         verticalLayout_32->addLayout(horizontalLayout_29);
 
         listWidget_8 = new QListWidget(tabReserved_2);
-        listWidget_8->setObjectName(QStringLiteral("listWidget_8"));
+        listWidget_8->setObjectName(QString::fromUtf8("listWidget_8"));
 
         verticalLayout_32->addWidget(listWidget_8);
 
         tabWidgetHighlightedWords_2->addTab(tabReserved_2, QString());
         tabTypes_2 = new QWidget();
-        tabTypes_2->setObjectName(QStringLiteral("tabTypes_2"));
+        tabTypes_2->setObjectName(QString::fromUtf8("tabTypes_2"));
         verticalLayout_33 = new QVBoxLayout(tabTypes_2);
-        verticalLayout_33->setObjectName(QStringLiteral("verticalLayout_33"));
+        verticalLayout_33->setObjectName(QString::fromUtf8("verticalLayout_33"));
         horizontalLayout_30 = new QHBoxLayout();
-        horizontalLayout_30->setObjectName(QStringLiteral("horizontalLayout_30"));
+        horizontalLayout_30->setObjectName(QString::fromUtf8("horizontalLayout_30"));
         toolButtonAddWord_9 = new QToolButton(tabTypes_2);
-        toolButtonAddWord_9->setObjectName(QStringLiteral("toolButtonAddWord_9"));
+        toolButtonAddWord_9->setObjectName(QString::fromUtf8("toolButtonAddWord_9"));
         toolButtonAddWord_9->setIcon(icon10);
 
         horizontalLayout_30->addWidget(toolButtonAddWord_9);
 
         toolButtonRemoveWord_9 = new QToolButton(tabTypes_2);
-        toolButtonRemoveWord_9->setObjectName(QStringLiteral("toolButtonRemoveWord_9"));
+        toolButtonRemoveWord_9->setObjectName(QString::fromUtf8("toolButtonRemoveWord_9"));
         toolButtonRemoveWord_9->setIcon(icon11);
 
         horizontalLayout_30->addWidget(toolButtonRemoveWord_9);
@@ -1344,25 +1355,25 @@ public:
         verticalLayout_33->addLayout(horizontalLayout_30);
 
         listWidget_9 = new QListWidget(tabTypes_2);
-        listWidget_9->setObjectName(QStringLiteral("listWidget_9"));
+        listWidget_9->setObjectName(QString::fromUtf8("listWidget_9"));
 
         verticalLayout_33->addWidget(listWidget_9);
 
         tabWidgetHighlightedWords_2->addTab(tabTypes_2, QString());
         tabFunctions_2 = new QWidget();
-        tabFunctions_2->setObjectName(QStringLiteral("tabFunctions_2"));
+        tabFunctions_2->setObjectName(QString::fromUtf8("tabFunctions_2"));
         verticalLayout_34 = new QVBoxLayout(tabFunctions_2);
-        verticalLayout_34->setObjectName(QStringLiteral("verticalLayout_34"));
+        verticalLayout_34->setObjectName(QString::fromUtf8("verticalLayout_34"));
         horizontalLayout_31 = new QHBoxLayout();
-        horizontalLayout_31->setObjectName(QStringLiteral("horizontalLayout_31"));
+        horizontalLayout_31->setObjectName(QString::fromUtf8("horizontalLayout_31"));
         toolButtonAddWord_10 = new QToolButton(tabFunctions_2);
-        toolButtonAddWord_10->setObjectName(QStringLiteral("toolButtonAddWord_10"));
+        toolButtonAddWord_10->setObjectName(QString::fromUtf8("toolButtonAddWord_10"));
         toolButtonAddWord_10->setIcon(icon10);
 
         horizontalLayout_31->addWidget(toolButtonAddWord_10);
 
         toolButtonRemoveWord_10 = new QToolButton(tabFunctions_2);
-        toolButtonRemoveWord_10->setObjectName(QStringLiteral("toolButtonRemoveWord_10"));
+        toolButtonRemoveWord_10->setObjectName(QString::fromUtf8("toolButtonRemoveWord_10"));
         toolButtonRemoveWord_10->setIcon(icon11);
 
         horizontalLayout_31->addWidget(toolButtonRemoveWord_10);
@@ -1375,7 +1386,7 @@ public:
         verticalLayout_34->addLayout(horizontalLayout_31);
 
         listWidget_10 = new QListWidget(tabFunctions_2);
-        listWidget_10->setObjectName(QStringLiteral("listWidget_10"));
+        listWidget_10->setObjectName(QString::fromUtf8("listWidget_10"));
 
         verticalLayout_34->addWidget(listWidget_10);
 
@@ -1388,26 +1399,26 @@ public:
 
         tabWidget->addTab(tabMySql, QString());
         tabODBC = new QWidget();
-        tabODBC->setObjectName(QStringLiteral("tabODBC"));
+        tabODBC->setObjectName(QString::fromUtf8("tabODBC"));
         verticalLayout_15 = new QVBoxLayout(tabODBC);
-        verticalLayout_15->setObjectName(QStringLiteral("verticalLayout_15"));
+        verticalLayout_15->setObjectName(QString::fromUtf8("verticalLayout_15"));
         verticalLayout_6 = new QVBoxLayout();
-        verticalLayout_6->setObjectName(QStringLiteral("verticalLayout_6"));
+        verticalLayout_6->setObjectName(QString::fromUtf8("verticalLayout_6"));
         label_6 = new QLabel(tabODBC);
-        label_6->setObjectName(QStringLiteral("label_6"));
+        label_6->setObjectName(QString::fromUtf8("label_6"));
 
         verticalLayout_6->addWidget(label_6);
 
         horizontalLayout_3 = new QHBoxLayout();
-        horizontalLayout_3->setObjectName(QStringLiteral("horizontalLayout_3"));
+        horizontalLayout_3->setObjectName(QString::fromUtf8("horizontalLayout_3"));
         prefDrvODBCComboBox = new QComboBox(tabODBC);
-        prefDrvODBCComboBox->setObjectName(QStringLiteral("prefDrvODBCComboBox"));
+        prefDrvODBCComboBox->setObjectName(QString::fromUtf8("prefDrvODBCComboBox"));
         prefDrvODBCComboBox->setMinimumSize(QSize(200, 0));
 
         horizontalLayout_3->addWidget(prefDrvODBCComboBox);
 
         odbcDrvInfoButton = new QToolButton(tabODBC);
-        odbcDrvInfoButton->setObjectName(QStringLiteral("odbcDrvInfoButton"));
+        odbcDrvInfoButton->setObjectName(QString::fromUtf8("odbcDrvInfoButton"));
         odbcDrvInfoButton->setIcon(icon5);
 
         horizontalLayout_3->addWidget(odbcDrvInfoButton);
@@ -1423,32 +1434,32 @@ public:
         verticalLayout_15->addLayout(verticalLayout_6);
 
         groupBox_6 = new QGroupBox(tabODBC);
-        groupBox_6->setObjectName(QStringLiteral("groupBox_6"));
+        groupBox_6->setObjectName(QString::fromUtf8("groupBox_6"));
         sizePolicy2.setHeightForWidth(groupBox_6->sizePolicy().hasHeightForWidth());
         groupBox_6->setSizePolicy(sizePolicy2);
         horizontalLayout_32 = new QHBoxLayout(groupBox_6);
-        horizontalLayout_32->setObjectName(QStringLiteral("horizontalLayout_32"));
+        horizontalLayout_32->setObjectName(QString::fromUtf8("horizontalLayout_32"));
         verticalLayout_35 = new QVBoxLayout();
-        verticalLayout_35->setObjectName(QStringLiteral("verticalLayout_35"));
+        verticalLayout_35->setObjectName(QString::fromUtf8("verticalLayout_35"));
         verticalSpacer_4 = new QSpacerItem(20, 6, QSizePolicy::Minimum, QSizePolicy::Fixed);
 
         verticalLayout_35->addItem(verticalSpacer_4);
 
         label_20 = new QLabel(groupBox_6);
-        label_20->setObjectName(QStringLiteral("label_20"));
+        label_20->setObjectName(QString::fromUtf8("label_20"));
 
         verticalLayout_35->addWidget(label_20);
 
         horizontalLayout_33 = new QHBoxLayout();
-        horizontalLayout_33->setObjectName(QStringLiteral("horizontalLayout_33"));
+        horizontalLayout_33->setObjectName(QString::fromUtf8("horizontalLayout_33"));
         toolButtonAddWord_11 = new QToolButton(groupBox_6);
-        toolButtonAddWord_11->setObjectName(QStringLiteral("toolButtonAddWord_11"));
+        toolButtonAddWord_11->setObjectName(QString::fromUtf8("toolButtonAddWord_11"));
         toolButtonAddWord_11->setIcon(icon6);
 
         horizontalLayout_33->addWidget(toolButtonAddWord_11);
 
         toolButtonRemoveWord_11 = new QToolButton(groupBox_6);
-        toolButtonRemoveWord_11->setObjectName(QStringLiteral("toolButtonRemoveWord_11"));
+        toolButtonRemoveWord_11->setObjectName(QString::fromUtf8("toolButtonRemoveWord_11"));
         toolButtonRemoveWord_11->setIcon(icon7);
 
         horizontalLayout_33->addWidget(toolButtonRemoveWord_11);
@@ -1458,13 +1469,13 @@ public:
         horizontalLayout_33->addItem(horizontalSpacer_24);
 
         toolButtonMoveRight_3 = new QToolButton(groupBox_6);
-        toolButtonMoveRight_3->setObjectName(QStringLiteral("toolButtonMoveRight_3"));
+        toolButtonMoveRight_3->setObjectName(QString::fromUtf8("toolButtonMoveRight_3"));
         toolButtonMoveRight_3->setIcon(icon8);
 
         horizontalLayout_33->addWidget(toolButtonMoveRight_3);
 
         toolButtonMoveAllRight_3 = new QToolButton(groupBox_6);
-        toolButtonMoveAllRight_3->setObjectName(QStringLiteral("toolButtonMoveAllRight_3"));
+        toolButtonMoveAllRight_3->setObjectName(QString::fromUtf8("toolButtonMoveAllRight_3"));
         toolButtonMoveAllRight_3->setIcon(icon9);
 
         horizontalLayout_33->addWidget(toolButtonMoveAllRight_3);
@@ -1473,7 +1484,7 @@ public:
         verticalLayout_35->addLayout(horizontalLayout_33);
 
         listWidget_11 = new QListWidget(groupBox_6);
-        listWidget_11->setObjectName(QStringLiteral("listWidget_11"));
+        listWidget_11->setObjectName(QString::fromUtf8("listWidget_11"));
 
         verticalLayout_35->addWidget(listWidget_11);
 
@@ -1481,21 +1492,21 @@ public:
         horizontalLayout_32->addLayout(verticalLayout_35);
 
         tabWidgetHighlightedWords_3 = new QTabWidget(groupBox_6);
-        tabWidgetHighlightedWords_3->setObjectName(QStringLiteral("tabWidgetHighlightedWords_3"));
+        tabWidgetHighlightedWords_3->setObjectName(QString::fromUtf8("tabWidgetHighlightedWords_3"));
         tabKeywords_3 = new QWidget();
-        tabKeywords_3->setObjectName(QStringLiteral("tabKeywords_3"));
+        tabKeywords_3->setObjectName(QString::fromUtf8("tabKeywords_3"));
         verticalLayout_36 = new QVBoxLayout(tabKeywords_3);
-        verticalLayout_36->setObjectName(QStringLiteral("verticalLayout_36"));
+        verticalLayout_36->setObjectName(QString::fromUtf8("verticalLayout_36"));
         horizontalLayout_34 = new QHBoxLayout();
-        horizontalLayout_34->setObjectName(QStringLiteral("horizontalLayout_34"));
+        horizontalLayout_34->setObjectName(QString::fromUtf8("horizontalLayout_34"));
         toolButtonAddWord_12 = new QToolButton(tabKeywords_3);
-        toolButtonAddWord_12->setObjectName(QStringLiteral("toolButtonAddWord_12"));
+        toolButtonAddWord_12->setObjectName(QString::fromUtf8("toolButtonAddWord_12"));
         toolButtonAddWord_12->setIcon(icon10);
 
         horizontalLayout_34->addWidget(toolButtonAddWord_12);
 
         toolButtonRemoveWord_12 = new QToolButton(tabKeywords_3);
-        toolButtonRemoveWord_12->setObjectName(QStringLiteral("toolButtonRemoveWord_12"));
+        toolButtonRemoveWord_12->setObjectName(QString::fromUtf8("toolButtonRemoveWord_12"));
         toolButtonRemoveWord_12->setIcon(icon11);
 
         horizontalLayout_34->addWidget(toolButtonRemoveWord_12);
@@ -1508,25 +1519,25 @@ public:
         verticalLayout_36->addLayout(horizontalLayout_34);
 
         listWidget_12 = new QListWidget(tabKeywords_3);
-        listWidget_12->setObjectName(QStringLiteral("listWidget_12"));
+        listWidget_12->setObjectName(QString::fromUtf8("listWidget_12"));
 
         verticalLayout_36->addWidget(listWidget_12);
 
         tabWidgetHighlightedWords_3->addTab(tabKeywords_3, QString());
         tabReserved_3 = new QWidget();
-        tabReserved_3->setObjectName(QStringLiteral("tabReserved_3"));
+        tabReserved_3->setObjectName(QString::fromUtf8("tabReserved_3"));
         verticalLayout_37 = new QVBoxLayout(tabReserved_3);
-        verticalLayout_37->setObjectName(QStringLiteral("verticalLayout_37"));
+        verticalLayout_37->setObjectName(QString::fromUtf8("verticalLayout_37"));
         horizontalLayout_35 = new QHBoxLayout();
-        horizontalLayout_35->setObjectName(QStringLiteral("horizontalLayout_35"));
+        horizontalLayout_35->setObjectName(QString::fromUtf8("horizontalLayout_35"));
         toolButtonAddWord_13 = new QToolButton(tabReserved_3);
-        toolButtonAddWord_13->setObjectName(QStringLiteral("toolButtonAddWord_13"));
+        toolButtonAddWord_13->setObjectName(QString::fromUtf8("toolButtonAddWord_13"));
         toolButtonAddWord_13->setIcon(icon10);
 
         horizontalLayout_35->addWidget(toolButtonAddWord_13);
 
         toolButtonRemoveWord_13 = new QToolButton(tabReserved_3);
-        toolButtonRemoveWord_13->setObjectName(QStringLiteral("toolButtonRemoveWord_13"));
+        toolButtonRemoveWord_13->setObjectName(QString::fromUtf8("toolButtonRemoveWord_13"));
         toolButtonRemoveWord_13->setIcon(icon11);
 
         horizontalLayout_35->addWidget(toolButtonRemoveWord_13);
@@ -1539,25 +1550,25 @@ public:
         verticalLayout_37->addLayout(horizontalLayout_35);
 
         listWidget_13 = new QListWidget(tabReserved_3);
-        listWidget_13->setObjectName(QStringLiteral("listWidget_13"));
+        listWidget_13->setObjectName(QString::fromUtf8("listWidget_13"));
 
         verticalLayout_37->addWidget(listWidget_13);
 
         tabWidgetHighlightedWords_3->addTab(tabReserved_3, QString());
         tabTypes_3 = new QWidget();
-        tabTypes_3->setObjectName(QStringLiteral("tabTypes_3"));
+        tabTypes_3->setObjectName(QString::fromUtf8("tabTypes_3"));
         verticalLayout_38 = new QVBoxLayout(tabTypes_3);
-        verticalLayout_38->setObjectName(QStringLiteral("verticalLayout_38"));
+        verticalLayout_38->setObjectName(QString::fromUtf8("verticalLayout_38"));
         horizontalLayout_36 = new QHBoxLayout();
-        horizontalLayout_36->setObjectName(QStringLiteral("horizontalLayout_36"));
+        horizontalLayout_36->setObjectName(QString::fromUtf8("horizontalLayout_36"));
         toolButtonAddWord_14 = new QToolButton(tabTypes_3);
-        toolButtonAddWord_14->setObjectName(QStringLiteral("toolButtonAddWord_14"));
+        toolButtonAddWord_14->setObjectName(QString::fromUtf8("toolButtonAddWord_14"));
         toolButtonAddWord_14->setIcon(icon10);
 
         horizontalLayout_36->addWidget(toolButtonAddWord_14);
 
         toolButtonRemoveWord_14 = new QToolButton(tabTypes_3);
-        toolButtonRemoveWord_14->setObjectName(QStringLiteral("toolButtonRemoveWord_14"));
+        toolButtonRemoveWord_14->setObjectName(QString::fromUtf8("toolButtonRemoveWord_14"));
         toolButtonRemoveWord_14->setIcon(icon11);
 
         horizontalLayout_36->addWidget(toolButtonRemoveWord_14);
@@ -1570,25 +1581,25 @@ public:
         verticalLayout_38->addLayout(horizontalLayout_36);
 
         listWidget_14 = new QListWidget(tabTypes_3);
-        listWidget_14->setObjectName(QStringLiteral("listWidget_14"));
+        listWidget_14->setObjectName(QString::fromUtf8("listWidget_14"));
 
         verticalLayout_38->addWidget(listWidget_14);
 
         tabWidgetHighlightedWords_3->addTab(tabTypes_3, QString());
         tabFunctions_3 = new QWidget();
-        tabFunctions_3->setObjectName(QStringLiteral("tabFunctions_3"));
+        tabFunctions_3->setObjectName(QString::fromUtf8("tabFunctions_3"));
         verticalLayout_39 = new QVBoxLayout(tabFunctions_3);
-        verticalLayout_39->setObjectName(QStringLiteral("verticalLayout_39"));
+        verticalLayout_39->setObjectName(QString::fromUtf8("verticalLayout_39"));
         horizontalLayout_37 = new QHBoxLayout();
-        horizontalLayout_37->setObjectName(QStringLiteral("horizontalLayout_37"));
+        horizontalLayout_37->setObjectName(QString::fromUtf8("horizontalLayout_37"));
         toolButtonAddWord_15 = new QToolButton(tabFunctions_3);
-        toolButtonAddWord_15->setObjectName(QStringLiteral("toolButtonAddWord_15"));
+        toolButtonAddWord_15->setObjectName(QString::fromUtf8("toolButtonAddWord_15"));
         toolButtonAddWord_15->setIcon(icon10);
 
         horizontalLayout_37->addWidget(toolButtonAddWord_15);
 
         toolButtonRemoveWord_15 = new QToolButton(tabFunctions_3);
-        toolButtonRemoveWord_15->setObjectName(QStringLiteral("toolButtonRemoveWord_15"));
+        toolButtonRemoveWord_15->setObjectName(QString::fromUtf8("toolButtonRemoveWord_15"));
         toolButtonRemoveWord_15->setIcon(icon11);
 
         horizontalLayout_37->addWidget(toolButtonRemoveWord_15);
@@ -1601,7 +1612,7 @@ public:
         verticalLayout_39->addLayout(horizontalLayout_37);
 
         listWidget_15 = new QListWidget(tabFunctions_3);
-        listWidget_15->setObjectName(QStringLiteral("listWidget_15"));
+        listWidget_15->setObjectName(QString::fromUtf8("listWidget_15"));
 
         verticalLayout_39->addWidget(listWidget_15);
 
@@ -1614,26 +1625,26 @@ public:
 
         tabWidget->addTab(tabODBC, QString());
         tabOracle = new QWidget();
-        tabOracle->setObjectName(QStringLiteral("tabOracle"));
+        tabOracle->setObjectName(QString::fromUtf8("tabOracle"));
         verticalLayout_14 = new QVBoxLayout(tabOracle);
-        verticalLayout_14->setObjectName(QStringLiteral("verticalLayout_14"));
+        verticalLayout_14->setObjectName(QString::fromUtf8("verticalLayout_14"));
         verticalLayout_8 = new QVBoxLayout();
-        verticalLayout_8->setObjectName(QStringLiteral("verticalLayout_8"));
+        verticalLayout_8->setObjectName(QString::fromUtf8("verticalLayout_8"));
         label_7 = new QLabel(tabOracle);
-        label_7->setObjectName(QStringLiteral("label_7"));
+        label_7->setObjectName(QString::fromUtf8("label_7"));
 
         verticalLayout_8->addWidget(label_7);
 
         horizontalLayout_4 = new QHBoxLayout();
-        horizontalLayout_4->setObjectName(QStringLiteral("horizontalLayout_4"));
+        horizontalLayout_4->setObjectName(QString::fromUtf8("horizontalLayout_4"));
         prefDrvOracleComboBox = new QComboBox(tabOracle);
-        prefDrvOracleComboBox->setObjectName(QStringLiteral("prefDrvOracleComboBox"));
+        prefDrvOracleComboBox->setObjectName(QString::fromUtf8("prefDrvOracleComboBox"));
         prefDrvOracleComboBox->setMinimumSize(QSize(200, 0));
 
         horizontalLayout_4->addWidget(prefDrvOracleComboBox);
 
         oracleDrvInfoButton = new QToolButton(tabOracle);
-        oracleDrvInfoButton->setObjectName(QStringLiteral("oracleDrvInfoButton"));
+        oracleDrvInfoButton->setObjectName(QString::fromUtf8("oracleDrvInfoButton"));
         oracleDrvInfoButton->setIcon(icon5);
 
         horizontalLayout_4->addWidget(oracleDrvInfoButton);
@@ -1649,32 +1660,32 @@ public:
         verticalLayout_14->addLayout(verticalLayout_8);
 
         groupBox_7 = new QGroupBox(tabOracle);
-        groupBox_7->setObjectName(QStringLiteral("groupBox_7"));
+        groupBox_7->setObjectName(QString::fromUtf8("groupBox_7"));
         sizePolicy2.setHeightForWidth(groupBox_7->sizePolicy().hasHeightForWidth());
         groupBox_7->setSizePolicy(sizePolicy2);
         horizontalLayout_38 = new QHBoxLayout(groupBox_7);
-        horizontalLayout_38->setObjectName(QStringLiteral("horizontalLayout_38"));
+        horizontalLayout_38->setObjectName(QString::fromUtf8("horizontalLayout_38"));
         verticalLayout_40 = new QVBoxLayout();
-        verticalLayout_40->setObjectName(QStringLiteral("verticalLayout_40"));
+        verticalLayout_40->setObjectName(QString::fromUtf8("verticalLayout_40"));
         verticalSpacer_5 = new QSpacerItem(20, 6, QSizePolicy::Minimum, QSizePolicy::Fixed);
 
         verticalLayout_40->addItem(verticalSpacer_5);
 
         label_21 = new QLabel(groupBox_7);
-        label_21->setObjectName(QStringLiteral("label_21"));
+        label_21->setObjectName(QString::fromUtf8("label_21"));
 
         verticalLayout_40->addWidget(label_21);
 
         horizontalLayout_39 = new QHBoxLayout();
-        horizontalLayout_39->setObjectName(QStringLiteral("horizontalLayout_39"));
+        horizontalLayout_39->setObjectName(QString::fromUtf8("horizontalLayout_39"));
         toolButtonAddWord_16 = new QToolButton(groupBox_7);
-        toolButtonAddWord_16->setObjectName(QStringLiteral("toolButtonAddWord_16"));
+        toolButtonAddWord_16->setObjectName(QString::fromUtf8("toolButtonAddWord_16"));
         toolButtonAddWord_16->setIcon(icon6);
 
         horizontalLayout_39->addWidget(toolButtonAddWord_16);
 
         toolButtonRemoveWord_16 = new QToolButton(groupBox_7);
-        toolButtonRemoveWord_16->setObjectName(QStringLiteral("toolButtonRemoveWord_16"));
+        toolButtonRemoveWord_16->setObjectName(QString::fromUtf8("toolButtonRemoveWord_16"));
         toolButtonRemoveWord_16->setIcon(icon7);
 
         horizontalLayout_39->addWidget(toolButtonRemoveWord_16);
@@ -1684,13 +1695,13 @@ public:
         horizontalLayout_39->addItem(horizontalSpacer_29);
 
         toolButtonMoveRight_4 = new QToolButton(groupBox_7);
-        toolButtonMoveRight_4->setObjectName(QStringLiteral("toolButtonMoveRight_4"));
+        toolButtonMoveRight_4->setObjectName(QString::fromUtf8("toolButtonMoveRight_4"));
         toolButtonMoveRight_4->setIcon(icon8);
 
         horizontalLayout_39->addWidget(toolButtonMoveRight_4);
 
         toolButtonMoveAllRight_4 = new QToolButton(groupBox_7);
-        toolButtonMoveAllRight_4->setObjectName(QStringLiteral("toolButtonMoveAllRight_4"));
+        toolButtonMoveAllRight_4->setObjectName(QString::fromUtf8("toolButtonMoveAllRight_4"));
         toolButtonMoveAllRight_4->setIcon(icon9);
 
         horizontalLayout_39->addWidget(toolButtonMoveAllRight_4);
@@ -1699,7 +1710,7 @@ public:
         verticalLayout_40->addLayout(horizontalLayout_39);
 
         listWidget_16 = new QListWidget(groupBox_7);
-        listWidget_16->setObjectName(QStringLiteral("listWidget_16"));
+        listWidget_16->setObjectName(QString::fromUtf8("listWidget_16"));
 
         verticalLayout_40->addWidget(listWidget_16);
 
@@ -1707,21 +1718,21 @@ public:
         horizontalLayout_38->addLayout(verticalLayout_40);
 
         tabWidgetHighlightedWords_4 = new QTabWidget(groupBox_7);
-        tabWidgetHighlightedWords_4->setObjectName(QStringLiteral("tabWidgetHighlightedWords_4"));
+        tabWidgetHighlightedWords_4->setObjectName(QString::fromUtf8("tabWidgetHighlightedWords_4"));
         tabKeywords_4 = new QWidget();
-        tabKeywords_4->setObjectName(QStringLiteral("tabKeywords_4"));
+        tabKeywords_4->setObjectName(QString::fromUtf8("tabKeywords_4"));
         verticalLayout_41 = new QVBoxLayout(tabKeywords_4);
-        verticalLayout_41->setObjectName(QStringLiteral("verticalLayout_41"));
+        verticalLayout_41->setObjectName(QString::fromUtf8("verticalLayout_41"));
         horizontalLayout_40 = new QHBoxLayout();
-        horizontalLayout_40->setObjectName(QStringLiteral("horizontalLayout_40"));
+        horizontalLayout_40->setObjectName(QString::fromUtf8("horizontalLayout_40"));
         toolButtonAddWord_17 = new QToolButton(tabKeywords_4);
-        toolButtonAddWord_17->setObjectName(QStringLiteral("toolButtonAddWord_17"));
+        toolButtonAddWord_17->setObjectName(QString::fromUtf8("toolButtonAddWord_17"));
         toolButtonAddWord_17->setIcon(icon10);
 
         horizontalLayout_40->addWidget(toolButtonAddWord_17);
 
         toolButtonRemoveWord_17 = new QToolButton(tabKeywords_4);
-        toolButtonRemoveWord_17->setObjectName(QStringLiteral("toolButtonRemoveWord_17"));
+        toolButtonRemoveWord_17->setObjectName(QString::fromUtf8("toolButtonRemoveWord_17"));
         toolButtonRemoveWord_17->setIcon(icon11);
 
         horizontalLayout_40->addWidget(toolButtonRemoveWord_17);
@@ -1734,25 +1745,25 @@ public:
         verticalLayout_41->addLayout(horizontalLayout_40);
 
         listWidget_17 = new QListWidget(tabKeywords_4);
-        listWidget_17->setObjectName(QStringLiteral("listWidget_17"));
+        listWidget_17->setObjectName(QString::fromUtf8("listWidget_17"));
 
         verticalLayout_41->addWidget(listWidget_17);
 
         tabWidgetHighlightedWords_4->addTab(tabKeywords_4, QString());
         tabReserved_4 = new QWidget();
-        tabReserved_4->setObjectName(QStringLiteral("tabReserved_4"));
+        tabReserved_4->setObjectName(QString::fromUtf8("tabReserved_4"));
         verticalLayout_42 = new QVBoxLayout(tabReserved_4);
-        verticalLayout_42->setObjectName(QStringLiteral("verticalLayout_42"));
+        verticalLayout_42->setObjectName(QString::fromUtf8("verticalLayout_42"));
         horizontalLayout_41 = new QHBoxLayout();
-        horizontalLayout_41->setObjectName(QStringLiteral("horizontalLayout_41"));
+        horizontalLayout_41->setObjectName(QString::fromUtf8("horizontalLayout_41"));
         toolButtonAddWord_18 = new QToolButton(tabReserved_4);
-        toolButtonAddWord_18->setObjectName(QStringLiteral("toolButtonAddWord_18"));
+        toolButtonAddWord_18->setObjectName(QString::fromUtf8("toolButtonAddWord_18"));
         toolButtonAddWord_18->setIcon(icon10);
 
         horizontalLayout_41->addWidget(toolButtonAddWord_18);
 
         toolButtonRemoveWord_18 = new QToolButton(tabReserved_4);
-        toolButtonRemoveWord_18->setObjectName(QStringLiteral("toolButtonRemoveWord_18"));
+        toolButtonRemoveWord_18->setObjectName(QString::fromUtf8("toolButtonRemoveWord_18"));
         toolButtonRemoveWord_18->setIcon(icon11);
 
         horizontalLayout_41->addWidget(toolButtonRemoveWord_18);
@@ -1765,25 +1776,25 @@ public:
         verticalLayout_42->addLayout(horizontalLayout_41);
 
         listWidget_18 = new QListWidget(tabReserved_4);
-        listWidget_18->setObjectName(QStringLiteral("listWidget_18"));
+        listWidget_18->setObjectName(QString::fromUtf8("listWidget_18"));
 
         verticalLayout_42->addWidget(listWidget_18);
 
         tabWidgetHighlightedWords_4->addTab(tabReserved_4, QString());
         tabTypes_4 = new QWidget();
-        tabTypes_4->setObjectName(QStringLiteral("tabTypes_4"));
+        tabTypes_4->setObjectName(QString::fromUtf8("tabTypes_4"));
         verticalLayout_43 = new QVBoxLayout(tabTypes_4);
-        verticalLayout_43->setObjectName(QStringLiteral("verticalLayout_43"));
+        verticalLayout_43->setObjectName(QString::fromUtf8("verticalLayout_43"));
         horizontalLayout_42 = new QHBoxLayout();
-        horizontalLayout_42->setObjectName(QStringLiteral("horizontalLayout_42"));
+        horizontalLayout_42->setObjectName(QString::fromUtf8("horizontalLayout_42"));
         toolButtonAddWord_19 = new QToolButton(tabTypes_4);
-        toolButtonAddWord_19->setObjectName(QStringLiteral("toolButtonAddWord_19"));
+        toolButtonAddWord_19->setObjectName(QString::fromUtf8("toolButtonAddWord_19"));
         toolButtonAddWord_19->setIcon(icon10);
 
         horizontalLayout_42->addWidget(toolButtonAddWord_19);
 
         toolButtonRemoveWord_19 = new QToolButton(tabTypes_4);
-        toolButtonRemoveWord_19->setObjectName(QStringLiteral("toolButtonRemoveWord_19"));
+        toolButtonRemoveWord_19->setObjectName(QString::fromUtf8("toolButtonRemoveWord_19"));
         toolButtonRemoveWord_19->setIcon(icon11);
 
         horizontalLayout_42->addWidget(toolButtonRemoveWord_19);
@@ -1796,25 +1807,25 @@ public:
         verticalLayout_43->addLayout(horizontalLayout_42);
 
         listWidget_19 = new QListWidget(tabTypes_4);
-        listWidget_19->setObjectName(QStringLiteral("listWidget_19"));
+        listWidget_19->setObjectName(QString::fromUtf8("listWidget_19"));
 
         verticalLayout_43->addWidget(listWidget_19);
 
         tabWidgetHighlightedWords_4->addTab(tabTypes_4, QString());
         tabFunctions_4 = new QWidget();
-        tabFunctions_4->setObjectName(QStringLiteral("tabFunctions_4"));
+        tabFunctions_4->setObjectName(QString::fromUtf8("tabFunctions_4"));
         verticalLayout_44 = new QVBoxLayout(tabFunctions_4);
-        verticalLayout_44->setObjectName(QStringLiteral("verticalLayout_44"));
+        verticalLayout_44->setObjectName(QString::fromUtf8("verticalLayout_44"));
         horizontalLayout_43 = new QHBoxLayout();
-        horizontalLayout_43->setObjectName(QStringLiteral("horizontalLayout_43"));
+        horizontalLayout_43->setObjectName(QString::fromUtf8("horizontalLayout_43"));
         toolButtonAddWord_20 = new QToolButton(tabFunctions_4);
-        toolButtonAddWord_20->setObjectName(QStringLiteral("toolButtonAddWord_20"));
+        toolButtonAddWord_20->setObjectName(QString::fromUtf8("toolButtonAddWord_20"));
         toolButtonAddWord_20->setIcon(icon10);
 
         horizontalLayout_43->addWidget(toolButtonAddWord_20);
 
         toolButtonRemoveWord_20 = new QToolButton(tabFunctions_4);
-        toolButtonRemoveWord_20->setObjectName(QStringLiteral("toolButtonRemoveWord_20"));
+        toolButtonRemoveWord_20->setObjectName(QString::fromUtf8("toolButtonRemoveWord_20"));
         toolButtonRemoveWord_20->setIcon(icon11);
 
         horizontalLayout_43->addWidget(toolButtonRemoveWord_20);
@@ -1827,7 +1838,7 @@ public:
         verticalLayout_44->addLayout(horizontalLayout_43);
 
         listWidget_20 = new QListWidget(tabFunctions_4);
-        listWidget_20->setObjectName(QStringLiteral("listWidget_20"));
+        listWidget_20->setObjectName(QString::fromUtf8("listWidget_20"));
 
         verticalLayout_44->addWidget(listWidget_20);
 
@@ -1840,26 +1851,26 @@ public:
 
         tabWidget->addTab(tabOracle, QString());
         tabPostgreSql = new QWidget();
-        tabPostgreSql->setObjectName(QStringLiteral("tabPostgreSql"));
+        tabPostgreSql->setObjectName(QString::fromUtf8("tabPostgreSql"));
         verticalLayout_11 = new QVBoxLayout(tabPostgreSql);
-        verticalLayout_11->setObjectName(QStringLiteral("verticalLayout_11"));
+        verticalLayout_11->setObjectName(QString::fromUtf8("verticalLayout_11"));
         verticalLayout_10 = new QVBoxLayout();
-        verticalLayout_10->setObjectName(QStringLiteral("verticalLayout_10"));
+        verticalLayout_10->setObjectName(QString::fromUtf8("verticalLayout_10"));
         label_8 = new QLabel(tabPostgreSql);
-        label_8->setObjectName(QStringLiteral("label_8"));
+        label_8->setObjectName(QString::fromUtf8("label_8"));
 
         verticalLayout_10->addWidget(label_8);
 
         horizontalLayout_5 = new QHBoxLayout();
-        horizontalLayout_5->setObjectName(QStringLiteral("horizontalLayout_5"));
+        horizontalLayout_5->setObjectName(QString::fromUtf8("horizontalLayout_5"));
         prefDrvPostgreSqlComboBox = new QComboBox(tabPostgreSql);
-        prefDrvPostgreSqlComboBox->setObjectName(QStringLiteral("prefDrvPostgreSqlComboBox"));
+        prefDrvPostgreSqlComboBox->setObjectName(QString::fromUtf8("prefDrvPostgreSqlComboBox"));
         prefDrvPostgreSqlComboBox->setMinimumSize(QSize(200, 0));
 
         horizontalLayout_5->addWidget(prefDrvPostgreSqlComboBox);
 
         postgresqlDrvInfoButton = new QToolButton(tabPostgreSql);
-        postgresqlDrvInfoButton->setObjectName(QStringLiteral("postgresqlDrvInfoButton"));
+        postgresqlDrvInfoButton->setObjectName(QString::fromUtf8("postgresqlDrvInfoButton"));
         postgresqlDrvInfoButton->setIcon(icon5);
 
         horizontalLayout_5->addWidget(postgresqlDrvInfoButton);
@@ -1875,32 +1886,32 @@ public:
         verticalLayout_11->addLayout(verticalLayout_10);
 
         groupBox_8 = new QGroupBox(tabPostgreSql);
-        groupBox_8->setObjectName(QStringLiteral("groupBox_8"));
+        groupBox_8->setObjectName(QString::fromUtf8("groupBox_8"));
         sizePolicy2.setHeightForWidth(groupBox_8->sizePolicy().hasHeightForWidth());
         groupBox_8->setSizePolicy(sizePolicy2);
         horizontalLayout_44 = new QHBoxLayout(groupBox_8);
-        horizontalLayout_44->setObjectName(QStringLiteral("horizontalLayout_44"));
+        horizontalLayout_44->setObjectName(QString::fromUtf8("horizontalLayout_44"));
         verticalLayout_45 = new QVBoxLayout();
-        verticalLayout_45->setObjectName(QStringLiteral("verticalLayout_45"));
+        verticalLayout_45->setObjectName(QString::fromUtf8("verticalLayout_45"));
         verticalSpacer_6 = new QSpacerItem(20, 6, QSizePolicy::Minimum, QSizePolicy::Fixed);
 
         verticalLayout_45->addItem(verticalSpacer_6);
 
         label_22 = new QLabel(groupBox_8);
-        label_22->setObjectName(QStringLiteral("label_22"));
+        label_22->setObjectName(QString::fromUtf8("label_22"));
 
         verticalLayout_45->addWidget(label_22);
 
         horizontalLayout_45 = new QHBoxLayout();
-        horizontalLayout_45->setObjectName(QStringLiteral("horizontalLayout_45"));
+        horizontalLayout_45->setObjectName(QString::fromUtf8("horizontalLayout_45"));
         toolButtonAddWord_21 = new QToolButton(groupBox_8);
-        toolButtonAddWord_21->setObjectName(QStringLiteral("toolButtonAddWord_21"));
+        toolButtonAddWord_21->setObjectName(QString::fromUtf8("toolButtonAddWord_21"));
         toolButtonAddWord_21->setIcon(icon6);
 
         horizontalLayout_45->addWidget(toolButtonAddWord_21);
 
         toolButtonRemoveWord_21 = new QToolButton(groupBox_8);
-        toolButtonRemoveWord_21->setObjectName(QStringLiteral("toolButtonRemoveWord_21"));
+        toolButtonRemoveWord_21->setObjectName(QString::fromUtf8("toolButtonRemoveWord_21"));
         toolButtonRemoveWord_21->setIcon(icon7);
 
         horizontalLayout_45->addWidget(toolButtonRemoveWord_21);
@@ -1910,13 +1921,13 @@ public:
         horizontalLayout_45->addItem(horizontalSpacer_34);
 
         toolButtonMoveRight_5 = new QToolButton(groupBox_8);
-        toolButtonMoveRight_5->setObjectName(QStringLiteral("toolButtonMoveRight_5"));
+        toolButtonMoveRight_5->setObjectName(QString::fromUtf8("toolButtonMoveRight_5"));
         toolButtonMoveRight_5->setIcon(icon8);
 
         horizontalLayout_45->addWidget(toolButtonMoveRight_5);
 
         toolButtonMoveAllRight_5 = new QToolButton(groupBox_8);
-        toolButtonMoveAllRight_5->setObjectName(QStringLiteral("toolButtonMoveAllRight_5"));
+        toolButtonMoveAllRight_5->setObjectName(QString::fromUtf8("toolButtonMoveAllRight_5"));
         toolButtonMoveAllRight_5->setIcon(icon9);
 
         horizontalLayout_45->addWidget(toolButtonMoveAllRight_5);
@@ -1925,7 +1936,7 @@ public:
         verticalLayout_45->addLayout(horizontalLayout_45);
 
         listWidget_21 = new QListWidget(groupBox_8);
-        listWidget_21->setObjectName(QStringLiteral("listWidget_21"));
+        listWidget_21->setObjectName(QString::fromUtf8("listWidget_21"));
 
         verticalLayout_45->addWidget(listWidget_21);
 
@@ -1933,21 +1944,21 @@ public:
         horizontalLayout_44->addLayout(verticalLayout_45);
 
         tabWidgetHighlightedWords_5 = new QTabWidget(groupBox_8);
-        tabWidgetHighlightedWords_5->setObjectName(QStringLiteral("tabWidgetHighlightedWords_5"));
+        tabWidgetHighlightedWords_5->setObjectName(QString::fromUtf8("tabWidgetHighlightedWords_5"));
         tabKeywords_5 = new QWidget();
-        tabKeywords_5->setObjectName(QStringLiteral("tabKeywords_5"));
+        tabKeywords_5->setObjectName(QString::fromUtf8("tabKeywords_5"));
         verticalLayout_46 = new QVBoxLayout(tabKeywords_5);
-        verticalLayout_46->setObjectName(QStringLiteral("verticalLayout_46"));
+        verticalLayout_46->setObjectName(QString::fromUtf8("verticalLayout_46"));
         horizontalLayout_46 = new QHBoxLayout();
-        horizontalLayout_46->setObjectName(QStringLiteral("horizontalLayout_46"));
+        horizontalLayout_46->setObjectName(QString::fromUtf8("horizontalLayout_46"));
         toolButtonAddWord_22 = new QToolButton(tabKeywords_5);
-        toolButtonAddWord_22->setObjectName(QStringLiteral("toolButtonAddWord_22"));
+        toolButtonAddWord_22->setObjectName(QString::fromUtf8("toolButtonAddWord_22"));
         toolButtonAddWord_22->setIcon(icon10);
 
         horizontalLayout_46->addWidget(toolButtonAddWord_22);
 
         toolButtonRemoveWord_22 = new QToolButton(tabKeywords_5);
-        toolButtonRemoveWord_22->setObjectName(QStringLiteral("toolButtonRemoveWord_22"));
+        toolButtonRemoveWord_22->setObjectName(QString::fromUtf8("toolButtonRemoveWord_22"));
         toolButtonRemoveWord_22->setIcon(icon11);
 
         horizontalLayout_46->addWidget(toolButtonRemoveWord_22);
@@ -1960,25 +1971,25 @@ public:
         verticalLayout_46->addLayout(horizontalLayout_46);
 
         listWidget_22 = new QListWidget(tabKeywords_5);
-        listWidget_22->setObjectName(QStringLiteral("listWidget_22"));
+        listWidget_22->setObjectName(QString::fromUtf8("listWidget_22"));
 
         verticalLayout_46->addWidget(listWidget_22);
 
         tabWidgetHighlightedWords_5->addTab(tabKeywords_5, QString());
         tabReserved_5 = new QWidget();
-        tabReserved_5->setObjectName(QStringLiteral("tabReserved_5"));
+        tabReserved_5->setObjectName(QString::fromUtf8("tabReserved_5"));
         verticalLayout_47 = new QVBoxLayout(tabReserved_5);
-        verticalLayout_47->setObjectName(QStringLiteral("verticalLayout_47"));
+        verticalLayout_47->setObjectName(QString::fromUtf8("verticalLayout_47"));
         horizontalLayout_47 = new QHBoxLayout();
-        horizontalLayout_47->setObjectName(QStringLiteral("horizontalLayout_47"));
+        horizontalLayout_47->setObjectName(QString::fromUtf8("horizontalLayout_47"));
         toolButtonAddWord_23 = new QToolButton(tabReserved_5);
-        toolButtonAddWord_23->setObjectName(QStringLiteral("toolButtonAddWord_23"));
+        toolButtonAddWord_23->setObjectName(QString::fromUtf8("toolButtonAddWord_23"));
         toolButtonAddWord_23->setIcon(icon10);
 
         horizontalLayout_47->addWidget(toolButtonAddWord_23);
 
         toolButtonRemoveWord_23 = new QToolButton(tabReserved_5);
-        toolButtonRemoveWord_23->setObjectName(QStringLiteral("toolButtonRemoveWord_23"));
+        toolButtonRemoveWord_23->setObjectName(QString::fromUtf8("toolButtonRemoveWord_23"));
         toolButtonRemoveWord_23->setIcon(icon11);
 
         horizontalLayout_47->addWidget(toolButtonRemoveWord_23);
@@ -1991,25 +2002,25 @@ public:
         verticalLayout_47->addLayout(horizontalLayout_47);
 
         listWidget_23 = new QListWidget(tabReserved_5);
-        listWidget_23->setObjectName(QStringLiteral("listWidget_23"));
+        listWidget_23->setObjectName(QString::fromUtf8("listWidget_23"));
 
         verticalLayout_47->addWidget(listWidget_23);
 
         tabWidgetHighlightedWords_5->addTab(tabReserved_5, QString());
         tabTypes_5 = new QWidget();
-        tabTypes_5->setObjectName(QStringLiteral("tabTypes_5"));
+        tabTypes_5->setObjectName(QString::fromUtf8("tabTypes_5"));
         verticalLayout_48 = new QVBoxLayout(tabTypes_5);
-        verticalLayout_48->setObjectName(QStringLiteral("verticalLayout_48"));
+        verticalLayout_48->setObjectName(QString::fromUtf8("verticalLayout_48"));
         horizontalLayout_48 = new QHBoxLayout();
-        horizontalLayout_48->setObjectName(QStringLiteral("horizontalLayout_48"));
+        horizontalLayout_48->setObjectName(QString::fromUtf8("horizontalLayout_48"));
         toolButtonAddWord_24 = new QToolButton(tabTypes_5);
-        toolButtonAddWord_24->setObjectName(QStringLiteral("toolButtonAddWord_24"));
+        toolButtonAddWord_24->setObjectName(QString::fromUtf8("toolButtonAddWord_24"));
         toolButtonAddWord_24->setIcon(icon10);
 
         horizontalLayout_48->addWidget(toolButtonAddWord_24);
 
         toolButtonRemoveWord_24 = new QToolButton(tabTypes_5);
-        toolButtonRemoveWord_24->setObjectName(QStringLiteral("toolButtonRemoveWord_24"));
+        toolButtonRemoveWord_24->setObjectName(QString::fromUtf8("toolButtonRemoveWord_24"));
         toolButtonRemoveWord_24->setIcon(icon11);
 
         horizontalLayout_48->addWidget(toolButtonRemoveWord_24);
@@ -2022,25 +2033,25 @@ public:
         verticalLayout_48->addLayout(horizontalLayout_48);
 
         listWidget_24 = new QListWidget(tabTypes_5);
-        listWidget_24->setObjectName(QStringLiteral("listWidget_24"));
+        listWidget_24->setObjectName(QString::fromUtf8("listWidget_24"));
 
         verticalLayout_48->addWidget(listWidget_24);
 
         tabWidgetHighlightedWords_5->addTab(tabTypes_5, QString());
         tabFunctions_5 = new QWidget();
-        tabFunctions_5->setObjectName(QStringLiteral("tabFunctions_5"));
+        tabFunctions_5->setObjectName(QString::fromUtf8("tabFunctions_5"));
         verticalLayout_49 = new QVBoxLayout(tabFunctions_5);
-        verticalLayout_49->setObjectName(QStringLiteral("verticalLayout_49"));
+        verticalLayout_49->setObjectName(QString::fromUtf8("verticalLayout_49"));
         horizontalLayout_49 = new QHBoxLayout();
-        horizontalLayout_49->setObjectName(QStringLiteral("horizontalLayout_49"));
+        horizontalLayout_49->setObjectName(QString::fromUtf8("horizontalLayout_49"));
         toolButtonAddWord_25 = new QToolButton(tabFunctions_5);
-        toolButtonAddWord_25->setObjectName(QStringLiteral("toolButtonAddWord_25"));
+        toolButtonAddWord_25->setObjectName(QString::fromUtf8("toolButtonAddWord_25"));
         toolButtonAddWord_25->setIcon(icon10);
 
         horizontalLayout_49->addWidget(toolButtonAddWord_25);
 
         toolButtonRemoveWord_25 = new QToolButton(tabFunctions_5);
-        toolButtonRemoveWord_25->setObjectName(QStringLiteral("toolButtonRemoveWord_25"));
+        toolButtonRemoveWord_25->setObjectName(QString::fromUtf8("toolButtonRemoveWord_25"));
         toolButtonRemoveWord_25->setIcon(icon11);
 
         horizontalLayout_49->addWidget(toolButtonRemoveWord_25);
@@ -2053,7 +2064,7 @@ public:
         verticalLayout_49->addLayout(horizontalLayout_49);
 
         listWidget_25 = new QListWidget(tabFunctions_5);
-        listWidget_25->setObjectName(QStringLiteral("listWidget_25"));
+        listWidget_25->setObjectName(QString::fromUtf8("listWidget_25"));
 
         verticalLayout_49->addWidget(listWidget_25);
 
@@ -2066,26 +2077,26 @@ public:
 
         tabWidget->addTab(tabPostgreSql, QString());
         tabSqlite = new QWidget();
-        tabSqlite->setObjectName(QStringLiteral("tabSqlite"));
+        tabSqlite->setObjectName(QString::fromUtf8("tabSqlite"));
         verticalLayout_9 = new QVBoxLayout(tabSqlite);
-        verticalLayout_9->setObjectName(QStringLiteral("verticalLayout_9"));
+        verticalLayout_9->setObjectName(QString::fromUtf8("verticalLayout_9"));
         verticalLayout_12 = new QVBoxLayout();
-        verticalLayout_12->setObjectName(QStringLiteral("verticalLayout_12"));
+        verticalLayout_12->setObjectName(QString::fromUtf8("verticalLayout_12"));
         label_9 = new QLabel(tabSqlite);
-        label_9->setObjectName(QStringLiteral("label_9"));
+        label_9->setObjectName(QString::fromUtf8("label_9"));
 
         verticalLayout_12->addWidget(label_9);
 
         horizontalLayout_6 = new QHBoxLayout();
-        horizontalLayout_6->setObjectName(QStringLiteral("horizontalLayout_6"));
+        horizontalLayout_6->setObjectName(QString::fromUtf8("horizontalLayout_6"));
         prefDrvSqliteComboBox = new QComboBox(tabSqlite);
-        prefDrvSqliteComboBox->setObjectName(QStringLiteral("prefDrvSqliteComboBox"));
+        prefDrvSqliteComboBox->setObjectName(QString::fromUtf8("prefDrvSqliteComboBox"));
         prefDrvSqliteComboBox->setMinimumSize(QSize(200, 0));
 
         horizontalLayout_6->addWidget(prefDrvSqliteComboBox);
 
         sqliteDrvInfoButton = new QToolButton(tabSqlite);
-        sqliteDrvInfoButton->setObjectName(QStringLiteral("sqliteDrvInfoButton"));
+        sqliteDrvInfoButton->setObjectName(QString::fromUtf8("sqliteDrvInfoButton"));
         sqliteDrvInfoButton->setIcon(icon5);
 
         horizontalLayout_6->addWidget(sqliteDrvInfoButton);
@@ -2101,32 +2112,32 @@ public:
         verticalLayout_9->addLayout(verticalLayout_12);
 
         groupBox_9 = new QGroupBox(tabSqlite);
-        groupBox_9->setObjectName(QStringLiteral("groupBox_9"));
+        groupBox_9->setObjectName(QString::fromUtf8("groupBox_9"));
         sizePolicy2.setHeightForWidth(groupBox_9->sizePolicy().hasHeightForWidth());
         groupBox_9->setSizePolicy(sizePolicy2);
         horizontalLayout_50 = new QHBoxLayout(groupBox_9);
-        horizontalLayout_50->setObjectName(QStringLiteral("horizontalLayout_50"));
+        horizontalLayout_50->setObjectName(QString::fromUtf8("horizontalLayout_50"));
         verticalLayout_50 = new QVBoxLayout();
-        verticalLayout_50->setObjectName(QStringLiteral("verticalLayout_50"));
+        verticalLayout_50->setObjectName(QString::fromUtf8("verticalLayout_50"));
         verticalSpacer_7 = new QSpacerItem(20, 6, QSizePolicy::Minimum, QSizePolicy::Fixed);
 
         verticalLayout_50->addItem(verticalSpacer_7);
 
         label_23 = new QLabel(groupBox_9);
-        label_23->setObjectName(QStringLiteral("label_23"));
+        label_23->setObjectName(QString::fromUtf8("label_23"));
 
         verticalLayout_50->addWidget(label_23);
 
         horizontalLayout_51 = new QHBoxLayout();
-        horizontalLayout_51->setObjectName(QStringLiteral("horizontalLayout_51"));
+        horizontalLayout_51->setObjectName(QString::fromUtf8("horizontalLayout_51"));
         toolButtonAddWord_26 = new QToolButton(groupBox_9);
-        toolButtonAddWord_26->setObjectName(QStringLiteral("toolButtonAddWord_26"));
+        toolButtonAddWord_26->setObjectName(QString::fromUtf8("toolButtonAddWord_26"));
         toolButtonAddWord_26->setIcon(icon6);
 
         horizontalLayout_51->addWidget(toolButtonAddWord_26);
 
         toolButtonRemoveWord_26 = new QToolButton(groupBox_9);
-        toolButtonRemoveWord_26->setObjectName(QStringLiteral("toolButtonRemoveWord_26"));
+        toolButtonRemoveWord_26->setObjectName(QString::fromUtf8("toolButtonRemoveWord_26"));
         toolButtonRemoveWord_26->setIcon(icon7);
 
         horizontalLayout_51->addWidget(toolButtonRemoveWord_26);
@@ -2136,13 +2147,13 @@ public:
         horizontalLayout_51->addItem(horizontalSpacer_39);
 
         toolButtonMoveRight_6 = new QToolButton(groupBox_9);
-        toolButtonMoveRight_6->setObjectName(QStringLiteral("toolButtonMoveRight_6"));
+        toolButtonMoveRight_6->setObjectName(QString::fromUtf8("toolButtonMoveRight_6"));
         toolButtonMoveRight_6->setIcon(icon8);
 
         horizontalLayout_51->addWidget(toolButtonMoveRight_6);
 
         toolButtonMoveAllRight_6 = new QToolButton(groupBox_9);
-        toolButtonMoveAllRight_6->setObjectName(QStringLiteral("toolButtonMoveAllRight_6"));
+        toolButtonMoveAllRight_6->setObjectName(QString::fromUtf8("toolButtonMoveAllRight_6"));
         toolButtonMoveAllRight_6->setIcon(icon9);
 
         horizontalLayout_51->addWidget(toolButtonMoveAllRight_6);
@@ -2151,7 +2162,7 @@ public:
         verticalLayout_50->addLayout(horizontalLayout_51);
 
         listWidget_26 = new QListWidget(groupBox_9);
-        listWidget_26->setObjectName(QStringLiteral("listWidget_26"));
+        listWidget_26->setObjectName(QString::fromUtf8("listWidget_26"));
 
         verticalLayout_50->addWidget(listWidget_26);
 
@@ -2159,21 +2170,21 @@ public:
         horizontalLayout_50->addLayout(verticalLayout_50);
 
         tabWidgetHighlightedWords_6 = new QTabWidget(groupBox_9);
-        tabWidgetHighlightedWords_6->setObjectName(QStringLiteral("tabWidgetHighlightedWords_6"));
+        tabWidgetHighlightedWords_6->setObjectName(QString::fromUtf8("tabWidgetHighlightedWords_6"));
         tabKeywords_6 = new QWidget();
-        tabKeywords_6->setObjectName(QStringLiteral("tabKeywords_6"));
+        tabKeywords_6->setObjectName(QString::fromUtf8("tabKeywords_6"));
         verticalLayout_51 = new QVBoxLayout(tabKeywords_6);
-        verticalLayout_51->setObjectName(QStringLiteral("verticalLayout_51"));
+        verticalLayout_51->setObjectName(QString::fromUtf8("verticalLayout_51"));
         horizontalLayout_52 = new QHBoxLayout();
-        horizontalLayout_52->setObjectName(QStringLiteral("horizontalLayout_52"));
+        horizontalLayout_52->setObjectName(QString::fromUtf8("horizontalLayout_52"));
         toolButtonAddWord_27 = new QToolButton(tabKeywords_6);
-        toolButtonAddWord_27->setObjectName(QStringLiteral("toolButtonAddWord_27"));
+        toolButtonAddWord_27->setObjectName(QString::fromUtf8("toolButtonAddWord_27"));
         toolButtonAddWord_27->setIcon(icon10);
 
         horizontalLayout_52->addWidget(toolButtonAddWord_27);
 
         toolButtonRemoveWord_27 = new QToolButton(tabKeywords_6);
-        toolButtonRemoveWord_27->setObjectName(QStringLiteral("toolButtonRemoveWord_27"));
+        toolButtonRemoveWord_27->setObjectName(QString::fromUtf8("toolButtonRemoveWord_27"));
         toolButtonRemoveWord_27->setIcon(icon11);
 
         horizontalLayout_52->addWidget(toolButtonRemoveWord_27);
@@ -2186,25 +2197,25 @@ public:
         verticalLayout_51->addLayout(horizontalLayout_52);
 
         listWidget_27 = new QListWidget(tabKeywords_6);
-        listWidget_27->setObjectName(QStringLiteral("listWidget_27"));
+        listWidget_27->setObjectName(QString::fromUtf8("listWidget_27"));
 
         verticalLayout_51->addWidget(listWidget_27);
 
         tabWidgetHighlightedWords_6->addTab(tabKeywords_6, QString());
         tabReserved_6 = new QWidget();
-        tabReserved_6->setObjectName(QStringLiteral("tabReserved_6"));
+        tabReserved_6->setObjectName(QString::fromUtf8("tabReserved_6"));
         verticalLayout_52 = new QVBoxLayout(tabReserved_6);
-        verticalLayout_52->setObjectName(QStringLiteral("verticalLayout_52"));
+        verticalLayout_52->setObjectName(QString::fromUtf8("verticalLayout_52"));
         horizontalLayout_53 = new QHBoxLayout();
-        horizontalLayout_53->setObjectName(QStringLiteral("horizontalLayout_53"));
+        horizontalLayout_53->setObjectName(QString::fromUtf8("horizontalLayout_53"));
         toolButtonAddWord_28 = new QToolButton(tabReserved_6);
-        toolButtonAddWord_28->setObjectName(QStringLiteral("toolButtonAddWord_28"));
+        toolButtonAddWord_28->setObjectName(QString::fromUtf8("toolButtonAddWord_28"));
         toolButtonAddWord_28->setIcon(icon10);
 
         horizontalLayout_53->addWidget(toolButtonAddWord_28);
 
         toolButtonRemoveWord_28 = new QToolButton(tabReserved_6);
-        toolButtonRemoveWord_28->setObjectName(QStringLiteral("toolButtonRemoveWord_28"));
+        toolButtonRemoveWord_28->setObjectName(QString::fromUtf8("toolButtonRemoveWord_28"));
         toolButtonRemoveWord_28->setIcon(icon11);
 
         horizontalLayout_53->addWidget(toolButtonRemoveWord_28);
@@ -2217,25 +2228,25 @@ public:
         verticalLayout_52->addLayout(horizontalLayout_53);
 
         listWidget_28 = new QListWidget(tabReserved_6);
-        listWidget_28->setObjectName(QStringLiteral("listWidget_28"));
+        listWidget_28->setObjectName(QString::fromUtf8("listWidget_28"));
 
         verticalLayout_52->addWidget(listWidget_28);
 
         tabWidgetHighlightedWords_6->addTab(tabReserved_6, QString());
         tabTypes_6 = new QWidget();
-        tabTypes_6->setObjectName(QStringLiteral("tabTypes_6"));
+        tabTypes_6->setObjectName(QString::fromUtf8("tabTypes_6"));
         verticalLayout_53 = new QVBoxLayout(tabTypes_6);
-        verticalLayout_53->setObjectName(QStringLiteral("verticalLayout_53"));
+        verticalLayout_53->setObjectName(QString::fromUtf8("verticalLayout_53"));
         horizontalLayout_54 = new QHBoxLayout();
-        horizontalLayout_54->setObjectName(QStringLiteral("horizontalLayout_54"));
+        horizontalLayout_54->setObjectName(QString::fromUtf8("horizontalLayout_54"));
         toolButtonAddWord_29 = new QToolButton(tabTypes_6);
-        toolButtonAddWord_29->setObjectName(QStringLiteral("toolButtonAddWord_29"));
+        toolButtonAddWord_29->setObjectName(QString::fromUtf8("toolButtonAddWord_29"));
         toolButtonAddWord_29->setIcon(icon10);
 
         horizontalLayout_54->addWidget(toolButtonAddWord_29);
 
         toolButtonRemoveWord_29 = new QToolButton(tabTypes_6);
-        toolButtonRemoveWord_29->setObjectName(QStringLiteral("toolButtonRemoveWord_29"));
+        toolButtonRemoveWord_29->setObjectName(QString::fromUtf8("toolButtonRemoveWord_29"));
         toolButtonRemoveWord_29->setIcon(icon11);
 
         horizontalLayout_54->addWidget(toolButtonRemoveWord_29);
@@ -2248,25 +2259,25 @@ public:
         verticalLayout_53->addLayout(horizontalLayout_54);
 
         listWidget_29 = new QListWidget(tabTypes_6);
-        listWidget_29->setObjectName(QStringLiteral("listWidget_29"));
+        listWidget_29->setObjectName(QString::fromUtf8("listWidget_29"));
 
         verticalLayout_53->addWidget(listWidget_29);
 
         tabWidgetHighlightedWords_6->addTab(tabTypes_6, QString());
         tabFunctions_6 = new QWidget();
-        tabFunctions_6->setObjectName(QStringLiteral("tabFunctions_6"));
+        tabFunctions_6->setObjectName(QString::fromUtf8("tabFunctions_6"));
         verticalLayout_54 = new QVBoxLayout(tabFunctions_6);
-        verticalLayout_54->setObjectName(QStringLiteral("verticalLayout_54"));
+        verticalLayout_54->setObjectName(QString::fromUtf8("verticalLayout_54"));
         horizontalLayout_55 = new QHBoxLayout();
-        horizontalLayout_55->setObjectName(QStringLiteral("horizontalLayout_55"));
+        horizontalLayout_55->setObjectName(QString::fromUtf8("horizontalLayout_55"));
         toolButtonAddWord_30 = new QToolButton(tabFunctions_6);
-        toolButtonAddWord_30->setObjectName(QStringLiteral("toolButtonAddWord_30"));
+        toolButtonAddWord_30->setObjectName(QString::fromUtf8("toolButtonAddWord_30"));
         toolButtonAddWord_30->setIcon(icon10);
 
         horizontalLayout_55->addWidget(toolButtonAddWord_30);
 
         toolButtonRemoveWord_30 = new QToolButton(tabFunctions_6);
-        toolButtonRemoveWord_30->setObjectName(QStringLiteral("toolButtonRemoveWord_30"));
+        toolButtonRemoveWord_30->setObjectName(QString::fromUtf8("toolButtonRemoveWord_30"));
         toolButtonRemoveWord_30->setIcon(icon11);
 
         horizontalLayout_55->addWidget(toolButtonRemoveWord_30);
@@ -2279,7 +2290,7 @@ public:
         verticalLayout_54->addLayout(horizontalLayout_55);
 
         listWidget_30 = new QListWidget(tabFunctions_6);
-        listWidget_30->setObjectName(QStringLiteral("listWidget_30"));
+        listWidget_30->setObjectName(QString::fromUtf8("listWidget_30"));
 
         verticalLayout_54->addWidget(listWidget_30);
 
@@ -2296,49 +2307,49 @@ public:
 
         settingsStackedWidget->addWidget(databasesPage);
         EditorPage = new QWidget();
-        EditorPage->setObjectName(QStringLiteral("EditorPage"));
+        EditorPage->setObjectName(QString::fromUtf8("EditorPage"));
         verticalLayout_19 = new QVBoxLayout(EditorPage);
-        verticalLayout_19->setObjectName(QStringLiteral("verticalLayout_19"));
+        verticalLayout_19->setObjectName(QString::fromUtf8("verticalLayout_19"));
         tabWidgetEditor = new QTabWidget(EditorPage);
-        tabWidgetEditor->setObjectName(QStringLiteral("tabWidgetEditor"));
+        tabWidgetEditor->setObjectName(QString::fromUtf8("tabWidgetEditor"));
         tab_7 = new QWidget();
-        tab_7->setObjectName(QStringLiteral("tab_7"));
+        tab_7->setObjectName(QString::fromUtf8("tab_7"));
         verticalLayout_22 = new QVBoxLayout(tab_7);
-        verticalLayout_22->setObjectName(QStringLiteral("verticalLayout_22"));
+        verticalLayout_22->setObjectName(QString::fromUtf8("verticalLayout_22"));
         groupBox_2 = new QGroupBox(tab_7);
-        groupBox_2->setObjectName(QStringLiteral("groupBox_2"));
+        groupBox_2->setObjectName(QString::fromUtf8("groupBox_2"));
         groupBox_2->setMaximumSize(QSize(16777215, 90));
         verticalLayout_20 = new QVBoxLayout(groupBox_2);
-        verticalLayout_20->setObjectName(QStringLiteral("verticalLayout_20"));
+        verticalLayout_20->setObjectName(QString::fromUtf8("verticalLayout_20"));
         horizontalLayout_12 = new QHBoxLayout();
-        horizontalLayout_12->setObjectName(QStringLiteral("horizontalLayout_12"));
+        horizontalLayout_12->setObjectName(QString::fromUtf8("horizontalLayout_12"));
         label_14 = new QLabel(groupBox_2);
-        label_14->setObjectName(QStringLiteral("label_14"));
+        label_14->setObjectName(QString::fromUtf8("label_14"));
         label_14->setMaximumSize(QSize(130, 16777215));
 
         horizontalLayout_12->addWidget(label_14);
 
         fontComboBoxGeneral = new QFontComboBox(groupBox_2);
-        fontComboBoxGeneral->setObjectName(QStringLiteral("fontComboBoxGeneral"));
+        fontComboBoxGeneral->setObjectName(QString::fromUtf8("fontComboBoxGeneral"));
 
         horizontalLayout_12->addWidget(fontComboBoxGeneral);
 
         label_12 = new QLabel(groupBox_2);
-        label_12->setObjectName(QStringLiteral("label_12"));
+        label_12->setObjectName(QString::fromUtf8("label_12"));
         label_12->setMaximumSize(QSize(60, 16777215));
         label_12->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
 
         horizontalLayout_12->addWidget(label_12);
 
         spinBoxSizeGeneral = new QSpinBox(groupBox_2);
-        spinBoxSizeGeneral->setObjectName(QStringLiteral("spinBoxSizeGeneral"));
+        spinBoxSizeGeneral->setObjectName(QString::fromUtf8("spinBoxSizeGeneral"));
         spinBoxSizeGeneral->setMaximumSize(QSize(60, 16777215));
         spinBoxSizeGeneral->setValue(10);
 
         horizontalLayout_12->addWidget(spinBoxSizeGeneral);
 
         checkBoxAntialiasGeneral = new QCheckBox(groupBox_2);
-        checkBoxAntialiasGeneral->setObjectName(QStringLiteral("checkBoxAntialiasGeneral"));
+        checkBoxAntialiasGeneral->setObjectName(QString::fromUtf8("checkBoxAntialiasGeneral"));
         checkBoxAntialiasGeneral->setMaximumSize(QSize(100, 16777215));
         checkBoxAntialiasGeneral->setChecked(true);
 
@@ -2348,34 +2359,34 @@ public:
         verticalLayout_20->addLayout(horizontalLayout_12);
 
         horizontalLayout_14 = new QHBoxLayout();
-        horizontalLayout_14->setObjectName(QStringLiteral("horizontalLayout_14"));
+        horizontalLayout_14->setObjectName(QString::fromUtf8("horizontalLayout_14"));
         label_13 = new QLabel(groupBox_2);
-        label_13->setObjectName(QStringLiteral("label_13"));
+        label_13->setObjectName(QString::fromUtf8("label_13"));
         label_13->setMaximumSize(QSize(130, 16777215));
 
         horizontalLayout_14->addWidget(label_13);
 
         fontComboBoxEditor = new QFontComboBox(groupBox_2);
-        fontComboBoxEditor->setObjectName(QStringLiteral("fontComboBoxEditor"));
+        fontComboBoxEditor->setObjectName(QString::fromUtf8("fontComboBoxEditor"));
 
         horizontalLayout_14->addWidget(fontComboBoxEditor);
 
         label_15 = new QLabel(groupBox_2);
-        label_15->setObjectName(QStringLiteral("label_15"));
+        label_15->setObjectName(QString::fromUtf8("label_15"));
         label_15->setMaximumSize(QSize(60, 16777215));
         label_15->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
 
         horizontalLayout_14->addWidget(label_15);
 
         spinBoxSizeEditor = new QSpinBox(groupBox_2);
-        spinBoxSizeEditor->setObjectName(QStringLiteral("spinBoxSizeEditor"));
+        spinBoxSizeEditor->setObjectName(QString::fromUtf8("spinBoxSizeEditor"));
         spinBoxSizeEditor->setMaximumSize(QSize(60, 16777215));
         spinBoxSizeEditor->setValue(10);
 
         horizontalLayout_14->addWidget(spinBoxSizeEditor);
 
         checkBoxAntialiasEditor = new QCheckBox(groupBox_2);
-        checkBoxAntialiasEditor->setObjectName(QStringLiteral("checkBoxAntialiasEditor"));
+        checkBoxAntialiasEditor->setObjectName(QString::fromUtf8("checkBoxAntialiasEditor"));
         checkBoxAntialiasEditor->setMaximumSize(QSize(100, 16777215));
         checkBoxAntialiasEditor->setChecked(true);
 
@@ -2388,24 +2399,25 @@ public:
         verticalLayout_22->addWidget(groupBox_2);
 
         groupBox_3 = new QGroupBox(tab_7);
-        groupBox_3->setObjectName(QStringLiteral("groupBox_3"));
+        groupBox_3->setObjectName(QString::fromUtf8("groupBox_3"));
         verticalLayout_24 = new QVBoxLayout(groupBox_3);
-        verticalLayout_24->setObjectName(QStringLiteral("verticalLayout_24"));
+        verticalLayout_24->setObjectName(QString::fromUtf8("verticalLayout_24"));
         horizontalLayout_19 = new QHBoxLayout();
-        horizontalLayout_19->setObjectName(QStringLiteral("horizontalLayout_19"));
+        horizontalLayout_19->setObjectName(QString::fromUtf8("horizontalLayout_19"));
         comboBoxColorScheme = new QComboBox(groupBox_3);
-        comboBoxColorScheme->setObjectName(QStringLiteral("comboBoxColorScheme"));
+        comboBoxColorScheme->addItem(QString());
+        comboBoxColorScheme->setObjectName(QString::fromUtf8("comboBoxColorScheme"));
 
         horizontalLayout_19->addWidget(comboBoxColorScheme);
 
         pushButtonCopyScheme = new QPushButton(groupBox_3);
-        pushButtonCopyScheme->setObjectName(QStringLiteral("pushButtonCopyScheme"));
+        pushButtonCopyScheme->setObjectName(QString::fromUtf8("pushButtonCopyScheme"));
         pushButtonCopyScheme->setMaximumSize(QSize(100, 16777215));
 
         horizontalLayout_19->addWidget(pushButtonCopyScheme);
 
         pushButtonDeleteScheme = new QPushButton(groupBox_3);
-        pushButtonDeleteScheme->setObjectName(QStringLiteral("pushButtonDeleteScheme"));
+        pushButtonDeleteScheme->setObjectName(QString::fromUtf8("pushButtonDeleteScheme"));
         pushButtonDeleteScheme->setMaximumSize(QSize(100, 16777215));
 
         horizontalLayout_19->addWidget(pushButtonDeleteScheme);
@@ -2414,7 +2426,7 @@ public:
         verticalLayout_24->addLayout(horizontalLayout_19);
 
         horizontalLayout_18 = new QHBoxLayout();
-        horizontalLayout_18->setObjectName(QStringLiteral("horizontalLayout_18"));
+        horizontalLayout_18->setObjectName(QString::fromUtf8("horizontalLayout_18"));
         tableWidgetColorScheme = new QTableWidget(groupBox_3);
         if (tableWidgetColorScheme->columnCount() < 1)
             tableWidgetColorScheme->setColumnCount(1);
@@ -2423,28 +2435,28 @@ public:
         if (tableWidgetColorScheme->rowCount() < 8)
             tableWidgetColorScheme->setRowCount(8);
         QTableWidgetItem *__qtablewidgetitem1 = new QTableWidgetItem();
-        __qtablewidgetitem1->setText(QStringLiteral("0"));
+        __qtablewidgetitem1->setText(QString::fromUtf8("0"));
         tableWidgetColorScheme->setVerticalHeaderItem(0, __qtablewidgetitem1);
         QTableWidgetItem *__qtablewidgetitem2 = new QTableWidgetItem();
-        __qtablewidgetitem2->setText(QStringLiteral("1"));
+        __qtablewidgetitem2->setText(QString::fromUtf8("1"));
         tableWidgetColorScheme->setVerticalHeaderItem(1, __qtablewidgetitem2);
         QTableWidgetItem *__qtablewidgetitem3 = new QTableWidgetItem();
-        __qtablewidgetitem3->setText(QStringLiteral("2"));
+        __qtablewidgetitem3->setText(QString::fromUtf8("2"));
         tableWidgetColorScheme->setVerticalHeaderItem(2, __qtablewidgetitem3);
         QTableWidgetItem *__qtablewidgetitem4 = new QTableWidgetItem();
-        __qtablewidgetitem4->setText(QStringLiteral("3"));
+        __qtablewidgetitem4->setText(QString::fromUtf8("3"));
         tableWidgetColorScheme->setVerticalHeaderItem(3, __qtablewidgetitem4);
         QTableWidgetItem *__qtablewidgetitem5 = new QTableWidgetItem();
-        __qtablewidgetitem5->setText(QStringLiteral("4"));
+        __qtablewidgetitem5->setText(QString::fromUtf8("4"));
         tableWidgetColorScheme->setVerticalHeaderItem(4, __qtablewidgetitem5);
         QTableWidgetItem *__qtablewidgetitem6 = new QTableWidgetItem();
-        __qtablewidgetitem6->setText(QStringLiteral("5"));
+        __qtablewidgetitem6->setText(QString::fromUtf8("5"));
         tableWidgetColorScheme->setVerticalHeaderItem(5, __qtablewidgetitem6);
         QTableWidgetItem *__qtablewidgetitem7 = new QTableWidgetItem();
-        __qtablewidgetitem7->setText(QStringLiteral("6"));
+        __qtablewidgetitem7->setText(QString::fromUtf8("6"));
         tableWidgetColorScheme->setVerticalHeaderItem(6, __qtablewidgetitem7);
         QTableWidgetItem *__qtablewidgetitem8 = new QTableWidgetItem();
-        __qtablewidgetitem8->setText(QStringLiteral("7"));
+        __qtablewidgetitem8->setText(QString::fromUtf8("7"));
         tableWidgetColorScheme->setVerticalHeaderItem(7, __qtablewidgetitem8);
         QTableWidgetItem *__qtablewidgetitem9 = new QTableWidgetItem();
         tableWidgetColorScheme->setItem(0, 0, __qtablewidgetitem9);
@@ -2462,7 +2474,7 @@ public:
         tableWidgetColorScheme->setItem(6, 0, __qtablewidgetitem15);
         QTableWidgetItem *__qtablewidgetitem16 = new QTableWidgetItem();
         tableWidgetColorScheme->setItem(7, 0, __qtablewidgetitem16);
-        tableWidgetColorScheme->setObjectName(QStringLiteral("tableWidgetColorScheme"));
+        tableWidgetColorScheme->setObjectName(QString::fromUtf8("tableWidgetColorScheme"));
         tableWidgetColorScheme->setEditTriggers(QAbstractItemView::NoEditTriggers);
         tableWidgetColorScheme->setSelectionMode(QAbstractItemView::SingleSelection);
         tableWidgetColorScheme->setSelectionBehavior(QAbstractItemView::SelectRows);
@@ -2473,36 +2485,38 @@ public:
         horizontalLayout_18->addWidget(tableWidgetColorScheme);
 
         frame_3 = new QFrame(groupBox_3);
-        frame_3->setObjectName(QStringLiteral("frame_3"));
+        frame_3->setObjectName(QString::fromUtf8("frame_3"));
         frame_3->setMinimumSize(QSize(210, 0));
         frame_3->setMaximumSize(QSize(210, 16777215));
         frame_3->setFrameShape(QFrame::StyledPanel);
         frame_3->setFrameShadow(QFrame::Raised);
         verticalLayout_23 = new QVBoxLayout(frame_3);
-        verticalLayout_23->setObjectName(QStringLiteral("verticalLayout_23"));
+        verticalLayout_23->setObjectName(QString::fromUtf8("verticalLayout_23"));
         horizontalLayout_15 = new QHBoxLayout();
-        horizontalLayout_15->setObjectName(QStringLiteral("horizontalLayout_15"));
+        horizontalLayout_15->setObjectName(QString::fromUtf8("horizontalLayout_15"));
         label_16 = new QLabel(frame_3);
-        label_16->setObjectName(QStringLiteral("label_16"));
+        label_16->setObjectName(QString::fromUtf8("label_16"));
         label_16->setMinimumSize(QSize(120, 0));
         label_16->setMaximumSize(QSize(120, 16777215));
 
         horizontalLayout_15->addWidget(label_16);
 
         toolButtonFgColor = new QToolButton(frame_3);
-        toolButtonFgColor->setObjectName(QStringLiteral("toolButtonFgColor"));
+        toolButtonFgColor->setObjectName(QString::fromUtf8("toolButtonFgColor"));
         toolButtonFgColor->setMinimumSize(QSize(24, 24));
         toolButtonFgColor->setMaximumSize(QSize(24, 24));
-        toolButtonFgColor->setShortcut(QStringLiteral(""));
+#ifndef QT_NO_SHORTCUT
+        toolButtonFgColor->setShortcut(QString::fromUtf8(""));
+#endif // QT_NO_SHORTCUT
 
         horizontalLayout_15->addWidget(toolButtonFgColor);
 
         toolButtonClearFg = new QToolButton(frame_3);
-        toolButtonClearFg->setObjectName(QStringLiteral("toolButtonClearFg"));
+        toolButtonClearFg->setObjectName(QString::fromUtf8("toolButtonClearFg"));
         toolButtonClearFg->setMinimumSize(QSize(24, 24));
-        toolButtonClearFg->setText(QStringLiteral("..."));
+        toolButtonClearFg->setText(QString::fromUtf8("..."));
         QIcon icon12;
-        icon12.addFile(QStringLiteral(":/png/png_general/editdelete.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon12.addFile(QString::fromUtf8(":/png/png_general/editdelete.png"), QSize(), QIcon::Normal, QIcon::Off);
         toolButtonClearFg->setIcon(icon12);
 
         horizontalLayout_15->addWidget(toolButtonClearFg);
@@ -2515,26 +2529,26 @@ public:
         verticalLayout_23->addLayout(horizontalLayout_15);
 
         horizontalLayout_16 = new QHBoxLayout();
-        horizontalLayout_16->setObjectName(QStringLiteral("horizontalLayout_16"));
+        horizontalLayout_16->setObjectName(QString::fromUtf8("horizontalLayout_16"));
         label_17 = new QLabel(frame_3);
-        label_17->setObjectName(QStringLiteral("label_17"));
+        label_17->setObjectName(QString::fromUtf8("label_17"));
         label_17->setMinimumSize(QSize(120, 0));
         label_17->setMaximumSize(QSize(120, 16777215));
 
         horizontalLayout_16->addWidget(label_17);
 
         toolButtonBgColor = new QToolButton(frame_3);
-        toolButtonBgColor->setObjectName(QStringLiteral("toolButtonBgColor"));
+        toolButtonBgColor->setObjectName(QString::fromUtf8("toolButtonBgColor"));
         toolButtonBgColor->setMinimumSize(QSize(24, 24));
         toolButtonBgColor->setMaximumSize(QSize(24, 24));
-        toolButtonBgColor->setText(QStringLiteral(""));
+        toolButtonBgColor->setText(QString::fromUtf8(""));
 
         horizontalLayout_16->addWidget(toolButtonBgColor);
 
         toolButtonClearBg = new QToolButton(frame_3);
-        toolButtonClearBg->setObjectName(QStringLiteral("toolButtonClearBg"));
+        toolButtonClearBg->setObjectName(QString::fromUtf8("toolButtonClearBg"));
         toolButtonClearBg->setMinimumSize(QSize(24, 24));
-        toolButtonClearBg->setText(QStringLiteral("..."));
+        toolButtonClearBg->setText(QString::fromUtf8("..."));
         toolButtonClearBg->setIcon(icon12);
 
         horizontalLayout_16->addWidget(toolButtonClearBg);
@@ -2547,20 +2561,20 @@ public:
         verticalLayout_23->addLayout(horizontalLayout_16);
 
         horizontalLayout_17 = new QHBoxLayout();
-        horizontalLayout_17->setObjectName(QStringLiteral("horizontalLayout_17"));
+        horizontalLayout_17->setObjectName(QString::fromUtf8("horizontalLayout_17"));
         horizontalSpacer_11 = new QSpacerItem(130, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
 
         horizontalLayout_17->addItem(horizontalSpacer_11);
 
         verticalLayout_21 = new QVBoxLayout();
-        verticalLayout_21->setObjectName(QStringLiteral("verticalLayout_21"));
+        verticalLayout_21->setObjectName(QString::fromUtf8("verticalLayout_21"));
         checkBoxBold = new QCheckBox(frame_3);
-        checkBoxBold->setObjectName(QStringLiteral("checkBoxBold"));
+        checkBoxBold->setObjectName(QString::fromUtf8("checkBoxBold"));
 
         verticalLayout_21->addWidget(checkBoxBold);
 
         checkBoxItalic = new QCheckBox(frame_3);
-        checkBoxItalic->setObjectName(QStringLiteral("checkBoxItalic"));
+        checkBoxItalic->setObjectName(QString::fromUtf8("checkBoxItalic"));
 
         verticalLayout_21->addWidget(checkBoxItalic);
 
@@ -2585,31 +2599,31 @@ public:
 
         tabWidgetEditor->addTab(tab_7, QString());
         tab_8 = new QWidget();
-        tab_8->setObjectName(QStringLiteral("tab_8"));
+        tab_8->setObjectName(QString::fromUtf8("tab_8"));
         tabWidgetEditor->addTab(tab_8, QString());
 
         verticalLayout_19->addWidget(tabWidgetEditor);
 
         settingsStackedWidget->addWidget(EditorPage);
         appearancePage = new QWidget();
-        appearancePage->setObjectName(QStringLiteral("appearancePage"));
+        appearancePage->setObjectName(QString::fromUtf8("appearancePage"));
         gridLayout = new QGridLayout(appearancePage);
-        gridLayout->setObjectName(QStringLiteral("gridLayout"));
+        gridLayout->setObjectName(QString::fromUtf8("gridLayout"));
         tabWidgetAppearance = new QTabWidget(appearancePage);
-        tabWidgetAppearance->setObjectName(QStringLiteral("tabWidgetAppearance"));
+        tabWidgetAppearance->setObjectName(QString::fromUtf8("tabWidgetAppearance"));
         tabGuiStyle = new QWidget();
-        tabGuiStyle->setObjectName(QStringLiteral("tabGuiStyle"));
+        tabGuiStyle->setObjectName(QString::fromUtf8("tabGuiStyle"));
         verticalLayout_16 = new QVBoxLayout(tabGuiStyle);
-        verticalLayout_16->setObjectName(QStringLiteral("verticalLayout_16"));
+        verticalLayout_16->setObjectName(QString::fromUtf8("verticalLayout_16"));
         horizontalLayout_10 = new QHBoxLayout();
-        horizontalLayout_10->setObjectName(QStringLiteral("horizontalLayout_10"));
+        horizontalLayout_10->setObjectName(QString::fromUtf8("horizontalLayout_10"));
         label_11 = new QLabel(tabGuiStyle);
-        label_11->setObjectName(QStringLiteral("label_11"));
+        label_11->setObjectName(QString::fromUtf8("label_11"));
 
         horizontalLayout_10->addWidget(label_11);
 
         comboBoxGuiStyle = new QComboBox(tabGuiStyle);
-        comboBoxGuiStyle->setObjectName(QStringLiteral("comboBoxGuiStyle"));
+        comboBoxGuiStyle->setObjectName(QString::fromUtf8("comboBoxGuiStyle"));
         comboBoxGuiStyle->setMinimumSize(QSize(300, 0));
 
         horizontalLayout_10->addWidget(comboBoxGuiStyle);
@@ -2622,17 +2636,17 @@ public:
         verticalLayout_16->addLayout(horizontalLayout_10);
 
         splitter = new QSplitter(tabGuiStyle);
-        splitter->setObjectName(QStringLiteral("splitter"));
+        splitter->setObjectName(QString::fromUtf8("splitter"));
         splitter->setOrientation(Qt::Horizontal);
         treeWidgetConnSample = new QTreeWidget(splitter);
         QIcon icon13;
-        icon13.addFile(QStringLiteral(":/png/png_general/database.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon13.addFile(QString::fromUtf8(":/png/png_general/database.png"), QSize(), QIcon::Normal, QIcon::Off);
         QIcon icon14;
-        icon14.addFile(QStringLiteral(":/png/png_general/database_on.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon14.addFile(QString::fromUtf8(":/png/png_general/database_on.png"), QSize(), QIcon::Normal, QIcon::Off);
         QIcon icon15;
-        icon15.addFile(QStringLiteral(":/png/png_general/db_connection.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon15.addFile(QString::fromUtf8(":/png/png_general/db_connection.png"), QSize(), QIcon::Normal, QIcon::Off);
         QIcon icon16;
-        icon16.addFile(QStringLiteral(":/png/png_general/error.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon16.addFile(QString::fromUtf8(":/png/png_general/error.png"), QSize(), QIcon::Normal, QIcon::Off);
         QTreeWidgetItem *__qtreewidgetitem = new QTreeWidgetItem(treeWidgetConnSample);
         __qtreewidgetitem->setIcon(0, icon13);
         QTreeWidgetItem *__qtreewidgetitem1 = new QTreeWidgetItem(__qtreewidgetitem);
@@ -2647,49 +2661,49 @@ public:
         __qtreewidgetitem5->setIcon(0, icon14);
         QTreeWidgetItem *__qtreewidgetitem6 = new QTreeWidgetItem(__qtreewidgetitem4);
         __qtreewidgetitem6->setIcon(0, icon16);
-        treeWidgetConnSample->setObjectName(QStringLiteral("treeWidgetConnSample"));
+        treeWidgetConnSample->setObjectName(QString::fromUtf8("treeWidgetConnSample"));
         treeWidgetConnSample->setMaximumSize(QSize(220, 16777215));
         treeWidgetConnSample->setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOn);
         treeWidgetConnSample->setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOn);
         splitter->addWidget(treeWidgetConnSample);
         tabWidgetMdiSample = new QTabWidget(splitter);
-        tabWidgetMdiSample->setObjectName(QStringLiteral("tabWidgetMdiSample"));
+        tabWidgetMdiSample->setObjectName(QString::fromUtf8("tabWidgetMdiSample"));
         tabWidgetMdiSample->setEnabled(true);
         tabWidgetMdiSample->setTabsClosable(true);
         tab = new QWidget();
-        tab->setObjectName(QStringLiteral("tab"));
+        tab->setObjectName(QString::fromUtf8("tab"));
         verticalLayout_17 = new QVBoxLayout(tab);
-        verticalLayout_17->setObjectName(QStringLiteral("verticalLayout_17"));
+        verticalLayout_17->setObjectName(QString::fromUtf8("verticalLayout_17"));
         horizontalLayout_13 = new QHBoxLayout();
-        horizontalLayout_13->setObjectName(QStringLiteral("horizontalLayout_13"));
+        horizontalLayout_13->setObjectName(QString::fromUtf8("horizontalLayout_13"));
         toolButtonExec = new QToolButton(tab);
-        toolButtonExec->setObjectName(QStringLiteral("toolButtonExec"));
+        toolButtonExec->setObjectName(QString::fromUtf8("toolButtonExec"));
         QIcon icon17;
-        icon17.addFile(QStringLiteral(":/png/png_sqlwindow/1rightarrow.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon17.addFile(QString::fromUtf8(":/png/png_sqlwindow/1rightarrow.png"), QSize(), QIcon::Normal, QIcon::Off);
         toolButtonExec->setIcon(icon17);
 
         horizontalLayout_13->addWidget(toolButtonExec);
 
         toolButtonExecAll = new QToolButton(tab);
-        toolButtonExecAll->setObjectName(QStringLiteral("toolButtonExecAll"));
+        toolButtonExecAll->setObjectName(QString::fromUtf8("toolButtonExecAll"));
         QIcon icon18;
-        icon18.addFile(QStringLiteral(":/png/png_sqlwindow/exec_all.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon18.addFile(QString::fromUtf8(":/png/png_sqlwindow/exec_all.png"), QSize(), QIcon::Normal, QIcon::Off);
         toolButtonExecAll->setIcon(icon18);
 
         horizontalLayout_13->addWidget(toolButtonExecAll);
 
         toolButtonTimer = new QToolButton(tab);
-        toolButtonTimer->setObjectName(QStringLiteral("toolButtonTimer"));
+        toolButtonTimer->setObjectName(QString::fromUtf8("toolButtonTimer"));
         QIcon icon19;
-        icon19.addFile(QStringLiteral(":/png/png_sqlwindow/k_alarm.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon19.addFile(QString::fromUtf8(":/png/png_sqlwindow/k_alarm.png"), QSize(), QIcon::Normal, QIcon::Off);
         toolButtonTimer->setIcon(icon19);
 
         horizontalLayout_13->addWidget(toolButtonTimer);
 
         toolButtonExplain = new QToolButton(tab);
-        toolButtonExplain->setObjectName(QStringLiteral("toolButtonExplain"));
+        toolButtonExplain->setObjectName(QString::fromUtf8("toolButtonExplain"));
         QIcon icon20;
-        icon20.addFile(QStringLiteral(":/png/png_sqlwindow/enumList.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon20.addFile(QString::fromUtf8(":/png/png_sqlwindow/enumList.png"), QSize(), QIcon::Normal, QIcon::Off);
         toolButtonExplain->setIcon(icon20);
 
         horizontalLayout_13->addWidget(toolButtonExplain);
@@ -2699,25 +2713,25 @@ public:
         horizontalLayout_13->addItem(horizontalSpacer_8);
 
         toolButtonCommit = new QToolButton(tab);
-        toolButtonCommit->setObjectName(QStringLiteral("toolButtonCommit"));
+        toolButtonCommit->setObjectName(QString::fromUtf8("toolButtonCommit"));
         QIcon icon21;
-        icon21.addFile(QStringLiteral(":/png/png_sqlwindow/agt_action_success.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon21.addFile(QString::fromUtf8(":/png/png_sqlwindow/agt_action_success.png"), QSize(), QIcon::Normal, QIcon::Off);
         toolButtonCommit->setIcon(icon21);
 
         horizontalLayout_13->addWidget(toolButtonCommit);
 
         toolButtonRollback = new QToolButton(tab);
-        toolButtonRollback->setObjectName(QStringLiteral("toolButtonRollback"));
+        toolButtonRollback->setObjectName(QString::fromUtf8("toolButtonRollback"));
         QIcon icon22;
-        icon22.addFile(QStringLiteral(":/png/png_sqlwindow/rollback.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon22.addFile(QString::fromUtf8(":/png/png_sqlwindow/rollback.png"), QSize(), QIcon::Normal, QIcon::Off);
         toolButtonRollback->setIcon(icon22);
 
         horizontalLayout_13->addWidget(toolButtonRollback);
 
         toolButtonClear = new QToolButton(tab);
-        toolButtonClear->setObjectName(QStringLiteral("toolButtonClear"));
+        toolButtonClear->setObjectName(QString::fromUtf8("toolButtonClear"));
         QIcon icon23;
-        icon23.addFile(QStringLiteral(":/png/png_sqlwindow/editclear.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon23.addFile(QString::fromUtf8(":/png/png_sqlwindow/editclear.png"), QSize(), QIcon::Normal, QIcon::Off);
         toolButtonClear->setIcon(icon23);
 
         horizontalLayout_13->addWidget(toolButtonClear);
@@ -2727,7 +2741,10 @@ public:
         horizontalLayout_13->addItem(horizontalSpacer_9);
 
         comboBoxConn = new QComboBox(tab);
-        comboBoxConn->setObjectName(QStringLiteral("comboBoxConn"));
+        comboBoxConn->addItem(QString());
+        comboBoxConn->addItem(QString());
+        comboBoxConn->addItem(QString());
+        comboBoxConn->setObjectName(QString::fromUtf8("comboBoxConn"));
         comboBoxConn->setMinimumSize(QSize(120, 0));
 
         horizontalLayout_13->addWidget(comboBoxConn);
@@ -2737,17 +2754,17 @@ public:
         horizontalLayout_13->addItem(horizontalSpacer_10);
 
         toolButtonZoomIn = new QToolButton(tab);
-        toolButtonZoomIn->setObjectName(QStringLiteral("toolButtonZoomIn"));
+        toolButtonZoomIn->setObjectName(QString::fromUtf8("toolButtonZoomIn"));
         QIcon icon24;
-        icon24.addFile(QStringLiteral(":/png/png_general/viewmag+.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon24.addFile(QString::fromUtf8(":/png/png_general/viewmag+.png"), QSize(), QIcon::Normal, QIcon::Off);
         toolButtonZoomIn->setIcon(icon24);
 
         horizontalLayout_13->addWidget(toolButtonZoomIn);
 
         toolButtonZoomOut = new QToolButton(tab);
-        toolButtonZoomOut->setObjectName(QStringLiteral("toolButtonZoomOut"));
+        toolButtonZoomOut->setObjectName(QString::fromUtf8("toolButtonZoomOut"));
         QIcon icon25;
-        icon25.addFile(QStringLiteral(":/png/png_general/viewmag-.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon25.addFile(QString::fromUtf8(":/png/png_general/viewmag-.png"), QSize(), QIcon::Normal, QIcon::Off);
         toolButtonZoomOut->setIcon(icon25);
 
         horizontalLayout_13->addWidget(toolButtonZoomOut);
@@ -2756,13 +2773,13 @@ public:
         verticalLayout_17->addLayout(horizontalLayout_13);
 
         tabWidgetSqlWinSample = new QTabWidget(tab);
-        tabWidgetSqlWinSample->setObjectName(QStringLiteral("tabWidgetSqlWinSample"));
+        tabWidgetSqlWinSample->setObjectName(QString::fromUtf8("tabWidgetSqlWinSample"));
         tab_4 = new QWidget();
-        tab_4->setObjectName(QStringLiteral("tab_4"));
+        tab_4->setObjectName(QString::fromUtf8("tab_4"));
         verticalLayout_18 = new QVBoxLayout(tab_4);
-        verticalLayout_18->setObjectName(QStringLiteral("verticalLayout_18"));
+        verticalLayout_18->setObjectName(QString::fromUtf8("verticalLayout_18"));
         textEditSql = new QTextEdit(tab_4);
-        textEditSql->setObjectName(QStringLiteral("textEditSql"));
+        textEditSql->setObjectName(QString::fromUtf8("textEditSql"));
         textEditSql->setMaximumSize(QSize(16777215, 60));
 
         verticalLayout_18->addWidget(textEditSql);
@@ -2771,223 +2788,223 @@ public:
         if (tableWidgetResults->columnCount() < 5)
             tableWidgetResults->setColumnCount(5);
         QTableWidgetItem *__qtablewidgetitem17 = new QTableWidgetItem();
-        __qtablewidgetitem17->setText(QStringLiteral("TABLE_CATALOG"));
+        __qtablewidgetitem17->setText(QString::fromUtf8("TABLE_CATALOG"));
         tableWidgetResults->setHorizontalHeaderItem(0, __qtablewidgetitem17);
         QTableWidgetItem *__qtablewidgetitem18 = new QTableWidgetItem();
-        __qtablewidgetitem18->setText(QStringLiteral("TABLE_SCHEMA"));
+        __qtablewidgetitem18->setText(QString::fromUtf8("TABLE_SCHEMA"));
         tableWidgetResults->setHorizontalHeaderItem(1, __qtablewidgetitem18);
         QTableWidgetItem *__qtablewidgetitem19 = new QTableWidgetItem();
-        __qtablewidgetitem19->setText(QStringLiteral("TABLE_NAME"));
+        __qtablewidgetitem19->setText(QString::fromUtf8("TABLE_NAME"));
         tableWidgetResults->setHorizontalHeaderItem(2, __qtablewidgetitem19);
         QTableWidgetItem *__qtablewidgetitem20 = new QTableWidgetItem();
-        __qtablewidgetitem20->setText(QStringLiteral("COLUMN_NAME"));
+        __qtablewidgetitem20->setText(QString::fromUtf8("COLUMN_NAME"));
         tableWidgetResults->setHorizontalHeaderItem(3, __qtablewidgetitem20);
         QTableWidgetItem *__qtablewidgetitem21 = new QTableWidgetItem();
-        __qtablewidgetitem21->setText(QStringLiteral("ORDINAL_POSITION"));
+        __qtablewidgetitem21->setText(QString::fromUtf8("ORDINAL_POSITION"));
         tableWidgetResults->setHorizontalHeaderItem(4, __qtablewidgetitem21);
         if (tableWidgetResults->rowCount() < 10)
             tableWidgetResults->setRowCount(10);
         QTableWidgetItem *__qtablewidgetitem22 = new QTableWidgetItem();
-        __qtablewidgetitem22->setText(QStringLiteral("1"));
+        __qtablewidgetitem22->setText(QString::fromUtf8("1"));
         tableWidgetResults->setVerticalHeaderItem(0, __qtablewidgetitem22);
         QTableWidgetItem *__qtablewidgetitem23 = new QTableWidgetItem();
-        __qtablewidgetitem23->setText(QStringLiteral("2"));
+        __qtablewidgetitem23->setText(QString::fromUtf8("2"));
         tableWidgetResults->setVerticalHeaderItem(1, __qtablewidgetitem23);
         QTableWidgetItem *__qtablewidgetitem24 = new QTableWidgetItem();
-        __qtablewidgetitem24->setText(QStringLiteral("3"));
+        __qtablewidgetitem24->setText(QString::fromUtf8("3"));
         tableWidgetResults->setVerticalHeaderItem(2, __qtablewidgetitem24);
         QTableWidgetItem *__qtablewidgetitem25 = new QTableWidgetItem();
-        __qtablewidgetitem25->setText(QStringLiteral("4"));
+        __qtablewidgetitem25->setText(QString::fromUtf8("4"));
         tableWidgetResults->setVerticalHeaderItem(3, __qtablewidgetitem25);
         QTableWidgetItem *__qtablewidgetitem26 = new QTableWidgetItem();
-        __qtablewidgetitem26->setText(QStringLiteral("5"));
+        __qtablewidgetitem26->setText(QString::fromUtf8("5"));
         tableWidgetResults->setVerticalHeaderItem(4, __qtablewidgetitem26);
         QTableWidgetItem *__qtablewidgetitem27 = new QTableWidgetItem();
-        __qtablewidgetitem27->setText(QStringLiteral("6"));
+        __qtablewidgetitem27->setText(QString::fromUtf8("6"));
         tableWidgetResults->setVerticalHeaderItem(5, __qtablewidgetitem27);
         QTableWidgetItem *__qtablewidgetitem28 = new QTableWidgetItem();
-        __qtablewidgetitem28->setText(QStringLiteral("7"));
+        __qtablewidgetitem28->setText(QString::fromUtf8("7"));
         tableWidgetResults->setVerticalHeaderItem(6, __qtablewidgetitem28);
         QTableWidgetItem *__qtablewidgetitem29 = new QTableWidgetItem();
-        __qtablewidgetitem29->setText(QStringLiteral("8"));
+        __qtablewidgetitem29->setText(QString::fromUtf8("8"));
         tableWidgetResults->setVerticalHeaderItem(7, __qtablewidgetitem29);
         QTableWidgetItem *__qtablewidgetitem30 = new QTableWidgetItem();
-        __qtablewidgetitem30->setText(QStringLiteral("9"));
+        __qtablewidgetitem30->setText(QString::fromUtf8("9"));
         tableWidgetResults->setVerticalHeaderItem(8, __qtablewidgetitem30);
         QTableWidgetItem *__qtablewidgetitem31 = new QTableWidgetItem();
-        __qtablewidgetitem31->setText(QStringLiteral("10"));
+        __qtablewidgetitem31->setText(QString::fromUtf8("10"));
         tableWidgetResults->setVerticalHeaderItem(9, __qtablewidgetitem31);
         QTableWidgetItem *__qtablewidgetitem32 = new QTableWidgetItem();
-        __qtablewidgetitem32->setText(QStringLiteral("null"));
+        __qtablewidgetitem32->setText(QString::fromUtf8("null"));
         tableWidgetResults->setItem(0, 0, __qtablewidgetitem32);
         QTableWidgetItem *__qtablewidgetitem33 = new QTableWidgetItem();
-        __qtablewidgetitem33->setText(QStringLiteral("information_schema"));
+        __qtablewidgetitem33->setText(QString::fromUtf8("information_schema"));
         tableWidgetResults->setItem(0, 1, __qtablewidgetitem33);
         QTableWidgetItem *__qtablewidgetitem34 = new QTableWidgetItem();
-        __qtablewidgetitem34->setText(QStringLiteral("CHARACTER_SETS"));
+        __qtablewidgetitem34->setText(QString::fromUtf8("CHARACTER_SETS"));
         tableWidgetResults->setItem(0, 2, __qtablewidgetitem34);
         QTableWidgetItem *__qtablewidgetitem35 = new QTableWidgetItem();
-        __qtablewidgetitem35->setText(QStringLiteral("CHARACTER_SET_NAME"));
+        __qtablewidgetitem35->setText(QString::fromUtf8("CHARACTER_SET_NAME"));
         tableWidgetResults->setItem(0, 3, __qtablewidgetitem35);
         QTableWidgetItem *__qtablewidgetitem36 = new QTableWidgetItem();
-        __qtablewidgetitem36->setText(QStringLiteral("1"));
+        __qtablewidgetitem36->setText(QString::fromUtf8("1"));
         tableWidgetResults->setItem(0, 4, __qtablewidgetitem36);
         QTableWidgetItem *__qtablewidgetitem37 = new QTableWidgetItem();
-        __qtablewidgetitem37->setText(QStringLiteral("null"));
+        __qtablewidgetitem37->setText(QString::fromUtf8("null"));
         tableWidgetResults->setItem(1, 0, __qtablewidgetitem37);
         QTableWidgetItem *__qtablewidgetitem38 = new QTableWidgetItem();
-        __qtablewidgetitem38->setText(QStringLiteral("information_schema"));
+        __qtablewidgetitem38->setText(QString::fromUtf8("information_schema"));
         tableWidgetResults->setItem(1, 1, __qtablewidgetitem38);
         QTableWidgetItem *__qtablewidgetitem39 = new QTableWidgetItem();
-        __qtablewidgetitem39->setText(QStringLiteral("CHARACTER_SETS"));
+        __qtablewidgetitem39->setText(QString::fromUtf8("CHARACTER_SETS"));
         tableWidgetResults->setItem(1, 2, __qtablewidgetitem39);
         QTableWidgetItem *__qtablewidgetitem40 = new QTableWidgetItem();
-        __qtablewidgetitem40->setText(QStringLiteral("DEFAULT_COLLATE_NAME"));
+        __qtablewidgetitem40->setText(QString::fromUtf8("DEFAULT_COLLATE_NAME"));
         tableWidgetResults->setItem(1, 3, __qtablewidgetitem40);
         QTableWidgetItem *__qtablewidgetitem41 = new QTableWidgetItem();
-        __qtablewidgetitem41->setText(QStringLiteral("2"));
+        __qtablewidgetitem41->setText(QString::fromUtf8("2"));
         tableWidgetResults->setItem(1, 4, __qtablewidgetitem41);
         QTableWidgetItem *__qtablewidgetitem42 = new QTableWidgetItem();
-        __qtablewidgetitem42->setText(QStringLiteral("null"));
+        __qtablewidgetitem42->setText(QString::fromUtf8("null"));
         tableWidgetResults->setItem(2, 0, __qtablewidgetitem42);
         QTableWidgetItem *__qtablewidgetitem43 = new QTableWidgetItem();
-        __qtablewidgetitem43->setText(QStringLiteral("information_schema"));
+        __qtablewidgetitem43->setText(QString::fromUtf8("information_schema"));
         tableWidgetResults->setItem(2, 1, __qtablewidgetitem43);
         QTableWidgetItem *__qtablewidgetitem44 = new QTableWidgetItem();
-        __qtablewidgetitem44->setText(QStringLiteral("CHARACTER_SETS"));
+        __qtablewidgetitem44->setText(QString::fromUtf8("CHARACTER_SETS"));
         tableWidgetResults->setItem(2, 2, __qtablewidgetitem44);
         QTableWidgetItem *__qtablewidgetitem45 = new QTableWidgetItem();
-        __qtablewidgetitem45->setText(QStringLiteral("DESCRIPTION"));
+        __qtablewidgetitem45->setText(QString::fromUtf8("DESCRIPTION"));
         tableWidgetResults->setItem(2, 3, __qtablewidgetitem45);
         QTableWidgetItem *__qtablewidgetitem46 = new QTableWidgetItem();
-        __qtablewidgetitem46->setText(QStringLiteral("3"));
+        __qtablewidgetitem46->setText(QString::fromUtf8("3"));
         tableWidgetResults->setItem(2, 4, __qtablewidgetitem46);
         QTableWidgetItem *__qtablewidgetitem47 = new QTableWidgetItem();
-        __qtablewidgetitem47->setText(QStringLiteral("null"));
+        __qtablewidgetitem47->setText(QString::fromUtf8("null"));
         tableWidgetResults->setItem(3, 0, __qtablewidgetitem47);
         QTableWidgetItem *__qtablewidgetitem48 = new QTableWidgetItem();
-        __qtablewidgetitem48->setText(QStringLiteral("information_schema"));
+        __qtablewidgetitem48->setText(QString::fromUtf8("information_schema"));
         tableWidgetResults->setItem(3, 1, __qtablewidgetitem48);
         QTableWidgetItem *__qtablewidgetitem49 = new QTableWidgetItem();
-        __qtablewidgetitem49->setText(QStringLiteral("CHARACTER_SETS"));
+        __qtablewidgetitem49->setText(QString::fromUtf8("CHARACTER_SETS"));
         tableWidgetResults->setItem(3, 2, __qtablewidgetitem49);
         QTableWidgetItem *__qtablewidgetitem50 = new QTableWidgetItem();
-        __qtablewidgetitem50->setText(QStringLiteral("MAXLEN"));
+        __qtablewidgetitem50->setText(QString::fromUtf8("MAXLEN"));
         tableWidgetResults->setItem(3, 3, __qtablewidgetitem50);
         QTableWidgetItem *__qtablewidgetitem51 = new QTableWidgetItem();
-        __qtablewidgetitem51->setText(QStringLiteral("4"));
+        __qtablewidgetitem51->setText(QString::fromUtf8("4"));
         tableWidgetResults->setItem(3, 4, __qtablewidgetitem51);
         QTableWidgetItem *__qtablewidgetitem52 = new QTableWidgetItem();
-        __qtablewidgetitem52->setText(QStringLiteral("null"));
+        __qtablewidgetitem52->setText(QString::fromUtf8("null"));
         tableWidgetResults->setItem(4, 0, __qtablewidgetitem52);
         QTableWidgetItem *__qtablewidgetitem53 = new QTableWidgetItem();
-        __qtablewidgetitem53->setText(QStringLiteral("information_schema"));
+        __qtablewidgetitem53->setText(QString::fromUtf8("information_schema"));
         tableWidgetResults->setItem(4, 1, __qtablewidgetitem53);
         QTableWidgetItem *__qtablewidgetitem54 = new QTableWidgetItem();
-        __qtablewidgetitem54->setText(QStringLiteral("COLLATIONS"));
+        __qtablewidgetitem54->setText(QString::fromUtf8("COLLATIONS"));
         tableWidgetResults->setItem(4, 2, __qtablewidgetitem54);
         QTableWidgetItem *__qtablewidgetitem55 = new QTableWidgetItem();
-        __qtablewidgetitem55->setText(QStringLiteral("COLLATION_NAME"));
+        __qtablewidgetitem55->setText(QString::fromUtf8("COLLATION_NAME"));
         tableWidgetResults->setItem(4, 3, __qtablewidgetitem55);
         QTableWidgetItem *__qtablewidgetitem56 = new QTableWidgetItem();
-        __qtablewidgetitem56->setText(QStringLiteral("1"));
+        __qtablewidgetitem56->setText(QString::fromUtf8("1"));
         tableWidgetResults->setItem(4, 4, __qtablewidgetitem56);
         QTableWidgetItem *__qtablewidgetitem57 = new QTableWidgetItem();
-        __qtablewidgetitem57->setText(QStringLiteral("null"));
+        __qtablewidgetitem57->setText(QString::fromUtf8("null"));
         tableWidgetResults->setItem(5, 0, __qtablewidgetitem57);
         QTableWidgetItem *__qtablewidgetitem58 = new QTableWidgetItem();
-        __qtablewidgetitem58->setText(QStringLiteral("information_schema"));
+        __qtablewidgetitem58->setText(QString::fromUtf8("information_schema"));
         tableWidgetResults->setItem(5, 1, __qtablewidgetitem58);
         QTableWidgetItem *__qtablewidgetitem59 = new QTableWidgetItem();
-        __qtablewidgetitem59->setText(QStringLiteral("COLLATIONS"));
+        __qtablewidgetitem59->setText(QString::fromUtf8("COLLATIONS"));
         tableWidgetResults->setItem(5, 2, __qtablewidgetitem59);
         QTableWidgetItem *__qtablewidgetitem60 = new QTableWidgetItem();
-        __qtablewidgetitem60->setText(QStringLiteral("CHARACTER_SET_NAME"));
+        __qtablewidgetitem60->setText(QString::fromUtf8("CHARACTER_SET_NAME"));
         tableWidgetResults->setItem(5, 3, __qtablewidgetitem60);
         QTableWidgetItem *__qtablewidgetitem61 = new QTableWidgetItem();
-        __qtablewidgetitem61->setText(QStringLiteral("2"));
+        __qtablewidgetitem61->setText(QString::fromUtf8("2"));
         tableWidgetResults->setItem(5, 4, __qtablewidgetitem61);
         QTableWidgetItem *__qtablewidgetitem62 = new QTableWidgetItem();
-        __qtablewidgetitem62->setText(QStringLiteral("null"));
+        __qtablewidgetitem62->setText(QString::fromUtf8("null"));
         tableWidgetResults->setItem(6, 0, __qtablewidgetitem62);
         QTableWidgetItem *__qtablewidgetitem63 = new QTableWidgetItem();
-        __qtablewidgetitem63->setText(QStringLiteral("information_schema"));
+        __qtablewidgetitem63->setText(QString::fromUtf8("information_schema"));
         tableWidgetResults->setItem(6, 1, __qtablewidgetitem63);
         QTableWidgetItem *__qtablewidgetitem64 = new QTableWidgetItem();
-        __qtablewidgetitem64->setText(QStringLiteral("COLLATIONS"));
+        __qtablewidgetitem64->setText(QString::fromUtf8("COLLATIONS"));
         tableWidgetResults->setItem(6, 2, __qtablewidgetitem64);
         QTableWidgetItem *__qtablewidgetitem65 = new QTableWidgetItem();
-        __qtablewidgetitem65->setText(QStringLiteral("ID"));
+        __qtablewidgetitem65->setText(QString::fromUtf8("ID"));
         tableWidgetResults->setItem(6, 3, __qtablewidgetitem65);
         QTableWidgetItem *__qtablewidgetitem66 = new QTableWidgetItem();
-        __qtablewidgetitem66->setText(QStringLiteral("3"));
+        __qtablewidgetitem66->setText(QString::fromUtf8("3"));
         tableWidgetResults->setItem(6, 4, __qtablewidgetitem66);
         QTableWidgetItem *__qtablewidgetitem67 = new QTableWidgetItem();
-        __qtablewidgetitem67->setText(QStringLiteral("null"));
+        __qtablewidgetitem67->setText(QString::fromUtf8("null"));
         tableWidgetResults->setItem(7, 0, __qtablewidgetitem67);
         QTableWidgetItem *__qtablewidgetitem68 = new QTableWidgetItem();
-        __qtablewidgetitem68->setText(QStringLiteral("information_schema"));
+        __qtablewidgetitem68->setText(QString::fromUtf8("information_schema"));
         tableWidgetResults->setItem(7, 1, __qtablewidgetitem68);
         QTableWidgetItem *__qtablewidgetitem69 = new QTableWidgetItem();
-        __qtablewidgetitem69->setText(QStringLiteral("COLLATIONS"));
+        __qtablewidgetitem69->setText(QString::fromUtf8("COLLATIONS"));
         tableWidgetResults->setItem(7, 2, __qtablewidgetitem69);
         QTableWidgetItem *__qtablewidgetitem70 = new QTableWidgetItem();
-        __qtablewidgetitem70->setText(QStringLiteral("IS_DEFAULT"));
+        __qtablewidgetitem70->setText(QString::fromUtf8("IS_DEFAULT"));
         tableWidgetResults->setItem(7, 3, __qtablewidgetitem70);
         QTableWidgetItem *__qtablewidgetitem71 = new QTableWidgetItem();
-        __qtablewidgetitem71->setText(QStringLiteral("4"));
+        __qtablewidgetitem71->setText(QString::fromUtf8("4"));
         tableWidgetResults->setItem(7, 4, __qtablewidgetitem71);
         QTableWidgetItem *__qtablewidgetitem72 = new QTableWidgetItem();
-        __qtablewidgetitem72->setText(QStringLiteral("null"));
+        __qtablewidgetitem72->setText(QString::fromUtf8("null"));
         tableWidgetResults->setItem(8, 0, __qtablewidgetitem72);
         QTableWidgetItem *__qtablewidgetitem73 = new QTableWidgetItem();
-        __qtablewidgetitem73->setText(QStringLiteral("information_schema"));
+        __qtablewidgetitem73->setText(QString::fromUtf8("information_schema"));
         tableWidgetResults->setItem(8, 1, __qtablewidgetitem73);
         QTableWidgetItem *__qtablewidgetitem74 = new QTableWidgetItem();
-        __qtablewidgetitem74->setText(QStringLiteral("COLLATIONS"));
+        __qtablewidgetitem74->setText(QString::fromUtf8("COLLATIONS"));
         tableWidgetResults->setItem(8, 2, __qtablewidgetitem74);
         QTableWidgetItem *__qtablewidgetitem75 = new QTableWidgetItem();
-        __qtablewidgetitem75->setText(QStringLiteral("IS_COMPILED"));
+        __qtablewidgetitem75->setText(QString::fromUtf8("IS_COMPILED"));
         tableWidgetResults->setItem(8, 3, __qtablewidgetitem75);
         QTableWidgetItem *__qtablewidgetitem76 = new QTableWidgetItem();
-        __qtablewidgetitem76->setText(QStringLiteral("5"));
+        __qtablewidgetitem76->setText(QString::fromUtf8("5"));
         tableWidgetResults->setItem(8, 4, __qtablewidgetitem76);
         QTableWidgetItem *__qtablewidgetitem77 = new QTableWidgetItem();
-        __qtablewidgetitem77->setText(QStringLiteral("null"));
+        __qtablewidgetitem77->setText(QString::fromUtf8("null"));
         tableWidgetResults->setItem(9, 0, __qtablewidgetitem77);
         QTableWidgetItem *__qtablewidgetitem78 = new QTableWidgetItem();
-        __qtablewidgetitem78->setText(QStringLiteral("information_schema"));
+        __qtablewidgetitem78->setText(QString::fromUtf8("information_schema"));
         tableWidgetResults->setItem(9, 1, __qtablewidgetitem78);
         QTableWidgetItem *__qtablewidgetitem79 = new QTableWidgetItem();
-        __qtablewidgetitem79->setText(QStringLiteral("COLLATIONS"));
+        __qtablewidgetitem79->setText(QString::fromUtf8("COLLATIONS"));
         tableWidgetResults->setItem(9, 2, __qtablewidgetitem79);
         QTableWidgetItem *__qtablewidgetitem80 = new QTableWidgetItem();
-        __qtablewidgetitem80->setText(QStringLiteral("SORTLEN"));
+        __qtablewidgetitem80->setText(QString::fromUtf8("SORTLEN"));
         tableWidgetResults->setItem(9, 3, __qtablewidgetitem80);
         QTableWidgetItem *__qtablewidgetitem81 = new QTableWidgetItem();
-        __qtablewidgetitem81->setText(QStringLiteral("6"));
+        __qtablewidgetitem81->setText(QString::fromUtf8("6"));
         tableWidgetResults->setItem(9, 4, __qtablewidgetitem81);
-        tableWidgetResults->setObjectName(QStringLiteral("tableWidgetResults"));
+        tableWidgetResults->setObjectName(QString::fromUtf8("tableWidgetResults"));
         tableWidgetResults->setAlternatingRowColors(true);
 
         verticalLayout_18->addWidget(tableWidgetResults);
 
         tabWidgetSqlWinSample->addTab(tab_4, QString());
         tab_5 = new QWidget();
-        tab_5->setObjectName(QStringLiteral("tab_5"));
+        tab_5->setObjectName(QString::fromUtf8("tab_5"));
         tabWidgetSqlWinSample->addTab(tab_5, QString());
         tab_6 = new QWidget();
-        tab_6->setObjectName(QStringLiteral("tab_6"));
+        tab_6->setObjectName(QString::fromUtf8("tab_6"));
         tabWidgetSqlWinSample->addTab(tab_6, QString());
 
         verticalLayout_17->addWidget(tabWidgetSqlWinSample);
 
         tabWidgetMdiSample->addTab(tab, QString());
         tab_2 = new QWidget();
-        tab_2->setObjectName(QStringLiteral("tab_2"));
+        tab_2->setObjectName(QString::fromUtf8("tab_2"));
         tabWidgetMdiSample->addTab(tab_2, QString());
         tab_3 = new QWidget();
-        tab_3->setObjectName(QStringLiteral("tab_3"));
+        tab_3->setObjectName(QString::fromUtf8("tab_3"));
         tabWidgetMdiSample->addTab(tab_3, QString());
         splitter->addWidget(tabWidgetMdiSample);
 
@@ -3002,7 +3019,7 @@ public:
         verticalLayout->addWidget(settingsStackedWidget);
 
         buttonBox = new QDialogButtonBox(KvSettingsDialog);
-        buttonBox->setObjectName(QStringLiteral("buttonBox"));
+        buttonBox->setObjectName(QString::fromUtf8("buttonBox"));
         buttonBox->setOrientation(Qt::Horizontal);
         buttonBox->setStandardButtons(QDialogButtonBox::Cancel|QDialogButtonBox::Ok);
         buttonBox->setCenterButtons(true);
@@ -3076,315 +3093,309 @@ public:
 
     void retranslateUi(QDialog *KvSettingsDialog)
     {
-        KvSettingsDialog->setWindowTitle(QApplication::translate("KvSettingsDialog", "Kevora Settings", Q_NULLPTR));
+        KvSettingsDialog->setWindowTitle(QApplication::translate("KvSettingsDialog", "Kevora Settings", nullptr));
 
         const bool __sortingEnabled = settingsListWidget->isSortingEnabled();
         settingsListWidget->setSortingEnabled(false);
         QListWidgetItem *___qlistwidgetitem = settingsListWidget->item(0);
-        ___qlistwidgetitem->setText(QApplication::translate("KvSettingsDialog", "General", Q_NULLPTR));
+        ___qlistwidgetitem->setText(QApplication::translate("KvSettingsDialog", "General", nullptr));
 #ifndef QT_NO_TOOLTIP
-        ___qlistwidgetitem->setToolTip(QApplication::translate("KvSettingsDialog", "General Settings", Q_NULLPTR));
+        ___qlistwidgetitem->setToolTip(QApplication::translate("KvSettingsDialog", "General Settings", nullptr));
 #endif // QT_NO_TOOLTIP
         QListWidgetItem *___qlistwidgetitem1 = settingsListWidget->item(1);
-        ___qlistwidgetitem1->setText(QApplication::translate("KvSettingsDialog", "DBMS", Q_NULLPTR));
+        ___qlistwidgetitem1->setText(QApplication::translate("KvSettingsDialog", "DBMS", nullptr));
 #ifndef QT_NO_TOOLTIP
-        ___qlistwidgetitem1->setToolTip(QApplication::translate("KvSettingsDialog", "Detailed Database Customization", Q_NULLPTR));
+        ___qlistwidgetitem1->setToolTip(QApplication::translate("KvSettingsDialog", "Detailed Database Customization", nullptr));
 #endif // QT_NO_TOOLTIP
         QListWidgetItem *___qlistwidgetitem2 = settingsListWidget->item(2);
-        ___qlistwidgetitem2->setText(QApplication::translate("KvSettingsDialog", "Editor", Q_NULLPTR));
+        ___qlistwidgetitem2->setText(QApplication::translate("KvSettingsDialog", "Editor", nullptr));
 #ifndef QT_NO_TOOLTIP
-        ___qlistwidgetitem2->setToolTip(QApplication::translate("KvSettingsDialog", "Editor Preferences", Q_NULLPTR));
+        ___qlistwidgetitem2->setToolTip(QApplication::translate("KvSettingsDialog", "Editor Preferences", nullptr));
 #endif // QT_NO_TOOLTIP
         QListWidgetItem *___qlistwidgetitem3 = settingsListWidget->item(3);
-        ___qlistwidgetitem3->setText(QApplication::translate("KvSettingsDialog", "Appearance", Q_NULLPTR));
+        ___qlistwidgetitem3->setText(QApplication::translate("KvSettingsDialog", "Appearance", nullptr));
 #ifndef QT_NO_TOOLTIP
-        ___qlistwidgetitem3->setToolTip(QApplication::translate("KvSettingsDialog", "User Interface Preferences", Q_NULLPTR));
+        ___qlistwidgetitem3->setToolTip(QApplication::translate("KvSettingsDialog", "User Interface Preferences", nullptr));
 #endif // QT_NO_TOOLTIP
         settingsListWidget->setSortingEnabled(__sortingEnabled);
 
-        label->setText(QApplication::translate("KvSettingsDialog", "Preferred &Language", Q_NULLPTR));
-        langComboBox->clear();
-        langComboBox->insertItems(0, QStringList()
-         << QApplication::translate("KvSettingsDialog", "German (de)", Q_NULLPTR)
-         << QApplication::translate("KvSettingsDialog", "English (en)", Q_NULLPTR)
-         << QApplication::translate("KvSettingsDialog", "Spanish (es)", Q_NULLPTR)
-         << QApplication::translate("KvSettingsDialog", "French (fr)", Q_NULLPTR)
-         << QApplication::translate("KvSettingsDialog", "Greek (gr)", Q_NULLPTR)
-         << QApplication::translate("KvSettingsDialog", "Italian (it)", Q_NULLPTR)
-         << QApplication::translate("KvSettingsDialog", "Japanese (ja_JP)", Q_NULLPTR)
-         << QApplication::translate("KvSettingsDialog", "Polish (pl)", Q_NULLPTR)
-         << QApplication::translate("KvSettingsDialog", "Portuguese (pt)", Q_NULLPTR)
-         << QApplication::translate("KvSettingsDialog", "Brazilian Portuguese (pt_BR)", Q_NULLPTR)
-         << QApplication::translate("KvSettingsDialog", "Russian (ru)", Q_NULLPTR)
-         << QApplication::translate("KvSettingsDialog", "Chinese (zh_CN)", Q_NULLPTR)
-        );
-        groupBox->setTitle(QApplication::translate("KvSettingsDialog", "Paths", Q_NULLPTR));
-        label_3->setText(QApplication::translate("KvSettingsDialog", "&Connections File Path", Q_NULLPTR));
+        label->setText(QApplication::translate("KvSettingsDialog", "Preferred &Language", nullptr));
+        langComboBox->setItemText(0, QApplication::translate("KvSettingsDialog", "German (de)", nullptr));
+        langComboBox->setItemText(1, QApplication::translate("KvSettingsDialog", "English (en)", nullptr));
+        langComboBox->setItemText(2, QApplication::translate("KvSettingsDialog", "Spanish (es)", nullptr));
+        langComboBox->setItemText(3, QApplication::translate("KvSettingsDialog", "French (fr)", nullptr));
+        langComboBox->setItemText(4, QApplication::translate("KvSettingsDialog", "Greek (gr)", nullptr));
+        langComboBox->setItemText(5, QApplication::translate("KvSettingsDialog", "Italian (it)", nullptr));
+        langComboBox->setItemText(6, QApplication::translate("KvSettingsDialog", "Japanese (ja_JP)", nullptr));
+        langComboBox->setItemText(7, QApplication::translate("KvSettingsDialog", "Polish (pl)", nullptr));
+        langComboBox->setItemText(8, QApplication::translate("KvSettingsDialog", "Portuguese (pt)", nullptr));
+        langComboBox->setItemText(9, QApplication::translate("KvSettingsDialog", "Brazilian Portuguese (pt_BR)", nullptr));
+        langComboBox->setItemText(10, QApplication::translate("KvSettingsDialog", "Russian (ru)", nullptr));
+        langComboBox->setItemText(11, QApplication::translate("KvSettingsDialog", "Chinese (zh_CN)", nullptr));
+
+        groupBox->setTitle(QApplication::translate("KvSettingsDialog", "Paths", nullptr));
+        label_3->setText(QApplication::translate("KvSettingsDialog", "&Connections File Path", nullptr));
         lineEditConnectionsFilePath->setText(QString());
-        connDirButton->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        label_10->setText(QApplication::translate("KvSettingsDialog", "&Work Path", Q_NULLPTR));
-        workDirButton->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        label_2->setText(QApplication::translate("KvSettingsDialog", "&Translation Files Path", Q_NULLPTR));
-        langDirButton->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        label_24->setText(QApplication::translate("KvSettingsDialog", "Preferred Cubrid Qt Driver", Q_NULLPTR));
+        connDirButton->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        label_10->setText(QApplication::translate("KvSettingsDialog", "&Work Path", nullptr));
+        workDirButton->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        label_2->setText(QApplication::translate("KvSettingsDialog", "&Translation Files Path", nullptr));
+        langDirButton->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        label_24->setText(QApplication::translate("KvSettingsDialog", "Preferred Cubrid Qt Driver", nullptr));
 #ifndef QT_NO_TOOLTIP
-        cubridDrvInfoButton->setToolTip(QApplication::translate("KvSettingsDialog", "Driver Details", Q_NULLPTR));
+        cubridDrvInfoButton->setToolTip(QApplication::translate("KvSettingsDialog", "Driver Details", nullptr));
 #endif // QT_NO_TOOLTIP
-        cubridDrvInfoButton->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        groupBox_10->setTitle(QApplication::translate("KvSettingsDialog", "Syntax Highlight", Q_NULLPTR));
-        label_25->setText(QApplication::translate("KvSettingsDialog", "All Recognized Words", Q_NULLPTR));
-        toolButtonAddWord_31->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        toolButtonRemoveWord_31->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        toolButtonMoveRight_7->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        toolButtonMoveAllRight_7->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        toolButtonAddWord_32->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        toolButtonRemoveWord_32->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        tabWidgetHighlightedWords_7->setTabText(tabWidgetHighlightedWords_7->indexOf(tabKeywords_7), QApplication::translate("KvSettingsDialog", "Keywords", Q_NULLPTR));
-        toolButtonAddWord_33->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        toolButtonRemoveWord_33->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        tabWidgetHighlightedWords_7->setTabText(tabWidgetHighlightedWords_7->indexOf(tabReserved_7), QApplication::translate("KvSettingsDialog", "Reserved Words", Q_NULLPTR));
-        toolButtonAddWord_34->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        toolButtonRemoveWord_34->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        tabWidgetHighlightedWords_7->setTabText(tabWidgetHighlightedWords_7->indexOf(tabTypes_7), QApplication::translate("KvSettingsDialog", "Types", Q_NULLPTR));
-        toolButtonAddWord_35->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        toolButtonRemoveWord_35->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        tabWidgetHighlightedWords_7->setTabText(tabWidgetHighlightedWords_7->indexOf(tabFunctions_7), QApplication::translate("KvSettingsDialog", "Functions", Q_NULLPTR));
-        tabWidget->setTabText(tabWidget->indexOf(tabCubrid), QApplication::translate("KvSettingsDialog", "Cubrid", Q_NULLPTR));
-        label_4->setText(QApplication::translate("KvSettingsDialog", "Preferred Firebird Qt Driver", Q_NULLPTR));
+        cubridDrvInfoButton->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        groupBox_10->setTitle(QApplication::translate("KvSettingsDialog", "Syntax Highlight", nullptr));
+        label_25->setText(QApplication::translate("KvSettingsDialog", "All Recognized Words", nullptr));
+        toolButtonAddWord_31->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        toolButtonRemoveWord_31->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        toolButtonMoveRight_7->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        toolButtonMoveAllRight_7->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        toolButtonAddWord_32->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        toolButtonRemoveWord_32->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        tabWidgetHighlightedWords_7->setTabText(tabWidgetHighlightedWords_7->indexOf(tabKeywords_7), QApplication::translate("KvSettingsDialog", "Keywords", nullptr));
+        toolButtonAddWord_33->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        toolButtonRemoveWord_33->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        tabWidgetHighlightedWords_7->setTabText(tabWidgetHighlightedWords_7->indexOf(tabReserved_7), QApplication::translate("KvSettingsDialog", "Reserved Words", nullptr));
+        toolButtonAddWord_34->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        toolButtonRemoveWord_34->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        tabWidgetHighlightedWords_7->setTabText(tabWidgetHighlightedWords_7->indexOf(tabTypes_7), QApplication::translate("KvSettingsDialog", "Types", nullptr));
+        toolButtonAddWord_35->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        toolButtonRemoveWord_35->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        tabWidgetHighlightedWords_7->setTabText(tabWidgetHighlightedWords_7->indexOf(tabFunctions_7), QApplication::translate("KvSettingsDialog", "Functions", nullptr));
+        tabWidget->setTabText(tabWidget->indexOf(tabCubrid), QApplication::translate("KvSettingsDialog", "Cubrid", nullptr));
+        label_4->setText(QApplication::translate("KvSettingsDialog", "Preferred Firebird Qt Driver", nullptr));
 #ifndef QT_NO_TOOLTIP
-        firebirdDrvInfoButton->setToolTip(QApplication::translate("KvSettingsDialog", "Driver Details", Q_NULLPTR));
+        firebirdDrvInfoButton->setToolTip(QApplication::translate("KvSettingsDialog", "Driver Details", nullptr));
 #endif // QT_NO_TOOLTIP
-        firebirdDrvInfoButton->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        groupBox_4->setTitle(QApplication::translate("KvSettingsDialog", "Syntax Highlight", Q_NULLPTR));
-        label_18->setText(QApplication::translate("KvSettingsDialog", "All Recognized Words", Q_NULLPTR));
-        toolButtonAddWord->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        toolButtonRemoveWord->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        toolButtonMoveRight->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        toolButtonMoveAllRight->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        toolButtonAddWord_2->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        toolButtonRemoveWord_2->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        tabWidgetHighlightedWords->setTabText(tabWidgetHighlightedWords->indexOf(tabKeywords), QApplication::translate("KvSettingsDialog", "Keywords", Q_NULLPTR));
-        toolButtonAddWord_3->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        toolButtonRemoveWord_3->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        tabWidgetHighlightedWords->setTabText(tabWidgetHighlightedWords->indexOf(tabReserved), QApplication::translate("KvSettingsDialog", "Reserved Words", Q_NULLPTR));
-        toolButtonAddWord_4->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        toolButtonRemoveWord_4->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        tabWidgetHighlightedWords->setTabText(tabWidgetHighlightedWords->indexOf(tabTypes), QApplication::translate("KvSettingsDialog", "Types", Q_NULLPTR));
-        toolButtonAddWord_5->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        toolButtonRemoveWord_5->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        tabWidgetHighlightedWords->setTabText(tabWidgetHighlightedWords->indexOf(tabFunctions), QApplication::translate("KvSettingsDialog", "Functions", Q_NULLPTR));
-        tabWidget->setTabText(tabWidget->indexOf(tabFirebird), QApplication::translate("KvSettingsDialog", "Firebird", Q_NULLPTR));
-        label_5->setText(QApplication::translate("KvSettingsDialog", "Preferred MySql Qt Driver", Q_NULLPTR));
+        firebirdDrvInfoButton->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        groupBox_4->setTitle(QApplication::translate("KvSettingsDialog", "Syntax Highlight", nullptr));
+        label_18->setText(QApplication::translate("KvSettingsDialog", "All Recognized Words", nullptr));
+        toolButtonAddWord->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        toolButtonRemoveWord->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        toolButtonMoveRight->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        toolButtonMoveAllRight->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        toolButtonAddWord_2->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        toolButtonRemoveWord_2->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        tabWidgetHighlightedWords->setTabText(tabWidgetHighlightedWords->indexOf(tabKeywords), QApplication::translate("KvSettingsDialog", "Keywords", nullptr));
+        toolButtonAddWord_3->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        toolButtonRemoveWord_3->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        tabWidgetHighlightedWords->setTabText(tabWidgetHighlightedWords->indexOf(tabReserved), QApplication::translate("KvSettingsDialog", "Reserved Words", nullptr));
+        toolButtonAddWord_4->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        toolButtonRemoveWord_4->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        tabWidgetHighlightedWords->setTabText(tabWidgetHighlightedWords->indexOf(tabTypes), QApplication::translate("KvSettingsDialog", "Types", nullptr));
+        toolButtonAddWord_5->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        toolButtonRemoveWord_5->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        tabWidgetHighlightedWords->setTabText(tabWidgetHighlightedWords->indexOf(tabFunctions), QApplication::translate("KvSettingsDialog", "Functions", nullptr));
+        tabWidget->setTabText(tabWidget->indexOf(tabFirebird), QApplication::translate("KvSettingsDialog", "Firebird", nullptr));
+        label_5->setText(QApplication::translate("KvSettingsDialog", "Preferred MySql Qt Driver", nullptr));
 #ifndef QT_NO_TOOLTIP
-        mysqlDrvInfoButton->setToolTip(QApplication::translate("KvSettingsDialog", "Driver Details", Q_NULLPTR));
+        mysqlDrvInfoButton->setToolTip(QApplication::translate("KvSettingsDialog", "Driver Details", nullptr));
 #endif // QT_NO_TOOLTIP
-        mysqlDrvInfoButton->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        groupBox_5->setTitle(QApplication::translate("KvSettingsDialog", "Syntax Highlight", Q_NULLPTR));
-        label_19->setText(QApplication::translate("KvSettingsDialog", "All Recognized Words", Q_NULLPTR));
-        toolButtonAddWord_6->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        toolButtonRemoveWord_6->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        toolButtonMoveRight_2->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        toolButtonMoveAllRight_2->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        toolButtonAddWord_7->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        toolButtonRemoveWord_7->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        tabWidgetHighlightedWords_2->setTabText(tabWidgetHighlightedWords_2->indexOf(tabKeywords_2), QApplication::translate("KvSettingsDialog", "Keywords", Q_NULLPTR));
-        toolButtonAddWord_8->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        toolButtonRemoveWord_8->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        tabWidgetHighlightedWords_2->setTabText(tabWidgetHighlightedWords_2->indexOf(tabReserved_2), QApplication::translate("KvSettingsDialog", "Reserved Words", Q_NULLPTR));
-        toolButtonAddWord_9->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        toolButtonRemoveWord_9->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        tabWidgetHighlightedWords_2->setTabText(tabWidgetHighlightedWords_2->indexOf(tabTypes_2), QApplication::translate("KvSettingsDialog", "Types", Q_NULLPTR));
-        toolButtonAddWord_10->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        toolButtonRemoveWord_10->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        tabWidgetHighlightedWords_2->setTabText(tabWidgetHighlightedWords_2->indexOf(tabFunctions_2), QApplication::translate("KvSettingsDialog", "Functions", Q_NULLPTR));
-        tabWidget->setTabText(tabWidget->indexOf(tabMySql), QApplication::translate("KvSettingsDialog", "MySql", Q_NULLPTR));
-        label_6->setText(QApplication::translate("KvSettingsDialog", "Preferred ODBC Qt Driver", Q_NULLPTR));
+        mysqlDrvInfoButton->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        groupBox_5->setTitle(QApplication::translate("KvSettingsDialog", "Syntax Highlight", nullptr));
+        label_19->setText(QApplication::translate("KvSettingsDialog", "All Recognized Words", nullptr));
+        toolButtonAddWord_6->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        toolButtonRemoveWord_6->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        toolButtonMoveRight_2->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        toolButtonMoveAllRight_2->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        toolButtonAddWord_7->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        toolButtonRemoveWord_7->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        tabWidgetHighlightedWords_2->setTabText(tabWidgetHighlightedWords_2->indexOf(tabKeywords_2), QApplication::translate("KvSettingsDialog", "Keywords", nullptr));
+        toolButtonAddWord_8->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        toolButtonRemoveWord_8->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        tabWidgetHighlightedWords_2->setTabText(tabWidgetHighlightedWords_2->indexOf(tabReserved_2), QApplication::translate("KvSettingsDialog", "Reserved Words", nullptr));
+        toolButtonAddWord_9->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        toolButtonRemoveWord_9->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        tabWidgetHighlightedWords_2->setTabText(tabWidgetHighlightedWords_2->indexOf(tabTypes_2), QApplication::translate("KvSettingsDialog", "Types", nullptr));
+        toolButtonAddWord_10->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        toolButtonRemoveWord_10->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        tabWidgetHighlightedWords_2->setTabText(tabWidgetHighlightedWords_2->indexOf(tabFunctions_2), QApplication::translate("KvSettingsDialog", "Functions", nullptr));
+        tabWidget->setTabText(tabWidget->indexOf(tabMySql), QApplication::translate("KvSettingsDialog", "MySql", nullptr));
+        label_6->setText(QApplication::translate("KvSettingsDialog", "Preferred ODBC Qt Driver", nullptr));
 #ifndef QT_NO_TOOLTIP
-        odbcDrvInfoButton->setToolTip(QApplication::translate("KvSettingsDialog", "Driver Details", Q_NULLPTR));
+        odbcDrvInfoButton->setToolTip(QApplication::translate("KvSettingsDialog", "Driver Details", nullptr));
 #endif // QT_NO_TOOLTIP
-        odbcDrvInfoButton->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        groupBox_6->setTitle(QApplication::translate("KvSettingsDialog", "Syntax Highlight", Q_NULLPTR));
-        label_20->setText(QApplication::translate("KvSettingsDialog", "All Recognized Words", Q_NULLPTR));
-        toolButtonAddWord_11->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        toolButtonRemoveWord_11->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        toolButtonMoveRight_3->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        toolButtonMoveAllRight_3->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        toolButtonAddWord_12->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        toolButtonRemoveWord_12->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        tabWidgetHighlightedWords_3->setTabText(tabWidgetHighlightedWords_3->indexOf(tabKeywords_3), QApplication::translate("KvSettingsDialog", "Keywords", Q_NULLPTR));
-        toolButtonAddWord_13->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        toolButtonRemoveWord_13->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        tabWidgetHighlightedWords_3->setTabText(tabWidgetHighlightedWords_3->indexOf(tabReserved_3), QApplication::translate("KvSettingsDialog", "Reserved Words", Q_NULLPTR));
-        toolButtonAddWord_14->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        toolButtonRemoveWord_14->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        tabWidgetHighlightedWords_3->setTabText(tabWidgetHighlightedWords_3->indexOf(tabTypes_3), QApplication::translate("KvSettingsDialog", "Types", Q_NULLPTR));
-        toolButtonAddWord_15->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        toolButtonRemoveWord_15->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        tabWidgetHighlightedWords_3->setTabText(tabWidgetHighlightedWords_3->indexOf(tabFunctions_3), QApplication::translate("KvSettingsDialog", "Functions", Q_NULLPTR));
-        tabWidget->setTabText(tabWidget->indexOf(tabODBC), QApplication::translate("KvSettingsDialog", "ODBC", Q_NULLPTR));
-        label_7->setText(QApplication::translate("KvSettingsDialog", "Preferred Oracle Qt Driver", Q_NULLPTR));
+        odbcDrvInfoButton->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        groupBox_6->setTitle(QApplication::translate("KvSettingsDialog", "Syntax Highlight", nullptr));
+        label_20->setText(QApplication::translate("KvSettingsDialog", "All Recognized Words", nullptr));
+        toolButtonAddWord_11->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        toolButtonRemoveWord_11->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        toolButtonMoveRight_3->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        toolButtonMoveAllRight_3->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        toolButtonAddWord_12->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        toolButtonRemoveWord_12->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        tabWidgetHighlightedWords_3->setTabText(tabWidgetHighlightedWords_3->indexOf(tabKeywords_3), QApplication::translate("KvSettingsDialog", "Keywords", nullptr));
+        toolButtonAddWord_13->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        toolButtonRemoveWord_13->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        tabWidgetHighlightedWords_3->setTabText(tabWidgetHighlightedWords_3->indexOf(tabReserved_3), QApplication::translate("KvSettingsDialog", "Reserved Words", nullptr));
+        toolButtonAddWord_14->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        toolButtonRemoveWord_14->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        tabWidgetHighlightedWords_3->setTabText(tabWidgetHighlightedWords_3->indexOf(tabTypes_3), QApplication::translate("KvSettingsDialog", "Types", nullptr));
+        toolButtonAddWord_15->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        toolButtonRemoveWord_15->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        tabWidgetHighlightedWords_3->setTabText(tabWidgetHighlightedWords_3->indexOf(tabFunctions_3), QApplication::translate("KvSettingsDialog", "Functions", nullptr));
+        tabWidget->setTabText(tabWidget->indexOf(tabODBC), QApplication::translate("KvSettingsDialog", "ODBC", nullptr));
+        label_7->setText(QApplication::translate("KvSettingsDialog", "Preferred Oracle Qt Driver", nullptr));
 #ifndef QT_NO_TOOLTIP
-        oracleDrvInfoButton->setToolTip(QApplication::translate("KvSettingsDialog", "Driver Details", Q_NULLPTR));
+        oracleDrvInfoButton->setToolTip(QApplication::translate("KvSettingsDialog", "Driver Details", nullptr));
 #endif // QT_NO_TOOLTIP
-        oracleDrvInfoButton->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        groupBox_7->setTitle(QApplication::translate("KvSettingsDialog", "Syntax Highlight", Q_NULLPTR));
-        label_21->setText(QApplication::translate("KvSettingsDialog", "All Recognized Words", Q_NULLPTR));
-        toolButtonAddWord_16->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        toolButtonRemoveWord_16->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        toolButtonMoveRight_4->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        toolButtonMoveAllRight_4->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        toolButtonAddWord_17->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        toolButtonRemoveWord_17->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        tabWidgetHighlightedWords_4->setTabText(tabWidgetHighlightedWords_4->indexOf(tabKeywords_4), QApplication::translate("KvSettingsDialog", "Keywords", Q_NULLPTR));
-        toolButtonAddWord_18->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        toolButtonRemoveWord_18->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        tabWidgetHighlightedWords_4->setTabText(tabWidgetHighlightedWords_4->indexOf(tabReserved_4), QApplication::translate("KvSettingsDialog", "Reserved Words", Q_NULLPTR));
-        toolButtonAddWord_19->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        toolButtonRemoveWord_19->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        tabWidgetHighlightedWords_4->setTabText(tabWidgetHighlightedWords_4->indexOf(tabTypes_4), QApplication::translate("KvSettingsDialog", "Types", Q_NULLPTR));
-        toolButtonAddWord_20->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        toolButtonRemoveWord_20->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        tabWidgetHighlightedWords_4->setTabText(tabWidgetHighlightedWords_4->indexOf(tabFunctions_4), QApplication::translate("KvSettingsDialog", "Functions", Q_NULLPTR));
-        tabWidget->setTabText(tabWidget->indexOf(tabOracle), QApplication::translate("KvSettingsDialog", "Oracle", Q_NULLPTR));
-        label_8->setText(QApplication::translate("KvSettingsDialog", "Preferred PostgreSql Qt Driver", Q_NULLPTR));
+        oracleDrvInfoButton->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        groupBox_7->setTitle(QApplication::translate("KvSettingsDialog", "Syntax Highlight", nullptr));
+        label_21->setText(QApplication::translate("KvSettingsDialog", "All Recognized Words", nullptr));
+        toolButtonAddWord_16->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        toolButtonRemoveWord_16->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        toolButtonMoveRight_4->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        toolButtonMoveAllRight_4->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        toolButtonAddWord_17->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        toolButtonRemoveWord_17->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        tabWidgetHighlightedWords_4->setTabText(tabWidgetHighlightedWords_4->indexOf(tabKeywords_4), QApplication::translate("KvSettingsDialog", "Keywords", nullptr));
+        toolButtonAddWord_18->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        toolButtonRemoveWord_18->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        tabWidgetHighlightedWords_4->setTabText(tabWidgetHighlightedWords_4->indexOf(tabReserved_4), QApplication::translate("KvSettingsDialog", "Reserved Words", nullptr));
+        toolButtonAddWord_19->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        toolButtonRemoveWord_19->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        tabWidgetHighlightedWords_4->setTabText(tabWidgetHighlightedWords_4->indexOf(tabTypes_4), QApplication::translate("KvSettingsDialog", "Types", nullptr));
+        toolButtonAddWord_20->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        toolButtonRemoveWord_20->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        tabWidgetHighlightedWords_4->setTabText(tabWidgetHighlightedWords_4->indexOf(tabFunctions_4), QApplication::translate("KvSettingsDialog", "Functions", nullptr));
+        tabWidget->setTabText(tabWidget->indexOf(tabOracle), QApplication::translate("KvSettingsDialog", "Oracle", nullptr));
+        label_8->setText(QApplication::translate("KvSettingsDialog", "Preferred PostgreSql Qt Driver", nullptr));
 #ifndef QT_NO_TOOLTIP
-        postgresqlDrvInfoButton->setToolTip(QApplication::translate("KvSettingsDialog", "Driver Details", Q_NULLPTR));
+        postgresqlDrvInfoButton->setToolTip(QApplication::translate("KvSettingsDialog", "Driver Details", nullptr));
 #endif // QT_NO_TOOLTIP
-        postgresqlDrvInfoButton->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        groupBox_8->setTitle(QApplication::translate("KvSettingsDialog", "Syntax Highlight", Q_NULLPTR));
-        label_22->setText(QApplication::translate("KvSettingsDialog", "All Recognized Words", Q_NULLPTR));
-        toolButtonAddWord_21->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        toolButtonRemoveWord_21->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        toolButtonMoveRight_5->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        toolButtonMoveAllRight_5->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        toolButtonAddWord_22->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        toolButtonRemoveWord_22->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        tabWidgetHighlightedWords_5->setTabText(tabWidgetHighlightedWords_5->indexOf(tabKeywords_5), QApplication::translate("KvSettingsDialog", "Keywords", Q_NULLPTR));
-        toolButtonAddWord_23->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        toolButtonRemoveWord_23->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        tabWidgetHighlightedWords_5->setTabText(tabWidgetHighlightedWords_5->indexOf(tabReserved_5), QApplication::translate("KvSettingsDialog", "Reserved Words", Q_NULLPTR));
-        toolButtonAddWord_24->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        toolButtonRemoveWord_24->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        tabWidgetHighlightedWords_5->setTabText(tabWidgetHighlightedWords_5->indexOf(tabTypes_5), QApplication::translate("KvSettingsDialog", "Types", Q_NULLPTR));
-        toolButtonAddWord_25->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        toolButtonRemoveWord_25->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        tabWidgetHighlightedWords_5->setTabText(tabWidgetHighlightedWords_5->indexOf(tabFunctions_5), QApplication::translate("KvSettingsDialog", "Functions", Q_NULLPTR));
-        tabWidget->setTabText(tabWidget->indexOf(tabPostgreSql), QApplication::translate("KvSettingsDialog", "PostgreSql", Q_NULLPTR));
-        label_9->setText(QApplication::translate("KvSettingsDialog", "Preferred Sqlite Qt Driver", Q_NULLPTR));
+        postgresqlDrvInfoButton->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        groupBox_8->setTitle(QApplication::translate("KvSettingsDialog", "Syntax Highlight", nullptr));
+        label_22->setText(QApplication::translate("KvSettingsDialog", "All Recognized Words", nullptr));
+        toolButtonAddWord_21->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        toolButtonRemoveWord_21->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        toolButtonMoveRight_5->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        toolButtonMoveAllRight_5->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        toolButtonAddWord_22->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        toolButtonRemoveWord_22->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        tabWidgetHighlightedWords_5->setTabText(tabWidgetHighlightedWords_5->indexOf(tabKeywords_5), QApplication::translate("KvSettingsDialog", "Keywords", nullptr));
+        toolButtonAddWord_23->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        toolButtonRemoveWord_23->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        tabWidgetHighlightedWords_5->setTabText(tabWidgetHighlightedWords_5->indexOf(tabReserved_5), QApplication::translate("KvSettingsDialog", "Reserved Words", nullptr));
+        toolButtonAddWord_24->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        toolButtonRemoveWord_24->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        tabWidgetHighlightedWords_5->setTabText(tabWidgetHighlightedWords_5->indexOf(tabTypes_5), QApplication::translate("KvSettingsDialog", "Types", nullptr));
+        toolButtonAddWord_25->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        toolButtonRemoveWord_25->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        tabWidgetHighlightedWords_5->setTabText(tabWidgetHighlightedWords_5->indexOf(tabFunctions_5), QApplication::translate("KvSettingsDialog", "Functions", nullptr));
+        tabWidget->setTabText(tabWidget->indexOf(tabPostgreSql), QApplication::translate("KvSettingsDialog", "PostgreSql", nullptr));
+        label_9->setText(QApplication::translate("KvSettingsDialog", "Preferred Sqlite Qt Driver", nullptr));
 #ifndef QT_NO_TOOLTIP
-        sqliteDrvInfoButton->setToolTip(QApplication::translate("KvSettingsDialog", "Driver Details", Q_NULLPTR));
+        sqliteDrvInfoButton->setToolTip(QApplication::translate("KvSettingsDialog", "Driver Details", nullptr));
 #endif // QT_NO_TOOLTIP
-        sqliteDrvInfoButton->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        groupBox_9->setTitle(QApplication::translate("KvSettingsDialog", "Syntax Highlight", Q_NULLPTR));
-        label_23->setText(QApplication::translate("KvSettingsDialog", "All Recognized Words", Q_NULLPTR));
-        toolButtonAddWord_26->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        toolButtonRemoveWord_26->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        toolButtonMoveRight_6->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        toolButtonMoveAllRight_6->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        toolButtonAddWord_27->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        toolButtonRemoveWord_27->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        tabWidgetHighlightedWords_6->setTabText(tabWidgetHighlightedWords_6->indexOf(tabKeywords_6), QApplication::translate("KvSettingsDialog", "Keywords", Q_NULLPTR));
-        toolButtonAddWord_28->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        toolButtonRemoveWord_28->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        tabWidgetHighlightedWords_6->setTabText(tabWidgetHighlightedWords_6->indexOf(tabReserved_6), QApplication::translate("KvSettingsDialog", "Reserved Words", Q_NULLPTR));
-        toolButtonAddWord_29->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        toolButtonRemoveWord_29->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        tabWidgetHighlightedWords_6->setTabText(tabWidgetHighlightedWords_6->indexOf(tabTypes_6), QApplication::translate("KvSettingsDialog", "Types", Q_NULLPTR));
-        toolButtonAddWord_30->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        toolButtonRemoveWord_30->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        tabWidgetHighlightedWords_6->setTabText(tabWidgetHighlightedWords_6->indexOf(tabFunctions_6), QApplication::translate("KvSettingsDialog", "Functions", Q_NULLPTR));
-        tabWidget->setTabText(tabWidget->indexOf(tabSqlite), QApplication::translate("KvSettingsDialog", "Sqlite", Q_NULLPTR));
-        groupBox_2->setTitle(QApplication::translate("KvSettingsDialog", "Fonts", Q_NULLPTR));
-        label_14->setText(QApplication::translate("KvSettingsDialog", "General Font", Q_NULLPTR));
-        label_12->setText(QApplication::translate("KvSettingsDialog", "Size", Q_NULLPTR));
-        checkBoxAntialiasGeneral->setText(QApplication::translate("KvSettingsDialog", "Antialias", Q_NULLPTR));
-        label_13->setText(QApplication::translate("KvSettingsDialog", "Editor Font", Q_NULLPTR));
-        label_15->setText(QApplication::translate("KvSettingsDialog", "Size", Q_NULLPTR));
-        checkBoxAntialiasEditor->setText(QApplication::translate("KvSettingsDialog", "Antialias", Q_NULLPTR));
-        groupBox_3->setTitle(QApplication::translate("KvSettingsDialog", "Editor Color Scheme", Q_NULLPTR));
-        comboBoxColorScheme->clear();
-        comboBoxColorScheme->insertItems(0, QStringList()
-         << QApplication::translate("KvSettingsDialog", "Kevora", Q_NULLPTR)
-        );
-        pushButtonCopyScheme->setText(QApplication::translate("KvSettingsDialog", "&Copy", Q_NULLPTR));
-        pushButtonDeleteScheme->setText(QApplication::translate("KvSettingsDialog", "&Delete", Q_NULLPTR));
+        sqliteDrvInfoButton->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        groupBox_9->setTitle(QApplication::translate("KvSettingsDialog", "Syntax Highlight", nullptr));
+        label_23->setText(QApplication::translate("KvSettingsDialog", "All Recognized Words", nullptr));
+        toolButtonAddWord_26->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        toolButtonRemoveWord_26->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        toolButtonMoveRight_6->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        toolButtonMoveAllRight_6->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        toolButtonAddWord_27->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        toolButtonRemoveWord_27->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        tabWidgetHighlightedWords_6->setTabText(tabWidgetHighlightedWords_6->indexOf(tabKeywords_6), QApplication::translate("KvSettingsDialog", "Keywords", nullptr));
+        toolButtonAddWord_28->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        toolButtonRemoveWord_28->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        tabWidgetHighlightedWords_6->setTabText(tabWidgetHighlightedWords_6->indexOf(tabReserved_6), QApplication::translate("KvSettingsDialog", "Reserved Words", nullptr));
+        toolButtonAddWord_29->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        toolButtonRemoveWord_29->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        tabWidgetHighlightedWords_6->setTabText(tabWidgetHighlightedWords_6->indexOf(tabTypes_6), QApplication::translate("KvSettingsDialog", "Types", nullptr));
+        toolButtonAddWord_30->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        toolButtonRemoveWord_30->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        tabWidgetHighlightedWords_6->setTabText(tabWidgetHighlightedWords_6->indexOf(tabFunctions_6), QApplication::translate("KvSettingsDialog", "Functions", nullptr));
+        tabWidget->setTabText(tabWidget->indexOf(tabSqlite), QApplication::translate("KvSettingsDialog", "Sqlite", nullptr));
+        groupBox_2->setTitle(QApplication::translate("KvSettingsDialog", "Fonts", nullptr));
+        label_14->setText(QApplication::translate("KvSettingsDialog", "General Font", nullptr));
+        label_12->setText(QApplication::translate("KvSettingsDialog", "Size", nullptr));
+        checkBoxAntialiasGeneral->setText(QApplication::translate("KvSettingsDialog", "Antialias", nullptr));
+        label_13->setText(QApplication::translate("KvSettingsDialog", "Editor Font", nullptr));
+        label_15->setText(QApplication::translate("KvSettingsDialog", "Size", nullptr));
+        checkBoxAntialiasEditor->setText(QApplication::translate("KvSettingsDialog", "Antialias", nullptr));
+        groupBox_3->setTitle(QApplication::translate("KvSettingsDialog", "Editor Color Scheme", nullptr));
+        comboBoxColorScheme->setItemText(0, QApplication::translate("KvSettingsDialog", "Kevora", nullptr));
+
+        pushButtonCopyScheme->setText(QApplication::translate("KvSettingsDialog", "&Copy", nullptr));
+        pushButtonDeleteScheme->setText(QApplication::translate("KvSettingsDialog", "&Delete", nullptr));
         QTableWidgetItem *___qtablewidgetitem = tableWidgetColorScheme->horizontalHeaderItem(0);
-        ___qtablewidgetitem->setText(QApplication::translate("KvSettingsDialog", "Text", Q_NULLPTR));
+        ___qtablewidgetitem->setText(QApplication::translate("KvSettingsDialog", "Text", nullptr));
 
         const bool __sortingEnabled1 = tableWidgetColorScheme->isSortingEnabled();
         tableWidgetColorScheme->setSortingEnabled(false);
         QTableWidgetItem *___qtablewidgetitem1 = tableWidgetColorScheme->item(0, 0);
-        ___qtablewidgetitem1->setText(QApplication::translate("KvSettingsDialog", "General Text", Q_NULLPTR));
+        ___qtablewidgetitem1->setText(QApplication::translate("KvSettingsDialog", "General Text", nullptr));
         QTableWidgetItem *___qtablewidgetitem2 = tableWidgetColorScheme->item(1, 0);
-        ___qtablewidgetitem2->setText(QApplication::translate("KvSettingsDialog", "Keyword (cascade, commit, rollback, max, count)", Q_NULLPTR));
+        ___qtablewidgetitem2->setText(QApplication::translate("KvSettingsDialog", "Keyword (cascade, commit, rollback, max, count)", nullptr));
         QTableWidgetItem *___qtablewidgetitem3 = tableWidgetColorScheme->item(2, 0);
-        ___qtablewidgetitem3->setText(QApplication::translate("KvSettingsDialog", "Reserved Word (select, where, update)", Q_NULLPTR));
+        ___qtablewidgetitem3->setText(QApplication::translate("KvSettingsDialog", "Reserved Word (select, where, update)", nullptr));
         QTableWidgetItem *___qtablewidgetitem4 = tableWidgetColorScheme->item(3, 0);
-        ___qtablewidgetitem4->setText(QApplication::translate("KvSettingsDialog", "Type (char, date)", Q_NULLPTR));
+        ___qtablewidgetitem4->setText(QApplication::translate("KvSettingsDialog", "Type (char, date)", nullptr));
         QTableWidgetItem *___qtablewidgetitem5 = tableWidgetColorScheme->item(4, 0);
-        ___qtablewidgetitem5->setText(QApplication::translate("KvSettingsDialog", "Function (sysdate, now, substr)", Q_NULLPTR));
+        ___qtablewidgetitem5->setText(QApplication::translate("KvSettingsDialog", "Function (sysdate, now, substr)", nullptr));
         QTableWidgetItem *___qtablewidgetitem6 = tableWidgetColorScheme->item(5, 0);
-        ___qtablewidgetitem6->setText(QApplication::translate("KvSettingsDialog", "Single Line Comment (-- )", Q_NULLPTR));
+        ___qtablewidgetitem6->setText(QApplication::translate("KvSettingsDialog", "Single Line Comment (-- )", nullptr));
         QTableWidgetItem *___qtablewidgetitem7 = tableWidgetColorScheme->item(6, 0);
-        ___qtablewidgetitem7->setText(QApplication::translate("KvSettingsDialog", "Multi Line Comment (/* */)", Q_NULLPTR));
+        ___qtablewidgetitem7->setText(QApplication::translate("KvSettingsDialog", "Multi Line Comment (/* */)", nullptr));
         QTableWidgetItem *___qtablewidgetitem8 = tableWidgetColorScheme->item(7, 0);
-        ___qtablewidgetitem8->setText(QApplication::translate("KvSettingsDialog", "Quotation (\" \")", Q_NULLPTR));
+        ___qtablewidgetitem8->setText(QApplication::translate("KvSettingsDialog", "Quotation (\" \")", nullptr));
         tableWidgetColorScheme->setSortingEnabled(__sortingEnabled1);
 
-        label_16->setText(QApplication::translate("KvSettingsDialog", "Text Color", Q_NULLPTR));
+        label_16->setText(QApplication::translate("KvSettingsDialog", "Text Color", nullptr));
         toolButtonFgColor->setText(QString());
 #ifndef QT_NO_TOOLTIP
-        toolButtonClearFg->setToolTip(QApplication::translate("KvSettingsDialog", "No Text Color", Q_NULLPTR));
+        toolButtonClearFg->setToolTip(QApplication::translate("KvSettingsDialog", "No Text Color", nullptr));
 #endif // QT_NO_TOOLTIP
-        label_17->setText(QApplication::translate("KvSettingsDialog", "Background Color", Q_NULLPTR));
+        label_17->setText(QApplication::translate("KvSettingsDialog", "Background Color", nullptr));
 #ifndef QT_NO_TOOLTIP
-        toolButtonClearBg->setToolTip(QApplication::translate("KvSettingsDialog", "No Background Color", Q_NULLPTR));
+        toolButtonClearBg->setToolTip(QApplication::translate("KvSettingsDialog", "No Background Color", nullptr));
 #endif // QT_NO_TOOLTIP
-        checkBoxBold->setText(QApplication::translate("KvSettingsDialog", "Bold", Q_NULLPTR));
-        checkBoxItalic->setText(QApplication::translate("KvSettingsDialog", "Italic", Q_NULLPTR));
-        tabWidgetEditor->setTabText(tabWidgetEditor->indexOf(tab_7), QApplication::translate("KvSettingsDialog", "Fonts && Colors", Q_NULLPTR));
-        tabWidgetEditor->setTabText(tabWidgetEditor->indexOf(tab_8), QApplication::translate("KvSettingsDialog", "Beha&viour", Q_NULLPTR));
-        label_11->setText(QApplication::translate("KvSettingsDialog", "Style", Q_NULLPTR));
+        checkBoxBold->setText(QApplication::translate("KvSettingsDialog", "Bold", nullptr));
+        checkBoxItalic->setText(QApplication::translate("KvSettingsDialog", "Italic", nullptr));
+        tabWidgetEditor->setTabText(tabWidgetEditor->indexOf(tab_7), QApplication::translate("KvSettingsDialog", "Fonts && Colors", nullptr));
+        tabWidgetEditor->setTabText(tabWidgetEditor->indexOf(tab_8), QApplication::translate("KvSettingsDialog", "Beha&viour", nullptr));
+        label_11->setText(QApplication::translate("KvSettingsDialog", "Style", nullptr));
         QTreeWidgetItem *___qtreewidgetitem = treeWidgetConnSample->headerItem();
-        ___qtreewidgetitem->setText(1, QApplication::translate("KvSettingsDialog", "Type", Q_NULLPTR));
-        ___qtreewidgetitem->setText(0, QApplication::translate("KvSettingsDialog", "Connection", Q_NULLPTR));
+        ___qtreewidgetitem->setText(1, QApplication::translate("KvSettingsDialog", "Type", nullptr));
+        ___qtreewidgetitem->setText(0, QApplication::translate("KvSettingsDialog", "Connection", nullptr));
 
         const bool __sortingEnabled2 = treeWidgetConnSample->isSortingEnabled();
         treeWidgetConnSample->setSortingEnabled(false);
         QTreeWidgetItem *___qtreewidgetitem1 = treeWidgetConnSample->topLevelItem(0);
-        ___qtreewidgetitem1->setText(1, QApplication::translate("KvSettingsDialog", "MySql", Q_NULLPTR));
-        ___qtreewidgetitem1->setText(0, QApplication::translate("KvSettingsDialog", "alias1", Q_NULLPTR));
+        ___qtreewidgetitem1->setText(1, QApplication::translate("KvSettingsDialog", "MySql", nullptr));
+        ___qtreewidgetitem1->setText(0, QApplication::translate("KvSettingsDialog", "alias1", nullptr));
         QTreeWidgetItem *___qtreewidgetitem2 = ___qtreewidgetitem1->child(0);
-        ___qtreewidgetitem2->setText(0, QApplication::translate("KvSettingsDialog", "user1", Q_NULLPTR));
+        ___qtreewidgetitem2->setText(0, QApplication::translate("KvSettingsDialog", "user1", nullptr));
         QTreeWidgetItem *___qtreewidgetitem3 = treeWidgetConnSample->topLevelItem(1);
-        ___qtreewidgetitem3->setText(1, QApplication::translate("KvSettingsDialog", "Oracle", Q_NULLPTR));
-        ___qtreewidgetitem3->setText(0, QApplication::translate("KvSettingsDialog", "alias2", Q_NULLPTR));
+        ___qtreewidgetitem3->setText(1, QApplication::translate("KvSettingsDialog", "Oracle", nullptr));
+        ___qtreewidgetitem3->setText(0, QApplication::translate("KvSettingsDialog", "alias2", nullptr));
         QTreeWidgetItem *___qtreewidgetitem4 = ___qtreewidgetitem3->child(0);
-        ___qtreewidgetitem4->setText(0, QApplication::translate("KvSettingsDialog", "user2", Q_NULLPTR));
+        ___qtreewidgetitem4->setText(0, QApplication::translate("KvSettingsDialog", "user2", nullptr));
         QTreeWidgetItem *___qtreewidgetitem5 = treeWidgetConnSample->topLevelItem(2);
-        ___qtreewidgetitem5->setText(1, QApplication::translate("KvSettingsDialog", "PostgreSql", Q_NULLPTR));
-        ___qtreewidgetitem5->setText(0, QApplication::translate("KvSettingsDialog", "alias3", Q_NULLPTR));
+        ___qtreewidgetitem5->setText(1, QApplication::translate("KvSettingsDialog", "PostgreSql", nullptr));
+        ___qtreewidgetitem5->setText(0, QApplication::translate("KvSettingsDialog", "alias3", nullptr));
         QTreeWidgetItem *___qtreewidgetitem6 = ___qtreewidgetitem5->child(0);
-        ___qtreewidgetitem6->setText(0, QApplication::translate("KvSettingsDialog", "user3", Q_NULLPTR));
+        ___qtreewidgetitem6->setText(0, QApplication::translate("KvSettingsDialog", "user3", nullptr));
         QTreeWidgetItem *___qtreewidgetitem7 = ___qtreewidgetitem5->child(1);
-        ___qtreewidgetitem7->setText(0, QApplication::translate("KvSettingsDialog", "user4", Q_NULLPTR));
+        ___qtreewidgetitem7->setText(0, QApplication::translate("KvSettingsDialog", "user4", nullptr));
         treeWidgetConnSample->setSortingEnabled(__sortingEnabled2);
 
-        toolButtonExec->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        toolButtonExecAll->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        toolButtonTimer->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        toolButtonExplain->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        toolButtonCommit->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        toolButtonRollback->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        toolButtonClear->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        comboBoxConn->clear();
-        comboBoxConn->insertItems(0, QStringList()
-         << QString()
-         << QApplication::translate("KvSettingsDialog", "user1@alias1", Q_NULLPTR)
-         << QApplication::translate("KvSettingsDialog", "user3@alias3", Q_NULLPTR)
-        );
-        toolButtonZoomIn->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
-        toolButtonZoomOut->setText(QApplication::translate("KvSettingsDialog", "...", Q_NULLPTR));
+        toolButtonExec->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        toolButtonExecAll->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        toolButtonTimer->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        toolButtonExplain->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        toolButtonCommit->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        toolButtonRollback->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        toolButtonClear->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        comboBoxConn->setItemText(0, QString());
+        comboBoxConn->setItemText(1, QApplication::translate("KvSettingsDialog", "user1@alias1", nullptr));
+        comboBoxConn->setItemText(2, QApplication::translate("KvSettingsDialog", "user3@alias3", nullptr));
+
+        toolButtonZoomIn->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
+        toolButtonZoomOut->setText(QApplication::translate("KvSettingsDialog", "...", nullptr));
         textEditSql->setHtml(QApplication::translate("KvSettingsDialog", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
@@ -3392,19 +3403,19 @@ public:
 "<table border=\"0\" style=\"-qt-table-type: root; margin-top:4px; margin-bottom:4px; margin-left:4px; margin-right:4px;\">\n"
 "<tr>\n"
 "<td style=\"border: none;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'MS Shell Dlg 2'; font-size:8pt; font-weight:600;\">SELECT</span><span style=\" font-family:'MS Shell Dlg 2'; font-size:8pt;\"> * </span><span style=\" font-family:'MS Shell Dlg 2'; font-size:8pt; font-weight:600;\">FROM</span><span style=\" font-family:'MS Shell Dlg 2'; font-size:8pt;\"> information_schema.COLUMNS;</span></p></td></tr></table></body></html>", Q_NULLPTR));
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'MS Shell Dlg 2'; font-size:8pt; font-weight:600;\">SELECT</span><span style=\" font-family:'MS Shell Dlg 2'; font-size:8pt;\"> * </span><span style=\" font-family:'MS Shell Dlg 2'; font-size:8pt; font-weight:600;\">FROM</span><span style=\" font-family:'MS Shell Dlg 2'; font-size:8pt;\"> information_schema.COLUMNS;</span></p></td></tr></table></body></html>", nullptr));
 
         const bool __sortingEnabled3 = tableWidgetResults->isSortingEnabled();
         tableWidgetResults->setSortingEnabled(false);
         tableWidgetResults->setSortingEnabled(__sortingEnabled3);
 
-        tabWidgetSqlWinSample->setTabText(tabWidgetSqlWinSample->indexOf(tab_4), QApplication::translate("KvSettingsDialog", "Sql Statements", Q_NULLPTR));
-        tabWidgetSqlWinSample->setTabText(tabWidgetSqlWinSample->indexOf(tab_5), QApplication::translate("KvSettingsDialog", "Session Info", Q_NULLPTR));
-        tabWidgetSqlWinSample->setTabText(tabWidgetSqlWinSample->indexOf(tab_6), QApplication::translate("KvSettingsDialog", "Sql History", Q_NULLPTR));
-        tabWidgetMdiSample->setTabText(tabWidgetMdiSample->indexOf(tab), QApplication::translate("KvSettingsDialog", "Tab 1", Q_NULLPTR));
-        tabWidgetMdiSample->setTabText(tabWidgetMdiSample->indexOf(tab_2), QApplication::translate("KvSettingsDialog", "Tab 2", Q_NULLPTR));
-        tabWidgetMdiSample->setTabText(tabWidgetMdiSample->indexOf(tab_3), QApplication::translate("KvSettingsDialog", "Tab 3", Q_NULLPTR));
-        tabWidgetAppearance->setTabText(tabWidgetAppearance->indexOf(tabGuiStyle), QApplication::translate("KvSettingsDialog", "GUI Style", Q_NULLPTR));
+        tabWidgetSqlWinSample->setTabText(tabWidgetSqlWinSample->indexOf(tab_4), QApplication::translate("KvSettingsDialog", "Sql Statements", nullptr));
+        tabWidgetSqlWinSample->setTabText(tabWidgetSqlWinSample->indexOf(tab_5), QApplication::translate("KvSettingsDialog", "Session Info", nullptr));
+        tabWidgetSqlWinSample->setTabText(tabWidgetSqlWinSample->indexOf(tab_6), QApplication::translate("KvSettingsDialog", "Sql History", nullptr));
+        tabWidgetMdiSample->setTabText(tabWidgetMdiSample->indexOf(tab), QApplication::translate("KvSettingsDialog", "Tab 1", nullptr));
+        tabWidgetMdiSample->setTabText(tabWidgetMdiSample->indexOf(tab_2), QApplication::translate("KvSettingsDialog", "Tab 2", nullptr));
+        tabWidgetMdiSample->setTabText(tabWidgetMdiSample->indexOf(tab_3), QApplication::translate("KvSettingsDialog", "Tab 3", nullptr));
+        tabWidgetAppearance->setTabText(tabWidgetAppearance->indexOf(tabGuiStyle), QApplication::translate("KvSettingsDialog", "GUI Style", nullptr));
     } // retranslateUi
 
 };

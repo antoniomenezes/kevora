@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'kvthread.h'
 **
-** Created by: The Qt Meta Object Compiler version 67 (Qt 5.8.0)
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.12.0)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -13,7 +13,7 @@
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'kvthread.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 67
-#error "This file was generated using the moc from 5.8.0. It"
+#error "This file was generated using the moc from 5.12.0. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -201,7 +201,7 @@ QT_MOC_LITERAL(99, 2043, 4) // "stop"
 static const uint qt_meta_data_KvThread[] = {
 
  // content:
-       7,       // revision
+       8,       // revision
        0,       // classname
        0,    0, // classinfo
       77,   14, // methods
@@ -463,374 +463,373 @@ void KvThread::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, vo
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
         int *result = reinterpret_cast<int *>(_a[0]);
-        void **func = reinterpret_cast<void **>(_a[1]);
         {
-            typedef void (KvThread::*_t)(QString );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThread::startedThreadSignal)) {
+            using _t = void (KvThread::*)(QString );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThread::startedThreadSignal)) {
                 *result = 0;
                 return;
             }
         }
         {
-            typedef void (KvThread::*_t)(QString , QString , QString , QString , QString , QString , int );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThread::openDbConnectionSignal)) {
+            using _t = void (KvThread::*)(QString , QString , QString , QString , QString , QString , int );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThread::openDbConnectionSignal)) {
                 *result = 1;
                 return;
             }
         }
         {
-            typedef void (KvThread::*_t)(QString , QString , QString , QSqlError );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThread::openedDbConnectionSignal)) {
+            using _t = void (KvThread::*)(QString , QString , QString , QSqlError );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThread::openedDbConnectionSignal)) {
                 *result = 2;
                 return;
             }
         }
         {
-            typedef void (KvThread::*_t)(QString );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThread::getSessionInfoSignal)) {
+            using _t = void (KvThread::*)(QString );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThread::getSessionInfoSignal)) {
                 *result = 3;
                 return;
             }
         }
         {
-            typedef void (KvThread::*_t)(QString , QMap<QString,QString> );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThread::gotSessionInfoSignal)) {
+            using _t = void (KvThread::*)(QString , QMap<QString,QString> );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThread::gotSessionInfoSignal)) {
                 *result = 4;
                 return;
             }
         }
         {
-            typedef void (KvThread::*_t)(WId , QString );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThread::cloneSessionSignal)) {
+            using _t = void (KvThread::*)(WId , QString );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThread::cloneSessionSignal)) {
                 *result = 5;
                 return;
             }
         }
         {
-            typedef void (KvThread::*_t)(WId , QString , QString , QString , int , QString , QString , QString );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThread::clonedSessionSignal)) {
+            using _t = void (KvThread::*)(WId , QString , QString , QString , int , QString , QString , QString );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThread::clonedSessionSignal)) {
                 *result = 6;
                 return;
             }
         }
         {
-            typedef void (KvThread::*_t)(QString );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThread::getSchemasWithTablesSignal)) {
+            using _t = void (KvThread::*)(QString );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThread::getSchemasWithTablesSignal)) {
                 *result = 7;
                 return;
             }
         }
         {
-            typedef void (KvThread::*_t)(QString , QString , QStringList );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThread::gotSchemasWithTablesSignal)) {
+            using _t = void (KvThread::*)(QString , QString , QStringList );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThread::gotSchemasWithTablesSignal)) {
                 *result = 8;
                 return;
             }
         }
         {
-            typedef void (KvThread::*_t)(QString );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThread::getSchemasWithViewsSignal)) {
+            using _t = void (KvThread::*)(QString );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThread::getSchemasWithViewsSignal)) {
                 *result = 9;
                 return;
             }
         }
         {
-            typedef void (KvThread::*_t)(QString , QString , QStringList );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThread::gotSchemasWithViewsSignal)) {
+            using _t = void (KvThread::*)(QString , QString , QStringList );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThread::gotSchemasWithViewsSignal)) {
                 *result = 10;
                 return;
             }
         }
         {
-            typedef void (KvThread::*_t)(QString );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThread::getSchemasWithProgramsSignal)) {
+            using _t = void (KvThread::*)(QString );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThread::getSchemasWithProgramsSignal)) {
                 *result = 11;
                 return;
             }
         }
         {
-            typedef void (KvThread::*_t)(QString , QString , QStringList );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThread::gotSchemasWithProgramsSignal)) {
+            using _t = void (KvThread::*)(QString , QString , QStringList );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThread::gotSchemasWithProgramsSignal)) {
                 *result = 12;
                 return;
             }
         }
         {
-            typedef void (KvThread::*_t)(QString );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThread::getSchemasWithEtcSignal)) {
+            using _t = void (KvThread::*)(QString );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThread::getSchemasWithEtcSignal)) {
                 *result = 13;
                 return;
             }
         }
         {
-            typedef void (KvThread::*_t)(QString , QString , QStringList );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThread::gotSchemasWithEtcSignal)) {
+            using _t = void (KvThread::*)(QString , QString , QStringList );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThread::gotSchemasWithEtcSignal)) {
                 *result = 14;
                 return;
             }
         }
         {
-            typedef void (KvThread::*_t)(QTreeWidgetItem * , QString , QString );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThread::getTablesOfSchemaSignal)) {
+            using _t = void (KvThread::*)(QTreeWidgetItem * , QString , QString );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThread::getTablesOfSchemaSignal)) {
                 *result = 15;
                 return;
             }
         }
         {
-            typedef void (KvThread::*_t)(QTreeWidgetItem * , QString , QStringList );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThread::gotTablesOfSchemaSignal)) {
+            using _t = void (KvThread::*)(QTreeWidgetItem * , QString , QStringList );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThread::gotTablesOfSchemaSignal)) {
                 *result = 16;
                 return;
             }
         }
         {
-            typedef void (KvThread::*_t)(QTreeWidgetItem * , QString , QString );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThread::getViewsOfSchemaSignal)) {
+            using _t = void (KvThread::*)(QTreeWidgetItem * , QString , QString );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThread::getViewsOfSchemaSignal)) {
                 *result = 17;
                 return;
             }
         }
         {
-            typedef void (KvThread::*_t)(QTreeWidgetItem * , QString , QStringList );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThread::gotViewsOfSchemaSignal)) {
+            using _t = void (KvThread::*)(QTreeWidgetItem * , QString , QStringList );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThread::gotViewsOfSchemaSignal)) {
                 *result = 18;
                 return;
             }
         }
         {
-            typedef void (KvThread::*_t)(QTreeWidgetItem * , QString , QString );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThread::getProgramTypesOfSchemaSignal)) {
+            using _t = void (KvThread::*)(QTreeWidgetItem * , QString , QString );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThread::getProgramTypesOfSchemaSignal)) {
                 *result = 19;
                 return;
             }
         }
         {
-            typedef void (KvThread::*_t)(QTreeWidgetItem * , QString , QStringList );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThread::gotProgramTypesOfSchemaSignal)) {
+            using _t = void (KvThread::*)(QTreeWidgetItem * , QString , QStringList );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThread::gotProgramTypesOfSchemaSignal)) {
                 *result = 20;
                 return;
             }
         }
         {
-            typedef void (KvThread::*_t)(QTreeWidgetItem * , QString , QString , QString );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThread::getProgramsOfSchemaSignal)) {
+            using _t = void (KvThread::*)(QTreeWidgetItem * , QString , QString , QString );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThread::getProgramsOfSchemaSignal)) {
                 *result = 21;
                 return;
             }
         }
         {
-            typedef void (KvThread::*_t)(QTreeWidgetItem * , QString , QString , QList<QPair<QString,QString> > );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThread::gotProgramsOfSchemaSignal)) {
+            using _t = void (KvThread::*)(QTreeWidgetItem * , QString , QString , QList<QPair<QString,QString> > );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThread::gotProgramsOfSchemaSignal)) {
                 *result = 22;
                 return;
             }
         }
         {
-            typedef void (KvThread::*_t)(QTreeWidgetItem * , QString , QString );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThread::getEtcTypesOfSchemaSignal)) {
+            using _t = void (KvThread::*)(QTreeWidgetItem * , QString , QString );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThread::getEtcTypesOfSchemaSignal)) {
                 *result = 23;
                 return;
             }
         }
         {
-            typedef void (KvThread::*_t)(QTreeWidgetItem * , QString , QStringList );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThread::gotEtcTypesOfSchemaSignal)) {
+            using _t = void (KvThread::*)(QTreeWidgetItem * , QString , QStringList );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThread::gotEtcTypesOfSchemaSignal)) {
                 *result = 24;
                 return;
             }
         }
         {
-            typedef void (KvThread::*_t)(QTreeWidgetItem * , QString , QString , QString );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThread::getEtcOfSchemaSignal)) {
+            using _t = void (KvThread::*)(QTreeWidgetItem * , QString , QString , QString );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThread::getEtcOfSchemaSignal)) {
                 *result = 25;
                 return;
             }
         }
         {
-            typedef void (KvThread::*_t)(QTreeWidgetItem * , QString , QString , QList<QPair<QString,QString> > );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThread::gotEtcOfSchemaSignal)) {
+            using _t = void (KvThread::*)(QTreeWidgetItem * , QString , QString , QList<QPair<QString,QString> > );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThread::gotEtcOfSchemaSignal)) {
                 *result = 26;
                 return;
             }
         }
         {
-            typedef void (KvThread::*_t)(QString );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThread::closeDbConnectionSignal)) {
+            using _t = void (KvThread::*)(QString );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThread::closeDbConnectionSignal)) {
                 *result = 27;
                 return;
             }
         }
         {
-            typedef void (KvThread::*_t)(QString );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThread::closedDbConnectionSignal)) {
+            using _t = void (KvThread::*)(QString );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThread::closedDbConnectionSignal)) {
                 *result = 28;
                 return;
             }
         }
         {
-            typedef void (KvThread::*_t)(QString , QString );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThread::executeQuerySignal)) {
+            using _t = void (KvThread::*)(QString , QString );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThread::executeQuerySignal)) {
                 *result = 29;
                 return;
             }
         }
         {
-            typedef void (KvThread::*_t)(QStringList , int , int );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThread::getSqlBlocksSignal)) {
+            using _t = void (KvThread::*)(QStringList , int , int );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThread::getSqlBlocksSignal)) {
                 *result = 31;
                 return;
             }
         }
         {
-            typedef void (KvThread::*_t)(QString , int , bool , QString );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThread::getNextRecordsSignal)) {
+            using _t = void (KvThread::*)(QString , int , bool , QString );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThread::getNextRecordsSignal)) {
                 *result = 32;
                 return;
             }
         }
         {
-            typedef void (KvThread::*_t)(QString , QList<QSqlRecord> , int , QSqlError , QString );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThread::executedQuerySignal)) {
+            using _t = void (KvThread::*)(QString , QList<QSqlRecord> , int , QSqlError , QString );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThread::executedQuerySignal)) {
                 *result = 35;
                 return;
             }
         }
         {
-            typedef void (KvThread::*_t)(QStringList , int , int );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThread::gotSqlBlocksSignal)) {
+            using _t = void (KvThread::*)(QStringList , int , int );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThread::gotSqlBlocksSignal)) {
                 *result = 37;
                 return;
             }
         }
         {
-            typedef void (KvThread::*_t)(QString , QString );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThread::getFindObjectStatementSignal)) {
+            using _t = void (KvThread::*)(QString , QString );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThread::getFindObjectStatementSignal)) {
                 *result = 38;
                 return;
             }
         }
         {
-            typedef void (KvThread::*_t)(QString , QString );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThread::gotFindObjectStatementSignal)) {
+            using _t = void (KvThread::*)(QString , QString );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThread::gotFindObjectStatementSignal)) {
                 *result = 40;
                 return;
             }
         }
         {
-            typedef void (KvThread::*_t)(QString , QList<QSqlRecord> , int , QSqlError , bool , QString );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThread::gotNextRecordsSignal)) {
+            using _t = void (KvThread::*)(QString , QList<QSqlRecord> , int , QSqlError , bool , QString );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThread::gotNextRecordsSignal)) {
                 *result = 41;
                 return;
             }
         }
         {
-            typedef void (KvThread::*_t)();
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThread::commitTransactionSignal)) {
+            using _t = void (KvThread::*)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThread::commitTransactionSignal)) {
                 *result = 44;
                 return;
             }
         }
         {
-            typedef void (KvThread::*_t)();
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThread::rollbackTransactionSignal)) {
+            using _t = void (KvThread::*)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThread::rollbackTransactionSignal)) {
                 *result = 45;
                 return;
             }
         }
         {
-            typedef void (KvThread::*_t)(QString , QString , QString , bool , KvSqlSession::DdlTypes );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThread::getDdlFromObjectSignal)) {
+            using _t = void (KvThread::*)(QString , QString , QString , bool , KvSqlSession::DdlTypes );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThread::getDdlFromObjectSignal)) {
                 *result = 46;
                 return;
             }
         }
         {
-            typedef void (KvThread::*_t)(QString , QString , QString , QString , bool , QStringList , KvSqlSession::DdlTypes );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThread::gotDdlFromObjectSignal)) {
+            using _t = void (KvThread::*)(QString , QString , QString , QString , bool , QStringList , KvSqlSession::DdlTypes );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThread::gotDdlFromObjectSignal)) {
                 *result = 47;
                 return;
             }
         }
         {
-            typedef void (KvThread::*_t)(QString );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThread::getDependentSqlSignal)) {
+            using _t = void (KvThread::*)(QString );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThread::getDependentSqlSignal)) {
                 *result = 48;
                 return;
             }
         }
         {
-            typedef void (KvThread::*_t)(QString , QStringList );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThread::gotDependentSqlSignal)) {
+            using _t = void (KvThread::*)(QString , QStringList );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThread::gotDependentSqlSignal)) {
                 *result = 49;
                 return;
             }
         }
         {
-            typedef void (KvThread::*_t)(QString );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThread::getExtractConsistentDataSqlSignal)) {
+            using _t = void (KvThread::*)(QString );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThread::getExtractConsistentDataSqlSignal)) {
                 *result = 50;
                 return;
             }
         }
         {
-            typedef void (KvThread::*_t)(QString , QStringList );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThread::gotExtractConsistentDataSqlSignal)) {
+            using _t = void (KvThread::*)(QString , QStringList );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThread::gotExtractConsistentDataSqlSignal)) {
                 *result = 51;
                 return;
             }
         }
         {
-            typedef void (KvThread::*_t)(QString , QString );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThread::getPlanSignal)) {
+            using _t = void (KvThread::*)(QString , QString );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThread::getPlanSignal)) {
                 *result = 52;
                 return;
             }
         }
         {
-            typedef void (KvThread::*_t)(QString , QString , QList<QPair<QString,QMap<QString,QString> > > );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThread::gotPlanSignal)) {
+            using _t = void (KvThread::*)(QString , QString , QList<QPair<QString,QMap<QString,QString> > > );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThread::gotPlanSignal)) {
                 *result = 53;
                 return;
             }
         }
         {
-            typedef void (KvThread::*_t)(QString , QString , bool , QString );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThread::getExportedDataSignal)) {
+            using _t = void (KvThread::*)(QString , QString , bool , QString );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThread::getExportedDataSignal)) {
                 *result = 54;
                 return;
             }
         }
         {
-            typedef void (KvThread::*_t)(QString , QString , QString , bool , QString , bool , QString );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThread::gotExportedDataSignal)) {
+            using _t = void (KvThread::*)(QString , QString , QString , bool , QString , bool , QString );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThread::gotExportedDataSignal)) {
                 *result = 55;
                 return;
             }
         }
         {
-            typedef void (KvThread::*_t)();
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThread::getDatabaseObjectTypesSignal)) {
+            using _t = void (KvThread::*)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThread::getDatabaseObjectTypesSignal)) {
                 *result = 56;
                 return;
             }
         }
         {
-            typedef void (KvThread::*_t)(QStringList , QStringList );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThread::gotDatabaseObjectTypesSignal)) {
+            using _t = void (KvThread::*)(QStringList , QStringList );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThread::gotDatabaseObjectTypesSignal)) {
                 *result = 57;
                 return;
             }
         }
         {
-            typedef void (KvThread::*_t)(QString , QString );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThread::getTableAndColumnsInfoSignal)) {
+            using _t = void (KvThread::*)(QString , QString );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThread::getTableAndColumnsInfoSignal)) {
                 *result = 58;
                 return;
             }
         }
         {
-            typedef void (KvThread::*_t)(QString , QString , KvTableInfo , QList<KvColumnInfo> , QList<KvTableConstraintInfo> );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThread::gotTableAndColumnsInfoSignal)) {
+            using _t = void (KvThread::*)(QString , QString , KvTableInfo , QList<KvColumnInfo> , QList<KvTableConstraintInfo> );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThread::gotTableAndColumnsInfoSignal)) {
                 *result = 59;
                 return;
             }
@@ -838,10 +837,14 @@ void KvThread::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, vo
     }
 }
 
-const QMetaObject KvThread::staticMetaObject = {
-    { &QThread::staticMetaObject, qt_meta_stringdata_KvThread.data,
-      qt_meta_data_KvThread,  qt_static_metacall, Q_NULLPTR, Q_NULLPTR}
-};
+QT_INIT_METAOBJECT const QMetaObject KvThread::staticMetaObject = { {
+    &QThread::staticMetaObject,
+    qt_meta_stringdata_KvThread.data,
+    qt_meta_data_KvThread,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
 
 
 const QMetaObject *KvThread::metaObject() const
@@ -851,9 +854,9 @@ const QMetaObject *KvThread::metaObject() const
 
 void *KvThread::qt_metacast(const char *_clname)
 {
-    if (!_clname) return Q_NULLPTR;
+    if (!_clname) return nullptr;
     if (!strcmp(_clname, qt_meta_stringdata_KvThread.stringdata0))
-        return static_cast<void*>(const_cast< KvThread*>(this));
+        return static_cast<void*>(this);
     return QThread::qt_metacast(_clname);
 }
 
@@ -877,368 +880,368 @@ int KvThread::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 // SIGNAL 0
 void KvThread::startedThreadSignal(QString _t1)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
     QMetaObject::activate(this, &staticMetaObject, 0, _a);
 }
 
 // SIGNAL 1
 void KvThread::openDbConnectionSignal(QString _t1, QString _t2, QString _t3, QString _t4, QString _t5, QString _t6, int _t7)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)), const_cast<void*>(reinterpret_cast<const void*>(&_t5)), const_cast<void*>(reinterpret_cast<const void*>(&_t6)), const_cast<void*>(reinterpret_cast<const void*>(&_t7)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)), const_cast<void*>(reinterpret_cast<const void*>(&_t5)), const_cast<void*>(reinterpret_cast<const void*>(&_t6)), const_cast<void*>(reinterpret_cast<const void*>(&_t7)) };
     QMetaObject::activate(this, &staticMetaObject, 1, _a);
 }
 
 // SIGNAL 2
 void KvThread::openedDbConnectionSignal(QString _t1, QString _t2, QString _t3, QSqlError _t4)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)) };
     QMetaObject::activate(this, &staticMetaObject, 2, _a);
 }
 
 // SIGNAL 3
 void KvThread::getSessionInfoSignal(QString _t1)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
     QMetaObject::activate(this, &staticMetaObject, 3, _a);
 }
 
 // SIGNAL 4
 void KvThread::gotSessionInfoSignal(QString _t1, QMap<QString,QString> _t2)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
     QMetaObject::activate(this, &staticMetaObject, 4, _a);
 }
 
 // SIGNAL 5
 void KvThread::cloneSessionSignal(WId _t1, QString _t2)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
     QMetaObject::activate(this, &staticMetaObject, 5, _a);
 }
 
 // SIGNAL 6
 void KvThread::clonedSessionSignal(WId _t1, QString _t2, QString _t3, QString _t4, int _t5, QString _t6, QString _t7, QString _t8)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)), const_cast<void*>(reinterpret_cast<const void*>(&_t5)), const_cast<void*>(reinterpret_cast<const void*>(&_t6)), const_cast<void*>(reinterpret_cast<const void*>(&_t7)), const_cast<void*>(reinterpret_cast<const void*>(&_t8)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)), const_cast<void*>(reinterpret_cast<const void*>(&_t5)), const_cast<void*>(reinterpret_cast<const void*>(&_t6)), const_cast<void*>(reinterpret_cast<const void*>(&_t7)), const_cast<void*>(reinterpret_cast<const void*>(&_t8)) };
     QMetaObject::activate(this, &staticMetaObject, 6, _a);
 }
 
 // SIGNAL 7
 void KvThread::getSchemasWithTablesSignal(QString _t1)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
     QMetaObject::activate(this, &staticMetaObject, 7, _a);
 }
 
 // SIGNAL 8
 void KvThread::gotSchemasWithTablesSignal(QString _t1, QString _t2, QStringList _t3)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
     QMetaObject::activate(this, &staticMetaObject, 8, _a);
 }
 
 // SIGNAL 9
 void KvThread::getSchemasWithViewsSignal(QString _t1)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
     QMetaObject::activate(this, &staticMetaObject, 9, _a);
 }
 
 // SIGNAL 10
 void KvThread::gotSchemasWithViewsSignal(QString _t1, QString _t2, QStringList _t3)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
     QMetaObject::activate(this, &staticMetaObject, 10, _a);
 }
 
 // SIGNAL 11
 void KvThread::getSchemasWithProgramsSignal(QString _t1)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
     QMetaObject::activate(this, &staticMetaObject, 11, _a);
 }
 
 // SIGNAL 12
 void KvThread::gotSchemasWithProgramsSignal(QString _t1, QString _t2, QStringList _t3)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
     QMetaObject::activate(this, &staticMetaObject, 12, _a);
 }
 
 // SIGNAL 13
 void KvThread::getSchemasWithEtcSignal(QString _t1)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
     QMetaObject::activate(this, &staticMetaObject, 13, _a);
 }
 
 // SIGNAL 14
 void KvThread::gotSchemasWithEtcSignal(QString _t1, QString _t2, QStringList _t3)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
     QMetaObject::activate(this, &staticMetaObject, 14, _a);
 }
 
 // SIGNAL 15
 void KvThread::getTablesOfSchemaSignal(QTreeWidgetItem * _t1, QString _t2, QString _t3)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
     QMetaObject::activate(this, &staticMetaObject, 15, _a);
 }
 
 // SIGNAL 16
 void KvThread::gotTablesOfSchemaSignal(QTreeWidgetItem * _t1, QString _t2, QStringList _t3)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
     QMetaObject::activate(this, &staticMetaObject, 16, _a);
 }
 
 // SIGNAL 17
 void KvThread::getViewsOfSchemaSignal(QTreeWidgetItem * _t1, QString _t2, QString _t3)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
     QMetaObject::activate(this, &staticMetaObject, 17, _a);
 }
 
 // SIGNAL 18
 void KvThread::gotViewsOfSchemaSignal(QTreeWidgetItem * _t1, QString _t2, QStringList _t3)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
     QMetaObject::activate(this, &staticMetaObject, 18, _a);
 }
 
 // SIGNAL 19
 void KvThread::getProgramTypesOfSchemaSignal(QTreeWidgetItem * _t1, QString _t2, QString _t3)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
     QMetaObject::activate(this, &staticMetaObject, 19, _a);
 }
 
 // SIGNAL 20
 void KvThread::gotProgramTypesOfSchemaSignal(QTreeWidgetItem * _t1, QString _t2, QStringList _t3)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
     QMetaObject::activate(this, &staticMetaObject, 20, _a);
 }
 
 // SIGNAL 21
 void KvThread::getProgramsOfSchemaSignal(QTreeWidgetItem * _t1, QString _t2, QString _t3, QString _t4)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)) };
     QMetaObject::activate(this, &staticMetaObject, 21, _a);
 }
 
 // SIGNAL 22
 void KvThread::gotProgramsOfSchemaSignal(QTreeWidgetItem * _t1, QString _t2, QString _t3, QList<QPair<QString,QString> > _t4)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)) };
     QMetaObject::activate(this, &staticMetaObject, 22, _a);
 }
 
 // SIGNAL 23
 void KvThread::getEtcTypesOfSchemaSignal(QTreeWidgetItem * _t1, QString _t2, QString _t3)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
     QMetaObject::activate(this, &staticMetaObject, 23, _a);
 }
 
 // SIGNAL 24
 void KvThread::gotEtcTypesOfSchemaSignal(QTreeWidgetItem * _t1, QString _t2, QStringList _t3)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
     QMetaObject::activate(this, &staticMetaObject, 24, _a);
 }
 
 // SIGNAL 25
 void KvThread::getEtcOfSchemaSignal(QTreeWidgetItem * _t1, QString _t2, QString _t3, QString _t4)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)) };
     QMetaObject::activate(this, &staticMetaObject, 25, _a);
 }
 
 // SIGNAL 26
 void KvThread::gotEtcOfSchemaSignal(QTreeWidgetItem * _t1, QString _t2, QString _t3, QList<QPair<QString,QString> > _t4)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)) };
     QMetaObject::activate(this, &staticMetaObject, 26, _a);
 }
 
 // SIGNAL 27
 void KvThread::closeDbConnectionSignal(QString _t1)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
     QMetaObject::activate(this, &staticMetaObject, 27, _a);
 }
 
 // SIGNAL 28
 void KvThread::closedDbConnectionSignal(QString _t1)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
     QMetaObject::activate(this, &staticMetaObject, 28, _a);
 }
 
 // SIGNAL 29
 void KvThread::executeQuerySignal(QString _t1, QString _t2)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
     QMetaObject::activate(this, &staticMetaObject, 29, _a);
 }
 
 // SIGNAL 31
 void KvThread::getSqlBlocksSignal(QStringList _t1, int _t2, int _t3)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
     QMetaObject::activate(this, &staticMetaObject, 31, _a);
 }
 
 // SIGNAL 32
 void KvThread::getNextRecordsSignal(QString _t1, int _t2, bool _t3, QString _t4)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)) };
     QMetaObject::activate(this, &staticMetaObject, 32, _a);
 }
 
 // SIGNAL 35
 void KvThread::executedQuerySignal(QString _t1, QList<QSqlRecord> _t2, int _t3, QSqlError _t4, QString _t5)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)), const_cast<void*>(reinterpret_cast<const void*>(&_t5)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)), const_cast<void*>(reinterpret_cast<const void*>(&_t5)) };
     QMetaObject::activate(this, &staticMetaObject, 35, _a);
 }
 
 // SIGNAL 37
 void KvThread::gotSqlBlocksSignal(QStringList _t1, int _t2, int _t3)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
     QMetaObject::activate(this, &staticMetaObject, 37, _a);
 }
 
 // SIGNAL 38
 void KvThread::getFindObjectStatementSignal(QString _t1, QString _t2)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
     QMetaObject::activate(this, &staticMetaObject, 38, _a);
 }
 
 // SIGNAL 40
 void KvThread::gotFindObjectStatementSignal(QString _t1, QString _t2)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
     QMetaObject::activate(this, &staticMetaObject, 40, _a);
 }
 
 // SIGNAL 41
 void KvThread::gotNextRecordsSignal(QString _t1, QList<QSqlRecord> _t2, int _t3, QSqlError _t4, bool _t5, QString _t6)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)), const_cast<void*>(reinterpret_cast<const void*>(&_t5)), const_cast<void*>(reinterpret_cast<const void*>(&_t6)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)), const_cast<void*>(reinterpret_cast<const void*>(&_t5)), const_cast<void*>(reinterpret_cast<const void*>(&_t6)) };
     QMetaObject::activate(this, &staticMetaObject, 41, _a);
 }
 
 // SIGNAL 44
 void KvThread::commitTransactionSignal()
 {
-    QMetaObject::activate(this, &staticMetaObject, 44, Q_NULLPTR);
+    QMetaObject::activate(this, &staticMetaObject, 44, nullptr);
 }
 
 // SIGNAL 45
 void KvThread::rollbackTransactionSignal()
 {
-    QMetaObject::activate(this, &staticMetaObject, 45, Q_NULLPTR);
+    QMetaObject::activate(this, &staticMetaObject, 45, nullptr);
 }
 
 // SIGNAL 46
 void KvThread::getDdlFromObjectSignal(QString _t1, QString _t2, QString _t3, bool _t4, KvSqlSession::DdlTypes _t5)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)), const_cast<void*>(reinterpret_cast<const void*>(&_t5)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)), const_cast<void*>(reinterpret_cast<const void*>(&_t5)) };
     QMetaObject::activate(this, &staticMetaObject, 46, _a);
 }
 
 // SIGNAL 47
 void KvThread::gotDdlFromObjectSignal(QString _t1, QString _t2, QString _t3, QString _t4, bool _t5, QStringList _t6, KvSqlSession::DdlTypes _t7)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)), const_cast<void*>(reinterpret_cast<const void*>(&_t5)), const_cast<void*>(reinterpret_cast<const void*>(&_t6)), const_cast<void*>(reinterpret_cast<const void*>(&_t7)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)), const_cast<void*>(reinterpret_cast<const void*>(&_t5)), const_cast<void*>(reinterpret_cast<const void*>(&_t6)), const_cast<void*>(reinterpret_cast<const void*>(&_t7)) };
     QMetaObject::activate(this, &staticMetaObject, 47, _a);
 }
 
 // SIGNAL 48
 void KvThread::getDependentSqlSignal(QString _t1)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
     QMetaObject::activate(this, &staticMetaObject, 48, _a);
 }
 
 // SIGNAL 49
 void KvThread::gotDependentSqlSignal(QString _t1, QStringList _t2)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
     QMetaObject::activate(this, &staticMetaObject, 49, _a);
 }
 
 // SIGNAL 50
 void KvThread::getExtractConsistentDataSqlSignal(QString _t1)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
     QMetaObject::activate(this, &staticMetaObject, 50, _a);
 }
 
 // SIGNAL 51
 void KvThread::gotExtractConsistentDataSqlSignal(QString _t1, QStringList _t2)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
     QMetaObject::activate(this, &staticMetaObject, 51, _a);
 }
 
 // SIGNAL 52
 void KvThread::getPlanSignal(QString _t1, QString _t2)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
     QMetaObject::activate(this, &staticMetaObject, 52, _a);
 }
 
 // SIGNAL 53
 void KvThread::gotPlanSignal(QString _t1, QString _t2, QList<QPair<QString,QMap<QString,QString> > > _t3)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
     QMetaObject::activate(this, &staticMetaObject, 53, _a);
 }
 
 // SIGNAL 54
 void KvThread::getExportedDataSignal(QString _t1, QString _t2, bool _t3, QString _t4)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)) };
     QMetaObject::activate(this, &staticMetaObject, 54, _a);
 }
 
 // SIGNAL 55
 void KvThread::gotExportedDataSignal(QString _t1, QString _t2, QString _t3, bool _t4, QString _t5, bool _t6, QString _t7)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)), const_cast<void*>(reinterpret_cast<const void*>(&_t5)), const_cast<void*>(reinterpret_cast<const void*>(&_t6)), const_cast<void*>(reinterpret_cast<const void*>(&_t7)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)), const_cast<void*>(reinterpret_cast<const void*>(&_t5)), const_cast<void*>(reinterpret_cast<const void*>(&_t6)), const_cast<void*>(reinterpret_cast<const void*>(&_t7)) };
     QMetaObject::activate(this, &staticMetaObject, 55, _a);
 }
 
 // SIGNAL 56
 void KvThread::getDatabaseObjectTypesSignal()
 {
-    QMetaObject::activate(this, &staticMetaObject, 56, Q_NULLPTR);
+    QMetaObject::activate(this, &staticMetaObject, 56, nullptr);
 }
 
 // SIGNAL 57
 void KvThread::gotDatabaseObjectTypesSignal(QStringList _t1, QStringList _t2)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
     QMetaObject::activate(this, &staticMetaObject, 57, _a);
 }
 
 // SIGNAL 58
 void KvThread::getTableAndColumnsInfoSignal(QString _t1, QString _t2)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
     QMetaObject::activate(this, &staticMetaObject, 58, _a);
 }
 
 // SIGNAL 59
 void KvThread::gotTableAndColumnsInfoSignal(QString _t1, QString _t2, KvTableInfo _t3, QList<KvColumnInfo> _t4, QList<KvTableConstraintInfo> _t5)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)), const_cast<void*>(reinterpret_cast<const void*>(&_t5)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)), const_cast<void*>(reinterpret_cast<const void*>(&_t5)) };
     QMetaObject::activate(this, &staticMetaObject, 59, _a);
 }
 struct qt_meta_stringdata_KvThreadWorker_t {
@@ -1400,7 +1403,7 @@ QT_MOC_LITERAL(90, 1720, 10) // "schemaName"
 static const uint qt_meta_data_KvThreadWorker[] = {
 
  // content:
-       7,       // revision
+       8,       // revision
        0,       // classname
        0,    0, // classinfo
       64,   14, // methods
@@ -1623,178 +1626,177 @@ void KvThreadWorker::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
         int *result = reinterpret_cast<int *>(_a[0]);
-        void **func = reinterpret_cast<void **>(_a[1]);
         {
-            typedef void (KvThreadWorker::*_t)(QString , QString , QString , QSqlError );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThreadWorker::openedDbConnectionSignal)) {
+            using _t = void (KvThreadWorker::*)(QString , QString , QString , QSqlError );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThreadWorker::openedDbConnectionSignal)) {
                 *result = 0;
                 return;
             }
         }
         {
-            typedef void (KvThreadWorker::*_t)(WId , QString , QString , QString , int , QString , QString , QString );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThreadWorker::clonedSessionSignal)) {
+            using _t = void (KvThreadWorker::*)(WId , QString , QString , QString , int , QString , QString , QString );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThreadWorker::clonedSessionSignal)) {
                 *result = 1;
                 return;
             }
         }
         {
-            typedef void (KvThreadWorker::*_t)(QString , QMap<QString,QString> );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThreadWorker::gotSessionInfoSignal)) {
+            using _t = void (KvThreadWorker::*)(QString , QMap<QString,QString> );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThreadWorker::gotSessionInfoSignal)) {
                 *result = 2;
                 return;
             }
         }
         {
-            typedef void (KvThreadWorker::*_t)(QString , QString , QStringList );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThreadWorker::gotSchemasWithTablesSignal)) {
+            using _t = void (KvThreadWorker::*)(QString , QString , QStringList );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThreadWorker::gotSchemasWithTablesSignal)) {
                 *result = 3;
                 return;
             }
         }
         {
-            typedef void (KvThreadWorker::*_t)(QString , QString , QStringList );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThreadWorker::gotSchemasWithViewsSignal)) {
+            using _t = void (KvThreadWorker::*)(QString , QString , QStringList );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThreadWorker::gotSchemasWithViewsSignal)) {
                 *result = 4;
                 return;
             }
         }
         {
-            typedef void (KvThreadWorker::*_t)(QString , QString , QStringList );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThreadWorker::gotSchemasWithProgramsSignal)) {
+            using _t = void (KvThreadWorker::*)(QString , QString , QStringList );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThreadWorker::gotSchemasWithProgramsSignal)) {
                 *result = 5;
                 return;
             }
         }
         {
-            typedef void (KvThreadWorker::*_t)(QString , QString , QStringList );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThreadWorker::gotSchemasWithEtcSignal)) {
+            using _t = void (KvThreadWorker::*)(QString , QString , QStringList );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThreadWorker::gotSchemasWithEtcSignal)) {
                 *result = 6;
                 return;
             }
         }
         {
-            typedef void (KvThreadWorker::*_t)(QTreeWidgetItem * , QString , QStringList );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThreadWorker::gotTablesOfSchemaSignal)) {
+            using _t = void (KvThreadWorker::*)(QTreeWidgetItem * , QString , QStringList );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThreadWorker::gotTablesOfSchemaSignal)) {
                 *result = 7;
                 return;
             }
         }
         {
-            typedef void (KvThreadWorker::*_t)(QTreeWidgetItem * , QString , QStringList );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThreadWorker::gotViewsOfSchemaSignal)) {
+            using _t = void (KvThreadWorker::*)(QTreeWidgetItem * , QString , QStringList );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThreadWorker::gotViewsOfSchemaSignal)) {
                 *result = 8;
                 return;
             }
         }
         {
-            typedef void (KvThreadWorker::*_t)(QTreeWidgetItem * , QString , QStringList );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThreadWorker::gotProgramTypesOfSchemaSignal)) {
+            using _t = void (KvThreadWorker::*)(QTreeWidgetItem * , QString , QStringList );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThreadWorker::gotProgramTypesOfSchemaSignal)) {
                 *result = 9;
                 return;
             }
         }
         {
-            typedef void (KvThreadWorker::*_t)(QTreeWidgetItem * , QString , QString , QList<QPair<QString,QString> > );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThreadWorker::gotProgramsOfSchemaSignal)) {
+            using _t = void (KvThreadWorker::*)(QTreeWidgetItem * , QString , QString , QList<QPair<QString,QString> > );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThreadWorker::gotProgramsOfSchemaSignal)) {
                 *result = 10;
                 return;
             }
         }
         {
-            typedef void (KvThreadWorker::*_t)(QTreeWidgetItem * , QString , QStringList );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThreadWorker::gotEtcTypesOfSchemaSignal)) {
+            using _t = void (KvThreadWorker::*)(QTreeWidgetItem * , QString , QStringList );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThreadWorker::gotEtcTypesOfSchemaSignal)) {
                 *result = 11;
                 return;
             }
         }
         {
-            typedef void (KvThreadWorker::*_t)(QTreeWidgetItem * , QString , QString , QList<QPair<QString,QString> > );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThreadWorker::gotEtcOfSchemaSignal)) {
+            using _t = void (KvThreadWorker::*)(QTreeWidgetItem * , QString , QString , QList<QPair<QString,QString> > );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThreadWorker::gotEtcOfSchemaSignal)) {
                 *result = 12;
                 return;
             }
         }
         {
-            typedef void (KvThreadWorker::*_t)(QString );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThreadWorker::closedDbConnectionSignal)) {
+            using _t = void (KvThreadWorker::*)(QString );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThreadWorker::closedDbConnectionSignal)) {
                 *result = 13;
                 return;
             }
         }
         {
-            typedef void (KvThreadWorker::*_t)(QString , QList<QSqlRecord> , int , QSqlError , QString );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThreadWorker::executedQuerySignal)) {
+            using _t = void (KvThreadWorker::*)(QString , QList<QSqlRecord> , int , QSqlError , QString );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThreadWorker::executedQuerySignal)) {
                 *result = 14;
                 return;
             }
         }
         {
-            typedef void (KvThreadWorker::*_t)(QStringList , int , int );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThreadWorker::gotSqlBlocksSignal)) {
+            using _t = void (KvThreadWorker::*)(QStringList , int , int );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThreadWorker::gotSqlBlocksSignal)) {
                 *result = 16;
                 return;
             }
         }
         {
-            typedef void (KvThreadWorker::*_t)(QString , QString );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThreadWorker::gotFindObjectStatementSignal)) {
+            using _t = void (KvThreadWorker::*)(QString , QString );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThreadWorker::gotFindObjectStatementSignal)) {
                 *result = 17;
                 return;
             }
         }
         {
-            typedef void (KvThreadWorker::*_t)(QString , QList<QSqlRecord> , int , QSqlError , bool , QString );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThreadWorker::gotNextRecordsSignal)) {
+            using _t = void (KvThreadWorker::*)(QString , QList<QSqlRecord> , int , QSqlError , bool , QString );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThreadWorker::gotNextRecordsSignal)) {
                 *result = 18;
                 return;
             }
         }
         {
-            typedef void (KvThreadWorker::*_t)(QString , QString , QString , QString , bool , QStringList , KvSqlSession::DdlTypes );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThreadWorker::gotDdlFromObjectSignal)) {
+            using _t = void (KvThreadWorker::*)(QString , QString , QString , QString , bool , QStringList , KvSqlSession::DdlTypes );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThreadWorker::gotDdlFromObjectSignal)) {
                 *result = 21;
                 return;
             }
         }
         {
-            typedef void (KvThreadWorker::*_t)(QString , QStringList );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThreadWorker::gotExtractConsistentDataSqlSignal)) {
+            using _t = void (KvThreadWorker::*)(QString , QStringList );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThreadWorker::gotExtractConsistentDataSqlSignal)) {
                 *result = 22;
                 return;
             }
         }
         {
-            typedef void (KvThreadWorker::*_t)(QString , QStringList );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThreadWorker::gotDependentSqlSignal)) {
+            using _t = void (KvThreadWorker::*)(QString , QStringList );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThreadWorker::gotDependentSqlSignal)) {
                 *result = 23;
                 return;
             }
         }
         {
-            typedef void (KvThreadWorker::*_t)(QString , QString , QList<QPair<QString,QMap<QString,QString> > > );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThreadWorker::gotPlanSignal)) {
+            using _t = void (KvThreadWorker::*)(QString , QString , QList<QPair<QString,QMap<QString,QString> > > );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThreadWorker::gotPlanSignal)) {
                 *result = 24;
                 return;
             }
         }
         {
-            typedef void (KvThreadWorker::*_t)(QString , QString , QString , bool , QString , bool , QString );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThreadWorker::gotExportedDataSignal)) {
+            using _t = void (KvThreadWorker::*)(QString , QString , QString , bool , QString , bool , QString );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThreadWorker::gotExportedDataSignal)) {
                 *result = 25;
                 return;
             }
         }
         {
-            typedef void (KvThreadWorker::*_t)(QStringList , QStringList );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThreadWorker::gotDatabaseObjectTypesSignal)) {
+            using _t = void (KvThreadWorker::*)(QStringList , QStringList );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThreadWorker::gotDatabaseObjectTypesSignal)) {
                 *result = 26;
                 return;
             }
         }
         {
-            typedef void (KvThreadWorker::*_t)(QString , QString , KvTableInfo , QList<KvColumnInfo> , QList<KvTableConstraintInfo> );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvThreadWorker::gotTableAndColumnsInfoSignal)) {
+            using _t = void (KvThreadWorker::*)(QString , QString , KvTableInfo , QList<KvColumnInfo> , QList<KvTableConstraintInfo> );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvThreadWorker::gotTableAndColumnsInfoSignal)) {
                 *result = 27;
                 return;
             }
@@ -1802,10 +1804,14 @@ void KvThreadWorker::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _
     }
 }
 
-const QMetaObject KvThreadWorker::staticMetaObject = {
-    { &QObject::staticMetaObject, qt_meta_stringdata_KvThreadWorker.data,
-      qt_meta_data_KvThreadWorker,  qt_static_metacall, Q_NULLPTR, Q_NULLPTR}
-};
+QT_INIT_METAOBJECT const QMetaObject KvThreadWorker::staticMetaObject = { {
+    &QObject::staticMetaObject,
+    qt_meta_stringdata_KvThreadWorker.data,
+    qt_meta_data_KvThreadWorker,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
 
 
 const QMetaObject *KvThreadWorker::metaObject() const
@@ -1815,9 +1821,9 @@ const QMetaObject *KvThreadWorker::metaObject() const
 
 void *KvThreadWorker::qt_metacast(const char *_clname)
 {
-    if (!_clname) return Q_NULLPTR;
+    if (!_clname) return nullptr;
     if (!strcmp(_clname, qt_meta_stringdata_KvThreadWorker.stringdata0))
-        return static_cast<void*>(const_cast< KvThreadWorker*>(this));
+        return static_cast<void*>(this);
     return QObject::qt_metacast(_clname);
 }
 
@@ -1841,175 +1847,175 @@ int KvThreadWorker::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 // SIGNAL 0
 void KvThreadWorker::openedDbConnectionSignal(QString _t1, QString _t2, QString _t3, QSqlError _t4)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)) };
     QMetaObject::activate(this, &staticMetaObject, 0, _a);
 }
 
 // SIGNAL 1
 void KvThreadWorker::clonedSessionSignal(WId _t1, QString _t2, QString _t3, QString _t4, int _t5, QString _t6, QString _t7, QString _t8)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)), const_cast<void*>(reinterpret_cast<const void*>(&_t5)), const_cast<void*>(reinterpret_cast<const void*>(&_t6)), const_cast<void*>(reinterpret_cast<const void*>(&_t7)), const_cast<void*>(reinterpret_cast<const void*>(&_t8)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)), const_cast<void*>(reinterpret_cast<const void*>(&_t5)), const_cast<void*>(reinterpret_cast<const void*>(&_t6)), const_cast<void*>(reinterpret_cast<const void*>(&_t7)), const_cast<void*>(reinterpret_cast<const void*>(&_t8)) };
     QMetaObject::activate(this, &staticMetaObject, 1, _a);
 }
 
 // SIGNAL 2
 void KvThreadWorker::gotSessionInfoSignal(QString _t1, QMap<QString,QString> _t2)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
     QMetaObject::activate(this, &staticMetaObject, 2, _a);
 }
 
 // SIGNAL 3
 void KvThreadWorker::gotSchemasWithTablesSignal(QString _t1, QString _t2, QStringList _t3)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
     QMetaObject::activate(this, &staticMetaObject, 3, _a);
 }
 
 // SIGNAL 4
 void KvThreadWorker::gotSchemasWithViewsSignal(QString _t1, QString _t2, QStringList _t3)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
     QMetaObject::activate(this, &staticMetaObject, 4, _a);
 }
 
 // SIGNAL 5
 void KvThreadWorker::gotSchemasWithProgramsSignal(QString _t1, QString _t2, QStringList _t3)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
     QMetaObject::activate(this, &staticMetaObject, 5, _a);
 }
 
 // SIGNAL 6
 void KvThreadWorker::gotSchemasWithEtcSignal(QString _t1, QString _t2, QStringList _t3)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
     QMetaObject::activate(this, &staticMetaObject, 6, _a);
 }
 
 // SIGNAL 7
 void KvThreadWorker::gotTablesOfSchemaSignal(QTreeWidgetItem * _t1, QString _t2, QStringList _t3)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
     QMetaObject::activate(this, &staticMetaObject, 7, _a);
 }
 
 // SIGNAL 8
 void KvThreadWorker::gotViewsOfSchemaSignal(QTreeWidgetItem * _t1, QString _t2, QStringList _t3)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
     QMetaObject::activate(this, &staticMetaObject, 8, _a);
 }
 
 // SIGNAL 9
 void KvThreadWorker::gotProgramTypesOfSchemaSignal(QTreeWidgetItem * _t1, QString _t2, QStringList _t3)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
     QMetaObject::activate(this, &staticMetaObject, 9, _a);
 }
 
 // SIGNAL 10
 void KvThreadWorker::gotProgramsOfSchemaSignal(QTreeWidgetItem * _t1, QString _t2, QString _t3, QList<QPair<QString,QString> > _t4)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)) };
     QMetaObject::activate(this, &staticMetaObject, 10, _a);
 }
 
 // SIGNAL 11
 void KvThreadWorker::gotEtcTypesOfSchemaSignal(QTreeWidgetItem * _t1, QString _t2, QStringList _t3)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
     QMetaObject::activate(this, &staticMetaObject, 11, _a);
 }
 
 // SIGNAL 12
 void KvThreadWorker::gotEtcOfSchemaSignal(QTreeWidgetItem * _t1, QString _t2, QString _t3, QList<QPair<QString,QString> > _t4)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)) };
     QMetaObject::activate(this, &staticMetaObject, 12, _a);
 }
 
 // SIGNAL 13
 void KvThreadWorker::closedDbConnectionSignal(QString _t1)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
     QMetaObject::activate(this, &staticMetaObject, 13, _a);
 }
 
 // SIGNAL 14
 void KvThreadWorker::executedQuerySignal(QString _t1, QList<QSqlRecord> _t2, int _t3, QSqlError _t4, QString _t5)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)), const_cast<void*>(reinterpret_cast<const void*>(&_t5)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)), const_cast<void*>(reinterpret_cast<const void*>(&_t5)) };
     QMetaObject::activate(this, &staticMetaObject, 14, _a);
 }
 
 // SIGNAL 16
 void KvThreadWorker::gotSqlBlocksSignal(QStringList _t1, int _t2, int _t3)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
     QMetaObject::activate(this, &staticMetaObject, 16, _a);
 }
 
 // SIGNAL 17
 void KvThreadWorker::gotFindObjectStatementSignal(QString _t1, QString _t2)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
     QMetaObject::activate(this, &staticMetaObject, 17, _a);
 }
 
 // SIGNAL 18
 void KvThreadWorker::gotNextRecordsSignal(QString _t1, QList<QSqlRecord> _t2, int _t3, QSqlError _t4, bool _t5, QString _t6)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)), const_cast<void*>(reinterpret_cast<const void*>(&_t5)), const_cast<void*>(reinterpret_cast<const void*>(&_t6)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)), const_cast<void*>(reinterpret_cast<const void*>(&_t5)), const_cast<void*>(reinterpret_cast<const void*>(&_t6)) };
     QMetaObject::activate(this, &staticMetaObject, 18, _a);
 }
 
 // SIGNAL 21
 void KvThreadWorker::gotDdlFromObjectSignal(QString _t1, QString _t2, QString _t3, QString _t4, bool _t5, QStringList _t6, KvSqlSession::DdlTypes _t7)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)), const_cast<void*>(reinterpret_cast<const void*>(&_t5)), const_cast<void*>(reinterpret_cast<const void*>(&_t6)), const_cast<void*>(reinterpret_cast<const void*>(&_t7)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)), const_cast<void*>(reinterpret_cast<const void*>(&_t5)), const_cast<void*>(reinterpret_cast<const void*>(&_t6)), const_cast<void*>(reinterpret_cast<const void*>(&_t7)) };
     QMetaObject::activate(this, &staticMetaObject, 21, _a);
 }
 
 // SIGNAL 22
 void KvThreadWorker::gotExtractConsistentDataSqlSignal(QString _t1, QStringList _t2)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
     QMetaObject::activate(this, &staticMetaObject, 22, _a);
 }
 
 // SIGNAL 23
 void KvThreadWorker::gotDependentSqlSignal(QString _t1, QStringList _t2)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
     QMetaObject::activate(this, &staticMetaObject, 23, _a);
 }
 
 // SIGNAL 24
 void KvThreadWorker::gotPlanSignal(QString _t1, QString _t2, QList<QPair<QString,QMap<QString,QString> > > _t3)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
     QMetaObject::activate(this, &staticMetaObject, 24, _a);
 }
 
 // SIGNAL 25
 void KvThreadWorker::gotExportedDataSignal(QString _t1, QString _t2, QString _t3, bool _t4, QString _t5, bool _t6, QString _t7)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)), const_cast<void*>(reinterpret_cast<const void*>(&_t5)), const_cast<void*>(reinterpret_cast<const void*>(&_t6)), const_cast<void*>(reinterpret_cast<const void*>(&_t7)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)), const_cast<void*>(reinterpret_cast<const void*>(&_t5)), const_cast<void*>(reinterpret_cast<const void*>(&_t6)), const_cast<void*>(reinterpret_cast<const void*>(&_t7)) };
     QMetaObject::activate(this, &staticMetaObject, 25, _a);
 }
 
 // SIGNAL 26
 void KvThreadWorker::gotDatabaseObjectTypesSignal(QStringList _t1, QStringList _t2)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
     QMetaObject::activate(this, &staticMetaObject, 26, _a);
 }
 
 // SIGNAL 27
 void KvThreadWorker::gotTableAndColumnsInfoSignal(QString _t1, QString _t2, KvTableInfo _t3, QList<KvColumnInfo> _t4, QList<KvTableConstraintInfo> _t5)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)), const_cast<void*>(reinterpret_cast<const void*>(&_t5)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)), const_cast<void*>(reinterpret_cast<const void*>(&_t5)) };
     QMetaObject::activate(this, &staticMetaObject, 27, _a);
 }
 QT_WARNING_POP

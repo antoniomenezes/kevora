@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'kvsqldialog.h'
 **
-** Created by: The Qt Meta Object Compiler version 67 (Qt 5.8.0)
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.12.0)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -13,7 +13,7 @@
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'kvsqldialog.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 67
-#error "This file was generated using the moc from 5.8.0. It"
+#error "This file was generated using the moc from 5.12.0. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -185,7 +185,7 @@ QT_MOC_LITERAL(98, 1585, 16) // "deleteThreadSlot"
 static const uint qt_meta_data_KvSqlDialog[] = {
 
  // content:
-       7,       // revision
+       8,       // revision
        0,       // classname
        0,    0, // classinfo
       54,   14, // methods
@@ -371,7 +371,7 @@ void KvSqlDialog::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id,
         case 48: _t->gotDatabaseObjectTypesSlot((*reinterpret_cast< QStringList(*)>(_a[1])),(*reinterpret_cast< QStringList(*)>(_a[2]))); break;
         case 49: _t->gotTableAndColumnsInfoSlot((*reinterpret_cast< QString(*)>(_a[1])),(*reinterpret_cast< QString(*)>(_a[2])),(*reinterpret_cast< KvTableInfo(*)>(_a[3])),(*reinterpret_cast< QList<KvColumnInfo>(*)>(_a[4])),(*reinterpret_cast< QList<KvTableConstraintInfo>(*)>(_a[5]))); break;
         case 50: { QString _r = _t->getFileName();
-            if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = _r; }  break;
+            if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = std::move(_r); }  break;
         case 51: _t->setFileName((*reinterpret_cast< QString(*)>(_a[1]))); break;
         case 52: _t->startedThreadSlot((*reinterpret_cast< QString(*)>(_a[1]))); break;
         case 53: _t->deleteThreadSlot(); break;
@@ -379,122 +379,121 @@ void KvSqlDialog::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id,
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
         int *result = reinterpret_cast<int *>(_a[0]);
-        void **func = reinterpret_cast<void **>(_a[1]);
         {
-            typedef void (KvSqlDialog::*_t)(WId , QString );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvSqlDialog::cloneSessionSignal)) {
+            using _t = void (KvSqlDialog::*)(WId , QString );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvSqlDialog::cloneSessionSignal)) {
                 *result = 0;
                 return;
             }
         }
         {
-            typedef void (KvSqlDialog::*_t)(QString , QString , QString , QString , QString , QString , QString , int );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvSqlDialog::openDbConnectionSignal)) {
+            using _t = void (KvSqlDialog::*)(QString , QString , QString , QString , QString , QString , QString , int );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvSqlDialog::openDbConnectionSignal)) {
                 *result = 1;
                 return;
             }
         }
         {
-            typedef void (KvSqlDialog::*_t)(QString );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvSqlDialog::closeDbConnectionSignal)) {
+            using _t = void (KvSqlDialog::*)(QString );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvSqlDialog::closeDbConnectionSignal)) {
                 *result = 2;
                 return;
             }
         }
         {
-            typedef void (KvSqlDialog::*_t)(QString );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvSqlDialog::getSessionInfoSignal)) {
+            using _t = void (KvSqlDialog::*)(QString );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvSqlDialog::getSessionInfoSignal)) {
                 *result = 3;
                 return;
             }
         }
         {
-            typedef void (KvSqlDialog::*_t)(QString , QString );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvSqlDialog::executeQuerySignal)) {
+            using _t = void (KvSqlDialog::*)(QString , QString );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvSqlDialog::executeQuerySignal)) {
                 *result = 4;
                 return;
             }
         }
         {
-            typedef void (KvSqlDialog::*_t)(QStringList , int , int );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvSqlDialog::getSqlBlocksSignal)) {
+            using _t = void (KvSqlDialog::*)(QStringList , int , int );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvSqlDialog::getSqlBlocksSignal)) {
                 *result = 6;
                 return;
             }
         }
         {
-            typedef void (KvSqlDialog::*_t)(QString , QString );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvSqlDialog::getFindObjectStatementSignal)) {
+            using _t = void (KvSqlDialog::*)(QString , QString );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvSqlDialog::getFindObjectStatementSignal)) {
                 *result = 9;
                 return;
             }
         }
         {
-            typedef void (KvSqlDialog::*_t)(QString , int , bool , QString );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvSqlDialog::getNextRecordsSignal)) {
+            using _t = void (KvSqlDialog::*)(QString , int , bool , QString );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvSqlDialog::getNextRecordsSignal)) {
                 *result = 11;
                 return;
             }
         }
         {
-            typedef void (KvSqlDialog::*_t)();
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvSqlDialog::commitTransactionSignal)) {
+            using _t = void (KvSqlDialog::*)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvSqlDialog::commitTransactionSignal)) {
                 *result = 14;
                 return;
             }
         }
         {
-            typedef void (KvSqlDialog::*_t)();
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvSqlDialog::rollbackTransactionSignal)) {
+            using _t = void (KvSqlDialog::*)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvSqlDialog::rollbackTransactionSignal)) {
                 *result = 15;
                 return;
             }
         }
         {
-            typedef void (KvSqlDialog::*_t)(QString , QString , QString , bool , KvSqlSession::DdlTypes );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvSqlDialog::getDdlFromObjectSignal)) {
+            using _t = void (KvSqlDialog::*)(QString , QString , QString , bool , KvSqlSession::DdlTypes );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvSqlDialog::getDdlFromObjectSignal)) {
                 *result = 16;
                 return;
             }
         }
         {
-            typedef void (KvSqlDialog::*_t)(QString );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvSqlDialog::getDependentSqlSignal)) {
+            using _t = void (KvSqlDialog::*)(QString );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvSqlDialog::getDependentSqlSignal)) {
                 *result = 17;
                 return;
             }
         }
         {
-            typedef void (KvSqlDialog::*_t)(QString );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvSqlDialog::getExtractConsistentDataSqlSignal)) {
+            using _t = void (KvSqlDialog::*)(QString );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvSqlDialog::getExtractConsistentDataSqlSignal)) {
                 *result = 18;
                 return;
             }
         }
         {
-            typedef void (KvSqlDialog::*_t)(QString , QString );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvSqlDialog::getPlanSignal)) {
+            using _t = void (KvSqlDialog::*)(QString , QString );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvSqlDialog::getPlanSignal)) {
                 *result = 19;
                 return;
             }
         }
         {
-            typedef void (KvSqlDialog::*_t)(QString , QString , bool , QString );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvSqlDialog::getExportedDataSignal)) {
+            using _t = void (KvSqlDialog::*)(QString , QString , bool , QString );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvSqlDialog::getExportedDataSignal)) {
                 *result = 20;
                 return;
             }
         }
         {
-            typedef void (KvSqlDialog::*_t)();
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvSqlDialog::getDatabaseObjectTypesSignal)) {
+            using _t = void (KvSqlDialog::*)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvSqlDialog::getDatabaseObjectTypesSignal)) {
                 *result = 21;
                 return;
             }
         }
         {
-            typedef void (KvSqlDialog::*_t)(QString , QString );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvSqlDialog::getTableAndColumnsInfoSignal)) {
+            using _t = void (KvSqlDialog::*)(QString , QString );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvSqlDialog::getTableAndColumnsInfoSignal)) {
                 *result = 22;
                 return;
             }
@@ -502,10 +501,14 @@ void KvSqlDialog::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id,
     }
 }
 
-const QMetaObject KvSqlDialog::staticMetaObject = {
-    { &QDialog::staticMetaObject, qt_meta_stringdata_KvSqlDialog.data,
-      qt_meta_data_KvSqlDialog,  qt_static_metacall, Q_NULLPTR, Q_NULLPTR}
-};
+QT_INIT_METAOBJECT const QMetaObject KvSqlDialog::staticMetaObject = { {
+    &QDialog::staticMetaObject,
+    qt_meta_stringdata_KvSqlDialog.data,
+    qt_meta_data_KvSqlDialog,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
 
 
 const QMetaObject *KvSqlDialog::metaObject() const
@@ -515,9 +518,9 @@ const QMetaObject *KvSqlDialog::metaObject() const
 
 void *KvSqlDialog::qt_metacast(const char *_clname)
 {
-    if (!_clname) return Q_NULLPTR;
+    if (!_clname) return nullptr;
     if (!strcmp(_clname, qt_meta_stringdata_KvSqlDialog.stringdata0))
-        return static_cast<void*>(const_cast< KvSqlDialog*>(this));
+        return static_cast<void*>(this);
     return QDialog::qt_metacast(_clname);
 }
 
@@ -541,116 +544,116 @@ int KvSqlDialog::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 // SIGNAL 0
 void KvSqlDialog::cloneSessionSignal(WId _t1, QString _t2)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
     QMetaObject::activate(this, &staticMetaObject, 0, _a);
 }
 
 // SIGNAL 1
 void KvSqlDialog::openDbConnectionSignal(QString _t1, QString _t2, QString _t3, QString _t4, QString _t5, QString _t6, QString _t7, int _t8)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)), const_cast<void*>(reinterpret_cast<const void*>(&_t5)), const_cast<void*>(reinterpret_cast<const void*>(&_t6)), const_cast<void*>(reinterpret_cast<const void*>(&_t7)), const_cast<void*>(reinterpret_cast<const void*>(&_t8)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)), const_cast<void*>(reinterpret_cast<const void*>(&_t5)), const_cast<void*>(reinterpret_cast<const void*>(&_t6)), const_cast<void*>(reinterpret_cast<const void*>(&_t7)), const_cast<void*>(reinterpret_cast<const void*>(&_t8)) };
     QMetaObject::activate(this, &staticMetaObject, 1, _a);
 }
 
 // SIGNAL 2
 void KvSqlDialog::closeDbConnectionSignal(QString _t1)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
     QMetaObject::activate(this, &staticMetaObject, 2, _a);
 }
 
 // SIGNAL 3
 void KvSqlDialog::getSessionInfoSignal(QString _t1)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
     QMetaObject::activate(this, &staticMetaObject, 3, _a);
 }
 
 // SIGNAL 4
 void KvSqlDialog::executeQuerySignal(QString _t1, QString _t2)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
     QMetaObject::activate(this, &staticMetaObject, 4, _a);
 }
 
 // SIGNAL 6
 void KvSqlDialog::getSqlBlocksSignal(QStringList _t1, int _t2, int _t3)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
     QMetaObject::activate(this, &staticMetaObject, 6, _a);
 }
 
 // SIGNAL 9
 void KvSqlDialog::getFindObjectStatementSignal(QString _t1, QString _t2)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
     QMetaObject::activate(this, &staticMetaObject, 9, _a);
 }
 
 // SIGNAL 11
 void KvSqlDialog::getNextRecordsSignal(QString _t1, int _t2, bool _t3, QString _t4)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)) };
     QMetaObject::activate(this, &staticMetaObject, 11, _a);
 }
 
 // SIGNAL 14
 void KvSqlDialog::commitTransactionSignal()
 {
-    QMetaObject::activate(this, &staticMetaObject, 14, Q_NULLPTR);
+    QMetaObject::activate(this, &staticMetaObject, 14, nullptr);
 }
 
 // SIGNAL 15
 void KvSqlDialog::rollbackTransactionSignal()
 {
-    QMetaObject::activate(this, &staticMetaObject, 15, Q_NULLPTR);
+    QMetaObject::activate(this, &staticMetaObject, 15, nullptr);
 }
 
 // SIGNAL 16
 void KvSqlDialog::getDdlFromObjectSignal(QString _t1, QString _t2, QString _t3, bool _t4, KvSqlSession::DdlTypes _t5)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)), const_cast<void*>(reinterpret_cast<const void*>(&_t5)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)), const_cast<void*>(reinterpret_cast<const void*>(&_t5)) };
     QMetaObject::activate(this, &staticMetaObject, 16, _a);
 }
 
 // SIGNAL 17
 void KvSqlDialog::getDependentSqlSignal(QString _t1)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
     QMetaObject::activate(this, &staticMetaObject, 17, _a);
 }
 
 // SIGNAL 18
 void KvSqlDialog::getExtractConsistentDataSqlSignal(QString _t1)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
     QMetaObject::activate(this, &staticMetaObject, 18, _a);
 }
 
 // SIGNAL 19
 void KvSqlDialog::getPlanSignal(QString _t1, QString _t2)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
     QMetaObject::activate(this, &staticMetaObject, 19, _a);
 }
 
 // SIGNAL 20
 void KvSqlDialog::getExportedDataSignal(QString _t1, QString _t2, bool _t3, QString _t4)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)) };
     QMetaObject::activate(this, &staticMetaObject, 20, _a);
 }
 
 // SIGNAL 21
 void KvSqlDialog::getDatabaseObjectTypesSignal()
 {
-    QMetaObject::activate(this, &staticMetaObject, 21, Q_NULLPTR);
+    QMetaObject::activate(this, &staticMetaObject, 21, nullptr);
 }
 
 // SIGNAL 22
 void KvSqlDialog::getTableAndColumnsInfoSignal(QString _t1, QString _t2)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
     QMetaObject::activate(this, &staticMetaObject, 22, _a);
 }
 QT_WARNING_POP

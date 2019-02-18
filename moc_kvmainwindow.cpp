@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'kvmainwindow.h'
 **
-** Created by: The Qt Meta Object Compiler version 67 (Qt 5.8.0)
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.12.0)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -12,7 +12,7 @@
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'kvmainwindow.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 67
-#error "This file was generated using the moc from 5.8.0. It"
+#error "This file was generated using the moc from 5.12.0. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -21,8 +21,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_KvMainWindow_t {
-    QByteArrayData data[105];
-    char stringdata0[2257];
+    QByteArrayData data[106];
+    char stringdata0[2269];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -93,49 +93,50 @@ QT_MOC_LITERAL(58, 1308, 30), // "on_actionWindow_List_triggered"
 QT_MOC_LITERAL(59, 1339, 26), // "on_actionObjects_triggered"
 QT_MOC_LITERAL(60, 1366, 28), // "on_actionNavigator_triggered"
 QT_MOC_LITERAL(61, 1395, 29), // "on_dbTreeWidget_doubleClicked"
-QT_MOC_LITERAL(62, 1425, 5), // "index"
-QT_MOC_LITERAL(63, 1431, 36), // "on_actionDelete_Connection_tr..."
-QT_MOC_LITERAL(64, 1468, 33), // "on_actionAdd_Connection_trigg..."
-QT_MOC_LITERAL(65, 1502, 34), // "on_actionDelete_Database_trig..."
-QT_MOC_LITERAL(66, 1537, 23), // "on_actionEdit_triggered"
-QT_MOC_LITERAL(67, 1561, 24), // "on_fileTreeView_expanded"
-QT_MOC_LITERAL(68, 1586, 44), // "on_activeConnObjComboBox_curr..."
-QT_MOC_LITERAL(69, 1631, 4), // "text"
-QT_MOC_LITERAL(70, 1636, 30), // "on_actionPreferences_triggered"
-QT_MOC_LITERAL(71, 1667, 29), // "on_actionDisconnect_triggered"
-QT_MOC_LITERAL(72, 1697, 26), // "on_actionConnect_triggered"
-QT_MOC_LITERAL(73, 1724, 31), // "on_actionAdd_Database_triggered"
-QT_MOC_LITERAL(74, 1756, 27), // "on_actionAbout_Qt_triggered"
-QT_MOC_LITERAL(75, 1784, 23), // "on_actionExit_triggered"
-QT_MOC_LITERAL(76, 1808, 31), // "on_actionAbout_Kevora_triggered"
-QT_MOC_LITERAL(77, 1840, 14), // "updateViewMenu"
-QT_MOC_LITERAL(78, 1855, 8), // "closeTab"
-QT_MOC_LITERAL(79, 1864, 1), // "i"
-QT_MOC_LITERAL(80, 1866, 20), // "deleteTempThreadSlot"
-QT_MOC_LITERAL(81, 1887, 8), // "openFile"
-QT_MOC_LITERAL(82, 1896, 8), // "fileName"
-QT_MOC_LITERAL(83, 1905, 8), // "saveFile"
-QT_MOC_LITERAL(84, 1914, 12), // "KvSqlWindow*"
-QT_MOC_LITERAL(85, 1927, 12), // "newSqlWindow"
-QT_MOC_LITERAL(86, 1940, 12), // "sqlStatement"
-QT_MOC_LITERAL(87, 1953, 12), // "toBeExecuted"
-QT_MOC_LITERAL(88, 1966, 11), // "windowTitle"
-QT_MOC_LITERAL(89, 1978, 12), // "newDdlWindow"
-QT_MOC_LITERAL(90, 1991, 10), // "schemaName"
-QT_MOC_LITERAL(91, 2002, 10), // "objectName"
-QT_MOC_LITERAL(92, 2013, 10), // "objectType"
-QT_MOC_LITERAL(93, 2024, 10), // "showSchema"
-QT_MOC_LITERAL(94, 2035, 19), // "newExportDataWindow"
-QT_MOC_LITERAL(95, 2055, 9), // "tableName"
-QT_MOC_LITERAL(96, 2065, 22), // "newExportObjectsWindow"
-QT_MOC_LITERAL(97, 2088, 7), // "loadXml"
-QT_MOC_LITERAL(98, 2096, 7), // "saveXml"
-QT_MOC_LITERAL(99, 2104, 7), // "copyXml"
-QT_MOC_LITERAL(100, 2112, 15), // "runKevoraUpdate"
-QT_MOC_LITERAL(101, 2128, 33), // "on_actionKevora_Updates_trigg..."
-QT_MOC_LITERAL(102, 2162, 23), // "on_actionSave_triggered"
-QT_MOC_LITERAL(103, 2186, 26), // "on_actionSave_As_triggered"
-QT_MOC_LITERAL(104, 2213, 43) // "on_actionCompare_Database_obj..."
+QT_MOC_LITERAL(62, 1425, 11), // "QModelIndex"
+QT_MOC_LITERAL(63, 1437, 5), // "index"
+QT_MOC_LITERAL(64, 1443, 36), // "on_actionDelete_Connection_tr..."
+QT_MOC_LITERAL(65, 1480, 33), // "on_actionAdd_Connection_trigg..."
+QT_MOC_LITERAL(66, 1514, 34), // "on_actionDelete_Database_trig..."
+QT_MOC_LITERAL(67, 1549, 23), // "on_actionEdit_triggered"
+QT_MOC_LITERAL(68, 1573, 24), // "on_fileTreeView_expanded"
+QT_MOC_LITERAL(69, 1598, 44), // "on_activeConnObjComboBox_curr..."
+QT_MOC_LITERAL(70, 1643, 4), // "text"
+QT_MOC_LITERAL(71, 1648, 30), // "on_actionPreferences_triggered"
+QT_MOC_LITERAL(72, 1679, 29), // "on_actionDisconnect_triggered"
+QT_MOC_LITERAL(73, 1709, 26), // "on_actionConnect_triggered"
+QT_MOC_LITERAL(74, 1736, 31), // "on_actionAdd_Database_triggered"
+QT_MOC_LITERAL(75, 1768, 27), // "on_actionAbout_Qt_triggered"
+QT_MOC_LITERAL(76, 1796, 23), // "on_actionExit_triggered"
+QT_MOC_LITERAL(77, 1820, 31), // "on_actionAbout_Kevora_triggered"
+QT_MOC_LITERAL(78, 1852, 14), // "updateViewMenu"
+QT_MOC_LITERAL(79, 1867, 8), // "closeTab"
+QT_MOC_LITERAL(80, 1876, 1), // "i"
+QT_MOC_LITERAL(81, 1878, 20), // "deleteTempThreadSlot"
+QT_MOC_LITERAL(82, 1899, 8), // "openFile"
+QT_MOC_LITERAL(83, 1908, 8), // "fileName"
+QT_MOC_LITERAL(84, 1917, 8), // "saveFile"
+QT_MOC_LITERAL(85, 1926, 12), // "KvSqlWindow*"
+QT_MOC_LITERAL(86, 1939, 12), // "newSqlWindow"
+QT_MOC_LITERAL(87, 1952, 12), // "sqlStatement"
+QT_MOC_LITERAL(88, 1965, 12), // "toBeExecuted"
+QT_MOC_LITERAL(89, 1978, 11), // "windowTitle"
+QT_MOC_LITERAL(90, 1990, 12), // "newDdlWindow"
+QT_MOC_LITERAL(91, 2003, 10), // "schemaName"
+QT_MOC_LITERAL(92, 2014, 10), // "objectName"
+QT_MOC_LITERAL(93, 2025, 10), // "objectType"
+QT_MOC_LITERAL(94, 2036, 10), // "showSchema"
+QT_MOC_LITERAL(95, 2047, 19), // "newExportDataWindow"
+QT_MOC_LITERAL(96, 2067, 9), // "tableName"
+QT_MOC_LITERAL(97, 2077, 22), // "newExportObjectsWindow"
+QT_MOC_LITERAL(98, 2100, 7), // "loadXml"
+QT_MOC_LITERAL(99, 2108, 7), // "saveXml"
+QT_MOC_LITERAL(100, 2116, 7), // "copyXml"
+QT_MOC_LITERAL(101, 2124, 15), // "runKevoraUpdate"
+QT_MOC_LITERAL(102, 2140, 33), // "on_actionKevora_Updates_trigg..."
+QT_MOC_LITERAL(103, 2174, 23), // "on_actionSave_triggered"
+QT_MOC_LITERAL(104, 2198, 26), // "on_actionSave_As_triggered"
+QT_MOC_LITERAL(105, 2225, 43) // "on_actionCompare_Database_obj..."
 
     },
     "KvMainWindow\0openDbConnectionSignal\0"
@@ -180,8 +181,8 @@ QT_MOC_LITERAL(104, 2213, 43) // "on_actionCompare_Database_obj..."
     "on_actionWindow_List_triggered\0"
     "on_actionObjects_triggered\0"
     "on_actionNavigator_triggered\0"
-    "on_dbTreeWidget_doubleClicked\0index\0"
-    "on_actionDelete_Connection_triggered\0"
+    "on_dbTreeWidget_doubleClicked\0QModelIndex\0"
+    "index\0on_actionDelete_Connection_triggered\0"
     "on_actionAdd_Connection_triggered\0"
     "on_actionDelete_Database_triggered\0"
     "on_actionEdit_triggered\0"
@@ -212,7 +213,7 @@ QT_MOC_LITERAL(104, 2213, 43) // "on_actionCompare_Database_obj..."
 static const uint qt_meta_data_KvMainWindow[] = {
 
  // content:
-       7,       // revision
+       8,       // revision
        0,       // classname
        0,    0, // classinfo
       84,   14, // methods
@@ -273,42 +274,42 @@ static const uint qt_meta_data_KvMainWindow[] = {
       59,    0,  581,    2, 0x08 /* Private */,
       60,    0,  582,    2, 0x08 /* Private */,
       61,    1,  583,    2, 0x08 /* Private */,
-      63,    0,  586,    2, 0x08 /* Private */,
-      64,    0,  587,    2, 0x08 /* Private */,
-      65,    0,  588,    2, 0x08 /* Private */,
-      66,    0,  589,    2, 0x08 /* Private */,
-      67,    1,  590,    2, 0x08 /* Private */,
-      68,    1,  593,    2, 0x08 /* Private */,
-      70,    0,  596,    2, 0x08 /* Private */,
-      71,    0,  597,    2, 0x08 /* Private */,
-      72,    0,  598,    2, 0x08 /* Private */,
-      73,    0,  599,    2, 0x08 /* Private */,
-      74,    0,  600,    2, 0x08 /* Private */,
-      75,    0,  601,    2, 0x08 /* Private */,
-      76,    0,  602,    2, 0x08 /* Private */,
-      77,    0,  603,    2, 0x08 /* Private */,
-      78,    1,  604,    2, 0x08 /* Private */,
-      80,    0,  607,    2, 0x08 /* Private */,
-      81,    1,  608,    2, 0x08 /* Private */,
-      83,    2,  611,    2, 0x08 /* Private */,
-      85,    4,  616,    2, 0x08 /* Private */,
-      85,    3,  625,    2, 0x28 /* Private | MethodCloned */,
-      85,    2,  632,    2, 0x28 /* Private | MethodCloned */,
-      85,    1,  637,    2, 0x28 /* Private | MethodCloned */,
-      85,    0,  640,    2, 0x28 /* Private | MethodCloned */,
-      89,    5,  641,    2, 0x08 /* Private */,
-      89,    4,  652,    2, 0x28 /* Private | MethodCloned */,
-      94,    4,  661,    2, 0x08 /* Private */,
-      94,    3,  670,    2, 0x28 /* Private | MethodCloned */,
-      96,    0,  677,    2, 0x08 /* Private */,
-      97,    0,  678,    2, 0x08 /* Private */,
-      98,    0,  679,    2, 0x08 /* Private */,
-      99,    0,  680,    2, 0x08 /* Private */,
-     100,    0,  681,    2, 0x08 /* Private */,
-     101,    0,  682,    2, 0x08 /* Private */,
-     102,    0,  683,    2, 0x08 /* Private */,
-     103,    0,  684,    2, 0x08 /* Private */,
-     104,    0,  685,    2, 0x08 /* Private */,
+      64,    0,  586,    2, 0x08 /* Private */,
+      65,    0,  587,    2, 0x08 /* Private */,
+      66,    0,  588,    2, 0x08 /* Private */,
+      67,    0,  589,    2, 0x08 /* Private */,
+      68,    1,  590,    2, 0x08 /* Private */,
+      69,    1,  593,    2, 0x08 /* Private */,
+      71,    0,  596,    2, 0x08 /* Private */,
+      72,    0,  597,    2, 0x08 /* Private */,
+      73,    0,  598,    2, 0x08 /* Private */,
+      74,    0,  599,    2, 0x08 /* Private */,
+      75,    0,  600,    2, 0x08 /* Private */,
+      76,    0,  601,    2, 0x08 /* Private */,
+      77,    0,  602,    2, 0x08 /* Private */,
+      78,    0,  603,    2, 0x08 /* Private */,
+      79,    1,  604,    2, 0x08 /* Private */,
+      81,    0,  607,    2, 0x08 /* Private */,
+      82,    1,  608,    2, 0x08 /* Private */,
+      84,    2,  611,    2, 0x08 /* Private */,
+      86,    4,  616,    2, 0x08 /* Private */,
+      86,    3,  625,    2, 0x28 /* Private | MethodCloned */,
+      86,    2,  632,    2, 0x28 /* Private | MethodCloned */,
+      86,    1,  637,    2, 0x28 /* Private | MethodCloned */,
+      86,    0,  640,    2, 0x28 /* Private | MethodCloned */,
+      90,    5,  641,    2, 0x08 /* Private */,
+      90,    4,  652,    2, 0x28 /* Private | MethodCloned */,
+      95,    4,  661,    2, 0x08 /* Private */,
+      95,    3,  670,    2, 0x28 /* Private | MethodCloned */,
+      97,    0,  677,    2, 0x08 /* Private */,
+      98,    0,  678,    2, 0x08 /* Private */,
+      99,    0,  679,    2, 0x08 /* Private */,
+     100,    0,  680,    2, 0x08 /* Private */,
+     101,    0,  681,    2, 0x08 /* Private */,
+     102,    0,  682,    2, 0x08 /* Private */,
+     103,    0,  683,    2, 0x08 /* Private */,
+     104,    0,  684,    2, 0x08 /* Private */,
+     105,    0,  685,    2, 0x08 /* Private */,
 
  // signals: parameters
     QMetaType::Void, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::Int,    2,    2,    2,    2,    2,    2,    2,    2,
@@ -360,13 +361,13 @@ static const uint qt_meta_data_KvMainWindow[] = {
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
-    QMetaType::Void, QMetaType::QModelIndex,   62,
+    QMetaType::Void, 0x80000000 | 62,   63,
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
-    QMetaType::Void, QMetaType::QModelIndex,   62,
-    QMetaType::Void, QMetaType::QString,   69,
+    QMetaType::Void, 0x80000000 | 62,   63,
+    QMetaType::Void, QMetaType::QString,   70,
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
@@ -375,19 +376,19 @@ static const uint qt_meta_data_KvMainWindow[] = {
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
-    QMetaType::Void, QMetaType::Int,   79,
+    QMetaType::Void, QMetaType::Int,   80,
     QMetaType::Void,
-    QMetaType::Void, QMetaType::QString,   82,
-    QMetaType::Void, 0x80000000 | 84, QMetaType::QString,   56,   82,
-    0x80000000 | 84, QMetaType::QString, QMetaType::QString, QMetaType::Bool, QMetaType::QString,   24,   86,   87,   88,
-    0x80000000 | 84, QMetaType::QString, QMetaType::QString, QMetaType::Bool,   24,   86,   87,
-    0x80000000 | 84, QMetaType::QString, QMetaType::QString,   24,   86,
-    0x80000000 | 84, QMetaType::QString,   24,
-    0x80000000 | 84,
-    QMetaType::Void, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::Bool,   24,   90,   91,   92,   93,
-    QMetaType::Void, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString,   24,   90,   91,   92,
-    QMetaType::Void, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::Bool,   24,   90,   95,   93,
-    QMetaType::Void, QMetaType::QString, QMetaType::QString, QMetaType::QString,   24,   90,   95,
+    QMetaType::Void, QMetaType::QString,   83,
+    QMetaType::Void, 0x80000000 | 85, QMetaType::QString,   56,   83,
+    0x80000000 | 85, QMetaType::QString, QMetaType::QString, QMetaType::Bool, QMetaType::QString,   24,   87,   88,   89,
+    0x80000000 | 85, QMetaType::QString, QMetaType::QString, QMetaType::Bool,   24,   87,   88,
+    0x80000000 | 85, QMetaType::QString, QMetaType::QString,   24,   87,
+    0x80000000 | 85, QMetaType::QString,   24,
+    0x80000000 | 85,
+    QMetaType::Void, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::Bool,   24,   91,   92,   93,   94,
+    QMetaType::Void, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString,   24,   91,   92,   93,
+    QMetaType::Void, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::Bool,   24,   91,   96,   94,
+    QMetaType::Void, QMetaType::QString, QMetaType::QString, QMetaType::QString,   24,   91,   96,
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
@@ -418,7 +419,7 @@ void KvMainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id
         case 8: _t->getSchemasWithProgramsSignal((*reinterpret_cast< QString(*)>(_a[1]))); break;
         case 9: _t->getSchemasWithEtcSignal((*reinterpret_cast< QString(*)>(_a[1]))); break;
         case 10: { bool _r = _t->createDbThread((*reinterpret_cast< QString(*)>(_a[1])));
-            if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = _r; }  break;
+            if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = std::move(_r); }  break;
         case 11: _t->startedThreadSlot((*reinterpret_cast< QString(*)>(_a[1]))); break;
         case 12: _t->openedDbConnectionSlot((*reinterpret_cast< QString(*)>(_a[1])),(*reinterpret_cast< QString(*)>(_a[2])),(*reinterpret_cast< QString(*)>(_a[3])),(*reinterpret_cast< QSqlError(*)>(_a[4]))); break;
         case 13: _t->closedDbConnectionSlot((*reinterpret_cast< QString(*)>(_a[1]))); break;
@@ -427,9 +428,9 @@ void KvMainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id
         case 16: _t->gotSchemasWithProgramsSlot((*reinterpret_cast< QString(*)>(_a[1])),(*reinterpret_cast< QString(*)>(_a[2])),(*reinterpret_cast< QStringList(*)>(_a[3]))); break;
         case 17: _t->gotSchemasWithEtcSlot((*reinterpret_cast< QString(*)>(_a[1])),(*reinterpret_cast< QString(*)>(_a[2])),(*reinterpret_cast< QStringList(*)>(_a[3]))); break;
         case 18: { bool _r = _t->isActiveConnection((*reinterpret_cast< QString(*)>(_a[1])),(*reinterpret_cast< QString(*)>(_a[2])));
-            if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = _r; }  break;
+            if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = std::move(_r); }  break;
         case 19: { bool _r = _t->isActiveConnection((*reinterpret_cast< QString(*)>(_a[1])));
-            if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = _r; }  break;
+            if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = std::move(_r); }  break;
         case 20: _t->execAutoLogon(); break;
         case 21: _t->updateWindowList(); break;
         case 22: _t->exitSlot(); break;
@@ -477,15 +478,15 @@ void KvMainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id
         case 64: _t->openFile((*reinterpret_cast< QString(*)>(_a[1]))); break;
         case 65: _t->saveFile((*reinterpret_cast< KvSqlWindow*(*)>(_a[1])),(*reinterpret_cast< QString(*)>(_a[2]))); break;
         case 66: { KvSqlWindow* _r = _t->newSqlWindow((*reinterpret_cast< QString(*)>(_a[1])),(*reinterpret_cast< QString(*)>(_a[2])),(*reinterpret_cast< bool(*)>(_a[3])),(*reinterpret_cast< QString(*)>(_a[4])));
-            if (_a[0]) *reinterpret_cast< KvSqlWindow**>(_a[0]) = _r; }  break;
+            if (_a[0]) *reinterpret_cast< KvSqlWindow**>(_a[0]) = std::move(_r); }  break;
         case 67: { KvSqlWindow* _r = _t->newSqlWindow((*reinterpret_cast< QString(*)>(_a[1])),(*reinterpret_cast< QString(*)>(_a[2])),(*reinterpret_cast< bool(*)>(_a[3])));
-            if (_a[0]) *reinterpret_cast< KvSqlWindow**>(_a[0]) = _r; }  break;
+            if (_a[0]) *reinterpret_cast< KvSqlWindow**>(_a[0]) = std::move(_r); }  break;
         case 68: { KvSqlWindow* _r = _t->newSqlWindow((*reinterpret_cast< QString(*)>(_a[1])),(*reinterpret_cast< QString(*)>(_a[2])));
-            if (_a[0]) *reinterpret_cast< KvSqlWindow**>(_a[0]) = _r; }  break;
+            if (_a[0]) *reinterpret_cast< KvSqlWindow**>(_a[0]) = std::move(_r); }  break;
         case 69: { KvSqlWindow* _r = _t->newSqlWindow((*reinterpret_cast< QString(*)>(_a[1])));
-            if (_a[0]) *reinterpret_cast< KvSqlWindow**>(_a[0]) = _r; }  break;
+            if (_a[0]) *reinterpret_cast< KvSqlWindow**>(_a[0]) = std::move(_r); }  break;
         case 70: { KvSqlWindow* _r = _t->newSqlWindow();
-            if (_a[0]) *reinterpret_cast< KvSqlWindow**>(_a[0]) = _r; }  break;
+            if (_a[0]) *reinterpret_cast< KvSqlWindow**>(_a[0]) = std::move(_r); }  break;
         case 71: _t->newDdlWindow((*reinterpret_cast< QString(*)>(_a[1])),(*reinterpret_cast< QString(*)>(_a[2])),(*reinterpret_cast< QString(*)>(_a[3])),(*reinterpret_cast< QString(*)>(_a[4])),(*reinterpret_cast< bool(*)>(_a[5]))); break;
         case 72: _t->newDdlWindow((*reinterpret_cast< QString(*)>(_a[1])),(*reinterpret_cast< QString(*)>(_a[2])),(*reinterpret_cast< QString(*)>(_a[3])),(*reinterpret_cast< QString(*)>(_a[4]))); break;
         case 73: _t->newExportDataWindow((*reinterpret_cast< QString(*)>(_a[1])),(*reinterpret_cast< QString(*)>(_a[2])),(*reinterpret_cast< QString(*)>(_a[3])),(*reinterpret_cast< bool(*)>(_a[4]))); break;
@@ -495,7 +496,7 @@ void KvMainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id
         case 77: _t->saveXml(); break;
         case 78: _t->copyXml(); break;
         case 79: { bool _r = _t->runKevoraUpdate();
-            if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = _r; }  break;
+            if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = std::move(_r); }  break;
         case 80: _t->on_actionKevora_Updates_triggered(); break;
         case 81: _t->on_actionSave_triggered(); break;
         case 82: _t->on_actionSave_As_triggered(); break;
@@ -522,73 +523,72 @@ void KvMainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
         int *result = reinterpret_cast<int *>(_a[0]);
-        void **func = reinterpret_cast<void **>(_a[1]);
         {
-            typedef void (KvMainWindow::*_t)(QString , QString , QString , QString , QString , QString , QString , int );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvMainWindow::openDbConnectionSignal)) {
+            using _t = void (KvMainWindow::*)(QString , QString , QString , QString , QString , QString , QString , int );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvMainWindow::openDbConnectionSignal)) {
                 *result = 0;
                 return;
             }
         }
         {
-            typedef void (KvMainWindow::*_t)(QString , QString , QString , QSqlError );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvMainWindow::openedDbConnectionSignal)) {
+            using _t = void (KvMainWindow::*)(QString , QString , QString , QSqlError );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvMainWindow::openedDbConnectionSignal)) {
                 *result = 1;
                 return;
             }
         }
         {
-            typedef void (KvMainWindow::*_t)(QString );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvMainWindow::closeDbConnectionSignal)) {
+            using _t = void (KvMainWindow::*)(QString );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvMainWindow::closeDbConnectionSignal)) {
                 *result = 2;
                 return;
             }
         }
         {
-            typedef void (KvMainWindow::*_t)(QString );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvMainWindow::closedDbConnectionSignal)) {
+            using _t = void (KvMainWindow::*)(QString );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvMainWindow::closedDbConnectionSignal)) {
                 *result = 3;
                 return;
             }
         }
         {
-            typedef void (KvMainWindow::*_t)(WId , QString );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvMainWindow::cloneSessionSignal)) {
+            using _t = void (KvMainWindow::*)(WId , QString );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvMainWindow::cloneSessionSignal)) {
                 *result = 4;
                 return;
             }
         }
         {
-            typedef void (KvMainWindow::*_t)(WId , QString , QString , QString , int , QString , QString , QString );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvMainWindow::clonedSessionSignal)) {
+            using _t = void (KvMainWindow::*)(WId , QString , QString , QString , int , QString , QString , QString );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvMainWindow::clonedSessionSignal)) {
                 *result = 5;
                 return;
             }
         }
         {
-            typedef void (KvMainWindow::*_t)(QString );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvMainWindow::getSchemasWithTablesSignal)) {
+            using _t = void (KvMainWindow::*)(QString );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvMainWindow::getSchemasWithTablesSignal)) {
                 *result = 6;
                 return;
             }
         }
         {
-            typedef void (KvMainWindow::*_t)(QString );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvMainWindow::getSchemasWithViewsSignal)) {
+            using _t = void (KvMainWindow::*)(QString );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvMainWindow::getSchemasWithViewsSignal)) {
                 *result = 7;
                 return;
             }
         }
         {
-            typedef void (KvMainWindow::*_t)(QString );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvMainWindow::getSchemasWithProgramsSignal)) {
+            using _t = void (KvMainWindow::*)(QString );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvMainWindow::getSchemasWithProgramsSignal)) {
                 *result = 8;
                 return;
             }
         }
         {
-            typedef void (KvMainWindow::*_t)(QString );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&KvMainWindow::getSchemasWithEtcSignal)) {
+            using _t = void (KvMainWindow::*)(QString );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&KvMainWindow::getSchemasWithEtcSignal)) {
                 *result = 9;
                 return;
             }
@@ -596,10 +596,14 @@ void KvMainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id
     }
 }
 
-const QMetaObject KvMainWindow::staticMetaObject = {
-    { &QMainWindow::staticMetaObject, qt_meta_stringdata_KvMainWindow.data,
-      qt_meta_data_KvMainWindow,  qt_static_metacall, Q_NULLPTR, Q_NULLPTR}
-};
+QT_INIT_METAOBJECT const QMetaObject KvMainWindow::staticMetaObject = { {
+    &QMainWindow::staticMetaObject,
+    qt_meta_stringdata_KvMainWindow.data,
+    qt_meta_data_KvMainWindow,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
 
 
 const QMetaObject *KvMainWindow::metaObject() const
@@ -609,9 +613,9 @@ const QMetaObject *KvMainWindow::metaObject() const
 
 void *KvMainWindow::qt_metacast(const char *_clname)
 {
-    if (!_clname) return Q_NULLPTR;
+    if (!_clname) return nullptr;
     if (!strcmp(_clname, qt_meta_stringdata_KvMainWindow.stringdata0))
-        return static_cast<void*>(const_cast< KvMainWindow*>(this));
+        return static_cast<void*>(this);
     return QMainWindow::qt_metacast(_clname);
 }
 
@@ -635,70 +639,70 @@ int KvMainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 // SIGNAL 0
 void KvMainWindow::openDbConnectionSignal(QString _t1, QString _t2, QString _t3, QString _t4, QString _t5, QString _t6, QString _t7, int _t8)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)), const_cast<void*>(reinterpret_cast<const void*>(&_t5)), const_cast<void*>(reinterpret_cast<const void*>(&_t6)), const_cast<void*>(reinterpret_cast<const void*>(&_t7)), const_cast<void*>(reinterpret_cast<const void*>(&_t8)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)), const_cast<void*>(reinterpret_cast<const void*>(&_t5)), const_cast<void*>(reinterpret_cast<const void*>(&_t6)), const_cast<void*>(reinterpret_cast<const void*>(&_t7)), const_cast<void*>(reinterpret_cast<const void*>(&_t8)) };
     QMetaObject::activate(this, &staticMetaObject, 0, _a);
 }
 
 // SIGNAL 1
 void KvMainWindow::openedDbConnectionSignal(QString _t1, QString _t2, QString _t3, QSqlError _t4)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)) };
     QMetaObject::activate(this, &staticMetaObject, 1, _a);
 }
 
 // SIGNAL 2
 void KvMainWindow::closeDbConnectionSignal(QString _t1)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
     QMetaObject::activate(this, &staticMetaObject, 2, _a);
 }
 
 // SIGNAL 3
 void KvMainWindow::closedDbConnectionSignal(QString _t1)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
     QMetaObject::activate(this, &staticMetaObject, 3, _a);
 }
 
 // SIGNAL 4
 void KvMainWindow::cloneSessionSignal(WId _t1, QString _t2)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
     QMetaObject::activate(this, &staticMetaObject, 4, _a);
 }
 
 // SIGNAL 5
 void KvMainWindow::clonedSessionSignal(WId _t1, QString _t2, QString _t3, QString _t4, int _t5, QString _t6, QString _t7, QString _t8)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)), const_cast<void*>(reinterpret_cast<const void*>(&_t5)), const_cast<void*>(reinterpret_cast<const void*>(&_t6)), const_cast<void*>(reinterpret_cast<const void*>(&_t7)), const_cast<void*>(reinterpret_cast<const void*>(&_t8)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)), const_cast<void*>(reinterpret_cast<const void*>(&_t5)), const_cast<void*>(reinterpret_cast<const void*>(&_t6)), const_cast<void*>(reinterpret_cast<const void*>(&_t7)), const_cast<void*>(reinterpret_cast<const void*>(&_t8)) };
     QMetaObject::activate(this, &staticMetaObject, 5, _a);
 }
 
 // SIGNAL 6
 void KvMainWindow::getSchemasWithTablesSignal(QString _t1)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
     QMetaObject::activate(this, &staticMetaObject, 6, _a);
 }
 
 // SIGNAL 7
 void KvMainWindow::getSchemasWithViewsSignal(QString _t1)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
     QMetaObject::activate(this, &staticMetaObject, 7, _a);
 }
 
 // SIGNAL 8
 void KvMainWindow::getSchemasWithProgramsSignal(QString _t1)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
     QMetaObject::activate(this, &staticMetaObject, 8, _a);
 }
 
 // SIGNAL 9
 void KvMainWindow::getSchemasWithEtcSignal(QString _t1)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
     QMetaObject::activate(this, &staticMetaObject, 9, _a);
 }
 QT_WARNING_POP
